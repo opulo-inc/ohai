@@ -1,0 +1,43 @@
+site_name: OHAI - Open Hardware Assembly Instructions
+site_url: https://ohai.opulo.io/
+repo_url: https://github.com/opulo-inc/ohai/
+
+extra_css: [stylesheets/extra.css]
+
+markdown_extensions:
+  - admonition
+  - def_list
+
+theme:
+  name: material
+  logo: img/opulo.png
+  favicon: img/favicon.ico
+  font:
+    text: Roboto
+  features:
+    - navigation.footer
+
+nav:
+  - Home: index.md
+  - LumenPnP (v3.0.2): 
+        - Introduction: lumen/index.md
+        - X Gantry: lumen/x-gantry/index.md
+        - Y Gantry: lumen/y-gantry/index.md
+  - 8mm Feeder (BETA): 
+        - Overview: feeder8/index.md
+        - PCB: feeder8/pcb/index.md  
+        - Peel Motor: feeder8/peel-motor/index.md  
+        - Indexing Wheel: feeder8/indexing-wheel/index.md  
+        - Peel Gear Frame: feeder8/peel-gear-frame/index.md  
+        - Final Assembly: feeder8/assembly/index.md
+        - OQC: feeder8/oqc/index.md
+  - Misc:
+        - Troubleshooting: 
+              - Symptoms: misc/troubleshooting/symptoms/index.md
+              - Solutions: misc/troubleshooting/solutions/index.md
+              - Diagnostic Routines: misc/troubleshooting/diagnostic-routines/index.md
+              - Vision Pipeline Adjustment: misc/troubleshooting/vision-pipeline-adjustment/index.md
+        - Maintentance and Upgrades: 
+              - REV03 Mobo Interposer Guide: misc/maintenance-upgrades/rev3-vac-interposer/index.md
+              - Second Nozzle Upgrade Guide: misc/maintenance-upgrades/second-tool/index.md
+
