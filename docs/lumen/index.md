@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Work Instructions for LumenPnP V3 Semi-Assembled Machine Kit
+## Purpose
+The goal of this work instruction is to walk document Opulo's assembly process for a LumenPnP V3 all the way through final pack out.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Document Revision Table
 
-## Commands
+| Version: | Opulo MFG PN:      | Author(s): | Date: | Status:        |
+|----------|--------------------|------------|-------|----------------|
+| 00       | SKU-0002-v3.0.2-02 | LDC        |       | In Development |
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Next Steps
+To proceed through these instructions, click the **Next** button found on the bottom footer of most pages.
