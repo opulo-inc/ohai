@@ -1,4 +1,4 @@
-### Install M3 hex nuts into 3D prints 
+### Install hardware onto 3D printed components 
 * Insert the given quantities of M3 hex nuts into the following 3D prints with an arbor press:
     * 2x for y-coupler-bracket 
     * 3x valve-mount
@@ -105,16 +105,18 @@ Connect all relevant pneumatic tubes to their respective values, pumps, and coup
 #### Connect the left and right pneumatic systems together
 Connect these two separate pneumatic systems together by installing y-coupler-bracket and valve-mount between the two halves
 
-*   Attach RH valve to valve-mount with 2x M3x8
+*   Attach each solenoid-valve to valve-mount with 2x M3x8 bolts
 *   Make sure that the valves are installed in the correct location by matching them up with the embedded text found on valve-mount
 
 	<img src="img/image44.png" width="60%"/>
 
 *   After completing this step, set the completed pneumatics system aside for later use
 
-* * *
+***
 
-### Removing punch-out from `PCB-0003`
+### Prepare additional components
+
+#### Removing punch-out from `PCB-0003`
 
 *   Remove the punch-out from center of `PCB-0003` with flush cutters
 
@@ -127,9 +129,10 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
 	<img src="img/image29.png" width="60%"/>
 
 *   Clean both sides of `PCB-0003` with an IPA-soaked shop rag
-* * *
+        
+***
 
-### Installing bottom-camera-assembly onto staging-plate
+#### Creating bottom-camera-assembly
 
 *   Attach bottom-camera and bottom-camera-cover to bottom-camera-mount with 4x M2.5x8 bolts
 
@@ -141,33 +144,10 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
 
 	<img src="img/image39.jpg" width="60%"/>
 	<img src="img/image25.jpg" width="60%"/>
+	
+***
 
-* * *
-
-*   Attach bottom-camera-assembly onto staging-plate with 4x M3x16 bolts
-
-	<img src="img/image22.jpg" width="60%"/>
-
-*   The JST cable connector found on bottom-ring-light should match the orientation shown below when installed - as close to the Opulo logo as possible and in line with staging-plate column 18
-
-	<img src="img/image5.jpg" width="60%"/>
-
-*   The usb-cable connector found on bottom-camera should match the orientation shown below when installed - as close to the Opulo logo as possible
-
-	<img src="img/image6.jpg" width="60%"/>
-
-### Installing pneumatics-system onto staging-plate
-
-*   Attach y-coupler bracket onto staging-plate with 2x M3x10 bolts
-*   Attach pump-mount onto staging-plate with 2x M3x10 bolts
-*   Attach valve-mount onto staging-plate with 3x M3x8 bolts
-
-	<img src="img/image48.jpg" width="60%"/>
-	<img src="img/image34.jpg" width="60%"/>
-
-* * *
-
-### Installing nozzle-rack onto staging-plate
+#### Assemble nozzle-rack
 
 *   Install all 6 different nozzles onto the nozzle-rack, ensuring that each nozzle can pop in and out relatively easily
 
@@ -183,6 +163,39 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
     
     !!! note
         These slots have a loose fit so use care to avoid losing a hex nut during handling
+
+***
+
+### Begin final assembly
+
+#### Installing bottom-camera-assembly
+
+*   Attach bottom-camera-assembly onto staging-plate with 4x M3x16 bolts
+
+	<img src="img/image22.jpg" width="60%"/>
+
+*   The JST cable connector found on bottom-ring-light should match the orientation shown below when installed - as close to the Opulo logo as possible and in line with staging-plate column 18
+
+	<img src="img/image5.jpg" width="60%"/>
+
+*   The usb-cable connector found on bottom-camera should match the orientation shown below when installed - as close to the Opulo logo as possible
+
+	<img src="img/image6.jpg" width="60%"/>
+	
+***
+
+#### Installing pneumatics-system
+
+*   Attach y-coupler bracket onto staging-plate with 2x M3x10 bolts
+*   Attach pump-mount onto staging-plate with 2x M3x10 bolts
+*   Attach valve-mount onto staging-plate with 3x M3x8 bolts
+
+	<img src="img/image48.jpg" width="60%"/>
+	<img src="img/image34.jpg" width="60%"/>
+
+***
+ 
+#### Installing nozzle-rack
 	
 *   Attach the finished nozzle-rack to the staging-plate with 2x M3x10 bolts and 2x M3 hex nuts
 	*   The text on nozzle-rack should match the orientation of the staging-plate column numbers
@@ -191,26 +204,34 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
 
 * * *
 
-### Installing the motherboard onto staging-plate
+#### Installing the motherboard
 
 *   Install 4 M3x25mm standoffs onto staging-plate
 *   Place in positions shown below with 4x M3x10 bolts
 
 	<img src="img/image46.jpg" width="60%"/>
 
-*   Install bottom ringlight cable
-	*   This cable should pass through the bottom and top right standoffs on its way to ring light
-	*   Make sure that “UL” label is on the mobo side of the cable
+*   Install bottom-ring-light cable
+	*   This cable should pass through the bottom and top right standoffs on its way to bottom-ring-light
+	*   Make sure that “UL” label is on the side of the cable closer to the motherboard
 
 		<img src="img/image1.jpg" width="60%"/>
 
-*   Pass the RH and LH tube + UL cable through mobo-bottom-cover and motherboard
-*   Connect the tubes and wires into the motherboard where appropriate
-	*   Be sure the vacuum line are not pinched on the backside of the motherboard
+*   Pass the RH/LH vacuum lines and UL cable through the mobo-bottom-cover and motherboard
+	*   Take care to avoid having the vacuum lines twist around eachother between the y-coupler pieces and mobo-bottom-cover
+	
+	<img src="img/image35.jpg" width="60%"/>
+	<img src="img/image41.jpg" width="60%"/>
+	
+*   Connect the vacuum lines and cable into the motherboard where appropriate
+	* LH --> VAC1 on motherboard
+	* RH --> VAC2 on motherboard  
 
 	<img src="img/image40.jpg" width="60%"/>
 
 *   Bolt motherboard to standoffs in 2 initial locations with M3x10 bolts- bottom left and top right
+	*   Inspect both vacuum lines to see if either appears pinched on the backside of the motherboard
+	*   If either vacuum line appears pinched, push the line into the motherboard to increase the slack in the line between mobo-bottom-cover and the respective y-coupler
 
 	<img src="img/image7.jpg" width="60%"/>
 
@@ -231,30 +252,10 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
 *   Slide the mobo QC reciept between mobo-bottom-cover and staging-plate after the mobo-top-cover is attached
 
 	<img src="img/image47.jpg" width="60%"/>
-	
+
 ***
 
-### Pairing Machine Serial # with Motherboard Serial #
-
-*   Install a unique Machine Serial # sticker onto the bottom of the staging-plate
-
-	<img src="img/image8.png" width="60%"/>
-	<img src="img/image35.jpg" width="60%"/>
-	<img src="img/image41.jpg" width="60%"/>
-
-	
-***
-
-### Performing cable management for staging-plate
-*   Clamp cables in the locations shown below with 6x peek-cable-clamps, 6x m3-hex-nuts, and 6x m3x14 bolts
-
-	<img src="img/image20.png" width="60%"/>
-	<img src="img/image30.png" width="60%"/>
-	<img src="img/image3.png" width="60%"/>
-
-* * *
-
-### Install the Datum-board
+#### Install datum-board and datum-board-mount
 
 *   Use four M3x16mm screws and four M3 nuts to secure the datum board and datum board mount to the staging plate on the rear of the bottom camera, through holes: B18, A19, A21, B22.
 
@@ -262,6 +263,23 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
 *   Tighten this down securely.
 
 	<img src="img/image11.png" width="60%"/>
+	
+***
+
+#### Attach Machine Serial # Label
+
+*   Install a unique Machine Serial # sticker onto the bottom of the staging-plate
+
+	<img src="img/image8.png" width="60%"/>
+
+***
+
+#### Performing cable management
+*   Clamp cables in the locations shown below with 6x peek-cable-clamps, 6x m3-hex-nuts, and 6x m3x14 bolts
+
+	<img src="img/image20.png" width="60%"/>
+	<img src="img/image30.png" width="60%"/>
+	<img src="img/image3.png" width="60%"/>
 
 * * *
 
