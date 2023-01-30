@@ -16,28 +16,30 @@ theme:
     text: Roboto
   features:
     - navigation.footer
+    - navigation.top
+    - toc.follow
+    - navigation.indexes
+    - navigation.tabs
 
 nav:
   - Home: index.md
-  - LumenPnP (v3.0.2): 
+  - LumenPnP (v3.0.2):
         - Introduction: lumen/index.md
         - X Gantry: lumen/x-gantry/index.md
         - Y Gantry: lumen/y-gantry/index.md
-  - 8mm Feeder (BETA): 
+        - Drag Chain: lumen/drag-chain/index.md
+        - Staging Plate: lumen/staging-plate/index.md
+        - Getting Started Kit: lumen/getting-started-kit/index.md
+        - Tool Kit: lumen/tool-kit/index.md
+        - Pack Out: lumen/pack-out/index.md
+  - 8mm Feeder (BETA):
         - Overview: feeder8/index.md
-        - PCB: feeder8/pcb/index.md  
-        - Peel Motor: feeder8/peel-motor/index.md  
-        - Indexing Wheel: feeder8/indexing-wheel/index.md  
-        - Peel Gear Frame: feeder8/peel-gear-frame/index.md  
+        - PCB: feeder8/pcb/index.md
+        - Peel Motor: feeder8/peel-motor/index.md
+        - Indexing Wheel: feeder8/indexing-wheel/index.md
+        - Peel Gear Frame: feeder8/peel-gear-frame/index.md
         - Final Assembly: feeder8/assembly/index.md
         - OQC: feeder8/oqc/index.md
   - Misc:
-        - Troubleshooting: 
-              - Symptoms: misc/troubleshooting/symptoms/index.md
-              - Solutions: misc/troubleshooting/solutions/index.md
-              - Diagnostic Routines: misc/troubleshooting/diagnostic-routines/index.md
-              - Vision Pipeline Adjustment: misc/troubleshooting/vision-pipeline-adjustment/index.md
-        - Maintentance and Upgrades: 
-              - REV03 Mobo Interposer Guide: misc/maintenance-upgrades/rev3-vac-interposer/index.md
-              - Second Nozzle Upgrade Guide: misc/maintenance-upgrades/second-tool/index.md
-
+        - Overview: misc/index.md
+        - Vacuum Sensor Upgrade Kit: misc/rev3-vac-interposer/index.md
