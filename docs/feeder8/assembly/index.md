@@ -15,7 +15,7 @@
 5. Insert 3x M3x15mm Flathead screws into the holes in the PCB shown below. Drive them all the way in. Make sure they engage with the M3 nuts inserted into the back of the print.
    ![](img/PXL_20230125_205633127.jpg)
 
-6. Grab a spring and a `lock-arm`, and hold the spring in the lock arm as shown. Match the other end of the spring up with the circular cutoout in the `frame` print, and drop the `lock-arm` into the `frame`. 
+6. Grab a spring and a `lock-arm`, and hold the spring in the lock arm as shown. Match the other end of the spring up with the circular cutoout in the `frame` print, and drop the `lock-arm` into the `frame`.
    ![](img/PXL_20230125_205852845.jpg)
    ![](img/PXL_20230125_205907965.jpg)
 
@@ -61,4 +61,3 @@
 
 20. Insert 2x M3x15mm Flathead screws in the locations shown below, and drive them in. Ensure they engage with the M3 nuts on the back.
     ![](img/PXL_20230125_210559001.jpg)
-
