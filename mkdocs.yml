@@ -1,7 +1,7 @@
 site_name: OHAI - Open Hardware Assembly Instructions
 site_url: https://ohai.opulo.io/
 repo_url: https://github.com/opulo-inc/ohai/
-
+copyright: LumenPnP and its related works are proudly released under the GPL-3.0 license - Opulo Inc 2023
 extra_css: [stylesheets/extra.css]
 
 markdown_extensions:
@@ -17,9 +17,15 @@ theme:
   features:
     - navigation.footer
     - navigation.top
+    - toc.integrate
     - toc.follow
     - navigation.indexes
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.tracking
+
 
 nav:
   - Home: index.md
@@ -40,6 +46,12 @@ nav:
         - Peel Gear Frame: feeder8/peel-gear-frame/index.md
         - Final Assembly: feeder8/assembly/index.md
         - OQC: feeder8/oqc/index.md
-  - Misc:
+  - Misc Products:
         - Overview: misc/index.md
         - Vacuum Sensor Upgrade Kit: misc/rev3-vac-interposer/index.md
+        - LumenPnP Toolhead Assembly: misc/lumenpnp-toolhead-asm/index.md
+        - Vacuum Pump and Valve Set: misc/vac-and-valve-set/index.md
+        - Packaged CP40 Nozzle Set: misc/cp40-noz-set/index.md
+        - LumenPnP PCB Kit: misc/v3-pcb-kit/index.md
+        - Staging Plate 1/2 Pack: misc/staging-plate-set/index.md
+        - Getting Started Kit: misc/ftp-kit/index.md
