@@ -42,8 +42,8 @@ Produce the required QTY of each of the pneumatic tubing lines described in the 
 
 | 1x Valve #1 to Y Coupler #1                            | 1x Valve #2 to Y Coupler #2                            |
 |--------------------------------------------------------|--------------------------------------------------------|
-| Cut Length:| 0.### meters                               |0.### meters                               |
-| Labels to apply:| Y Coupler #1 - N/A<br>Vac #1 - N/A | Y Coupler #2 - N/A<br>Vac #2 - N/A |
+| Cut Length:| 0.### meters                              |0.### meters                                            |
+| Labels to apply:| Y Coupler #1 - N/A<br>Vac #1 - N/A   | Y Coupler #2 - N/A<br>Vac #2 - N/A                     |
 
 `PNU-0007-00` [pvc-tubing-6mmOD]<br>
 This is the more flexible clear tubing
