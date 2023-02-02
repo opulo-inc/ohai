@@ -26,19 +26,19 @@ The purpose of this work instruction is to document the assembly process for the
 	
 	<img src="img/image9.jpg" width="60%"/>
 	
-2. Put heat shrink tube over the red and black wire of CHA-0011-00
+2. Put heat shrink tube over the red and black wire of `CHA-0011-00`
 	
 	<img src="img/image7.jpg" width="60%"/>
 	
 3. Straighten the metal leads of the vacuum-pump if they became bent during shipping
-4. Wrap red and black wires of CHA-0011-00 around the leads of vacuum-pump
+4. Wrap red and black wires of `CHA-0011-00` around the leads of vacuum-pump
 	
 	<img src="img/image2.jpg" width="60%"/>
 	
 	!!! note
 		The polarity does not matter when attaching these two wires to the motor leads
 	
-5. Use lead-free solder to attach CHA-0011-0 to the leads of the vacuum-pump
+5. Use lead-free solder to attach `CHA-0011-00` to the leads of the vacuum-pump
 
 	<img src="img/image1.jpg" width="60%"/>
 	
@@ -55,10 +55,10 @@ The purpose of this work instruction is to document the assembly process for the
 	
 	<img src="img/image4.jpg" width="60%"/>
 	
-9. Use a permanent marker to black out the `P1` text on the CHA-0011-00 label
+9. Use a permanent marker to black out the `P1` text on the `CHA-0011-00` label
 
 10. Perform cable management 
-	- Wrap up CHA-0011-00 around the top-side of vacuum-pump, as shown below, before securing the cable in place with a rubber-band
+	- Wrap `CHA-0011-00` around the top-side of vacuum-pump, as shown below, before securing the cable in place with a rubber-band
 
 	<img src="img/image10.jpg" width="60%"/>
 	
