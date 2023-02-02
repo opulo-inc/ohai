@@ -63,7 +63,7 @@ The purpose of this work instructions is to document the assembly process for th
 	
 6.  Adhere 4" x 3" LumenPnP Toolhead Assembly label to a 6" x 9" Polybag as shown in the image below
 	
-	<img src="img/image8.jpg" width="60%"/>
+	<img src="img/image8.JPG" width="60%"/>
 
 	### Package Components
 	
@@ -72,9 +72,9 @@ The purpose of this work instructions is to document the assembly process for th
 	* l-motor-harness
 	* silicone-grease-packet
 	
-	<img src="img/image9.JPg" width="60%"/>
+	<img src="img/image9.JPG" width="60%"/>
 	
-	<img src="img/image10.jpg" width="60%"/>
+	<img src="img/image10.JPG" width="60%"/>
 	
 8. Seal up the bag after all the components listed above are placed inside it
 
