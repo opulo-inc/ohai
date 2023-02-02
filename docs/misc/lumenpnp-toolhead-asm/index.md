@@ -59,7 +59,7 @@ The purpose of this work instructions is to document the assembly process for th
 	<img src="img/averyprint-toolhead-label.png" width="60%"/>
 	
 	!!! info "Check Inventory"
-		There's usually a pre-made surplus of these labels premade so check inventory before assuming you need to print more copies 
+		There's usually a pre-made surplus of these labels, so check inventory before assuming you need to print more copies 
 	
 6.  Adhere 4" x 3" LumenPnP Toolhead Assembly label to a 6" x 9" Polybag as shown in the image below
 	
