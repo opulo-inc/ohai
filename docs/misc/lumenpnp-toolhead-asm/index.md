@@ -29,19 +29,19 @@ The purpose of this work instructions is to document the assembly process for th
 
 2. Loosely bolt 4x M2.5x8mm-socket-head fasteners into the front face of NEMA11-hollow-shaft-stepper
 
-	<img src="img/image3.jpg" width="60%"/>	
+	<img src="img/image3.JPG" width="60%"/>	
 
 3. Package this completed assembly into a 4" x 4" Red ESD Bag and then roll it up
 
-	<img src="img/image5.jpg" width="60%"/>	
+	<img src="img/image5.JPG" width="60%"/>	
 	
-	<img src="img/image6.jpg" width="60%"/>	
+	<img src="img/image6.JPG" width="60%"/>	
 
 	### Prepare Toolhead Cable
  
 4. Use a permanent marker to black out the `LM` text on the label of `CHA-0005-01`
 	
-	<img src="img/image7.jpg" width="60%"/>
+	<img src="img/image7.JPG" width="60%"/>
 		
 	!!! Note
 		The toolhead cable this product includes is an older rev l-motor-harness than what's used in the [LumenPnP v3 Drag Chain](../lumen/drag-chain)
