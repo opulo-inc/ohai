@@ -1,6 +1,6 @@
 ## Purpose
 
-The purpose of these work instructions are document the assembly process of for the LumenPnP Toolhead Assembly [`SKU-0005-02`]
+The purpose of this work instructions is to document the assembly process for the LumenPnP Toolhead Assembly [`SKU-0005-02`]
 
 ## Bill of Materials
 
@@ -12,7 +12,7 @@ The purpose of these work instructions are document the assembly process of for 
 | 4     | LUB-0001-00  | silicone-grease-packet      | Single-Use Grease Packet                     |  1 each  | Synthetic grease with PTFE - 1 cc packet  |
 | 5     | PKG-0011-00  | 6" x 9" Polybag             | 6" x 9" Polybag                              |  1 each  | Plastic bag used for component packaging  |
 | 6     | CHA-0005-01  | l-motor-harness             | l-motor-harness                              |  1 each  |                                           |
-| 7     | FST-0032-00  | M2.5x8mm-socket-head        | ISO4762 Screw M2.5x8                         |  1 each  |                                           |
+| 7     | FST-0032-00  | M2.5x8mm-socket-head        | ISO4762 Screw M2.5x8                         |  4 each  |                                           |
 | 8     | N/A          | N/A                         | 4" x 4" Red ESD Bag                          |  1 each  | Reused ELP camera packaging material      |
 
 ## Instructions
@@ -44,7 +44,7 @@ The purpose of these work instructions are document the assembly process of for 
 	<img src="img/image7.jpg" width="60%"/>
 		
 	!!! Note
-		The toolhead cable included this product is an older rev of l-motor-harness than what's used in the [LumenPnP v3 Drag Chain](../lumen/drag-chain)
+		The toolhead cable this product includes is an older rev l-motor-harness than what's used in the [LumenPnP v3 Drag Chain](../lumen/drag-chain)
 		
 		*  Since we do not know if customers are using this cable for the left head or right head, it is better that ship them a cable with no labels
 		*  We use `CHA-0005-01` there is only 1 label we need to deface/remove - which is the LM label found on the cable's motherboard side
@@ -54,9 +54,12 @@ The purpose of these work instructions are document the assembly process of for 
 5. Print LumenPnP Toolhead Assembly bag labels by accessing our account on [Avery Print](https://www.avery.com/myaccount/projects)
 	- See [SOP-0007](https://docs.google.com/document/d/1Jm7L9rtee2UymbxKDrj7xCHDT8VNdBmkq5X-eJMKwhk/edit) for access credentials
 	- Print 2x labels out at time by printing them on the DYMO 4XL label maker with 4" x 6" label paper loaded
-	- Cut the printed 4" x 6" labels in half to create 2x 4" x 3" LumenPnP Toolhead Assembly [`SKU-0005-02`] labels
+	- Cut the printed 4" x 6" labels in half to create 2x 4" x 3" LumenPnP Toolhead Assembly [`SKU-0005-02`] labels <br>
 	
 	<img src="img/averyprint-toolhead-label.png" width="60%"/>
+	
+	!!! info "Check Inventory"
+		There's usually a pre-made surplus of these labels premade so check inventory before assuming you need to print more copies 
 	
 6.  Adhere 4" x 3" LumenPnP Toolhead Assembly label to a 6" x 9" Polybag as shown in the image below
 	
@@ -74,3 +77,5 @@ The purpose of these work instructions are document the assembly process of for 
 	<img src="img/image10.jpg" width="60%"/>
 	
 8. Seal up the bag after all the components listed above are placed inside it
+
+!!! Success "LumenPnP Toolhead Assembly [`SKU-0005-02`] Completed"
