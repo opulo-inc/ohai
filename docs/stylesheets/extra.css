@@ -33,3 +33,23 @@ a.md-nav__link:hover {
 label.md-nav__title {
   color: #C07EF4;
 }
+
+table {
+  margin:auto;
+}
+
+td {
+  vertical-align: middle;
+  align-items: center;
+  padding: auto;
+  min-width: 395px;
+}
+
+tr {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.md-tabs {
+  display: none;
+}
