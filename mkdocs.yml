@@ -4,9 +4,14 @@ repo_url: https://github.com/opulo-inc/ohai/
 copyright: LumenPnP and its related works are proudly released under the GPL-3.0 license - Opulo Inc 2023
 extra_css: [stylesheets/extra.css]
 
+plugins:
+  - glightbox
+
 markdown_extensions:
   - admonition
   - def_list
+  - attr_list
+  - md_in_html
 
 theme:
   name: material
@@ -28,7 +33,7 @@ theme:
 
 
 nav:
-  - Home: index.md
+  - OHAI: index.md
   - LumenPnP (v3.0.2):
         - Introduction: lumen/index.md
         - X Gantry: lumen/x-gantry/index.md
