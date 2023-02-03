@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+### Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This section of Opulo OHAI is dedicated to the various supporting products we manufacture for the LumenPnP
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Aligni Usage Requirements
+- Please be sure that all goods built via these docs have a corresponding Aligni Build 
+- **It is also important to follow job tracking best practice by writing the build number on the product's packaging with a permanent marker.**
