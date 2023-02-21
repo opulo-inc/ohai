@@ -153,16 +153,16 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 
  		<img src="img/image52.JPG" width="60%"/>
 
-* Connect the USB cable on bottom-camera-focus-jig (if attached) to a laptop and open a native camera viewing application
-	* Use Photobooth if on Mac OSX 
-	* Use Cheese if on Linux
-* Within the camera viewing application, change the selected camera to `PnP Bottom` to view the camera feed of the bottom-camera
+* Connect the USB cable on bottom-camera-focus-jig to a computer and open its native camera viewing application
+	* Use Photobooth if on Mac OSX or Cheese if on Linux
+	* Confirm that the camera-feed is running in 720p, sometimes it can launch in 360p or 480p 
+	* Within the camera viewing application, change the selected camera to `PnP Bottom` to view the camera feed of the bottom-camera
 
-	!!! Warning
-		 If the listed camera is something other than `PnP Bottom`, the device may either be incorrectly programmed or mixed up with a top-camera module. 
-		 
-		 **Please take this as an opportunity to double-check the device name even if the computer switched to the correct camera feed automatically.**
-
+		!!! Warning
+			 If the listed camera is something other than `PnP Bottom`, the device may either be incorrectly programmed or mixed up with a top-camera module. 
+			 
+			 **Please take this as an opportunity to double-check the device name even if the computer switched to the correct camera feed automatically.**
+	
 * Rotate the camera lens until the live viewport shows the datum board as focused as possible
 	* Before and after lens focusing:
  	
