@@ -132,6 +132,49 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
         
 ***
 
+#### Focus the bottom-camera
+Use the bottom-camera-focus-jig to pre-focus the bottom-camera
+
+* Loosen the set screw on the side of the lens, this will let the lens focal-point be adjusted
+	* Be careful not to loosen it too much or the screw may fall out and get lost!
+
+		 <img src="img/image50.JPG" width="60%"/>
+
+* Install the bottom-camera fully into the bottom-camera-focus-jig
+	* Put the JST-side of the bottom-camera into the jig first
+
+ 		<img src="img/image51.JPG" width="60%"/>
+
+	* Remove the lens cap from bottom-camera
+	* Connect the JST-side of the USB cable into the bottom-camera PCB
+
+ 		<img src="img/image52.JPG" width="60%"/>
+
+* Connect the USB cable on bottom-camera-focus-jig (if attached) to a laptop and open a native camera viewing application
+	* Use Photobooth if on Mac OSX 
+	* Use Cheese if on Linux
+* Within the camera viewing application, change the selected camera to `PnP Bottom` to view the camera feed of the bottom-camera
+
+	!!! Warning
+		 If the listed camera is something other than `PnP Bottom`, the device may either be incorrectly programmed or mixed up with a top-camera module
+
+* Rotate the camera lens until the live viewport shows the datum board as focused as possible
+	* Before and after lens focusing:
+ 	
+ 		<img src="img/image49.jpg" width="60%"/>
+ 	
+* Once the camera is focused, tighten the set screw to lock in the focus adjustment
+* Put a blue dot on the camera PCB with a sharpie to denote that the camera has passed testing
+
+ 	<img src="img/image53.JPG" width="60%"/>
+
+* Remove the bottom-camera from the bottom-camera-focus-jig and immediately replace the lens cap
+* Return the bottom-camera to the red esd-safe bag
+
+ 	<img src="img/image54.JPG" width="60%"/>
+
+***
+
 #### Creating bottom-camera-assembly
 
 *   Attach bottom-camera and bottom-camera-cover to bottom-camera-mount with 4x M2.5x8 bolts
@@ -162,7 +205,7 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
     <img src="img/image13.jpg" width="60%"/>
     
     !!! note
-        These slots have a loose fit so use care to avoid losing a hex nut during handling
+    		These slots have a loose fit so use care to avoid losing a hex nut during handling
 
 ***
 
@@ -258,9 +301,8 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
 #### Install datum-board and datum-board-mount
 
 *   Use four M3x16mm screws and four M3 nuts to secure the datum board and datum board mount to the staging plate on the rear of the bottom camera, through holes: B18, A19, A21, B22.
-
-*   The fisheye calibration pattern should be facing down, and the gold grid lines and fiducial in the center of the Opulo logo facing upwards.
-*   Tighten this down securely.
+	* Use a 2.5mm hex wrench and a 5.5mm (6mm if 5.5mm is unavailable) socket wrench to tigthen these M3x16mm screws
+	* The fisheye calibration pattern should be facing down, and the gold grid lines and fiducial in the center of the Opulo logo facing upwards
 
 	<img src="img/image11.png" width="60%"/>
 	
@@ -290,3 +332,11 @@ Run the staging plate assembly through the QC inspection form found here:
 [https://docs.google.com/forms/d/e/1FAIpQLSf1HXndxFzhRyJsBtHUMHoJEiU\_ig9z8cUJpGCH4vcM8OR5mQ/viewform](https://www.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLSf1HXndxFzhRyJsBtHUMHoJEiU_ig9z8cUJpGCH4vcM8OR5mQ/viewform&sa=D&source=editors&ust=1675029454657858&usg=AOvVaw12puD4NK5Y2xleOU-dRT_L) 
 
 <img src="img/image10.png" width="60%"/>
+
+!!! note
+    The QC inspection form will ask you if the bottom-camera was correctly focusesed, which can be checked with the orange version of the bottom-camera focus jig. Use this jig in the same way the blue one is operated, while leaving the camera installed on the staging-plate.
+    
+ 	 <img src="img/image55.jpg" width="60%"/>   
+ 	 
+ 	 If the camera is out of focus, remove it from the assembly and repeat [bottom-camera focusing](#focus-the-bottom-camera).
+	
