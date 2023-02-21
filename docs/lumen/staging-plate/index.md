@@ -140,12 +140,15 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 
 		 <img src="img/image50.JPG" width="60%"/>
 
+* Remove the lens cap from bottom-camera
+* Rotate the camera lens back and forth to loosen any glue
+	* Hold the PCB in one hand while twisting the lens body with your other hand
+	* Don't be afraid to use a few pounds of force if needed
+
+		 <img src="img/image56.jpeg" width="60%"/>
+	
 * Install the bottom-camera fully into the bottom-camera-focus-jig
 	* Put the JST-side of the bottom-camera into the jig first
-
- 		<img src="img/image51.JPG" width="60%"/>
-
-	* Remove the lens cap from bottom-camera
 	* Connect the JST-side of the USB cable into the bottom-camera PCB
 
  		<img src="img/image52.JPG" width="60%"/>
@@ -156,7 +159,9 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 * Within the camera viewing application, change the selected camera to `PnP Bottom` to view the camera feed of the bottom-camera
 
 	!!! Warning
-		 If the listed camera is something other than `PnP Bottom`, the device may either be incorrectly programmed or mixed up with a top-camera module
+		 If the listed camera is something other than `PnP Bottom`, the device may either be incorrectly programmed or mixed up with a top-camera module. 
+		 
+		 **Please take this as an opportunity to double-check the device name even if the computer switched to the correct camera feed automatically.**
 
 * Rotate the camera lens until the live viewport shows the datum board as focused as possible
 	* Before and after lens focusing:
