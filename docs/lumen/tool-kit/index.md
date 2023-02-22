@@ -56,7 +56,9 @@ Preparing tool-kit
 
 	<img src="img/image2.png" width="60%"/>
 
-* Bag the allen wrench set and then secure it into the right side of the tool bag with the elastic strap
+* Insert the required allen wrenches into allen-wrench-holder to create allen-wrench-set
+	* Place the allen-wrench-set into a 2" x 8" plastic bag if the allen-wrench-holder is loose
+* Secure the allen-wrench-set into the right side of the tool bag with the elastic strap
 
 	<img src="img/image12.png" width="60%"/>
 
