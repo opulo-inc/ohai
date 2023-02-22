@@ -1,5 +1,5 @@
 ### Install hardware onto 3D printed components 
-* Insert the given quantities of M3 hex nuts into the following 3D prints with an arbor press:
+* Insert the given quantities of M3-hex-nut pieces into the following 3D prints with an arbor press:
     * 2x for y-coupler-bracket 
     * 3x valve-mount
     * 4x for bottom-camera mount
@@ -11,11 +11,15 @@
 	<img src="img/image38.jpg" width="60%"/>
 	<img src="img/image42.png" width="60%"/>
 	
-* Use an M3x16 bolt to draw 4x M3 hex nuts into the pockets of **2x** vacuum-pump-mount (2x per pcs) by tightening the bolt with an electric screwdriver<br>
-	<img src="img/image9.jpg" width="60%"/>
-	<img src="img/image37.jpg" width="60%"/>
-	<img src="img/image23.jpg" width="60%"/>
+* Install 2x M3-square-nut pieces into each of the **2x** vacuum-pump-mount (2x per pcs) with an arbor press 
+	* Install a ground-down metal pin tip in the arbor press chuck to help push these nuts to the proper installation depth <br>
+
+	<img src="img/image57.JPG" width="60%"/>
+	<img src="img/image60.JPG" width="60%"/>
 	
+	* Confirm that the M3 threads are fully accessible 
+
+	<img src="img/image58.JPG" width="60%"/>	
 *   Install 4x rubber-band onto **2x** vacuum-pump-mount (2x per pcs)<br>
 	<img src="img/image14.jpg" width="60%"/>
 	<img src="img/image15.jpg" width="60%"/>
