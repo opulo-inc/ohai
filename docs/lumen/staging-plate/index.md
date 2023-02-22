@@ -323,6 +323,8 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 *   Install a unique Machine Serial # sticker onto the bottom of the staging-plate
 
 	<img src="img/image8.png" width="60%"/>
+	!!!note
+		*Disreguard that up-light-harness shown above is installed backwards, this label should be on the motherboard side*
 
 ***
 
