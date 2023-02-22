@@ -264,7 +264,7 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 	*   Make sure that “UL” label is on the side of the cable closer to the motherboard
 
 		<img src="img/image1.jpg" width="60%"/>
-
+*   Drill out the M3 mounting holes in mobo-bottom-cover to an M3 bolt has generious clearence
 *   Pass the RH/LH vacuum lines and UL cable through the mobo-bottom-cover and motherboard
 	*   Take care to avoid having the vacuum lines twist around eachother between the y-coupler pieces and mobo-bottom-cover
 	
