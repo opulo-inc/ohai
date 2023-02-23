@@ -1,0 +1,923 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://ohai.opulo.io/lumen/staging-plate/" rel="canonical"/>
+<link href="../drag-chain/" rel="prev"/>
+<link href="../../misc/ftp-kit/" rel="next"/>
+<link href="../../img/favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.0.13" name="generator"/>
+<title>Staging Plate - OHAI - Open Hardware Assembly Instructions</title>
+<link href="../../assets/stylesheets/main.ffa9267a.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                .gdesc-inner { font-size: 0.75rem; }
+                body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+                body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+                body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#install-hardware-onto-3d-printed-components">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="OHAI - Open Hardware Assembly Instructions" class="md-header__button md-logo" data-md-component="logo" href="../.." title="OHAI - Open Hardware Assembly Instructions">
+<img alt="logo" src="../../img/opulo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            OHAI - Open Hardware Assembly Instructions
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Staging Plate
+            
+          </span>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/opulo-inc/ohai/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+      OHAI
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../">
+        LumenPnP (v3.0.2)
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../feeder8/">
+        8mm Feeder (BETA)
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../misc/">
+        Misc Products
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="OHAI - Open Hardware Assembly Instructions" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="OHAI - Open Hardware Assembly Instructions">
+<img alt="logo" src="../../img/opulo.png"/>
+</a>
+    OHAI - Open Hardware Assembly Instructions
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/opulo-inc/ohai/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        OHAI
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../">LumenPnP (v3.0.2)</a>
+<label for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          LumenPnP (v3.0.2)
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../x-gantry/">
+        X Gantry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../y-gantry/">
+        Y Gantry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../drag-chain/">
+        Drag Chain
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Staging Plate
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Staging Plate
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#install-hardware-onto-3d-printed-components">
+    Install hardware onto 3D printed components
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#preparing-pneumatics-system">
+    Preparing pneumatics system
+  </a>
+<nav aria-label="Preparing pneumatics system" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cutting-tubing-to-length">
+    Cutting tubing to length
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#attaching-vacuum-pump-cables">
+    Attaching vacuum-pump cables
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#labeling-solenoid-valve-cables">
+    Labeling solenoid-valve cables
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#assembling-left-head-right-read-pneumatic-systems">
+    Assembling left head / right read pneumatic systems
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#connect-the-left-and-right-pneumatic-systems-together">
+    Connect the left and right pneumatic systems together
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-additional-components">
+    Prepare additional components
+  </a>
+<nav aria-label="Prepare additional components" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#removing-punch-out-from-pcb-0003">
+    Removing punch-out from PCB-0003
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#focus-the-bottom-camera">
+    Focus the bottom-camera
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creating-bottom-camera-assembly">
+    Creating bottom-camera-assembly
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#assemble-nozzle-rack">
+    Assemble nozzle-rack
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#begin-final-assembly">
+    Begin final assembly
+  </a>
+<nav aria-label="Begin final assembly" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#installing-bottom-camera-assembly">
+    Installing bottom-camera-assembly
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#installing-pneumatics-system">
+    Installing pneumatics-system
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#installing-nozzle-rack">
+    Installing nozzle-rack
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#installing-the-motherboard">
+    Installing the motherboard
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#install-datum-board-and-datum-board-mount">
+    Install datum-board and datum-board-mount
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#attach-machine-serial-label">
+    Attach Machine Serial # Label
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#performing-cable-management">
+    Performing cable management
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#qc-checklist">
+    QC Checklist
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/ftp-kit/">
+        Getting Started Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tool-kit/">
+        Tool Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../pack-out/">
+        Pack Out
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../feeder8/">8mm Feeder (BETA)</a>
+<label for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          8mm Feeder (BETA)
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/pcb/index.md">
+        PCB
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/peel-motor/index.md">
+        Peel Motor
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/indexing-wheel/">
+        Indexing Wheel
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/peel-gear-frame/index.md">
+        Peel Gear Frame
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/assembly/">
+        Final Assembly
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/oqc/">
+        OQC
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../misc/">Misc Products</a>
+<label for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          Misc Products
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/lumenpnp-toolhead-asm/">
+        LumenPnP Toolhead Assembly
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/vac-and-valve-set/">
+        LumenPnP Vacuum Pump and Valve Set
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/cp40-noz-set/">
+        Packaged CP40 Nozzle Set
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/v3-pcb-kit/">
+        LumenPnP PCB Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/staging-plate-set/">
+        Staging Plate 1/2 Pack
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/ftp-kit/">
+        Getting Started Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/rev3-vac-interposer/">
+        Vacuum Sensor Upgrade Kit
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Staging Plate</h1>
+<h3 id="install-hardware-onto-3d-printed-components">Install hardware onto 3D printed components</h3>
+<ul>
+<li>
+<p>Insert the given quantities of M3-hex-nut pieces into the following 3D prints with an arbor press:</p>
+<ul>
+<li>2x for y-coupler-bracket </li>
+<li>3x valve-mount</li>
+<li>4x for bottom-camera mount</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Be sure to change the arbor press tip for the different prints as needed. </p>
+</div>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image26.png"><img src="img/image26.png" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image38.jpg"><img src="img/image38.jpg" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image42.png"><img src="img/image42.png" width="60%"/></a></p>
+</li>
+<li>
+<p>Install 2x M3-square-nut pieces into each of the <strong>2x</strong> vacuum-pump-mount (2x per pcs) with an arbor press </p>
+<ul>
+<li>Install a ground-down metal pin tip in the arbor press chuck to help push these nuts to the proper installation depth <br/></li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image57.JPG"><img src="img/image57.JPG" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image60.JPG"><img src="img/image60.JPG" width="60%"/></a></p>
+<ul>
+<li>Confirm that the M3 threads are fully accessible </li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image58.JPG"><img src="img/image58.JPG" width="60%"/></a> <br/>
+<em>   Install 4x rubber-band onto </em><em>2x</em>* vacuum-pump-mount (2x per pcs)<br>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image14.jpg"><img src="img/image14.jpg" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image15.jpg"><img src="img/image15.jpg" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image4.jpg"><img src="img/image4.jpg" width="60%"/></a></br></p>
+</li>
+</ul>
+<hr/>
+<h3 id="preparing-pneumatics-system">Preparing pneumatics system</h3>
+<h4 id="cutting-tubing-to-length">Cutting tubing to length</h4>
+<p>Produce the required QTY of each of the pneumatic tubing lines described in the section that follows.</p>
+<p><code>PNU-0005-00</code> [pneumatic-tubing-4mmOD]<br/>
+    This is the black tubing</p>
+<table>
+<thead>
+<tr>
+<th>Tube ID:</th>
+<th>Y Coupler #1 to Vac #1</th>
+<th>Y Coupler #2 to Vac #2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cut Length:</td>
+<td>225mm</td>
+<td>225mm</td>
+</tr>
+<tr>
+<td>Labels to apply:</td>
+<td>Y Coupler #1 - N/A<br/>Vac #1 - N/A</td>
+<td>Y Coupler #2 - N/A<br/>Vac #2 - N/A</td>
+</tr>
+</tbody>
+</table>
+<p><code>PNU-0006-00</code> [pneumatic-tubing-6mmOD]<br/>
+    This is the more rigid clear tubing</p>
+<table>
+<thead>
+<tr>
+<th>1x Valve #1 to Y Coupler #1</th>
+<th>1x Valve #2 to Y Coupler #2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cut Length:</td>
+<td>0.### meters</td>
+</tr>
+<tr>
+<td>Labels to apply:</td>
+<td>Y Coupler #1 - N/A<br/>Vac #1 - N/A</td>
+</tr>
+</tbody>
+</table>
+<p><code>PNU-0007-00</code> [pvc-tubing-6mmOD]<br/>
+This is the more flexible clear tubing</p>
+<table>
+<thead>
+<tr>
+<th>Tube ID:</th>
+<th>Pump #1 to Valve #1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cut Length:</td>
+<td>60mm</td>
+</tr>
+<tr>
+<td>Labels to apply:</td>
+<td>Pump #1 - N/A<br/>Valve #1 - N/A</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h4 id="attaching-vacuum-pump-cables">Attaching vacuum-pump cables</h4>
+<p>Prepare the following assemblies:</p>
+<ul>
+<li><code>ASM-0004-01</code> [Left Head Wired Vacuum Pump Assembly]</li>
+<li><code>ASM-0052-01</code> [Right Head Wired Vacuum Pump]</li>
+</ul>
+<p>Build the assemblies per <a href="https://www.google.com/url?q=https://docs.google.com/document/d/1hMRAmM29XZzHmccATX8Q8MbUrGxbqCV75g616Mhpzyw/edit%23&amp;sa=D&amp;source=editors&amp;ust=1675029454647598&amp;usg=AOvVaw3XxlKVmcSSyAQVoBsWG_MU">SOP-0002</a> and be sure to follow recent updates to <code>Step 2</code> for the new labeling process:</p>
+<blockquote>
+<ul>
+<li>Place and shrink a heat shrink tubing label onto <code>CHA-0011-00</code> that says “P2”</li>
+<li>
+<p>Position the new “P2” label so that it covers over the original “P1” label, with the text orientation matching the image below</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image43.png"><img src="img/image43.png" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image45.png"><img src="img/image45.png" width="60%"/></a></p>
+</li>
+</ul>
+</blockquote>
+<ul>
+<li>Set completed assemblies aside for later use</li>
+</ul>
+<hr/>
+<h4 id="labeling-solenoid-valve-cables">Labeling solenoid-valve cables</h4>
+<ul>
+<li>Use <code>FBO-0022-00</code> [Epson LABELWORKS 224VSLPX Tape] to label <code>PNU-0004-00</code> [solenoid-valve] cables the following way:<ul>
+<li>Half of the solenoid-valve units in a given production batch must be labeled “MOS 2” for left head pnumatics (LH/P1)</li>
+<li>Half of the solenoid-valve units in a given production batch must be labeled “MOS 4” for right head pnumatics (RH/P2)</li>
+</ul>
+</li>
+<li>Attach the labels in the near the end of the cable connector as shown below -
+    <a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image21.jpg"><img src="img/image21.jpg" width="60%"/></a></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Templates for these label can be found on the Docker workstation PC’s <code>Documents</code> folder</p>
+</div>
+<hr/>
+<h4 id="assembling-left-head-right-read-pneumatic-systems">Assembling left head / right read pneumatic systems</h4>
+<p>Connect all relevant pneumatic tubes to their respective values, pumps, and couplers by referencing the images shown below</p>
+<p><strong>Left Head Pneumatic System (P1)
+</strong></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image16.png"><img src="img/image16.png" width="80%"/></a></p>
+<p><strong>Right Head Pneumatic System (P2)
+</strong></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image32.png"><img src="img/image32.png" width="80%"/></a></p>
+<hr/>
+<h4 id="connect-the-left-and-right-pneumatic-systems-together">Connect the left and right pneumatic systems together</h4>
+<p>Connect these two separate pneumatic systems together by installing y-coupler-bracket and valve-mount between the two halves</p>
+<ul>
+<li>Attach each solenoid-valve to valve-mount with 2x M3x8 bolts</li>
+<li>
+<p>Make sure that the valves are installed in the correct location by matching them up with the embedded text found on valve-mount</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image44.png"><img src="img/image44.png" width="60%"/></a></p>
+</li>
+<li>
+<p>After completing this step, set the completed pneumatics system aside for later use</p>
+</li>
+</ul>
+<hr/>
+<h3 id="prepare-additional-components">Prepare additional components</h3>
+<h4 id="removing-punch-out-from-pcb-0003">Removing punch-out from <code>PCB-0003</code></h4>
+<ul>
+<li>
+<p>Remove the punch-out from center of <code>PCB-0003</code> with flush cutters</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image27.png"><img src="img/image27.png" width="60%"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image19.png"><img src="img/image19.png" width="60%"/></a></p>
+</li>
+<li>
+<p>Clean up hole with a razer blade after punch-out has been removed</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image29.png"><img src="img/image29.png" width="60%"/></a></p>
+</li>
+<li>
+<p>Clean both sides of <code>PCB-0003</code> with an IPA-soaked shop rag</p>
+</li>
+</ul>
+<hr/>
+<h4 id="focus-the-bottom-camera">Focus the bottom-camera</h4>
+<p>Use the bottom-camera-focus-jig to pre-focus the bottom-camera</p>
+<ul>
+<li>
+<p>Loosen the set screw on the side of the lens, this will let the lens focal-point be adjusted</p>
+<ul>
+<li>
+<p>Be careful not to loosen it too much or the screw may fall out and get lost!</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image50.JPG"><img src="img/image50.JPG" width="60%"/></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Remove the lens cap from bottom-camera</p>
+</li>
+<li>
+<p>Rotate the camera lens back and forth to loosen any glue</p>
+<ul>
+<li>Hold the PCB in one hand while twisting the lens body with your other hand</li>
+<li>
+<p>Don't be afraid to use a few pounds of force if needed</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image56.jpeg"><img src="img/image56.jpeg" width="60%"/></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Install the bottom-camera fully into the bottom-camera-focus-jig</p>
+<ul>
+<li>Put the JST-side of the bottom-camera into the jig first</li>
+<li>
+<p>Connect the JST-side of the USB cable into the bottom-camera PCB</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image52.JPG"><img src="img/image52.JPG" width="60%"/></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Connect the USB cable on bottom-camera-focus-jig to a computer and open its native camera viewing application</p>
+<ul>
+<li>Use Photobooth if on Mac OSX or Cheese if on Linux</li>
+<li>Confirm that the camera-feed is running in 720p, sometimes it can launch in 360p or 480p </li>
+<li>
+<p>Within the camera viewing application, change the selected camera to <code>PnP Bottom</code> to view the camera feed of the bottom-camera</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If the listed camera is something other than <code>PnP Bottom</code>, the device may either be incorrectly programmed or mixed up with a top-camera module. </p>
+<p><strong>Please take this as an opportunity to double-check the device name even if the computer switched to the correct camera feed automatically.</strong></p>
+</div>
+</li>
+</ul>
+</li>
+<li>
+<p>Rotate the camera lens until the live viewport shows the datum board as focused as possible</p>
+<ul>
+<li>
+<p>Before and after lens focusing:</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image49.jpg"><img src="img/image49.jpg" width="60%"/></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Once the camera is focused, tighten the set screw to lock in the focus adjustment</p>
+</li>
+<li>
+<p>Put a blue dot on the camera PCB with a sharpie to denote that the camera has passed testing</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image53.JPG"><img src="img/image53.JPG" width="60%"/></a></p>
+</li>
+<li>
+<p>Remove the bottom-camera from the bottom-camera-focus-jig and immediately replace the lens cap</p>
+</li>
+<li>
+<p>Return the bottom-camera to the red esd-safe bag</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image54.JPG"><img src="img/image54.JPG" width="60%"/></a></p>
+</li>
+</ul>
+<hr/>
+<h4 id="creating-bottom-camera-assembly">Creating bottom-camera-assembly</h4>
+<ul>
+<li>
+<p>Attach bottom-camera and bottom-camera-cover to bottom-camera-mount with 4x M2.5x8 bolts</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image2.jpg"><img src="img/image2.jpg" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image17.jpg"><img src="img/image17.jpg" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image28.jpg"><img src="img/image28.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Install bottom-ring-light into bottom-light-mount</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image39.jpg"><img src="img/image39.jpg" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image25.jpg"><img src="img/image25.jpg" width="60%"/></a></p>
+</li>
+</ul>
+<hr/>
+<h4 id="assemble-nozzle-rack">Assemble nozzle-rack</h4>
+<ul>
+<li>
+<p>Install all 6 different nozzles onto the nozzle-rack, ensuring that each nozzle can pop in and out relatively easily</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image24.jpg"><img src="img/image24.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Place a rubber-band around the nozzle-rack after the nozzles have been installed to keep them from falling off the staging-plate in transit to the customer</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image18.jpg"><img src="img/image18.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Insert 2x hex nut into the left and right outermost slots on the nozzle-rack</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image13.jpg"><img src="img/image13.jpg" width="60%"/></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note<p>These slots have a loose fit so use care to avoid losing a hex nut during handling</p>
+</p>
+</div>
+</li>
+</ul>
+<hr/>
+<h3 id="begin-final-assembly">Begin final assembly</h3>
+<h4 id="installing-bottom-camera-assembly">Installing bottom-camera-assembly</h4>
+<ul>
+<li>
+<p>Attach bottom-camera-assembly onto staging-plate with 4x M3x16 bolts</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image22.jpg"><img src="img/image22.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>The JST cable connector found on bottom-ring-light should match the orientation shown below when installed - as close to the Opulo logo as possible and in line with staging-plate column 18</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image5.jpg"><img src="img/image5.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>The usb-cable connector found on bottom-camera should match the orientation shown below when installed - as close to the Opulo logo as possible</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image6.jpg"><img src="img/image6.jpg" width="60%"/></a></p>
+</li>
+</ul>
+<hr/>
+<h4 id="installing-pneumatics-system">Installing pneumatics-system</h4>
+<ul>
+<li>Attach y-coupler bracket onto staging-plate with 2x M3x10 bolts</li>
+<li>Attach pump-mount onto staging-plate with 2x M3x10 bolts</li>
+<li>
+<p>Attach valve-mount onto staging-plate with 3x M3x8 bolts</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image48.jpg"><img src="img/image48.jpg" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image34.jpg"><img src="img/image34.jpg" width="60%"/></a></p>
+</li>
+</ul>
+<hr/>
+<h4 id="installing-nozzle-rack">Installing nozzle-rack</h4>
+<ul>
+<li>
+<p>Attach the finished nozzle-rack to the staging-plate with 2x M3x10 bolts and 2x M3 hex nuts</p>
+<ul>
+<li>The text on nozzle-rack should match the orientation of the staging-plate column numbers</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image31.jpg"><img src="img/image31.jpg" width="60%"/></a></p>
+</li>
+</ul>
+<hr/>
+<h4 id="installing-the-motherboard">Installing the motherboard</h4>
+<ul>
+<li>Install 4 M3x25mm standoffs onto staging-plate</li>
+<li>
+<p>Place in positions shown below with 4x M3x10 bolts</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image46.jpg"><img src="img/image46.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Install bottom-ring-light cable</p>
+<ul>
+<li>This cable should pass through the bottom and top right standoffs on its way to bottom-ring-light</li>
+<li>
+<p>Make sure that “UL” label is on the side of the cable closer to the motherboard</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image1.jpg"><img src="img/image1.jpg" width="60%"/></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Drill out the M3 mounting holes in mobo-bottom-cover to an M3 bolt has generious clearence</p>
+</li>
+<li>
+<p>Pass the RH/LH vacuum lines and UL cable through the mobo-bottom-cover and motherboard</p>
+<ul>
+<li>Take care to avoid having the vacuum lines twist around eachother between the y-coupler pieces and mobo-bottom-cover</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image35.jpg"><img src="img/image35.jpg" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image41.jpg"><img src="img/image41.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Connect the vacuum lines and cable into the motherboard where appropriate</p>
+<ul>
+<li>LH --&gt; VAC1 on motherboard</li>
+<li>RH --&gt; VAC2 on motherboard  </li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image40.jpg"><img src="img/image40.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Bolt motherboard to standoffs in 2 initial locations with M3x10 bolts- bottom left and top right</p>
+<ul>
+<li>Inspect both vacuum lines to see if either appears pinched on the backside of the motherboard</li>
+<li>If either vacuum line appears pinched, push the line into the motherboard to increase the slack in the line between mobo-bottom-cover and the respective y-coupler</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image7.jpg"><img src="img/image7.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Connect all pump and valves cables into the motherboard while matching the cable labels to the motherboard connector labels</p>
+<ul>
+<li>Avoid needless twisting of the cabling</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image36.jpg"><img src="img/image36.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Install mobo-top-cover</p>
+<ul>
+<li>
+<p>Bolt mobo-top-cover to the top left and bottom right standoffs with 2x M3x30 bolts</p>
+</li>
+<li>
+<p>Hand tight is OK as the customers need to be able to remove this piece during machine setup</p>
+</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image12.jpg"><img src="img/image12.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Slide the mobo QC reciept between mobo-bottom-cover and staging-plate after the mobo-top-cover is attached</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image47.jpg"><img src="img/image47.jpg" width="60%"/></a></p>
+</li>
+</ul>
+<hr/>
+<h4 id="install-datum-board-and-datum-board-mount">Install datum-board and datum-board-mount</h4>
+<ul>
+<li>
+<p>Use four M3x16mm screws and four M3 nuts to secure the datum board and datum board mount to the staging plate on the rear of the bottom camera, through holes: B18, A19, A21, B22.</p>
+<ul>
+<li>Use a 2.5mm hex wrench and a 5.5mm (6mm if 5.5mm is unavailable) socket wrench to tigthen these M3x16mm screws</li>
+<li>The fisheye calibration pattern should be facing down, and the gold grid lines and fiducial in the center of the Opulo logo facing upwards</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image11.png"><img src="img/image11.png" width="60%"/></a></p>
+</li>
+</ul>
+<hr/>
+<h4 id="attach-machine-serial-label">Attach Machine Serial # Label</h4>
+<ul>
+<li>
+<p>Install a unique Machine Serial # sticker onto the bottom of the staging-plate</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image8.png"><img src="img/image8.png" width="60%"/></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>Disreguard that up-light-harness shown above is installed backwards, this label should be on the motherboard side</em></p>
+</div>
+</li>
+</ul>
+<hr/>
+<h4 id="performing-cable-management">Performing cable management</h4>
+<ul>
+<li>
+<p>Clamp cables in the locations shown below with 6x peek-cable-clamps, 6x m3-hex-nuts, and 6x m3x14 bolts</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image20.png"><img src="img/image20.png" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image30.png"><img src="img/image30.png" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image3.png"><img src="img/image3.png" width="60%"/></a></p>
+</li>
+</ul>
+<hr/>
+<h3 id="qc-checklist">QC Checklist</h3>
+<p>Run the staging plate assembly through the QC inspection form found here:</p>
+<p><a href="https://www.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLSf1HXndxFzhRyJsBtHUMHoJEiU_ig9z8cUJpGCH4vcM8OR5mQ/viewform&amp;sa=D&amp;source=editors&amp;ust=1675029454657858&amp;usg=AOvVaw12puD4NK5Y2xleOU-dRT_L">https://docs.google.com/forms/d/e/1FAIpQLSf1HXndxFzhRyJsBtHUMHoJEiU_ig9z8cUJpGCH4vcM8OR5mQ/viewform</a> </p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image10.png"><img src="img/image10.png" width="60%"/></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The QC inspection form will ask you if the bottom-camera was correctly focusesed, which can be checked with the orange version of the bottom-camera focus jig. Use this jig in the same way the blue one is operated, while leaving the camera installed on the staging-plate.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image55.jpg"><img src="img/image55.jpg" width="60%"/></a> </p>
+<p>If the camera is out of focus, remove it from the assembly and repeat <a href="#focus-the-bottom-camera">bottom-camera focusing</a>.</p>
+</div>
+</article>
+</div>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Drag Chain" class="md-footer__link md-footer__link--prev" href="../drag-chain/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Previous
+                </span>
+                Drag Chain
+              </div>
+</div>
+</a>
+<a aria-label="Next: Getting Started Kit" class="md-footer__link md-footer__link--next" href="../../misc/ftp-kit/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Next
+                </span>
+                Getting Started Kit
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      LumenPnP and its related works are proudly released under the GPL-3.0 license - Opulo Inc 2023
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.top", "toc.integrate", "toc.follow", "navigation.indexes", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>

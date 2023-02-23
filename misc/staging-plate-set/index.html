@@ -1,0 +1,570 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://ohai.opulo.io/misc/staging-plate-set/" rel="canonical"/>
+<link href="../v3-pcb-kit/" rel="prev"/>
+<link href="../ftp-kit/" rel="next"/>
+<link href="../../img/favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.0.13" name="generator"/>
+<title>Staging Plate 1/2 Pack - OHAI - Open Hardware Assembly Instructions</title>
+<link href="../../assets/stylesheets/main.ffa9267a.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                .gdesc-inner { font-size: 0.75rem; }
+                body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+                body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+                body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#purpose">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="OHAI - Open Hardware Assembly Instructions" class="md-header__button md-logo" data-md-component="logo" href="../.." title="OHAI - Open Hardware Assembly Instructions">
+<img alt="logo" src="../../img/opulo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            OHAI - Open Hardware Assembly Instructions
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Staging Plate 1/2 Pack
+            
+          </span>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/opulo-inc/ohai/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+      OHAI
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../lumen/">
+        LumenPnP (v3.0.2)
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../feeder8/">
+        8mm Feeder (BETA)
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../">
+        Misc Products
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="OHAI - Open Hardware Assembly Instructions" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="OHAI - Open Hardware Assembly Instructions">
+<img alt="logo" src="../../img/opulo.png"/>
+</a>
+    OHAI - Open Hardware Assembly Instructions
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/opulo-inc/ohai/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        OHAI
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../lumen/">LumenPnP (v3.0.2)</a>
+<label for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          LumenPnP (v3.0.2)
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/x-gantry/">
+        X Gantry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/y-gantry/">
+        Y Gantry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/drag-chain/">
+        Drag Chain
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/staging-plate/">
+        Staging Plate
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ftp-kit/">
+        Getting Started Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/tool-kit/">
+        Tool Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/pack-out/">
+        Pack Out
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../feeder8/">8mm Feeder (BETA)</a>
+<label for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          8mm Feeder (BETA)
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/pcb/index.md">
+        PCB
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/peel-motor/index.md">
+        Peel Motor
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/indexing-wheel/">
+        Indexing Wheel
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/peel-gear-frame/index.md">
+        Peel Gear Frame
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/assembly/">
+        Final Assembly
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/oqc/">
+        OQC
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../">Misc Products</a>
+<label for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          Misc Products
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../lumenpnp-toolhead-asm/">
+        LumenPnP Toolhead Assembly
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../vac-and-valve-set/">
+        LumenPnP Vacuum Pump and Valve Set
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cp40-noz-set/">
+        Packaged CP40 Nozzle Set
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../v3-pcb-kit/">
+        LumenPnP PCB Kit
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Staging Plate 1/2 Pack
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Staging Plate 1/2 Pack
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#purpose">
+    Purpose
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#instructions">
+    Instructions
+  </a>
+<nav aria-label="Instructions" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creating-staging-plate-unpackaged-2-pack-units">
+    Creating Staging Plate (Unpackaged 2-Pack) units
+  </a>
+<nav aria-label="Creating Staging Plate (Unpackaged 2-Pack) units" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-2x-staging-plate-units">
+    Prepare 2x staging-plate units
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-2x-staging-plate-attachment-hardware-set-asm-0028-2">
+    Prepare 2x Staging Plate Attachment Hardware set [ASM-0028-2]
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#plastic-wrap-the-staging-plates-and-hardware-bags">
+    Plastic wrap the staging plates and hardware bags
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-aux-staging-plate-foot">
+    Prepare aux-staging-plate-foot
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creating-staging-plate-unpackaged-1-pack-units">
+    Creating Staging Plate (Unpackaged 1-Pack) units
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creating-staging-plate-2-pack-and-1-pack-units">
+    Creating Staging Plate (2-Pack) and (1-Pack) units
+  </a>
+<nav aria-label="Creating Staging Plate (2-Pack) and (1-Pack) units" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-packaging">
+    Prepare Packaging
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#finishing-packaged-staging-plate-2-pack-units">
+    Finishing Packaged Staging Plate (2-Pack) units
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#finishing-packaged-staging-plate-1-pack-units">
+    Finishing Packaged Staging Plate (1-Pack) units
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ftp-kit/">
+        Getting Started Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../rev3-vac-interposer/">
+        Vacuum Sensor Upgrade Kit
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Staging Plate 1/2 Pack</h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This set of work instructions is unfinished!</p>
+</div>
+<h2 id="purpose">Purpose</h2>
+<p>The purpose of this work instructions is to document the assembly process for various ways staging-plate [<code>PCB-0003-00</code>] is converted into customer salable parts kits.</p>
+<details>
+<summary> Explanation of various staging-plate shipping configurations</summary>
+
+When we receive orders for staging plates, customers can select whether they want a 1-pack or a 2-pack at checkout. Depending on whether they buy their staging plates with additional items or not has an impact on how we package these goods.<br/>
+<br/>
+If a customer orders either 1 or 2 staging plate(s) and nothing else, we will ship them one of the following products:<br/>
+- Packaged Staging Plate (1-Pack)<br/>
+- Packaged Staging Plate (2-Pack)
+<br/>
+<br/>
+Note: When a customer orders 2x Staging Plate (1-Pack), we treat this as a single order for a Packaged Staging Plate (2-Pack). This is done to prevent wasted packaging material and lower shipping costs.
+<br/>
+<br/>
+When customer orders a permutation of products, such as one of the examples below, we will ship a quantity of the following products that's required to fulfill their order:
+
+<br/>- Unpackaged Staging Plate (1-Pack)
+<br/>- Unpackaged Staging Plate (2-Pack)
+
+<details>
+<summary> Example permutations that can trigger this switch:</summary>
+
+    - purchase more than 2 staging plates<br/>
+    - purchase one of our smaller items, like a getting-started-kit, alongside some amount of staging plates<br/>
+    - purchases extra staging plates with their LumenPnP v3 order<br/>
+</details>
+
+The reason for all this nuance is that order permutations can mean we may have to use something other than the designated staging plate box.
+<br/>
+ - Sometimes a box is not even required, like when a customer gets extra plates with their v3.
+<br/>
+ - Some combinations of items will even fit in a staging plate box, yet we won't be able to follow the usual packaging instructions!
+<br/>
+ - In the future it will be better to get rid of the Packaged Staging Plate SKUs and eliminate this complexity all together.<br/>
+</details>
+<hr/>
+<h2 id="instructions">Instructions</h2>
+<h3 id="creating-staging-plate-unpackaged-2-pack-units">Creating Staging Plate (Unpackaged 2-Pack) units</h3>
+<p>Relevant Opulo MFG P/N:</p>
+<ul>
+<li>Staging Plate (Unpacked 2-Pack) [<code>ASM-0050-02</code>]</li>
+</ul>
+<h4 id="prepare-2x-staging-plate-units">Prepare 2x staging-plate units</h4>
+<ul>
+<li>Collect 2x staging-plate from inventory</li>
+<li>Clean both sides of each staging-plate with an IPA-soaked shop rag to remove dust and scuffs</li>
+<li>Inspect for defects/damage on the top and bottom surfaces of the PCB<ul>
+<li>Reference the <a href="https://docs.google.com/document/d/1vblE59KeiyKYdd655MeTJDzQi4rJhu8tgH3RU7gAahY/edit?usp=sharing">Opulo Cosmetic Quality Standards documentation</a></li>
+<li>Bring anything that’s debatable to a manager for a judgment call</li>
+</ul>
+</li>
+</ul>
+<h4 id="prepare-2x-staging-plate-attachment-hardware-set-asm-0028-2">Prepare 2x Staging Plate Attachment Hardware set [<code>ASM-0028-2</code>]</h4>
+<ul>
+<li>Create the 2x Staging Plate Attachment Hardware set [<code>ASM-0028-02</code>] units</li>
+<li>Each set is made by placing the following components into a 2 1/2" x 3" Reclosable Bag:<ul>
+<li>4x M5x8mm-button-head</li>
+<li>4x M5-tslot-nut</li>
+</ul>
+</li>
+</ul>
+<h4 id="plastic-wrap-the-staging-plates-and-hardware-bags">Plastic wrap the staging plates and hardware bags</h4>
+<ul>
+<li>Wrap the first staging-plate in three wraps of cling-wrap</li>
+<li>After the third wrap, fold the excess cling-wrap inward</li>
+<li>Place the second staging-plate atop the previously wrapped staging-plate</li>
+<li>Wrap the second staging-plate in two wraps of cling-wrap</li>
+<li>Fold the excess cling-wrap inward again</li>
+<li>Place 2x Staging Plate Attachment Hardware sets atop the second staging-plate</li>
+<li>Give the bundle of components a final wrap to secure everything</li>
+<li>Cut the wrapped component bundle away from the cling-wrap spool </li>
+<li>Fold the excess cling wrap onto the bundle for a final time</li>
+<li>Pat the cling-wrap down to smooth out any creases and firm up the bond</li>
+</ul>
+<h4 id="prepare-aux-staging-plate-foot">Prepare aux-staging-plate-foot</h4>
+<ul>
+<li>Words</li>
+</ul>
+<hr/>
+<h3 id="creating-staging-plate-unpackaged-1-pack-units">Creating Staging Plate (Unpackaged 1-Pack) units</h3>
+<p>Relevant Opulo MFG P/N:</p>
+<ul>
+<li>Staging Plate (Unpackaged 1-Pack) [<code>ASM-0049-03</code>]</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">This assembly process basically identical to the Staging Plate (Unpacked 2-Pack) [<code>ASM-0050-02</code>], however <code>ASM-0049-03</code> only includes 1 staging-plate, bolt bag, and foot. Less cling-wrap can be used when packaging <code>ASM-0049-03</code> as well.</p>
+</div>
+<hr/>
+<h3 id="creating-staging-plate-2-pack-and-1-pack-units">Creating Staging Plate (2-Pack) and (1-Pack) units</h3>
+<h4 id="prepare-packaging">Prepare Packaging</h4>
+<ul>
+<li>Fold staging plate box</li>
+<li>Cut foam sheets into 6"x4" sections</li>
+<li>Place 2x 6"x4" pieces of foam on both sides of the open box<ul>
+<li>Aim to use pieces of foam that are similar sizes, they are never cut to perfectly matching sizes so this is good practice</li>
+</ul>
+</li>
+</ul>
+<h4 id="finishing-packaged-staging-plate-2-pack-units">Finishing Packaged Staging Plate (2-Pack) units</h4>
+<ul>
+<li>Place a Staging Plate (Unpacked 2-Pack) [<code>ASM-0050-02</code>] into the box <ul>
+<li>Sandwich the assembly between two pieces of foam on either side of the box</li>
+</ul>
+</li>
+<li>Place 2x aux-staging-plate-foot units into the box<ul>
+<li>Make sure they have the M3x14-bolt installed </li>
+</ul>
+</li>
+<li>Add strips of scrap foam to the front and back of the box to protect the staging plate's sides while in transit</li>
+<li>Close the box and tape it shut with 3" packaging tape</li>
+<li>Label the box as a Packaged Staging Plate (2-Pack)</li>
+</ul>
+<h4 id="finishing-packaged-staging-plate-1-pack-units">Finishing Packaged Staging Plate (1-Pack) units</h4>
+<ul>
+<li>Place a Staging Plate (Unpacked 1-Pack) [<code>ASM-0049-03</code>] into the box <ul>
+<li>Sandwich the assembly between two pieces of foam on either side of the box</li>
+</ul>
+</li>
+<li>Place 1x aux-staging-plate-foot units into the box<ul>
+<li>Make sure it has the M3x14-bolt installed </li>
+</ul>
+</li>
+<li>Add strips of scrap foam to the front and back of the box to protect the staging plate's sides while in transit</li>
+<li>Close the box and tape it shut with 3" packaging tape</li>
+<li>Label the box as a Packaged Staging Plate (1-Pack)</li>
+</ul>
+</article>
+</div>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: LumenPnP PCB Kit" class="md-footer__link md-footer__link--prev" href="../v3-pcb-kit/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Previous
+                </span>
+                LumenPnP PCB Kit
+              </div>
+</div>
+</a>
+<a aria-label="Next: Getting Started Kit" class="md-footer__link md-footer__link--next" href="../ftp-kit/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Next
+                </span>
+                Getting Started Kit
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      LumenPnP and its related works are proudly released under the GPL-3.0 license - Opulo Inc 2023
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.top", "toc.integrate", "toc.follow", "navigation.indexes", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>

@@ -1,0 +1,561 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://ohai.opulo.io/misc/lumenpnp-toolhead-asm/" rel="canonical"/>
+<link href="../" rel="prev"/>
+<link href="../vac-and-valve-set/" rel="next"/>
+<link href="../../img/favicon.ico" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.0.13" name="generator"/>
+<title>LumenPnP Toolhead Assembly - OHAI - Open Hardware Assembly Instructions</title>
+<link href="../../assets/stylesheets/main.ffa9267a.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<link href="../../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                .gdesc-inner { font-size: 0.75rem; }
+                body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+                body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+                body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#purpose">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="OHAI - Open Hardware Assembly Instructions" class="md-header__button md-logo" data-md-component="logo" href="../.." title="OHAI - Open Hardware Assembly Instructions">
+<img alt="logo" src="../../img/opulo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            OHAI - Open Hardware Assembly Instructions
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              LumenPnP Toolhead Assembly
+            
+          </span>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/opulo-inc/ohai/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+      OHAI
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../lumen/">
+        LumenPnP (v3.0.2)
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../feeder8/">
+        8mm Feeder (BETA)
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../">
+        Misc Products
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="OHAI - Open Hardware Assembly Instructions" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="OHAI - Open Hardware Assembly Instructions">
+<img alt="logo" src="../../img/opulo.png"/>
+</a>
+    OHAI - Open Hardware Assembly Instructions
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/opulo-inc/ohai/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        OHAI
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../lumen/">LumenPnP (v3.0.2)</a>
+<label for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          LumenPnP (v3.0.2)
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/x-gantry/">
+        X Gantry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/y-gantry/">
+        Y Gantry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/drag-chain/">
+        Drag Chain
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/staging-plate/">
+        Staging Plate
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ftp-kit/">
+        Getting Started Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/tool-kit/">
+        Tool Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../lumen/pack-out/">
+        Pack Out
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../feeder8/">8mm Feeder (BETA)</a>
+<label for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          8mm Feeder (BETA)
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/pcb/index.md">
+        PCB
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/peel-motor/index.md">
+        Peel Motor
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/indexing-wheel/">
+        Indexing Wheel
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/peel-gear-frame/index.md">
+        Peel Gear Frame
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/assembly/">
+        Final Assembly
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../feeder8/oqc/">
+        OQC
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../">Misc Products</a>
+<label for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          Misc Products
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          LumenPnP Toolhead Assembly
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        LumenPnP Toolhead Assembly
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#purpose">
+    Purpose
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bill-of-materials">
+    Bill of Materials
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#instructions">
+    Instructions
+  </a>
+<nav aria-label="Instructions" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-toolhead-assembly">
+    Prepare Toolhead Assembly
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-toolhead-cable">
+    Prepare Toolhead Cable
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#prepare-packaging">
+    Prepare Packaging
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#package-components">
+    Package Components
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../vac-and-valve-set/">
+        LumenPnP Vacuum Pump and Valve Set
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cp40-noz-set/">
+        Packaged CP40 Nozzle Set
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../v3-pcb-kit/">
+        LumenPnP PCB Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../staging-plate-set/">
+        Staging Plate 1/2 Pack
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ftp-kit/">
+        Getting Started Kit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../rev3-vac-interposer/">
+        Vacuum Sensor Upgrade Kit
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>LumenPnP Toolhead Assembly</h1>
+<h2 id="purpose">Purpose</h2>
+<p>The purpose of this work instructions is to document the assembly process for the LumenPnP Toolhead Assembly [<code>SKU-0005-02</code>]</p>
+<h2 id="bill-of-materials">Bill of Materials</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Opulo MFG PN</th>
+<th>MANUFACTURER P/N</th>
+<th>PART DESCRIPTION</th>
+<th>QUANTITY</th>
+<th>PART COMMENT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>FBO-0001-00</td>
+<td>CP40-holder</td>
+<td>CP40 Holder</td>
+<td>1 each</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>MTR-0002-00</td>
+<td>NEMA11-hollow-shaft-stepper</td>
+<td>NEMA 11 Hollow Shaft Stepper Motor</td>
+<td>1 each</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>PNU-0003-00</td>
+<td>pneumatic-adapter-MS4M-M5</td>
+<td>Push-To-Connect Pneumatic Fitting - MS4M-M5</td>
+<td>1 each</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>LUB-0001-00</td>
+<td>silicone-grease-packet</td>
+<td>Single-Use Grease Packet</td>
+<td>1 each</td>
+<td>Synthetic grease with PTFE - 1 cc packet</td>
+</tr>
+<tr>
+<td>5</td>
+<td>PKG-0011-00</td>
+<td>6" x 9" Polybag</td>
+<td>6" x 9" Polybag</td>
+<td>1 each</td>
+<td>Plastic bag used for component packaging</td>
+</tr>
+<tr>
+<td>6</td>
+<td>CHA-0005-01</td>
+<td>l-motor-harness</td>
+<td>l-motor-harness</td>
+<td>1 each</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>FST-0032-00</td>
+<td>M2.5x8mm-socket-head</td>
+<td>ISO4762 Screw M2.5x8</td>
+<td>4 each</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>4" x 4" Red ESD Bag</td>
+<td>1 each</td>
+<td>Reused ELP camera packaging material</td>
+</tr>
+</tbody>
+</table>
+<h2 id="instructions">Instructions</h2>
+<h3 id="prepare-toolhead-assembly">Prepare Toolhead Assembly</h3>
+<ol>
+<li>
+<p>Install a CP40-holder and pneumatic-coupler onto a NEMA11-hollow-shaft-stepper</p>
+<ul>
+<li>Use a torque driver w/10mm socket and adjustable wrench to tighten these items onto the motor shaft<ul>
+<li>Set the torque driver to <code>0.5 N/M</code> for this step</li>
+</ul>
+</li>
+<li>Use the adjustable wrench to hold the CP40-holder stationary while applying torque from the pneumatic-coupler side</li>
+<li>The pneumatic-coupler should be installed closer to the motor's cable connector</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image4.jpg"><img src="img/image4.jpg" width="60%"/></a>
+<a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image2.jpg"><img src="img/image2.jpg" width="60%"/></a></p>
+</li>
+<li>
+<p>Loosely bolt 4x M2.5x8mm-socket-head fasteners into the front face of NEMA11-hollow-shaft-stepper</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image3.JPG"><img src="img/image3.JPG" width="60%"/></a> </p>
+</li>
+<li>
+<p>Package this completed assembly into a 4" x 4" Red ESD Bag and then roll it up</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image5.JPG"><img src="img/image5.JPG" width="60%"/></a> </p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image6.JPG"><img src="img/image6.JPG" width="60%"/></a> </p>
+<h3 id="prepare-toolhead-cable">Prepare Toolhead Cable</h3>
+</li>
+<li>
+<p>Use a permanent marker to black out the <code>LM</code> text on the label of <code>CHA-0005-01</code></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image7.JPG"><img src="img/image7.JPG" width="60%"/></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The toolhead cable this product includes is an older rev l-motor-harness than what's used in the <a href="../lumen/drag-chain">LumenPnP v3 Drag Chain</a></p>
+<ul>
+<li>Since we do not know if customers are using this cable for the left head or right head, it is better that ship them a cable with no labels</li>
+<li>We use <code>CHA-0005-01</code> there is only 1 label we need to deface/remove - which is the LM label found on the cable's motherboard side</li>
+</ul>
+</div>
+<h3 id="prepare-packaging">Prepare Packaging</h3>
+</li>
+<li>
+<p>Print LumenPnP Toolhead Assembly bag labels by accessing our account on <a href="https://www.avery.com/myaccount/projects">Avery Print</a></p>
+<ul>
+<li>See <a href="https://docs.google.com/document/d/1Jm7L9rtee2UymbxKDrj7xCHDT8VNdBmkq5X-eJMKwhk/edit">SOP-0007</a> for access credentials</li>
+<li>Print 2x labels out at time by printing them on the DYMO 4XL label maker with 4" x 6" label paper loaded</li>
+<li>Cut the printed 4" x 6" labels in half to create 2x 4" x 3" LumenPnP Toolhead Assembly [<code>SKU-0005-02</code>] labels <br/></li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/averyprint-toolhead-label.png"><img src="img/averyprint-toolhead-label.png" width="60%"/></a></p>
+<div class="admonition info">
+<p class="admonition-title">Check Inventory</p>
+<p>There's usually a pre-made surplus of these labels, so check inventory before assuming you need to print more copies </p>
+</div>
+</li>
+<li>
+<p>Adhere 4" x 3" LumenPnP Toolhead Assembly label to a 6" x 9" Polybag as shown in the image below</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image8.JPG"><img src="img/image8.JPG" width="60%"/></a></p>
+<h3 id="package-components">Package Components</h3>
+</li>
+<li>
+<p>Package the following components into the labeled 6" x 9" Polybag</p>
+<ul>
+<li>NEMA11-hollow-shaft-stepper (w/attached CP40-holder, pneumatic-coupler, and bolts)</li>
+<li>l-motor-harness</li>
+<li>silicone-grease-packet</li>
+</ul>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image9.JPG"><img src="img/image9.JPG" width="60%"/></a></p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="img/image10.JPG"><img src="img/image10.JPG" width="60%"/></a></p>
+</li>
+<li>
+<p>Seal up the bag after all the components listed above are placed inside it</p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">LumenPnP Toolhead Assembly [<code>SKU-0005-02</code>] Completed</p>
+</div>
+</article>
+</div>
+</div>
+<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </a>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Overview" class="md-footer__link md-footer__link--prev" href="../" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Previous
+                </span>
+                Overview
+              </div>
+</div>
+</a>
+<a aria-label="Next: LumenPnP Vacuum Pump and Valve Set" class="md-footer__link md-footer__link--next" href="../vac-and-valve-set/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                  Next
+                </span>
+                LumenPnP Vacuum Pump and Valve Set
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      LumenPnP and its related works are proudly released under the GPL-3.0 license - Opulo Inc 2023
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.top", "toc.integrate", "toc.follow", "navigation.indexes", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.2a6f1dda.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
