@@ -30,7 +30,7 @@ This section will guide the reader on how to properly glue the worm-gear (FDM-00
 
 	![](img/img12.JPG)
 
-*  Remove the completed peel-motor-asm from the arbor-press-jig and 
+*  Remove the completed peel-motor-asm from the arbor-press-jig 
 	![](img/img13.JPG)
 	
 * Move the completed peel-motor-asm to the corresponding storage bin, found at the feeder assembly workstation
