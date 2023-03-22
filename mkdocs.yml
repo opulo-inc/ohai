@@ -33,7 +33,7 @@ theme:
 
 nav:
   - OHAI: index.md
-  - LumenPnP (v3.0.2):
+  - LumenPnP (v3):
         - Introduction: lumen/index.md
         - X Gantry: lumen/x-gantry/index.md
         - Y Gantry: lumen/y-gantry/index.md
@@ -41,15 +41,25 @@ nav:
         - Staging Plate: lumen/staging-plate/index.md
         - Getting Started Kit: misc/ftp-kit/index.md
         - Tool Kit: lumen/tool-kit/index.md
-        - Pack Out: lumen/pack-out/index.md
-  - 8mm Feeder (BETA):
+        - Packaging: lumen/pack-out/index.md
+ 
+  - 8mm Feeder:
         - Overview: feeder8/index.md
         - PCB: feeder8/pcb/index.md
-        - Peel Motor: feeder8/peel-motor/index.md
-        - Indexing Wheel: feeder8/indexing-wheel/index.md
+        - Peel Motor Assembly: feeder8/peel-motor/index.md
+        - Drive Wheel Assembly: feeder8/indexing-wheel/index.md
         - Peel Gear Frame: feeder8/peel-gear-frame/index.md
+        - Frame Assembly: feeder8/feeder-frame-8mm-asm/index.md
         - Final Assembly: feeder8/assembly/index.md
         - OQC: feeder8/oqc/index.md
+        - Packaging: feeder8/packout/index.md
+
+  - Feeder Connection Kit:
+        - Introduction: feeder-connection-kit/index.md
+        - Feeder Slot Set: feeder-connection-kit/slot-set/index.md
+        - Panelized Feeder Slot PCBA: feeder-connection-kit/panelized-feeder-slot/index.md
+        - Packaging: feeder-connection-kit/packout/index.md
+
   - Misc Products:
         - Overview: misc/index.md
         - LumenPnP Toolhead Assembly: misc/lumenpnp-toolhead-asm/index.md
