@@ -6,7 +6,7 @@ This section will guide the reader on how to properly glue the worm-gear (FDM-00
 
 * Add LOCTITE 435 Instant Adhesive to worm-gear
 		![](img/img2.JPG)
-	* Dispense a few drops of LOCTITE 435 Instant Adhesive nto the center hole of the worm-gear
+	* Dispense a few drops of LOCTITE 435 Instant Adhesive into the center hole of the worm-gear
 	* Use enough adhesive for the glue to fully cover the top of the hole		![](img/img4.JPG)
 	* Lightly tap the worm-gear (with glued hole side up) against the workbench a few times to break the surface tension of the glue and get it sliding downward
 * **Leading with the glued side**, manually install the worm-gear onto the first few milimeters of the peel-motor shaft
@@ -26,10 +26,11 @@ This section will guide the reader on how to properly glue the worm-gear (FDM-00
 	![](img/img10.JPG)
 	![](img/img11.JPG)	
 		
-* Release the arbor-press-jig lever to let the depth-step actuate out of the way before removing the motor
+* Release the arbor-press-jig lever to let the depth-stop actuate out of the way before removing the motor
 
 	![](img/img12.JPG)
 
-*  Remove the completed peel-motor-asm from the arbor-press-jig and add it to the corresponding material bin at the feeder assembly workstation
-
+*  Remove the completed peel-motor-asm from the arbor-press-jig and 
 	![](img/img13.JPG)
+	
+* Move the completed peel-motor-asm to the corresponding storage bin, found at the feeder assembly workstation
