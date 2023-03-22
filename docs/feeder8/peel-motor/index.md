@@ -26,7 +26,7 @@ This section will guide the reader on how to properly glue the worm-gear (FDM-00
 	![](img/img10.JPG)
 	![](img/img11.JPG)	
 		
-* Release the arbor-press-jig lever to let the depth-stop actuate out of the way before removing the motor
+* Release the arbor-press-jig lever to make the depth-stop actuate backwards
 
 	![](img/img12.JPG)
 
