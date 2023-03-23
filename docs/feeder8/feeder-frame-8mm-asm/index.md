@@ -14,6 +14,15 @@ This section will guide the reader through the process of installing various har
 			* Exercise care here, as pressing these buttons too far inward can break them
 		* The motherboard that is installed later will prevent this type of button over-travel damage
 
+* Inspect for loose plastic in the overhanging region of the pick-window on the `feeder-frame-8mm`
+	* Remove any loose plastic with a knife as needed
+
+	!!! failure "Rework Needed"
+		<img src="img/img9.JPG" width="60%" height=auto>
+	
+	!!! success "OK"
+		<img src="img/img10.JPG" width="60%" height=auto>
+
 ## Install Hex Nuts
 * Use the `arbor-press-jig` to install 9x `m3-hex-nut` into `feeder-frame-8mm`
 	
@@ -46,7 +55,7 @@ This section will guide the reader through the process of installing various har
 	`TO DO: ADD PHOTO`
 
 * Manually install `8mm-fiducial-board (PCB-0008-01)` into the front pocket of the `feeder-frame-8mm`
-	*  The fiducial markers on 
+	*  The fiducial markers should this PCB remain visible when installed 
 
 	`TO DO: ADD PHOTO`
 
