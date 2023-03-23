@@ -48,7 +48,7 @@ nav:
         - PCB: feeder8/pcb/index.md
         - Peel Motor Assembly: feeder8/peel-motor/index.md
         - Drive Wheel Assembly: feeder8/indexing-wheel/index.md
-        - Peel Gear Frame: feeder8/peel-gear-frame/index.md
+        - Peel Gear Box: feeder8/peel-gear-frame/index.md
         - Frame Assembly: feeder8/feeder-frame-8mm-asm/index.md
         - Final Assembly: feeder8/assembly/index.md
         - OQC: feeder8/oqc/index.md
