@@ -53,3 +53,21 @@ tr {
 .md-tabs {
   display: none;
 }
+
+:root {
+  --md-admonition-icon--glue: url('clock-hour-timer-svgrepo-com.svg')
+}
+.md-typeset .admonition.glue,
+.md-typeset details.glue {
+  border-color: rgb(164, 164, 164);
+}
+.md-typeset .glue > .admonition-title,
+.md-typeset .glue > summary {
+  background-color: rgba(164, 164, 164, 0.1);
+}
+.md-typeset .glue > .admonition-title::before,
+.md-typeset .glue > summary::before {
+  background-color: rgb(10, 7, 7);
+  -webkit-mask-image: var(--md-admonition-icon--glue);
+          mask-image: var(--md-admonition-icon--glue);
+}
