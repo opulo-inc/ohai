@@ -26,6 +26,8 @@ This section will guide the reader through the process of installing 2x `peel-ge
 * After the screws have been torqued to spec, manually rotate the gears to check the friction
 	* The tightened screws should not have add much (or any) resistance when spinning a `peel-gear` by hand
 	* Loosen the screws a little bit if you observe a lot of friction in the `peel-gear-box`
+
+`TO DO: Add a QC Check that measures the torque required to spin an assembled peel-gear-box to ensure it's within a specified range`
 	
 !!! success "Your completed peel-gear-box should match the image shown below"
 	<img src="img/img9.JPG" width="60%" height=auto>
