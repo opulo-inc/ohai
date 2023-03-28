@@ -24,6 +24,9 @@ This section will guide the reader through the process of installing various har
 		<img src="img/img10.JPG" width="60%" height=auto>
 
 ## Install Hex Nuts
+
+`TO DO: Add feeder frame holder for use with arbor-press-jig, since a feeder doesn't sit flat on the arbor press`
+
 * Use the `arbor-press-jig` to install 9x `m3-hex-nut` into `feeder-frame-8mm`
 	
 	<img src="img/img2.jpeg" width="60%" height=auto>
