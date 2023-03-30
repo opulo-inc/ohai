@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+#Packout
+This section will guide the reader on how to properly package 5x `feeder-8mm` units into their respective packaging tray.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+* Fold a flat-packed `Corrugated Quad-Fold Feeder Insert` to prepare it for use
+* Place 5x `feeder-8mm` into a `Corrugated Quad-Fold Feeder Insert` tray
 
-## Commands
+	![](img/packed-1.png)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+`TO DO: CONSIDER ADDING DETAIL ABOUT SPOOL ARMS AND THE REST OF THE PACKAGING PROCESS`
