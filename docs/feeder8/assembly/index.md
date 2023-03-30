@@ -25,6 +25,8 @@
 
 ## Install the `release-lever`
 
+!!!warning "Wearing safety glasses is required while installing springs"
+
 5. Install the spring
 	* Grab a spring and a `release-lever`, and hold the spring in the `release-lever` as shown 
 	* Match the other end of the spring up with the circular cutout in the `feeder-frame-8mm` print
@@ -53,49 +55,63 @@
    
    	![](img/PXL_20230125_210103973.jpg)
 
-10. Insert 2x `M3x12mm` flathead screws and tighten them down gently 
-	!!! warning "*DO NOT OVER-IGHTEN*. Over-tightening can lead to the motor skewing in the `feeder-frame-8mm`."
-   
-   	![](img/PXL_20230125_210136695.jpg)
+10. Insert 2x `M3x12mm` flathead screws 
+ 	* Turn the screws in equal amounts before tightening them both to the final torque spec
+ 	* Tighten the 2x `M3x12mm` flathead screws to `6 cN.m (0.06 N.m)` with a `2mm` hex head driver
+
+  	 ![](img/install-bracket-1.JPG)
+ 	 ![](img/install-bracket-3.JPG)
+
+	!!! failure "*DO NOT OVER-TIGHTEN*" 
+		Over-tightening can lead to bracket damage and motor skewing in the `feeder-frame-8mm`
+			![](img/install-bracket-4.JPG)
+
 
 11. Check that the `drive-motor` is still flush and hasn't skewed because of tightening
 	* If it appears crooked or not flush, loosen the screws and readjust the `drive-motor`
    
    	![](img/PXL_20230125_210049496.jpg)
-
-## Install the `drive-wheel-asm`
-
-12. Place the `Drive Wheel Shim` in the `drive-wheel-asm` cavity as shown, with the `drive-motor` shaft sticking through it
-   
-   	![](img/PXL_20230125_210301849.jpg)
-
-13. Drop the `drive-wheel-asm` onto the `drive-motor` shaft
-   
-	![](img/PXL_20230125_210309516.jpg)
-
-14. With one hand, press down hard on the `drive-wheel-asm`, and with the other tighten the set-screw on the `shaft-collar-asm`
-  
-  	 `TO DO: REPLACE THIS IMAGE WITH ONE THAT SHOWS A HAND PRESSING DOWN ON DRIVE-WHEEL-ASM`
-
-  
-	 ![](img/PXL_20230125_210331035.jpg)
-
-15. Remove the `Drive Wheel Shim`
-      
-   	![](img/PXL_20230125_210341052.jpg)
+   	
    	
 ## Plug `drive-motor` into `feeder-motherboard`
 
 16. Insert the `drive-motor` cable into the six-pin connector on the PCB
    
-    ![](img/PXL_20230125_210435885.jpg)
+    ![](img/plug-in-drive-motor-1.jpeg)
+    ![](img/plug-in-drive-motor-2.jpeg)
 
-17. Lay the cable in the channel that leads to the motherboard, as shown below
+17. Ensure that the cable fully lays in the channel leading to the motherboard, as shown above
+
+## Install the `drive-wheel-asm`
+
+!!!info "Note on `drive-motor` shaft angle"
+	Drive-motor units may come from factory with a shaft rotated at an angle that's not ideal for set-screw tightening. If this applies to the feeder you are handling, follow the steps below: 
+	
+	* Power up to the affected units by plugging it into Gundam
+	* Press the feeder's jog-forward button until the shaft is at an optimal angle for subsequent assembly work 	
+
+	![](img/install-gear-2.JPG)
+	
+	![](img/install-gear-1.JPG)
+
+12. Place the `Drive Wheel Shim` in the `drive-wheel-asm` cavity as shown, with the `drive-motor` shaft sticking through it
    
-    ![](img/PXL_20230125_210523730.jpg)
-    
-    !!! note
-    	This cable has gotten much shorter for mass-production feeders, so there will be no need to create a bundle of wires like this moving forward. 
+   	![](img/install-gear-3.JPG)
+
+13. Drop the `drive-wheel-asm` onto the `drive-motor` shaft
+   
+	![](img/install-gear-4.JPG)
+
+14. With one hand,** press down firmly on ** `drive-wheel-asm` while using your free hand to tighten the `shaft-collar-asm` set-screw
+	* Tighten the `M2.5x3mm-set-screw` to `30 cN.m (0.3 N.m)` with a `1.27mm` or `1.3mm` hex head driver
+  
+	 ![](img/install-gear-5.JPG)
+
+15. Remove the `Drive Wheel Shim`
+      
+	 ![](img/install-gear-7.jpeg)
+	 ![](img/install-gear-9.jpeg)
+
     	
 ## Install `drive-motor-cover`
 
@@ -110,6 +126,3 @@
      `TO DO: REPLACE THIS IMAGE WITH ONE THAT SHOWS 3 screws instead of 2`
     
     ![](img/PXL_20230125_210559001.jpg)
-    
-## Install 8mm-feeder-sticker
-20. Words
