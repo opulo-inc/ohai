@@ -105,7 +105,7 @@
 14. With one hand,** press down firmly on ** `drive-wheel-asm` while using your free hand to tighten the `shaft-collar-asm` set-screw
 	* Tighten the `M2.5x3mm-set-screw` to `30 cN.m (0.3 N.m)` with a `1.27mm` or `1.3mm` hex head driver
   
-	 ![](img/install-gear-5.JPG)
+	 ![](img/tighten-wheel.JPG)
 
 15. Remove the `Drive Wheel Shim`
       

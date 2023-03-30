@@ -1,5 +1,5 @@
 # 8mm Feeder Frame Assembly
-This section will guide the reader through the process of installing various hardware components into `feeder-frame-8mm (FDM-0052-00)` in preparation for its use in final assembly.
+This section will guide the reader through the process of installing various hardware components into `feeder-frame-8mm` in preparation for its use in final assembly.
 
 ## Prepare `feeder-frame-8mm` 
 * Inspect the print for defects
@@ -25,7 +25,7 @@ This section will guide the reader through the process of installing various har
 
 ## Install Hex Nuts
 
-* Place `feeder-frame-8mm` onto a `feeder-cradle jig` 
+* Place `feeder-frame-8mm` onto `feeder-cradle jig` 
 
 * Use the `arbor-press-jig` to install 9x `m3-hex-nut` into `feeder-frame-8mm`
 	
@@ -59,8 +59,8 @@ This section will guide the reader through the process of installing various har
 
 	`TO DO: ADD PHOTO`
 
-* Manually install `8mm-fiducial-board (PCB-0008-01)` into the front pocket of the `feeder-frame-8mm`
-	*  The fiducial markers should this PCB remain visible when installed 
+* Manually install `8mm-fiducial-board` into the front pocket of `feeder-frame-8mm`
+	*  The fiducial markers should remain visible when installed 
 
 	`TO DO: ADD PHOTO`
 

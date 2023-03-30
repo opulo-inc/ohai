@@ -1,5 +1,5 @@
 # Drive Wheel Assembly
-This section will guide the reader on how to prepare and glue the shaft-collar-asm (ASM-0061-00) onto drive-wheel (PCB-0009-05) to create drive-wheel-asm (ASM-0060-00).
+This section will guide the reader on how to prepare and glue the `shaft-collar-asm` onto `drive-wheel` to create `drive-wheel-asm`.
 
 
 ## Prepare shaft-collar-asm
@@ -44,7 +44,7 @@ This section will guide the reader on how to prepare and glue the shaft-collar-a
 	!!! warning
 		Make sure that the shaft-collar-asm does not lift up as you tighten the set-screw
 
-	<img src="img/img9.png" width="60%" height=auto>
+		<img src="img/img9.png" width="60%" height=auto>
 	
 	!!! warning "Inspect the WIP assembly for visible daylight between drive-wheel and shaft-collar-asm"
 	
@@ -78,6 +78,8 @@ This section will guide the reader on how to prepare and glue the shaft-collar-a
 	*  Loosen the `set-screw` while pinching down on the `shaft-collar`
 		*  This will help to avoid unneeded stress to partially cured glue
 	*  Remove the `drive-wheel-asm` by pressing the outer-edges of `shaft-collar-alignment-jig` downward to actuate the jig's ejector pins
+	
+	<img src="img/eject.JPG" width="60%" height=auto>
 
 	<img src="img/img16.png" width="60%" height=auto>
 
