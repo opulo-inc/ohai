@@ -10,3 +10,9 @@ The goal of this work instruction is to walk document Opulo's assembly process f
 
 ## Next Steps
 To proceed through these instructions, click the **Next** button found on the bottom footer of most pages.
+
+!!! glue
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
