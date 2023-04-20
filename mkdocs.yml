@@ -56,8 +56,9 @@ nav:
 
   - Feeder Connection Kit:
         - Introduction: feeder-connection-kit/index.md
-        - Feeder Slot Set: feeder-connection-kit/slot-set/index.md
-        - Panelized Feeder Slot PCBA: feeder-connection-kit/panelized-feeder-slot/index.md
+        - Feeder Slot PCBA: feeder-connection-kit/panelized-feeder-slot/index.md
+        - Feeder Slot Set Final Assembly: feeder-connection-kit/slot-set/index.md
+        - Feeder Accessory Preparation: feeder-connection-kit/accessories/index.md
         - Packaging: feeder-connection-kit/packout/index.md
 
   - Misc Products:
