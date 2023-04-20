@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Packaging the Feeder Connection Kit
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This section will guide the reader on how to properly package a `feeder-connection-kit`
 
-## Commands
+## Assembly Process
+* If you have not already done so, begin by folding a `feeder-accessory-tray`
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+	![](img/feeder-connection-kit-1.JPG)
 
-## Project layout
+* Install all 50x feeder slots into the wider left side `feeder-accessory-tray`
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+	![](img/feeder-connection-kit-2.JPG)
+
+* Install the other accessories into the narrower right-side of the `feeder-accessory-tray`
+
+	![](img/feeder-connection-kit-3.JPG)
+	
+	![](img/feeder-connection-kit-4.JPG)
+
+
+
