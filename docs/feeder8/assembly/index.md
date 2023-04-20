@@ -35,9 +35,9 @@
    	![](img/PXL_20230125_205852845.jpg)
    	![](img/PXL_20230125_205907965.jpg)
 
-6. Insert an `M3x15mm` flathead screw from the backside and drive it in 
-	* The screw will tap into the plastic of the `release-lever` 
-	* Don't over-tighten; make sure the arm can still swivel easily
+6. Insert an `M3x15mm` flathead screw from the backside and drive it in using the grey torque driver on the 4 setting (0.25 N*m).
+	* Make sure the arm can still swivel easily
+	* Make sure that the arm does not have any lateral movement
    
    	![](img/PXL_20230125_205923606.jpg)
 
@@ -57,7 +57,7 @@
 
 10. Insert 2x `M3x12mm` flathead screws 
  	* Turn the screws in equal amounts before tightening them both to the final torque spec
- 	* Tighten the 2x `M3x12mm` flathead screws to `6 cN.m (0.06 N.m)` with a `2mm` hex head driver
+ 	* Tighten the 2x `M3x12mm` flathead screws to `15 cN.m (0.15 N.m)` with a `2mm` hex head driver
 
   	 ![](img/install-bracket-1.JPG)
  	 ![](img/install-bracket-3.JPG)

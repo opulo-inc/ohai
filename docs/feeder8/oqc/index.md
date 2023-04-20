@@ -57,14 +57,21 @@
 	  ![](img/sticker-6.JPG)
 	  
 ## Cosmetic Inspection
-After completing all prior assembly and testing work, confirm the following:
+After completing all prior assembly and testing work, CHECK EVERY BULLET on EVERY FEEDER:
 
-* `Release-lever` moves freely with a snappy action
-* 3D prints are free of stringiness
-* Product is clean of excess fingerprints
-* Tape pathway is clear of any obstructions
-* Any 8mm SMT tape used during testing has been removed
-* Reset button clicks well
-* 3D printed flexure buttons still click OK and actuate the switches on the PCB
+* Release Lever moves freely with a snappy action
+* Release Lever does NOT move laterally
+* Flexture buttons click easily and are not mushy
+* Reset button clicks easily
+* Fiducial board is inserted
+* Fiducial board does NOT have any excess glue
+    * ![](img/fid-bad-glue-1.jpg)
+    * ![](img/fid-bad-glue-2.jpg)
+* Diffusion board is inserted in the correct orientation
+* All screws are flush with the print/PCB they're mounted into
+* All nuts are flush and perpendicular to their screws
+* Drive motor is flush with the back face of the frame
+* Cosmetic sticker has been applied over the drive motor
+* Version number sticker has been applied to the PCB
 
 !!!success "If all final checks are OK, the feeder may proceed forward to packout"

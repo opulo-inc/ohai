@@ -6,6 +6,12 @@ This section will guide the reader on how to properly glue the `worm-gear` onto 
 ![](img/img1.JPG)
 
 ## Assembly Process
+!!! glue
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
+	
 * Add `LOCTITE 435` to `worm-gear`
 		![](img/img2.JPG)
 	* Dispense a few drops of `LOCTITE 435` into the center hole of `worm-gear`
