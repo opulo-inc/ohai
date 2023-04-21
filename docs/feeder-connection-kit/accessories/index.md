@@ -12,7 +12,7 @@ This section will guide the reader on how to properly prepare the accessories th
 * Adhere a hex key bag label onto a 2.5" x 3" plastic bag
 ![](img/IMG_3668.png)
 
-* Place a Feeder Drive wheel into the plastic bag before resealing it
+* Place a hex key into the plastic bag before resealing it
 ![](img/IMG_3669.png)
 
 !!!success "These two assemblies can now be set aside for further use in packout"
