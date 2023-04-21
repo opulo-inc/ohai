@@ -126,3 +126,5 @@
      `TO DO: REPLACE THIS IMAGE WITH ONE THAT SHOWS 3 screws instead of 2`
     
     ![](img/PXL_20230125_210559001.jpg)
+    
+!!!success "You may now proceed to OQC"
