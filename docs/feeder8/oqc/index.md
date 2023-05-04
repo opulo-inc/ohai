@@ -1,5 +1,17 @@
 # Outgoing Quality Control (OQC)
 
+
+## Update the firmware
+!!!note "This step may have already been completed!" 
+	If the motherboard on the feeder already has the feeder-rev-sticker adhered - if so, you may skip this step. The PCB should have already been programmed with the latest firmware version.
+	
+* Update the feeder to the latest firmware by connecting it to a UART dongle 
+* Upload the code via STM32CubeProgrammer
+* Adhere a `feeder-rev-sticker` onto the motherboard in the marked region
+
+ 	 ![](img/sticker-12.PNG)
+ 	 ![](img/sticker-9.JPG)
+
 ## Test Feeder with Gundam
 
 1. Launch the Gundam Application by entering the command `main.py` into the `gundam` terminal within VS Code
@@ -7,7 +19,10 @@
   	![](img/oqc-1.JPG)
   	![](img/oqc-37.JPG)
 
-2. Load feeder into the `gundam-qc-jig` by installing it onto the orange feeder slot 
+2. Load feeder into the `gundam-qc-jig` by installing it onto the orange feeder slot
+
+	!!!note "Confirm correct programming"
+		If the feeder LEDs flash white when installed onto the slot, your feeder has old firmware and will fail to pass the subsequent tests. If this is observed, unplug the respective feeder and update its firmware before resuming regular process flow. 
 
   	![](img/oqc-29.JPG)
   	![](img/oqc-28.JPG)
@@ -18,13 +33,9 @@
   	![](img/oqc-33.JPG)
   	
 4. If required, choose `REV09-feeder.json` from the `Test to Run` drop-down menu
-	
-	`TO DO CONFIRM WHAT THE REAL TEST LIST NAME WILL BE FOR MASS PRODUCTION`
-	
 5. Click the `Run Test` button found at the bottom of the Gundam application window
 6. Input the following information when the application prompts for data input:
-	* `Please input the unit serial` - Leave this field blank
-	* `Please input the unit source version` - Enter the current production revision number (`v1.0.0` for example)
+	* `Please input the unit source version` - Enter the current production revision number (`v1.0.1` for example)
 7. The Gundam application will now display a list of tests to run in sequential order
  	* Follow the Gundam test prompts to step through the testing process
 
@@ -34,12 +45,6 @@
 	If a feeder is failing to pass Gundam checks after more than 10 minutes of rework activity, set it aside and revisit later
 !!!success "Proceed onward if all tests show `PASS` results" 
 	  	![](img/oqc-8.JPG)
-
-## Install feeder-rev-sticker
-* Adhere a `feeder-rev-sticker` onto the motherboard in the marked region
-
- 	 ![](img/sticker-12.PNG)
- 	 ![](img/sticker-9.JPG)
 
 ## Install 8mm-feeder-sticker
 1. Install `feeder-sticker-application-jig` on the backside of the feeder
@@ -61,7 +66,7 @@ After completing all prior assembly and testing work, CHECK EVERY BULLET on EVER
 
 * Release Lever moves freely with a snappy action
 * Release Lever does NOT move laterally
-* Flexture buttons click easily and are not mushy
+* Flexure buttons click easily and are not mushy
 * Reset button clicks easily
 * Fiducial board is inserted
 * Fiducial board does NOT have any excess glue
@@ -73,5 +78,6 @@ After completing all prior assembly and testing work, CHECK EVERY BULLET on EVER
 * Drive motor is flush with the back face of the frame
 * Cosmetic sticker has been applied over the drive motor
 * Version number sticker has been applied to the PCB
+* Drive-wheel-shaft-collar is flush or sub-flush to the surface of the drive-motor-cover
 
 !!!success "If all final checks are OK, the feeder may proceed forward to packout"
