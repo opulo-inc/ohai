@@ -7,7 +7,7 @@ This section will guide the reader on how to properly package 5x `feeder-8mm` un
 	![](img/packed-1.png)
 	
 	!!!note "Note on light-diffusor consistency"
-		* Early feeder units were produced with two different styles of `light-diffuser` PCBs - regular (bare FR4 color w/black Opulo logo)and inverted (black soldermask with masked-out Opulo logo)
+		* Early feeder units were produced with two different styles of `light-diffuser` PCBs - regular (bare FR4 color w/black Opulo logo)and inverted (black solder mask with masked-out Opulo logo)
 		* It is important to avoid mixing the two types within a single `Corrugated Quad-Fold Feeder Insert` tray
 		* Please indicate that a `Corrugated Quad-Fold Feeder Insert` tray contains feeders w/the black `light-diffuser` by writing a `B` in the corner of the tray with a permanent marker.
 	
@@ -22,9 +22,8 @@ This section will guide the reader on how to properly package 5x `feeder-8mm` un
 	![](img/packed-4.png)
 	![](img/packed-5.png)
 
-* Stick the `bagged-thimble-set` to the feeder the that's sitting in the visibly-deepest cavity in the tray
+* Stick the `bagged-thimble-set` to the feeder that's sitting in the visibly-deepest cavity in the tray
 	* This is done to give the thimbles as much space as possible
-	* Stick the bag to the PCB, but avoid adhering it to the `feeder-rev-label`
 
 	![](img/packed-6.png)
 
