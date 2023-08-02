@@ -4,8 +4,9 @@
 
 1. Review the `Opulo Shopify Store - Coefficient Data Steam` for orders that are eligible for fulfillment. The following criteria must be met:
 		
-	- Every line item in the `order` must have an `Est Ship Date` value that's no later than Friday of the given production week
-	- 	All of the line items within the order number must have one of the following fulfillment statuses: 
+	- Every line item in the `order` must have an `Est Ship Date` **value that's no later than Friday of the given production week
+**	
+- 	All of the line items within the order number must have one of the following fulfillment statuses: 
 		- `UNFULFILLED - PAID`
 		- `UNFULFILLED - PENDING`
 		- `UNFULFILLED - PARTIALLY REFUNDED` 
@@ -76,6 +77,23 @@
 	- For example pack every order that had its shipping documents sorted into the `2-Tray OPF bin` before proceeding to the shipping documents sorted in the `4-Tray OPF bin` 
 	- This will help prevent shipping customers more or less than of what they paid for
 - Check-off and write in your initials on the printed `Order-Packing-Checklist` **each time an order is packaged and taped shut**
+
+### Additional Guidelines for Packaging
+
+- Orders with line-items that have multiple Est. Ship Dates: 
+	- When packaging an `order` it is critical to check `Coefficient ` for what `build number`/`Est-Ship-Date` the items in an `order` should be from
+
+ 		- Example 1) If there's 10pcs of `SKU-9999` made "this week" and 15pcs of `SKU-9999` made "last week" still here, the two batches must go with the exact orders they were prescribed to
+
+		- Example 2) In the image shown below, there is a LumenPnP that is produced the week of `2023-07-28` and it's packaged alongside a feeder 5pk and slot set made weeks prior. It would be important to ensure that this LumenPnP was packaged with these exact goods from the specified weeks.
+	
+		![](multi-week-production.png)
+		
+- Shipment comprised of two or more packages poly-strapped together:
+	- Adhere the shipping label and other documents to the largest package in the shipment
+	- Take care to avoid the shipping documents being obstructed by the poly-straps
+	- Write the `order number` onto the smaller boxes within the bundle using a large marker 
+		- This is done to help the shipping carrier if the bundle breaks apart in transit
 
 !!!note "The `Order-Packing-Checklist` lists what package type an order requires if you are unsure or found the shipping documents sorted into a vague pile"
 
