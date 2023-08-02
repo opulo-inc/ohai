@@ -67,7 +67,7 @@
 	- Place all signed copies of the `Customs Declaration Form` into a resealable adhesive-backed plastic document holder
 	- Paper clip the `Shipping Label` and `Packing Slip` to the front of the plastic document holder
 
-4. Sort the shipping documents into containers that reflect the packaging used
+3. Sort the shipping documents into containers that reflect the packaging used
 	- The containers used for sorting should correspond to the packaging the week's orders require
 	- Reference the `Order-Packing-Checklist` to determine what packaging is required for the week's fulfillment
 
@@ -76,6 +76,8 @@
 	- For example pack every order that had its shipping documents sorted into the `2-Tray OPF bin` before proceeding to the shipping documents sorted in the `4-Tray OPF bin` 
 	- This will help prevent shipping customers more or less than of what they paid for
 - Check-off and write in your initials on the printed `Order-Packing-Checklist` **each time an order is packaged and taped shut**
+
+!!!note "The `Order-Packing-Checklist` lists what package type an order requires if you are unsure or found the shipping documents sorted into a vague pile"
 
 !!!warning "Serialization and OQC Form Requirements"
 	Shipments that contain a uniquely serialized product (LumenPnP, PCB Kit, Replacement Motherboards) must be logged in the [LumenPnP - Serial Tracker and OQC Form](https://docs.google.com/forms/d/e/1FAIpQLSddZwlLa26bw81xRC3UofJ12yaRr4eiF1ZQTFnbHVbXxjBo6A/viewform?usp=sharing)
