@@ -81,13 +81,18 @@
 ### Additional Guidelines for Packaging
 
 - Orders with line-items that have multiple Est. Ship Dates: 
-	- When packaging an `order` it is critical to check `Coefficient ` for what `build number`/`Est-Ship-Date` the items in an `order` should be from
+	- When packaging an `order` it is critical to check `Coefficient ` for what `build number`/`est-Ship-Date` the items in an `order` should be from
 
  		- Example 1) If there's 10pcs of `SKU-9999` made "this week" and 15pcs of `SKU-9999` made "last week" still here, the two batches must go with the exact orders they were prescribed to
 
 		- Example 2) In the image shown below, there is a LumenPnP that is produced the week of `2023-07-28` and it's packaged alongside a feeder 5pk and slot set made weeks prior. It would be important to ensure that this LumenPnP was packaged with these exact goods from the specified weeks.
 	
 		![](multi-week-production.png)
+		
+- Shipments with a pending payment status
+	- Alert customer service when a shipment transitions from `UNFULFILLED - PENDING` to `FULFILLED - PENDING`, so that the team is given notice when an order with NET## terms has been shipped out
+	
+		![](NET30-fulfilled-order.png)
 		
 - Shipment comprised of two or more packages poly-strapped together:
 	- Adhere the shipping label and other documents to the largest package in the shipment
@@ -103,6 +108,11 @@
 	- Shipments that contain a LumenPnP must have an orange fragile sticker adhered to the box after being taken through this form
 
 	![](oqc-form.png)
+	
+## Handling Unfulfilled Inventory
+- After all outgoing orders are packaged, label all remaining pieces of `unfulfilled inventory` with the respective `order-number` and/or future `est-ship-date` these items are reserved for 
+
+- If there is `unfulfilled inventory` leftover from the production lot without either a `order-number` or `est-ship-date` that can be allocated, consider these goods as spare stock keeping units for inventory and label each item with it's `build-number` and `production-date` (IE the date of the Friday from the week the item was built)
 
 ## Outgoing Quality Control (OQC)
 - Sort the taped boxes into the following stacks:
@@ -113,7 +123,7 @@
 	- UPS International
 
 - Confirm the following: 
- 	- Docker does not have any assembled goods beyond what's expected to be in unfulfilled inventory
+ 	- Docker does not have any assembled goods beyond what's expected to be in `unfulfilled inventory`
  	- There is exactly as many packages ready to ship as what's shown in the `order-packing-checklist`
  	- Each line in the `order-packing-checklist` is checked-off and initialed
  	- No unused shipping labels are left sitting out
