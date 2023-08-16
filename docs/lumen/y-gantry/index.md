@@ -1,8 +1,4 @@
 ## Preparing back-leg
-
-!!!info "Create 2x `back-leg` subassemblies per LumenPnP, one for each y-gantry-left/right, by following the steps below"
-
-
 - Remove any stringing from the 3D print with a heat gun
 - Insert an `m5-hex-nut` into the bottom of the `back-leg` 3D print
 	- Finger strength *should* be sufficient to install this fastener into position
@@ -12,18 +8,11 @@
 	![](img/back-leg-hex-nut2.png)
 
 ## Preparing y-gantry
-
-!!!info "Create 2x `y-gantry` subassemblies per LumenPnP, one for each y-gantry-left/right, by following the steps below"
-
-
 - Remove any stringing from the 3D print with a heat gun
 - Insert 6x `m5-hex-nut` into the following region
 	![](img/y-gantry-hex-nut.png)
 	
 ## Preparing y-gantry stepper motor
-
-!!!info "Create 2x `y-gantry stepper motor` subassemblies per LumenPnP, one for each y-gantry-left/right, by following the steps below"
-
 - Gather the following parts and tools
 	- nema17-stepper-motor
 	- GT2-timing-pulley
@@ -38,9 +27,6 @@
 	![](img/y-gantry-motor-prep3.png)
 	
 ## Preparing belt-tensioner-arm
-
-!!!info "Create 2x `belt-tensioner-arm` subassemblies per LumenPnP, one for each y-gantry-left/right, by following the steps below"
-
 - Press an `M3-hex-nut` into the `belt-tension-arm` with the `arbor-press-jig`
 ![](img/tensioner-arm-m3-hex-nut-insertion.png)
 - Thread an `M3x16-bolt` all the way through the `belt-tension-arm`
@@ -92,24 +78,33 @@
 - The completed `front-left-leg` should match the image shown below
 	![](img/complete-front-left-leg.png)
 
-## Install y-gantry stepper motor onto back-leg (left-side)
-- Install y1 cable onto y-gantry stepper motor 
+## Install y-gantry stepper motor onto back-leg
+- Connect `Y1-stepper-motor-cable` to the `y-gantry-stepper-motor`
+
 	![]()
-- Put 4x M3x8 bolts through the motor mounting holes on the back-leg print
+
+- Put 4x M3x8 bolts through the motor mounting holes on `back-leg`
+
 	![]()
-- Cable should be routed through the leg such that it exits towards the center of the machine
+
+- Cable should be routed through `back-leg` to exits towards the center of the machine
 	- Ensure no wires are being crushed or strained 
-	- Zip tie cable in place for strain relief
-	- Add a photo to indicate which way to route the cables per side - We need to clarify since everything is symmetrical.
- 	![]()
- 	![]()
+	- Add a photo to indicate which way to route the cables per side 
+	
+	![]()
+ 	
+- Zip tie cable in place for strain relief
+
+	![]()
+
 - Reference below picture for example of completed left back-leg
 	![]()
 
-## Install front-left-leg and back-leg onto aluminum extrusion 
+## Install front-left-leg and back-leg onto 600mm-alu-extrusion 
 
 - Begin by inserting a `525mm-m3-t-nut-bar` into a piece of `600mm-alu-extrusion`
-	- There should be about 51.5mm between the end of the `525mm-m3-t-nut-bar` and the right-side end of the `600mm-alu-extrusion` after installation, but it needs to be slide aside in later steps so do not bother to make this perfect right now
+	- There should be about 51.5mm between the end of the `525mm-m3-t-nut-bar` and the right-side end of the `600mm-alu-extrusion` after installation
+	- The `525mm-m3-t-nut-bar` needs to be slide aside in later steps, so do not bother to make this perfect right now
 	
 	![](img/install-tnut-bar.png)
 	
@@ -151,25 +146,83 @@
 
 	![](img/y-gantry-left-process-check1.png)
 
-## Install 550mm linear-rail onto y-gantry-left
+## Install linear-rail-550mm
 
-![](img/position-y-linear-rail.png)
-![](img/insert-y-rail-alignment-jig.png)
-![](img/install-11x-linear-rail-bolts.png)
+- Roughtly position `linear-rail-550mm` onto top-side of uppermost `600mm-alu-extrusion`
+	
+	![](img/position-y-linear-rail.png)
 
-------------
+- Place a `linear-rail-2020-alignment-jig` on both ends of `linear-rail-550mm`
+	- Do not cover any bolt holes with the jig  
 
-## Install y-gantry stepper motor onto back-leg (right-side)
-- Install Y2 cable onto y-gantry stepper motor
-	![]()
-- Put 4x M3x8 bolts through the motor mounting holes on the back-leg print
-	![]()
-- Cable should be routed through the leg such that it exits towards the center of the machine
-	- Ensure no wires are being crushed or strained 
-	- Zip tie cable in place for strain relief
-	- Add a photo to indicate which way to route the cables per side - We need to clarify since everything is symmetrical
-	![]()
-	![]()
-- Install 2x `extrusion-cable-clip` in position shown below to properly manage the stepper motor's cable
-	![]()
-- Reference below picture for example of completed right back-leg
+	![](img/insert-y-rail-alignment-jig.png)
+
+- Visually center the `linear-rail-550mm` between the `back-leg` and `front-left-leg`
+- Slide the `M3-t-nut-bar` to line up with the linear rail's bolt hole pattern 
+- Starting from the `front-left-leg` side, lightly snug a `M3x8-bolt` into **every other** bolt hole on `linear-rail-550mm`
+	- Move the `linear-rail-carriage` out of the way as needed
+
+	![](img/install-11x-linear-rail-bolts.png)
+	
+- Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end. 
+	- A torque wrench should be used to set the specified bolt torque
+	- The torque specification for these `M3x8-bolts` is `0.5N/M`
+
+	![](img/y-linear-rail-bolt-sequence.png)
+
+## Install GT2-belt
+- Route a 1.3m-long piece of `GT2-belt` through `y-gantry-left`
+	
+	!!!info "Belt routing step-by-step"
+			- Start by running the belt through the `y-gantry`'s left-side slot and leave 75mm of extra belt poking out 
+			- Run it through the extrusion towards the `back-leg`
+			- Wrap it around the `timing-pulley`
+			- Run it back through the extrusion towards the `front-left-leg`
+			- Wrap it around the `idler-pulley`
+			- Run it back through the extrusion towards the `back-leg` again
+			- Have the belt exit through the `y-gantry`'s right-side slot
+
+	![](img/route-belt-through-step1.png)
+
+- Slide the `y-gantry` subassembly onto the `linear-rail-carriage` while pulling slack out of the `GT2-belt`
+	![](img/route-belt-through-step2.png)
+
+- Use `belt-clamp` with 2x `M5x10-bolt` to clamp the left-side of the `GT2-belt` to the `y-gantry`
+	- Tighten each `M5x10-bolt` to 0.5 N.M
+
+	![](img/route-belt-through-step3.png)
+	![](img/route-belt-through-step4.png)
+
+## Tension the gantry
+
+- Pull the right-side `GT2-belt` tightly towards `front-left-leg`
+
+	![](img/route-belt-through-step5.png)
+
+- Use `belt-clamp` with 2x `M5x10-bolt` to clamp the right-side `GT2-belt` to the `y-gantry`
+	- Tighten each `M5x10-bolt` to 0.5 N.M 
+
+	![](img/route-belt-through-step6.png)
+
+
+- Bolt `y-gantry` to the `linear-rail-carriage with` 4x `M3x8-bolt`
+	- Tighten each bolt to 0.5 N/M
+	- Push `y-gantry` inward towards the `linear-rail-carriage while tightening the mounting bolts to align it  
+
+	![](img/bolt-y-gantry-to-carriage.png)
+
+
+- Rotate the `M3x16-bolt` clockwise on the `belt-tensioner-arm` to tension the `GT2-belt` installed on `y-gantry-left`
+	- This will cause the `belt-tensioner-arm` to pull the `idler-pulley` away from the `front-left-leg` which adds desired tension to the `GT2-belt`
+
+	![](img/tension-belt-arm.png)
+
+## Final details
+
+- Trim the loose `GT2-belt` on either side of the `y-gantry`
+	- For the `front-left-leg` side of the `y-gantry` print, trim the loose `GT2-belt` until it's flush against the belt-clamp 
+	- For the `back-leg` side of the `y-gantry` print, trim the loose `GT2-belt` until it's flush against the belt-clamp 
+
+	![](img/belt-cut-to-length.png)
+	
+- Use 3x `extrusion-cable-clip` to secure the `Y1-stepper-motor-cable` to the underside of the lowermost `600mm-alu-extrusion`
