@@ -1,3 +1,6 @@
+## Intro
+The purpose of this work instruction is to explain the assembly process for the LumenPnP v3.1.0 Left-Side Y-Gantry (`y-gantry-left`).
+
 ## Preparing back-leg
 - Remove any stringing from the 3D print with a heat gun
 - Insert an `m5-hex-nut` into the bottom of the `back-leg` 3D print
@@ -83,11 +86,11 @@
 
 	![]()
 
-- Put 4x M3x8 bolts through the motor mounting holes on `back-leg`
+- Put 4x `M3x8-bolt` through the motor mounting holes found on `back-leg`
 
 	![]()
 
-- Cable should be routed through `back-leg` to exits towards the center of the machine
+- Cable should be routed through `back-leg` to exit towards the center of the machine
 	- Ensure no wires are being crushed or strained 
 	- Add a photo to indicate which way to route the cables per side 
 	
@@ -97,7 +100,7 @@
 
 	![]()
 
-- Reference below picture for example of completed left back-leg
+- Reference picture below for an example of completed `back-leg`
 	![]()
 
 ## Install front-left-leg and back-leg onto 600mm-alu-extrusion 
@@ -226,3 +229,10 @@
 	![](img/belt-cut-to-length.png)
 	
 - Use 3x `extrusion-cable-clip` to secure the `Y1-stepper-motor-cable` to the underside of the lowermost `600mm-alu-extrusion`
+
+## Outro
+After completing the previous steps, a finished `y-gantry-left` will be ready for Gundam QC testing. A `y-gantry-left` that was built while following the above steps will match the following image
+
+![](img/finished-y-gantry-left.png)
+
+!!!info "`Extrusion-cable-clips`, `Y1-stepper-motor-cable`, and `zip-tie` not shown"
