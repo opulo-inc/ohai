@@ -1,35 +1,13 @@
 ## Intro
 The purpose of this work instruction is to explain the assembly process for the LumenPnP v3.1.0 Left-Side Y-Gantry (`y-gantry-left`).
 
-## Preparing back-leg
-- Remove any stringing from the 3D print with a heat gun
-- Insert an `m5-hex-nut` into the bottom of the `back-leg` 3D print
-	- Finger strength *should* be sufficient to install this fastener into position
-	!!!glue "Glue if needed"
-		Add a drop of loctite to the region if the fastener fit is looser than normal and seems at risk of falling out in transit
-	![](img/back-leg-hex-nut1.png)
-	![](img/back-leg-hex-nut2.png)
-
-## Preparing y-gantry
+## Prepare y-gantry
 - Remove any stringing from the 3D print with a heat gun
 - Insert 6x `m5-hex-nut` into the following region
 	![](img/y-gantry-hex-nut.png)
-	
-## Preparing y-gantry stepper motor
-- Gather the following parts and tools
-	- nema17-stepper-motor
-	- GT2-timing-pulley
-	- y-timing-pulley-spacer-jig
-	- Torque driver w/2mm hex driver, set to `0.7 N/M` *(not shown)*
 
-	![](img/y-gantry-motor-prep0.png)
-- Use motor spacing jig to mount the timing pulley to the NEMA 17, ensuring the set screw is aligned to the flat side of the motor shaft 
-	![](img/y-gantry-motor-prep1.png)
-- Tighten the 2x timing pulley set screws to 0.7 N/M - first tightening the one facing the flat on the motor shaft 
-	![](img/y-gantry-motor-prep2.png)
-	![](img/y-gantry-motor-prep3.png)
-	
-## Preparing belt-tensioner-arm
+## Create Front-Left-Leg Subassembly
+### Prepare belt-tensioner-arm
 - Press an `M3-hex-nut` into the `belt-tension-arm` with the `arbor-press-jig`
 ![](img/tensioner-arm-m3-hex-nut-insertion.png)
 - Thread an `M3x16-bolt` all the way through the `belt-tension-arm`
@@ -58,7 +36,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	![](img/gt2-idler-pivot-bolt.png)
 	
-## Create front-left-leg
+### Prepare front-left-leg
 - Remove any stringing from the 3D print with a heat gun
 - Insert 3x `m5-hex-nut` into the following regions
 	- 2x in bottom of the leg for customer-side `front-leg-extension` mounting 
@@ -69,6 +47,10 @@ The purpose of this work instruction is to explain the assembly process for the 
  	
 - Insert 1x `m5-nylock-hex-nut` into in the underside of `belt-tensioner-arm` mounting post
 	![](img/belt-tension-arm-nut.png)
+	
+	
+### Install belt-tensioner-arm onto the front-left-leg
+
 	
 - Install the `belt-tensioner-arm` onto the `front-left-leg`
 	![](img/belt-tensioner-arm-asm-install.png)
@@ -81,27 +63,58 @@ The purpose of this work instruction is to explain the assembly process for the 
 - The completed `front-left-leg` should match the image shown below
 	![](img/complete-front-left-leg.png)
 
-## Install y-gantry stepper motor onto back-leg
+## Create Back-Left-Leg Subassembly
+
+### Prepare back-leg
+- Remove any stringing from the 3D print with a heat gun
+- Insert an `m5-hex-nut` into the bottom of the `back-leg` 3D print
+	- Finger strength *should* be sufficient to install this fastener into position
+	!!!glue "Glue if needed"
+		Add a drop of loctite to the region if the fastener fit is looser than normal and seems at risk of falling out in transit
+	![](img/back-leg-hex-nut1.png)
+	![](img/back-leg-hex-nut2.png)
+	
+### Prepare y-gantry stepper motor
+- Gather the following parts and tools
+	- nema17-stepper-motor
+	- GT2-timing-pulley
+	- y-timing-pulley-spacer-jig
+	- Torque driver w/2mm hex driver, set to `0.7 N/M` *(not shown)*
+
+	![](img/y-gantry-motor-prep0.png)
+- Use motor spacing jig to mount the timing pulley to the NEMA 17, ensuring the set screw is aligned to the flat side of the motor shaft 
+	![](img/y-gantry-motor-prep1.png)
+- Tighten the 2x timing pulley set screws to 0.7 N/M - first tightening the one facing the flat on the motor shaft 
+	![](img/y-gantry-motor-prep2.png)
+	![](img/y-gantry-motor-prep3.png)
+	
+### Install y-gantry stepper motor onto back-leg
 - Connect `Y1-stepper-motor-cable` to the `y-gantry-stepper-motor`
 
-	![]()
+	![](img/y1-cable-connected.png)
+
+- Install the  `y-gantry-stepper-motor` onto `back-leg`
+	- The `Y1-stepper-motor-cable` should be routed through `back-leg` to exit towards the center of the machine
+	- Ensure no wires are being crushed or strained 
+
+	![](img/install-y1-stepper.png)
 
 - Put 4x `M3x8-bolt` through the motor mounting holes found on `back-leg`
 
-	![]()
-
-- Cable should be routed through `back-leg` to exit towards the center of the machine
-	- Ensure no wires are being crushed or strained 
-	- Add a photo to indicate which way to route the cables per side 
+	![](img/bolt-y1-stepper-motor.png)
+	 	
+- Install a `zip-tie` for cable strain relief 
+	- Use a `zip-tie` to attached the `Y1-stepper-motor-cable` to the `back-leg` to add strain relief
 	
-	![]()
- 	
-- Zip tie cable in place for strain relief
-
-	![]()
-
-- Reference picture below for an example of completed `back-leg`
-	![]()
+		![](img/zip-tie-y1-cable1.png)
+	
+	- Cut the `zip-tie` with `flush-cutters`
+	
+		![](img/zip-tie-y1-cable2.png)
+		
+	- Ensure that `Y1-stepper-motor-cable` and `zip-tie` are resting against the logo-face side of `back-leg`
+		
+		![](img/zip-tie-y1-cable3.png)
 
 ## Install front-left-leg and back-leg onto 600mm-alu-extrusion 
 
@@ -196,7 +209,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 	![](img/route-belt-through-step3.png)
 	![](img/route-belt-through-step4.png)
 
-## Tension the gantry
+## Tension the Y-Gantry
 
 - Pull the right-side `GT2-belt` tightly towards `front-left-leg`
 
