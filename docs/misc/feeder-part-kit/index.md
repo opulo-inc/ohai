@@ -70,13 +70,13 @@ When packaging 50 sets of `feeder-part-kit` use the following section for guidan
 	* There should be 17 double-wide pockets to hold `drive-wheel-asm`
 	* There should be 50 regular size pockets to hold 50x `drive-motor`
 	  
-		<img style="height:500px;" src="img/feeder-part-kit-17.png">
+	<img style="height:500px;" src="img/feeder-part-kit-17.png">
 	
 * Fill the `drive-motor`'s foam tray with components
 	* Place a `drive-motor` into each of the 50x regular-size pockets, doing your best to tuck the cable in so it's not loose outside the pocket
 	* Place 3x `drive-wheel-asm` in each of the 17x double-wide pockets, giving the customer 50pcs + 1pcs (spare) in total
 	
-		<img style="height:500px;" src="img/feeder-part-kit-12.png">
+	<img style="height:500px;" src="img/feeder-part-kit-12.png">
 
 * Cut up a `peel-motor` foam tray to fit in a `OPF-folder-box`
 
@@ -84,14 +84,13 @@ When packaging 50 sets of `feeder-part-kit` use the following section for guidan
 
 	<img style="height:500px;" src="img/feeder-part-kit-13.png">
 
-* Fill the `peel-motor` foam tray with 50x `peel-motor`	
-	<img style="height:500px;" src="img/feeder-part-kit-14.png">
-
 * Place the packaged `peel-motor` foam tray on top of the packaged `drive-motor` foam tray
 
-	<img style="height:500px;" src="img/feeder-part-kit-15.png">
+	<img style="height:500px;" src="img/feeder-part-kit-14.png">
 
 * Place a 15" x 14.5" cardboard pad on top of the stacked foam trays
+
+	<img style="height:500px;" src="img/feeder-part-kit-15.png">
 
 	<img style="height:500px;" src="img/feeder-part-kit-16.png">
 	
