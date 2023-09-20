@@ -35,6 +35,7 @@ nav:
   - OHAI: index.md
   - LumenPnP (v3):
         - Introduction: lumen/index.md
+        - Motherboard: lumen/mobo/index.md
         - X Gantry: lumen/x-gantry/index.md
         - Y Gantry: lumen/y-gantry/index.md
         - Drag Chain: lumen/drag-chain/index.md
