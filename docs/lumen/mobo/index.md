@@ -20,72 +20,69 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 1. Grab a new mobo panel.
 
-    ![](img/panel.jpg)
+2. Insert the panel into the jig.
 
-1. Insert the panel into the jig.
 
-    ![](img/panel-in-jig.jpg)
-
-1. Check to make sure that the stencil is aligned with the pads on the panel.
+3. Check to make sure that the stencil is aligned with the pads on the panel.
 
     ![](img/stencil-aligned.jpg)
 
-1. Grab the jar of **FRESH** Loctite GC10 solder paste.
+4. Grab the jar of **FRESH** Loctite GC10 solder paste.
 
     ![](img/loctite-gc10.jpg)
 
-1. Remove the plug from the jar.
+5. Remove the plug from the jar.
 
     ![](img/paste-plug.jpg)
     ![](img/paste-plug-removed.jpg)
 
-1. Remove some paste from the jar with the paddle, and spread it along the top of the stencil.
+6. Remove some paste from the jar with the paddle, and spread it along the top of the stencil.
 
     ![](img/applying-paste.jpg)
 
-1. IMMEDIATELY replace the plug.
+7. IMMEDIATELY replace the plug.
 
     ![](img/plug-reinserted.jpg)
 
-1. Grab the squeegee tool.
+8. Grab the squeegee tool.
 
     ![](img/squeegee.jpg)
 
-1. Align the squeegee on the stencil so that the **boltheads are facing up**.
+9. Align the squeegee on the stencil so that the **boltheads are facing up**.
 
     ![](img/boltheads-up.jpg)
     ![](img/about-to-squeegee.jpg)
 
-1. Squeegee paste across the panel. **Apply plenty of force**. Make sure you use the correct angle. An angle too high will result in not enough paste, and an angle too low will result in too much.
+10. Squeegee paste across the panel. **Apply plenty of force**. Make sure you use the correct angle. An angle too high will result in not enough paste, and an angle too low will result in too much.
 
     ![](img/correct-angle.jpg)
     ![](img/angle-high.jpg)
     ![](img/angle-low.jpg)
     ![](img/angle-range-results.jpg)
 
-1. With a high angle, scrape up any remaining paste on the top of the stencil. Do this once in the Y axis, and twice in the X axis, covering the whole panel.
+11. With a high angle, scrape up any remaining paste on the top of the stencil. Do this once in the Y axis, and twice in the X axis, covering the whole panel.
 
     ![](img/scrape-y.jpg)
     ![](img/scrape-x.jpg)
 
-1. Lift the stencil away from the board in a smooth motion. **Do NOT bring the stencil back onto the PCB after lifting**.
+12. Lift the stencil away from the board in a smooth motion. **Do NOT bring the stencil back onto the PCB after lifting**.
 
     ![](img/lift-stencil.jpg)
 
-1. Inspect the paste. Make sure that there is a sufficient gap between pads. If the paste is heavily bridging, wipe off the paste and redo the process.
+13. Inspect the paste. Make sure that there is a sufficient gap between pads. If the paste is heavily bridging, wipe off the paste and redo the process.
 
     ![](img/paste-ok.jpg)
     ![](img/paste-ng.jpg)
 
-1. Clean the stencil like before.
+14. Clean the stencil like before.
 
     ![](img/stencil-ipa.jpg)
     ![](img/stencil-cleaning-top.jpg)
     ![](img/stencil-cleaning-bottom.jpg)
 
-1. Repeat the process of adding a blank panel, squeegeeing, and cleaning until the necessary amount of panels are pasted. Only paste what you are **SURE** you can populate and reflow in the same day. If you complete that number early, you can paste more boards and run more jobs, but leaving a panel pasted and not reflowed overnight is **not acceptable**.
+15. Repeat the process of adding a blank panel, squeegeeing, and cleaning until the necessary amount of panels are pasted. Only paste what you are **SURE** you can populate and reflow in the same day. If you complete that number early, you can paste more boards and run more jobs, but leaving a panel pasted and not reflowed overnight is **not acceptable**.
 
-1. If you are done pasting, scrape any remaining paste off of squeegee with the paddle, and scrape it into the **OLD Paste container**.
+16. If you are done pasting, scrape any remaining paste off of squeegee with the paddle, and scrape it into the **OLD Paste container**.
 
     ![](img/scrape-paste-squeegee.jpg)
     ![](img/paste-removed-squeegee.jpg)
@@ -99,14 +96,7 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 2. Place a panel onto the panel platter.
 
-    ![](img/panels-in-place.jpg)
-
 3. Use the M3x8mm screws to bolt the panel into the jig using the Populo screwdriver by the machine.
-
-    ![](img/populo.jpg)
-    ![](img/bolt-placement.jpg)
-    ![](img/bolt-1.jpg)
-    ![](img/bolt-2.jpg)
 
 4. Log into the computer used to control the mobo Lumen.
 
@@ -144,7 +134,6 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 13. When the job is complete, remove the panel from the machine with the Populo screwdriver.
 
-    ![](img/remove-panels.jpg)
 
 ## Reflow
 
@@ -152,22 +141,20 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 1. Insert the panel into the reflow oven.
 
-    ![](img/reflow-put-in-oven.jpg)
-
-1. Press the top button to return to the menu.
+2. Press the top button to return to the menu.
 
     ![](img/reflow-to-menu.jpg)
   
-1. Make sure the current setting is `Loctite GC10`, then press the top button to run the reflow cycle.
+3. Make sure the current setting is `Loctite GC10`, then press the top button to run the reflow cycle.
 
     ![](img/reflow-start.jpg)
     ![](img/reflow-starting.jpg)
 
-1. Work on another task until the Reflow Master beeps **and** says "REFLOW DONE!".
+4. Work on another task until the Reflow Master beeps **and** says "REFLOW DONE!".
 
     ![](img/reflow-to-menu.jpg)
 
-1. Using the pliers by the oven, grab the panel and place it in the Motherboard `NEEDS POGO` tray in the rack.
+5. Using the pliers by the oven, grab the panel and place it in the Motherboard `NEEDS POGO` tray in the rack.
 
 ## NEEDS Pogo
 
@@ -226,21 +213,13 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 ## Needs THT
 
-1. Populate the through hole components in the motherboard. The only part to leave out is the 1x4 Dupont (black) header above the I2C multiplexer.
-
-1. I recommend starting with the 1x2 Dupont connectors, then holding them in place with the 1x8 Dupont connectors.
-
-1. Make sure to include the fuse holder and barrel jack.
-
-1. Check the polarity on all connectors when inserting them. Use the silkscreen for reference.
-
-1. When all the parts have been inserted, it should look like this:
+1. Populate the through hole components in the motherboard, as shown below. Double check the polarity using the silkscreen for reference.
 
     ![](img/mobo-tht.png)
 
-1. Bolt it to the jig
+2. Bolt it to the jig.
 
-1. flip it over and solder the pins
+3. Flip it over and solder the pins.
 
 ## Needs Jaeger
 
