@@ -77,17 +77,19 @@ This section will guide the reader on how to properly assemble and test a `feede
     ![](img/paste-ok.jpg)
     ![](img/paste-ng.jpg)
 
-1. Scrape any remaining paste off of squeegee with the paddle, and scrape it into the **OLD Paste container**.
-
-    ![](img/scrape-paste-squeegee.jpg)
-    ![](img/paste-removed-squeegee.jpg)
-    ![](img/paste-recycle.jpg)
-
 1. Clean the stencil like before.
 
     ![](img/stencil-ipa.jpg)
     ![](img/stencil-cleaning-top.jpg)
     ![](img/stencil-cleaning-bottom.jpg)
+
+1. Repeat the process of adding a blank panel, squeegeeing, and cleaning until the necessary amount of panels are pasted. Only paste what you are **SURE** you can populate and reflow in the same day. If you complete that number early, you can paste more boards and run more jobs, but leaving a panel pasted and not reflowed overnight is **not acceptable**.
+
+1. If you are done pasting, scrape any remaining paste off of squeegee with the paddle, and scrape it into the **OLD Paste container**.
+
+    ![](img/scrape-paste-squeegee.jpg)
+    ![](img/paste-removed-squeegee.jpg)
+    ![](img/paste-recycle.jpg)
 
 
 ## SMT
