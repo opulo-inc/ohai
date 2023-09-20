@@ -143,19 +143,34 @@ This section will guide the reader on how to properly assemble and test a `feede
 
 9. When the job is complete, remove the panels from the machine with the Populo screwdriver.
 
-    ![](img/populo.jpg)
+    ![](img/remove-panels.jpg)
 
 ## Reflow
 
 1. Inspect the panel for accuracy. Adjust any components necessary to ensure a successful reflow, and correct any calibration that could be causing an alignment error. Ask Stephen for help if you get stuck.
 
-1. Run the Reflow Master at the default setting, `Loctite GC10`.
+2. Insert the panel into the reflow oven.
 
-1. Work on another task until the Reflow Master beeps **and** says "Reflow Complete".
+    ![](img/reflow-put-in-oven.jpg)
 
-1. Using the pliers by the oven, grab the panel and place it in the `NEEDS TEST` tray in the rack.
+3. Press the top button to return to the menu.
 
-1. After cooling, gently break apart the panel.
+    ![](img/reflow-to-menu.jpg)
+  
+4. Make sure the current setting is `Loctite GC10`, then press the top button to run the reflow cycle.
+
+    ![](img/reflow-start.jpg)
+    ![](img/reflow-starting.jpg)
+
+6. Work on another task until the Reflow Master beeps **and** says "REFLOW DONE!".
+
+    ![](img/reflow-to-menu.jpg)
+
+7. Using the pliers by the oven, grab the panel and place it in the `NEEDS TEST` tray in the rack.
+
+    ![](img/reflow-to-tray.jpg)
+
+8. After cooling, gently break apart the panel.
 
 ## QC
 
