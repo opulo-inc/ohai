@@ -91,6 +91,10 @@ This section will guide the reader on how to properly assemble and test a `feede
     ![](img/paste-removed-squeegee.jpg)
     ![](img/paste-recycle.jpg)
 
+1. When done pasting, immediately wash your hands, and wipe down the work area. We do not use leaded solder paste at Opulo, but even the unleaded stuff isn't great to have hanging around.
+
+    ![](img/wash-hands.jpeg)
+
 
 ## SMT
 
