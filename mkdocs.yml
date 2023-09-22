@@ -33,11 +33,12 @@ theme:
 
 nav:
   - OHAI: index.md
-  - LumenPnP (v3):
+  - LumenPnP (v3.1):
         - Introduction: lumen/index.md
         - Motherboard: lumen/mobo/index.md
         - X Gantry: lumen/x-gantry/index.md
         - Y Gantry: lumen/y-gantry/index.md
+        - Front/Rear Feeder Rail: lumen/feeder-rail/index.md
         - Drag Chain: lumen/drag-chain/index.md
         - Staging Plate: lumen/staging-plate/index.md
         - Getting Started Kit: misc/ftp-kit/index.md
