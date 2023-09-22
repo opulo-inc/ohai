@@ -1,67 +1,95 @@
-Preparing tool-kit
+#Preparing LumenPnP Tool Kit
 
-* Create hardware-kit-bag using the bag packing assembly jig
 
-	* Weight Check: 95.8g +/- 0.5g
+## Prepare `lumen-v3.1-hardware-kit` (ASM-0048-03)
+We purchase the `lumen-v3-hardware-kit` as a premade assembly but it's contents can become out of date with machine updates. It is important to ensure that customers always have a revision of this bag that matches the revision required by a given LumenPnP revision's BOM. 
 
+Currently, we have repurchased several hundred pieces of `ASM-0048-02` which must be reworked to match the BOM listed in `ASM-0048-03`. You can confirm that a `lumen-v3-hardware-kit` **requires rework** into `lumen-v3.1-hardware-kit` if it weights `95.8g +/- 0.5g`.
+
+* Pre-purchased  pieces of `ASM-0048-02` in inventory must have the following components added into the bag to convert them in a `lumen-v3.1-hardware-kit` before they're to be used in further assembly processes:
+
+	* +7 pcs `M5x16-bolt`
+	* +2 pcs `M5x10-bolt`
+	* +1 pcs `silicone-grease-packet`
+
+	<img src="img/IMG_2011.jpg" width="60%"/>
+
+		
+	!!!note "Stockpiling `lumen-v3.1-hardware-kit` pieces"
+		If more pieces of `lumen-v3-hardware-kit` are reworked than what's needed for a given production batch, place the excess in a bin labeled `lumen-v3.1-hardware-kit (ASM-0048-03)`
+
+## Assemble Tool Kit
 * Gather components shown:
 
-	<img src="img/image4.png" width="60%"/>
+	<img src="img/tool-bag-exploded.png" width="60%"/>
 
-* Start by placing the zip tie bag into the tool kit bag’s zipped pouch
+* Start by placing the `zip-tie-bag` into the `tool-kit-bag`’s zipped pouch
 
 	<img src="img/image3.png" width="60%"/>
 
-* Next place the packaged ESD bracelet into the zipped pouch
+* Next place the `ESD wrist strap` into the zipped pouch
 
 	<img src="img/image13.png" width="60%"/> 
 
-* Place the USB A-to-B cable above the ESD bracelet, towards the bottom of the zipped pouch
+* Place the `USB-A to USB-B cable` above the `ESD wrist strap`, towards the bottom of the zipped pouch
 
 	<img src="img/image6.png" width="60%"/> 
 
-* Place the bottom-camera-usb-cable into the zipped pouch, beside the zip tie bag
+* Place the `bottom-camera-usb-cable` into the zipped pouch, beside the `zip-tie-bag`
 
 	<img src="img/image1.png" width="60%"/>
 
-* Place the squaring-bracket into upper area of the pouch, on top of the zip tie bag
+* Place the `squaring-bracket` into upper area of the pouch, on top of the `zip-tie-bag`
 
 	<img src="img/image8.png" width="60%"/>
 
-* Place the LumenPnP-V3-Hardware-Kit-Bag into the tool bag’s pouch
+* Place the `lumen-v3.1-hardware-kit` into the `tool-kit-bag`’s pouch
+
+	!!!warning "It is **critical** to ensure that this hardware kit has been [reworked as needed](#prepare-lumen-v31-hardware-kit-asm-0048-03)" 
 
 	<img src="img/image9.png" width="60%"/>
 
-* Place the tiny phillips screwdriver into the tool bag’s pouch
+* Place the tiny `phillips screwdriver` into the `tool-kit-bag`’s pouch
 
- 	<img src="img/image7.png" width="60%"/>
+	<img src="img/image7.png" width="60%"/>
+
+* Place the `feeder programmer` into the `tool-kit-bag`’s pouch
+	
+    <img src="img/IMG_2013.jpg" width="60%"/>
+	
+	 <img src="img/IMG_2012.jpg" width="60%"/>
+	 
+* Place the `DRIVE-WHEEL-ASM Adjustment Hex Key` into the `tool-kit-bag`’s pouch
+
+    <img src="img/image-17.jpg" width="60%"/>
+    
+    <img src="img/image-16.jpg" width="60%"/>
+
 
 * Zip up the pouch
 
 	<img src="img/image10.png" width="60%"/>
 
-* Unwrap the protective plastic from the flush cutters and install the tool into the left side of the tool bag
+* Unwrap the protective plastic from the `flush-cutter` and install it into the left side of `tool-kit-bag`
 
 	<img src="img/image5.png" width="60%"/>
 
 	<img src="img/image11.png" width="60%"/>
 
-* Place the Xacto knife into the next remaining pocket in the tool bag
+* Place the `xacto-knife` into the next remaining pocket in the `tool-kit-bag`
 
 	* Make sure the protective cap is on tightly and that the blade clamp is tight
 
 	<img src="img/image14.png" width="60%"/>
 
-* Insert the ESD-safe tweezer into the last remaining pocket on the left side of the tool bag
+* Insert the `ESD-safe-tweezer` into the last remaining pocket on the left side of the `tool-kit-bag`
 
 	<img src="img/image2.png" width="60%"/>
 
-* Insert the required allen wrenches into allen-wrench-holder to create allen-wrench-set
-	* Place the allen-wrench-set into a 2" x 8" plastic bag if the allen-wrench-holder is loose
-* Secure the allen-wrench-set into the right side of the tool bag with the elastic strap
+* Secure the `allen-wrench-set` into the right side of the `tool-kit-bag` with the elastic strap
 
 	<img src="img/image12.png" width="60%"/>
 
-* Close up the tool bag and gently work it until any bulges have been worked out
+* Close up the `tool-kit-bag` and gently work out any bulges so that it may take up less space in the LumenPnP packaging 
 
 	<img src="img/image15.png" width="60%"/>
