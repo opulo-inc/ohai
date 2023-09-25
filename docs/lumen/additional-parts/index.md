@@ -41,6 +41,11 @@ These parts and their respective quantities are as follows:
 ### aux-staging-plate-foot
 - Clean print of any observed stringing 
 - Use an arbor press to insert 1x `M3-square-nut` into `aux-staging-plate-foot`
+
+	![](img/aux-staging-plate-foot-1.jpg)
+	![](img/aux-staging-plate-foot-2.jpg)
+	![](img/aux-staging-plate-foot-3.jpg)
+
 - Thread an `M3x14-bolt` into the top-side of `aux-staging-plate-foot`, leaving a few mm of bolt threading exposed
 
 	![](img/build-foot-separated.png)
