@@ -122,4 +122,4 @@
 
 * After a LumenPnP has gone through OQC, tape the box shut before adhering an orange fragile sticker to the top-right corner of the box.
 
-!!!success "The LumenPnP should now be ready fulfillment!" 
+!!!success "The LumenPnP should now be ready for fulfillment!" 
