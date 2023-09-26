@@ -1,17 +1,147 @@
-# Welcome to MkDocs
+# Drag Chain Assembly
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This section will guide the reader on how to properly assemble the LumenPNP v3.1 Drag Chain Assembly
 
-## Commands
+## Preparing the Drag Chain
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+1. Obtain your drag chain
 
-## Project layout
+    ![](img/ObtainDragChain.jpeg)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. Remove end link of drag chain
+
+    ![](img/RemoveEndLink.jpeg)
+
+1. Reinstall end link, reverse its orientation so the screw mounting face is towards the drag chain covers
+
+    ![](img/ReinstallEndLink.jpeg)
+
+##Assembling the Drag Chain
+
+1. Mount the drag chain onto the cable routing jig, and fix in place with a screw on the right side. Ensure the side with the end link in the original orientation is faced towards the motherboard end of the cable routing jig, and the side with the end link reversed from the previous step is faced towards the X Gantry side of the jig. 
+
+    ![](img/MountDragChain.jpeg)
+
+1. Use the drag chain opening tool to open the covers of the drag chain. Open these covers as far as possible for maximum access
+
+    ![](img/OpenCovers.jpeg)
+    ![](img/OpenCovers2.jpeg)
+    ![](img/OpenCovers3.jpeg)
+
+1. Install the umbilical-cable-strain-relief on the motherboard side of the cable routing jig
+
+    ![](img/StrainRelief.jpeg)
+
+1. Install 2 zip ties on the umbilical-cable-strain-relief
+
+    ![](img/StrainReliefZipTies.jpeg)
+
+## Routing the Cables
+
+1. Install LM Cable
+
+    ![](img/LMCableRight.jpeg)
+    ![](img/LMCableLeft.jpeg)
+
+1. Install RH Tube
+
+    ![](img/RHTubeRight.jpeg)
+    ![](img/RHTubeLeft.jpeg)
+
+1. Install LH Tube
+
+    ![](img/LHTubeRight.jpeg)
+    ![](img/LHTubeLeft.jpeg)
+
+1. Install ZM Cable
+
+    ![](img/ZMCableRight.jpeg)
+    ![](img/ZMCableLeft.jpeg)
+
+1. Install ZL Cable 
+
+    ![](img/ZLCableRight.jpeg)
+    ![](img/ZLCableLeft.jpeg)
+
+1. Install RM Cable 
+
+    ![](img/RMCableRight.jpeg)
+    ![](img/RMCableLeft.jpeg)
+
+1. Install DL Cable. This cable is routed through the chain differently from the rest, with the cable exiting between the final cover and the end link. See image for example
+
+    ![](img/DLCableRight.jpeg)
+    ![](img/DLCableRouting.jpeg)
+    ![](img/DLCableLeft.jpeg)
+
+1. Install USB Cable. Route this cable the same as the DL Cable from the previous step, with the cable exiting the drag chain bewteen the final cover and end link
+
+    ![](img/USBRight.jpeg)
+    ![](img/USBCableLeft1.jpeg)
+    ![](img/USBCableLeft2.jpeg)
+
+1. Prepare x-cable-chain-bracket. Ensure the retaining end of the zip tie is opposite the side the the bracket that the XM cable is run through, as shown
+
+    ![](img/XCableBracket.jpeg)
+
+1. Install XM cable onto right side of the cable routing jig
+
+    ![](img/XMCableRight.jpeg)
+
+1. Route XM Cable through the zip ties and the retaining slot of x-cable-chain-bracket. Install the bracket between the 12th and 13th drag chain covers. Retaining slot of the bracket should face towards the motherboard side of the drag chain, with the XM cable exiting towards the user once in final position. 
+
+    ![](img/XMCableandBracketInstall1.jpeg)
+
+1. Close the drag chain covers holding the x-cable-chain-bracket in place. Pull XM cable through until slack is removed. 
+
+    ![](img/XMCableandBracketInstall2.jpeg)
+
+1. Tighten zip ties on x-cable-chain-bracket, then cut off excess. 
+
+    ![](img/XMCableandBracketInstall3.jpeg)
+
+1. Install 3 zip ties around all cables between the drag chain and the motherboard end of the cable routing jig. Locations are marked with yellow tape on the jig. Cut off excess after tightening
+
+    ![](img/3ZipTies.jpeg)
+
+1. Tighten 2 zip ties on umbilical-cable-strain-relief, then cut off excess
+
+    ![](img/StrainReliefTightenZipTies.jpeg)
+
+1. Close all drag chain covers that are not already closed
+
+    ![](img/CloseDragChain.jpeg)
+
+1. Prepare x-motor-cable-guide by running 2 zip ties through it, as shown
+
+    ![](img/XMotorCableguide1.jpeg)
+
+1. Run XM cable through the looped end of the zip ties on x-motor-cable-guide in the orientation shown. Ensure the side of the connector with two lines is facing away from the print. Tighten zip ties and cut off excess
+
+    ![](img/XMotorCableGuide2.jpeg)
+    ![](img/XMotorCableGuide3.jpeg)
+
+1. Ensure all cables are present, and your assembly looks like the example shown
+
+    Right (Motherboard) side
+
+    ![](img/FinishedRight.jpeg)
+
+    Left (X Gantry) Side
+
+    ![](img/FinishedLeft.jpeg)
+
+1. If your assembly looks like the examples, remove all cables and tubes from their mounting features
+
+    ![](img/RemoveRight.jpeg)
+    ![](img/RemoveLeft.jpeg)
+
+1. Remove umbilical cable strain relief from its mounting posts
+
+    ![](img/RemoveStrainRelief.jpeg)
+
+1. Remove screw holding drag chain in place. You may now remove the drag chain from the cable routing jig. 
+
+    ![](img/RemoveScrew.jpeg)
+
+1. Introspect 
