@@ -18,7 +18,7 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
 
 ##Assembling the Drag Chain
 
-1. Mount the drag chain onto the cable routing jig, and fix in place with a screw on the right side. Ensure the side with the end link in the original orientation is faced towards the motherboard end of the cable routing jig, and the side with the end link reversed from the previous step is faced towards the X Gantry side of the jig. 
+1. Mount the drag chain onto the cable routing jig, and fix in place with a screw on the motherboard side. Ensure the side with the end link in the original orientation is faced towards the motherboard end of the cable routing jig, and the side with the end link reversed from the previous step is faced towards the X Gantry side of the jig. 
 
     ![](img/MountDragChain.jpeg)
 
@@ -28,11 +28,11 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
     ![](img/OpenCovers2.jpeg)
     ![](img/OpenCovers3.jpeg)
 
-1. Install the umbilical-cable-strain-relief on the motherboard side of the cable routing jig
+1. Install the `umbilical-cable-strain-relief` on the motherboard side of the cable routing jig
 
     ![](img/StrainRelief.jpeg)
 
-1. Install 2 zip ties on the umbilical-cable-strain-relief
+1. Install 2 zip ties on the `umbilical-cable-strain-relief`
 
     ![](img/StrainReliefZipTies.jpeg)
 
@@ -74,13 +74,13 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
     ![](img/DLCableRouting.jpeg)
     ![](img/DLCableLeft.jpeg)
 
-1. Install USB Cable. Route this cable the same as the DL Cable from the previous step, with the cable exiting the drag chain bewteen the final cover and end link
+1. Install USB Cable. Route this cable the same as the DL Cable from the previous step, with the cable exiting the drag chain between the final cover and end link
 
     ![](img/USBRight.jpeg)
     ![](img/USBCableLeft1.jpeg)
     ![](img/USBCableLeft2.jpeg)
 
-1. Prepare x-cable-chain-bracket. Ensure the retaining end of the zip tie is opposite the side the the bracket that the XM cable is run through, as shown
+1. Prepare `x-cable-chain-bracket`. Ensure the retaining end of the zip tie is opposite the side the the bracket that the XM cable is run through, as shown
 
     ![](img/XCableBracket.jpeg)
 
@@ -88,15 +88,15 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
 
     ![](img/XMCableRight.jpeg)
 
-1. Route XM Cable through the zip ties and the retaining slot of x-cable-chain-bracket. Install the bracket between the 12th and 13th drag chain covers. Retaining slot of the bracket should face towards the motherboard side of the drag chain, with the XM cable exiting towards the user once in final position. 
+1. Route XM Cable through the zip ties and the retaining slot of `x-cable-chain-bracket`. Install the bracket between the 12th and 13th drag chain covers. Cable retaining slot of the bracket should face towards the motherboard side of the drag chain, with the XM cable exiting towards the user once in final position. 
 
     ![](img/XMCableandBracketInstall1.jpeg)
 
-1. Close the drag chain covers holding the x-cable-chain-bracket in place. Pull XM cable through until slack is removed. 
+1. Close the drag chain covers holding the `x-cable-chain-bracket` in place. Pull XM cable through until slack is removed. 
 
     ![](img/XMCableandBracketInstall2.jpeg)
 
-1. Tighten zip ties on x-cable-chain-bracket, then cut off excess. 
+1. Tighten zip ties on `x-cable-chain-bracket`, then cut off excess. 
 
     ![](img/XMCableandBracketInstall3.jpeg)
 
@@ -104,7 +104,7 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
 
     ![](img/3ZipTies.jpeg)
 
-1. Tighten 2 zip ties on umbilical-cable-strain-relief, then cut off excess
+1. Tighten 2 zip ties on `umbilical-cable-strain-relief`, then cut off excess
 
     ![](img/StrainReliefTightenZipTies.jpeg)
 
@@ -112,11 +112,11 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
 
     ![](img/CloseDragChain.jpeg)
 
-1. Prepare x-motor-cable-guide by running 2 zip ties through it, as shown
+1. Prepare `x-motor-cable-guide` by running 2 zip ties through it, as shown
 
     ![](img/XMotorCableguide1.jpeg)
 
-1. Run XM cable through the looped end of the zip ties on x-motor-cable-guide in the orientation shown. Ensure the side of the connector with two lines is facing away from the print. Tighten zip ties and cut off excess
+1. Run XM cable through the looped end of the zip ties on `x-motor-cable-guide` in the orientation shown. Ensure the side of the connector with two lines is facing away from the print. Tighten zip ties and cut off excess
 
     ![](img/XMotorCableGuide2.jpeg)
     ![](img/XMotorCableGuide3.jpeg)
@@ -144,4 +144,13 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
 
     ![](img/RemoveScrew.jpeg)
 
-1. Introspect 
+## OQC Checks
+
+1. Ensure LH/RH labels are present on both sides of 4mm pneumatic tubing
+1. Ensure zip ties are present in all instructed locations (2 on `umbilical-cable-strain-relief`, 2 on `x-cable-chain-bracket`, 3 between end of drag chain and `umbilical-cable-strain-relief`), and that excess is removed
+1. Ensure the DL cable and USB camera cable exit the drag chain between the x-gantry side end link and the final cover on that side
+1. Ensure XM cable is installed in the correct location and `x-motor-cable-guide` is installed with the connector in the correct orientation
+1. Introspect
+1. If your drag chain passes all these checks, it is good to ship. Install a 2" x 9" bag over both sides of the cable ends to protect them during shipment. 
+
+
