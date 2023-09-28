@@ -18,7 +18,9 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
 
 ##Assembling the Drag Chain
 
-1. Mount the drag chain onto the cable routing jig, and fix in place with a screw on the motherboard side. Ensure the side with the end link in the original orientation is faced towards the motherboard end of the cable routing jig, and the side with the end link reversed from the previous step is faced towards the X Gantry side of the jig. 
+1. Mount the drag chain onto the cable routing jig. Ensure the side with the end link in the original orientation is faced towards the motherboard end of the cable routing jig, and the side with the end link reversed from the previous step is faced towards the X Gantry side of the jig. 
+
+1. Fix in place with a screw on the motherboard side end link
 
     ![](img/MountDragChain.jpeg)
 
@@ -88,9 +90,11 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
 
     ![](img/XMCableRight.jpeg)
 
-1. Route XM Cable through the zip ties and the retaining slot of `x-cable-chain-bracket`. Install the bracket between the 12th and 13th drag chain covers. Cable retaining slot of the bracket should face towards the motherboard side of the drag chain, with the XM cable exiting towards the user once in final position. 
+1. Route XM Cable through the zip ties and the retaining slot of `x-cable-chain-bracket`. Cable retaining slot of the bracket should face towards the motherboard side of the drag chain, with the XM cable exiting towards the user once in final position. 
 
     ![](img/XMCableandBracketInstall1.jpeg)
+
+1. Install the bracket between the 12th and 13th drag chain covers. Slide the drag chain covers into the slots in the side of `x-cable-chain-bracket`
 
 1. Close the drag chain covers holding the `x-cable-chain-bracket` in place. Pull XM cable through until slack is removed. 
 
