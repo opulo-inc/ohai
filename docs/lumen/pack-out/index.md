@@ -25,15 +25,23 @@
 1. Insert `y-gantry-left` into the tray
   
     ![](img/remove-left-legs.png)
+
+1. Insert 2x `back-leg-extension` into the tray
+
+    ![](img/backlegextension.jpg)
+
+1. Insert 2x `front-leg-extension` into the tray
+
+    ![](img/frontlegextension.jpg)
     
 1.  Confirm the lower foam tray matches the image shown below before continuing:
 
-    ![](img/IMG_5122.jpeg)
+    ![](img/IMG_5122.jpg)
   
  1. Place the packaged lower foam tray into the LumenPnP packaging
 	* Orient the tray so that the packaged `x-gantry` is closer to the Opulo logo side of the box 
  
-    ![](img/lower-tray-v3.1.png)
+    ![](img/lower-tray-v3.1.jpg)
 
 
 ## Package upper foam tray
@@ -52,12 +60,15 @@
     * `Bagged-10x-extrusion-cable-clips`
 
 1. Insert the following into the right-side cavity of the foam tray:
-    * `2x front-leg-extension`
-    * `2x back-leg-extension` 
+    
     * `front-drag-chain-mount`
     * `aux-staging-plate-foot`
     * `static-camera-foot`
     * `Bagged-10x-extrusion-cable-clips`
+
+    	<img src="img/toplayerrightarrangement.jpg" width="60%"/>
+
+    ![](img/toplayerrightarrangement.jpg)
 
 1. Insert the following into the left-side cavity of the foam tray:
     * `24v6A-power-supply`
@@ -67,27 +78,27 @@
 
 1. Insert a foam block above each side of `primary-staging-plate`
 
- 	![](img/IMG_5127.jpeg)
+ 	![](img/IMG_5127.jpg)
 
 1. Insert `aux-staging-plate` on top of `primary-staging-plate`
 
 1. Insert `front-feeder-rail` and `rear-feeder-rail` into the foam tray
  
- 	![](img/removing-front-and-back-rails.png)
+ 	![](img/removing-front-and-back-rails.jpg)
 
 1. Insert `drag-chain-assembly` above the feeder rails
  
-  	![](img/removing-cable-chain.png) 
+  	![](img/removing-cable-chain.jpg) 
  
 1. Confirm the upper foam tray matches the image shown below before continuing:
 
- 	![](img/IMG_5126.jpeg)
+ 	![](img/IMG_5126.jpg)
 
 1. Place the packaged upper foam tray into the LumenPnP packaging
     * Orient the tray so that the staging plates are closer to the Opulo logo side of the box
  
     ![](img/first-tray-removal.png)
-    ![](img/first-tray-v3-1.png)
+    ![](img/first-tray-v3-1.jpg)
     
 ## Serialize the outer box
     
