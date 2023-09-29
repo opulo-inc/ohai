@@ -8,6 +8,8 @@
     * `x-gantry`
     * `getting-started-kit`
     * `Tool-kit`
+     * `2x front-leg-extension`
+	 * `2x back-leg-extension` 
 
 1. Insert `tool-kit` into the middle region of the tray
 	* Orient the `tool-kit` so the Opulo logo faces towards the `x-gantry` 
@@ -48,8 +50,6 @@
 1. Gather the following components for packaging into the upper foam tray:
     * `primary-staging-plate` & `static-camera-foot`
     * `aux-staging-plate` & `aux-staging-plate-foot`
-	 * `2x front-leg-extension`
-	 * `2x back-leg-extension` 
     * `drag-chain-assembly`
     * `front-drag-chain-mount`
     * `24v6A-power-supply` 
@@ -68,7 +68,6 @@
 
     	<img src="img/toplayerrightarrangement.jpg" width="60%"/>
 
-    ![](img/toplayerrightarrangement.jpg)
 
 1. Insert the following into the left-side cavity of the foam tray:
     * `24v6A-power-supply`
