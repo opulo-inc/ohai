@@ -10,6 +10,7 @@
     * `Tool-kit`
      * `2x front-leg-extension`
 	 * `2x back-leg-extension` 
+     * `feeder-slot-cable-harness`
 
 1. Insert `tool-kit` into the middle region of the tray
 	* Orient the `tool-kit` so the Opulo logo faces towards the `x-gantry` 
@@ -35,6 +36,10 @@
 1. Insert 2x `front-leg-extension` into the tray
 
     ![](img/frontlegextension.jpg)
+
+1. Insert `feeder-slot-cable-harness` into the tray
+
+    ![](img/slotcable.jpg)
     
 1.  Confirm the lower foam tray matches the image shown below before continuing:
 
@@ -56,7 +61,6 @@
     * `power-cable` 
     * `front-feeder-rail`(w/25 feeder slots installed)
     * `rear-feeder-rail` (w/25 feeder slots installed)
-    * `feeder-slot-cable-harness`
     * `Bagged-10x-extrusion-cable-clips`
 
 1. Insert the following into the right-side cavity of the foam tray:
