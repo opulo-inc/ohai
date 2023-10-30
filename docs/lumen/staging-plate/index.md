@@ -80,8 +80,8 @@ Build the assemblies per [SOP-0002](https://www.google.com/url?q=https://docs.go
 #### Labeling solenoid-valve cables
 
 *   Use `FBO-0022-00` [Epson LABELWORKS 224VSLPX Tape] to label `PNU-0004-00` [solenoid-valve] cables the following way:
-	*   Half of the solenoid-valve units in a given production batch must be labeled “MOS 2” for left head pnumatics (LH/P1)
-	*   Half of the solenoid-valve units in a given production batch must be labeled “MOS 4” for right head pnumatics (RH/P2)
+	*   Half of the solenoid-valve units in a given production batch must be labeled “MOS 2” for left head pneumatics (LH/P1)
+	*   Half of the solenoid-valve units in a given production batch must be labeled “MOS 4” for right head pneumatics (RH/P2)
 *   Attach the labels in the near the end of the cable connector as shown below -
 	<img src="img/image21.jpg" width="60%"/>
 
@@ -128,7 +128,7 @@ Connect these two separate pneumatic systems together by installing y-coupler-br
 	
 	<img src="img/image19.png" width="60%"/>
 
-*   Clean up hole with a razer blade after punch-out has been removed
+*   Clean up hole with a razor blade after punch-out has been removed
 
 	<img src="img/image29.png" width="60%"/>
 
@@ -271,7 +271,7 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 
 *   Drill out the M3 mounting holes in mobo-bottom-cover to an M3 bolt has generious clearence
 *   Pass the RH/LH vacuum lines and UL cable through the mobo-bottom-cover and motherboard
-	*   Take care to avoid having the vacuum lines twist around eachother between the y-coupler pieces and mobo-bottom-cover
+	*   Take care to avoid having the vacuum lines twist around each other between the y-coupler pieces and mobo-bottom-cover
 	
 	<img src="img/image35.jpg" width="60%"/>
 	<img src="img/image41.jpg" width="60%"/>
@@ -311,7 +311,7 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 #### Install datum-board and datum-board-mount
 
 *   Use four M3x16mm screws and four M3 nuts to secure the datum board and datum board mount to the staging plate on the rear of the bottom camera, through holes: B18, A19, A21, B22.
-	* Use a 2.5mm hex wrench and a 5.5mm (6mm if 5.5mm is unavailable) socket wrench to tigthen these M3x16mm screws
+	* Use a 2.5mm hex wrench and a 5.5mm (6mm if 5.5mm is unavailable) socket wrench to tighten these M3x16mm screws
 	* The fisheye calibration pattern should be facing down, and the gold grid lines and fiducial in the center of the Opulo logo facing upwards
 
 	<img src="img/image11.png" width="60%"/>
@@ -324,7 +324,7 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 
 	<img src="img/image8.png" width="60%"/>
 	!!!note
-		*Disreguard that up-light-harness shown above is installed backwards, this label should be on the motherboard side*
+		*Disregard that up-light-harness shown above is installed backwards, this label should be on the motherboard side*
 
 ***
 
@@ -346,7 +346,7 @@ Run the staging plate assembly through the QC inspection form found here:
 <img src="img/image10.png" width="60%"/>
 
 !!! note
-    The QC inspection form will ask you if the bottom-camera was correctly focusesed, which can be checked with the orange version of the bottom-camera focus jig. Use this jig in the same way the blue one is operated, while leaving the camera installed on the staging-plate.
+    The QC inspection form will ask you if the bottom-camera was correctly focused, which can be checked with the orange version of the bottom-camera focus jig. Use this jig in the same way the blue one is operated, while leaving the camera installed on the staging-plate.
     
  	 <img src="img/image55.jpg" width="60%"/>   
  	 

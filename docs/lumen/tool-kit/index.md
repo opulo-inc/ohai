@@ -14,9 +14,14 @@ Currently, we have repurchased several hundred pieces of `ASM-0048-02` which mus
 
 	<img src="img/IMG_2011.jpg" width="60%"/>
 
+### QC Check
+* After reworking inventory to match the latest requirements of a `lumen-v3.1-hardware-kit`, proceed with a weight check.
+	* Confirm each bag weighs between `139.70g` - `140.50g`
+	* If a bag weighs less than this, recount the pieces and rework as needed before proceeding
+	* After a bag passes weight check, add a `QC Pass` sticker to the outside of the bag
 		
 	!!!note "Stockpiling `lumen-v3.1-hardware-kit` pieces"
-		If more pieces of `lumen-v3-hardware-kit` are reworked than what's needed for a given production batch, place the excess in a bin labeled `lumen-v3.1-hardware-kit (ASM-0048-03)`
+		If more pieces of `lumen-v3-hardware-kit` are reworked than what's needed for a given production batch, place the excess in a <span style="color:green"> green QC-Pass bin</span> labeled `lumen-v3.1-hardware-kit (ASM-0048-03)`
 
 ## Assemble Tool Kit
 * Gather components shown:
