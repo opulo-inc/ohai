@@ -50,22 +50,23 @@
 
 ###Packaging `x-gantry`
 * Perform `x-gantry` QC
+	* `GT2-belt` has been trimmed to appropriate length
 	* Camera is installed with two bolts
 	* Camera lens cap is present
-	* 2x `M5-hex-nut` are installed in `x-gantry-back` for use with `drag-chain` attachment 
 	* The wire connectors on both `NEMA-11-stepper-motor` units face away from each other, sitting adjacent to their respective cable strain relief points
 	* Each `CP40-holder` has been lubricated and fit-tested with a nozzle
-	* `GT2-belt` has been trimmed to appropriate length
 	* `Z-belt-loop` feels appropriately tensioned when plucked
-	* `NEMA-17-stepper-motor` wire connector faces towards `drag-chain` mounting location on `x-gantry-back`
 	* Each `z-gantry` moves smoothly when actuated back-and-forth by hand
+	* 2x `M5-hex-nut` are installed in `x-gantry-back` for use with `drag-chain` attachment 
+	* `NEMA-17-stepper-motor` wire connector faces towards `drag-chain` mounting location on `x-gantry-back`
+	* `Linear-rail` is centered atop `aluminum-extrusion`
 	* `x-idler-mount` and `x-motor-mount` are secured to `600mm-alu-extrusion` with 2x `M5x10-bolt` per side
 	* 2x `M5-hex-nut` are installed in `x-motor-mount` for use with the `x-motor-cable-guide`
-	* `Linear-rail` is centered atop `aluminum-extrusion`
-	* `Tensioner-arm` is installed on `x-idler-mount` in the correct orientation (IE not backwards)
-	* `GT2-belt` lays flat and centered in the `600mm-alu-extrusion` channels
-	* `GT2-belt` has been correctly tensioned
+	* `Tensioner-arm` is installed on `x-idler-mount` in the correct orientation (IE acorn-nut facing touches print)
 	* `Timing-pulley` is tightened down and at proper height
+	* `GT2-belt` lays flat and is roughly centered in the `600mm-alu-extrusion` channels
+	* `GT2-belt` has been correctly tensioned
+	* `X-gantry-toolhead` moves smoothly when actuated back and forth by hand
 		
 		!!!success "If all checks pass, continue onward"
 	
@@ -75,13 +76,14 @@
 
 ###Packaging `y-gantry-right`
 * Perform `y-gantry-right` QC
-	* M5 bolts installed where required
+	* Confirm M5 bolts are installed in every counterbored region
 	* `M5-hex/square-nut` installed where required:
 		* 2x `M5-hex-nut` pressed into bottom of `front-right-leg`
 		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
 		* 2x `M5-hex-nut` pressed into `y-gantry`
 	* `GT2-belt` has been trimmed to appropriate length
 	* `GT2-belt` has been correctly tensioned
+	* `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
 	* `Linear-rail` is centered atop `aluminum-extrusion`
 	* `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
 	* `GT2-belt` lays flat in the `600mm-alu-extrusion` channels 
@@ -97,13 +99,14 @@
 
 ###Packaging `y-gantry-left`
 * Perform `y-gantry-left` QC
-	* M5 bolts installed where required
+	* Confirm M5 bolts are installed in every counterbored region
 	* 2x `M5-hex-nut` pressed into bottom of `front-left-leg`
 	* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `front-drag-chain-mount`
 	* 1x `M5-hex-nut` pressed into bottom of `back-leg`
 	* 2x `M5-hex-nut` pressed into `y-gantry`
 * `GT2-belt` has been trimmed to appropriate length
 * `GT2-belt` has been correctly tensioned
+* `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
 * `Linear-rail` is centered atop `aluminum-extrusion`
 * `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
 * `GT2-belt` lays flat in the `600mm-alu-extrusion` channels 
@@ -167,8 +170,16 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	* Confirm `QC PASS sticker` is  present underneath the `staging-plate` 
 	* Confirm the `machine SN label` matches the `mobo QC receipt`'s serial number
 	* Confirm the `machine SN label` matches the box SN label that's clipped to the `primary-staging-plate`
-	* Review the `primary-staging-plate` for the presence of all major components, checking to see if the original QC inspector missed anything
- 	
+	* Review the `primary-staging-plate` for the presence of all major components (checking to see if the original QC inspector missed anything):
+		* 2x vacuum-pump
+		* 2x solenoid-valve
+		* 1x nozzle-rack w/6 nozzles
+		* mobo-top-cover
+		* bottom-camera assembly
+	* Confirm tubing is installed correctly:
+		* Red `Vac1` line appears unkinked and runs to `LH` y-coupler
+		* Blue `Vac2` line appears unkinked and runs to `RH` y-coupler
+
  	!!!success "If all checks pass, continue onward"
  	
 1. Place the `primary-staging-plate` into `upper-foam-tray` in the region shown below
@@ -185,15 +196,19 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	* `Front-feeder-rail` QC: 
 		* `Slot #1` - `#Slot 25` are installed sequentially from left to right
 		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-		* **2x** additional `M5x8-bolt` and `M5-t-nut` are installed into each `corner-bracket` 
 		* The 2x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
+		* The 2x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
+			* Total 2x `M5x8-bolt` and `M5-t-nut`
+
+
 	* `Rear-feeder-rail` QC:
 		* `Slot #26` - `#Slot 50` are installed sequentially from left to right
 		* Confirm that `#Slot 50` is printed in yellow plastic
 		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-		* **4x** additional `M5x8-bolt` and `M5-t-nut` are installed into each `corner-bracket` 
 		* The 4x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
- 
+		* The 4x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
+			* Total 4x `M5x8-bolt` and `M5-t-nut`
+
  		!!!success "If all checks pass, continue onward" 
  
  2. Place the finished feeder rails into the `upper-foam-tray`"
