@@ -1,6 +1,11 @@
 Preparing x-gantry
 ==================
 
+!!!warning "This set of work instructions is out of date!"
+	What's shown here is for `v3.0.5` of the LumenPnP. Instructions for the latest version of `x-gantry` still need to be written for LumenPnP v3.1.#.
+	<br>
+	Please note however, the QC Checklist is up to date.
+
 Assemble the x-gantry-linear-axis
 ---------------------------------
 
@@ -434,6 +439,9 @@ Assemble the x-gantry-linear-axis
 	*   Unplug the test jig’s z-limit-switch, x-motor, and z-motor cables from the x-gantry being tested on the x-gantry-spacer-jig
 	*   Unscrew the drag-chain mounting hardware from the x-gantry being tested on the x-gantry-spacer-jig
 	*   Remove the 2 M5x25 bolts used initially for keeping the x-gantry from falling off the x-gantry-spacer-jig
+
+
+## Install top-camera-assembly
 *   Install top-camera and Light subassembly onto x-gantry
 	*   Use two M3x14mm screws to mount the top-camera and Light subassembly onto the back of the X Gantry Back.
 
@@ -442,12 +450,25 @@ Assemble the x-gantry-linear-axis
 	<img src="images/image49.jpg" width="60%"/>
 
 ## QC Checklist
-Inspect the completed x-gantry for the following criteria:
+Inspect the completed `x-gantry` for the following criteria:
 
-*   Is the camera installed correctly onto the x-gantry?
-*   Are the 2x M5 hex-nuts used for attaching the x-motor-cable-guide installed in the x-motor-mount correctly?
-*   Are the 2x M5 hex-nuts used for attaching the drag-chain correctly installed in x-gantry-back?
-*   Is the tensioner-arm installed correctly on the x-idler-mount (IE not backwards)
-*   Is the belt running straight through the aluminum extrusion?
-*   Are all roller-spacer prints present?
-*   Belts are trimmed
+* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
+* Camera is installed with two bolts
+* Camera lens cap is present
+* The wire connectors on both `NEMA-11-stepper-motor` units face away from each other, sitting adjacent to their respective cable strain relief points
+* Each `CP40-holder` has been lubricated and fit-tested with a nozzle
+* `Z-belt-loop` feels appropriately tensioned when plucked
+* Each `z-gantry` moves smoothly when actuated back-and-forth by hand
+* 2x `M5-hex-nut` are installed in `x-gantry-back` for use with `drag-chain` attachment 
+* `NEMA-17-stepper-motor` wire connector faces towards `drag-chain` mounting location on `x-gantry-back`
+* `Linear-rail` is centered atop `aluminum-extrusion`
+* `x-idler-mount` and `x-motor-mount` are secured to `600mm-alu-extrusion` with 2x `M5x10-bolt` per side
+* 2x `M5-hex-nut` are installed in `x-motor-mount` for use with the `x-motor-cable-guide`
+* `Tensioner-arm` is installed on `x-idler-mount` in the correct orientation (IE acorn-nut facing touches print)
+* `Timing-pulley` is tightened down and at proper height
+* `GT2-belt` lays flat and is roughly centered in the `600mm-alu-extrusion` channels
+* `GT2-belt` has been correctly tensioned
+* `X-gantry-toolhead` moves smoothly when actuated back and forth by hand
+
+
+!!!success "If all checks pass, bring the completed `x-gantry` to the shelf for peer-review and pack-out."

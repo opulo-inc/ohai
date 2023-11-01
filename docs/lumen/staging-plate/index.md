@@ -1,3 +1,9 @@
+!!!warning "This set of work instructions is out of date!"
+	What's shown here is for `v3.0.5` of the LumenPnP. Instructions for the latest version of `Staging Plate` still need to be written for LumenPnP v3.1.#. <br>The biggest differences not shown are:<br>1) Introduction of colored tubing<br> 2) Introduction of an easily removable `nozzle-rack`
+	<br>
+	Please note - the QC Checklist is up to date.
+
+
 ### Install hardware onto 3D printed components 
 * Insert the given quantities of M3-hex-nut pieces into the following 3D prints with an arbor press:
     * 2x for y-coupler-bracket 
@@ -33,29 +39,7 @@
 
 Produce the required QTY of each of the pneumatic tubing lines described in the section that follows.
 
-`PNU-0005-00` [pneumatic-tubing-4mmOD]<br>
-	This is the black tubing
-
-| Tube ID:         | Y Coupler #1 to Vac #1             | Y Coupler #2 to Vac #2             |
-|------------------|------------------------------------|------------------------------------|
-| Cut Length:      | 225mm                              | 225mm                              |
-| Labels to apply: | Y Coupler #1 - N/A<br>Vac #1 - N/A | Y Coupler #2 - N/A<br>Vac #2 - N/A |
-
-`PNU-0006-00` [pneumatic-tubing-6mmOD]<br>
-	This is the more rigid clear tubing
-
-| 1x Valve #1 to Y Coupler #1                            | 1x Valve #2 to Y Coupler #2                            |
-|--------------------------------------------------------|--------------------------------------------------------|
-| Cut Length:| 0.### meters                              |0.### meters                                            |
-| Labels to apply:| Y Coupler #1 - N/A<br>Vac #1 - N/A   | Y Coupler #2 - N/A<br>Vac #2 - N/A                     |
-
-`PNU-0007-00` [pvc-tubing-6mmOD]<br>
-This is the more flexible clear tubing
-
-| Tube ID:         | Pump #1 to Valve #1                |
-|------------------|------------------------------------|
-| Cut Length:      | 60mm                               |
-| Labels to apply: | Pump #1 - N/A<br>Valve #1 - N/A    |
+- **SEE ALIGNI**
 
 * * *
 
@@ -209,12 +193,13 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 
 	<img src="img/image18.jpg" width="60%"/>
 
-*   Insert 2x hex nut into the left and right outermost slots on the nozzle-rack
+*   Insert 2x `m3-hex-head-bolt` into the left and right outermost slots on the nozzle-rack
     	
     <img src="img/image13.jpg" width="60%"/>
     
     !!! note
-    		These slots have a loose fit so use care to avoid losing a hex nut during handling
+    		- This photo is out of date, it should show 2x M3-hex-head-bolt instead of nuts
+    		- These slots have a loose fit so use care to avoid losing a bolt during handling
 
 ***
 
@@ -238,7 +223,7 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 
 #### Installing pneumatics-system
 
-*   Attach y-coupler bracket onto staging-plate with 2x M3x10 bolts
+*   Attach `y-coupler-bracket` onto `staging-plate` with 2x M3x10 bolts
 *   Attach pump-mount onto staging-plate with 2x M3x10 bolts
 *   Attach valve-mount onto staging-plate with 3x M3x8 bolts
 
@@ -249,10 +234,12 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
  
 #### Installing nozzle-rack
 	
-*   Attach the finished nozzle-rack to the staging-plate with 2x M3x10 bolts and 2x M3 hex nuts
+*   Attach the finished nozzle-rack to the staging-plate with 2x `M3x10-hex-bolt` and 2x `M3-wing-nut`
 	*   The text on nozzle-rack should match the orientation of the staging-plate column numbers
 
 	<img src="img/image31.jpg" width="60%"/>
+
+	!!!note "This photo is out of date"
 
 * * *
 
@@ -302,7 +289,7 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 
 	<img src="img/image12.jpg" width="60%"/>
 	
-*   Slide the mobo QC reciept between mobo-bottom-cover and staging-plate after the mobo-top-cover is attached
+*   Slide the mobo QC receipt between mobo-bottom-cover and staging-plate after the mobo-top-cover is attached
 
 	<img src="img/image47.jpg" width="60%"/>
 
@@ -335,7 +322,7 @@ Use the bottom-camera-focus-jig to pre-focus the bottom-camera
 	<img src="img/image30.png" width="60%"/>
 	<img src="img/image3.png" width="60%"/>
 
-* * *
+***
 
 ### QC Checklist
 
@@ -351,4 +338,15 @@ Run the staging plate assembly through the QC inspection form found here:
  	 <img src="img/image55.jpg" width="60%"/>   
  	 
  	 If the camera is out of focus, remove it from the assembly and repeat [bottom-camera focusing](#focus-the-bottom-camera).
-	
+
+***
+
+###Next Steps
+
+!!!success "After completing QC, perform the following steps"
+
+- Add a `QC PASS` sticker to the `primary-staging-plate`'s `bottom-camera-cover`
+	![](img/staging-plate-qc-sticker.jpg)
+- Binder clip the `machine-serial-label-sticker` to the side of the `primary-staging-plate`
+	![](img/clipped-sn-label.JPG)
+- Bring the completed `primary-staging-plate` to the shelf for peer-review and pack-out

@@ -224,11 +224,15 @@ The purpose of this work instruction is to explain the assembly process for the 
 	![](img/route-belt-through-step2.png)
 	![](img/belt-pulled-through-irl.png)
 	
-- Bolt `y-gantry` to the `linear-rail-carriage with` 4x `M3x8-bolt`
+- Bolt `y-gantry` to the `linear-rail-carriage` with` 4x `M3x8-bolt`
 	- Tighten each bolt to 0.5 N/M
 	- Push `y-gantry` inward towards the `linear-rail-carriage while tightening the mounting bolts to align it  
 
+	!!!warning "Ensure that `y-gantry` sits flush against `linear-rail-carriage` without any visible gaps"
+
+
 	![](img/bolt-y-gantry-to-carriage.png)
+	
 
 - Use `belt-clamp` with 2x `M5x10-bolt` to clamp the left-side of the `GT2-belt` to the `y-gantry`
 	- Tighten each `M5x10-bolt` to 0.5 N.M
@@ -254,34 +258,41 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 - Trim the loose `GT2-belt` on either side of the `y-gantry`
 	- For the `front-left-leg` side of the `y-gantry` print, trim the loose `GT2-belt` until it's flush against the belt-clamp 
-	- For the `back-leg` side of the `y-gantry` print, trim the loose `GT2-belt` until it's flush against the belt-clamp 
+	- For the `back-leg` side of the `y-gantry` print, trim the loose `GT2-belt` until there's approx. 15mm of `GT2-belt` past the `belt-clamp` 
 
 	![](img/belt-cut-to-length.png)
 
 ### Add cable management 
 
-- Use 3x `extrusion-cable-clip` to secure the `Y1-stepper-motor-cable` to the inner side of the lower `600mm-alu-extrusion`
+- Use **3x** `extrusion-cable-clip` to secure the `Y1-stepper-motor-cable` to the inner side of the lower `600mm-alu-extrusion`
 
 	![](img/y-gantry-extrusion-cable-clip.png) 
 
 ## Quality Checks
-A `y-gantry-left` that was built while following the above steps will match the following image
+A `y-gantry-left` that was built while following the above steps will match the following image. 
 
 ![](img/complete-y-gantry-left.png)
 
-- Inspect the completed `y-gantry-left` assembly with the following QC checklist
-	1. M5 bolts installed where required
-	2. `M5-hex-nut` installed where required:
-		1. 2x M5 hex nuts pressed into `front-left-leg` bottom
-		2. 1x M5 hex nuts pressed into `back-leg` bottom
-		2. 2x M5 hex nuts pressed into `y-gantry` for use with customer-side `x-gantry` mounting
-	1. `GT2-belt` have been trimmed appropriately
-	1. `GT2-belt` is laying flat in the `600mm-alu-extrusion` channels 
-	1. 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `600mm-alu-extrusion`
-	1. `Timing-pulley` is tightened down and at proper height
-	1. `Y1` cable was used on `y-gantry-left`
+Confirm this by inspecting the completed `y-gantry-left` assembly with the following QC checklist:
 
-	!!!warning "Stay vigilant for new failure modes not listed above and report them to a production lead when found"
+* Confirm M5 bolts are installed in every counterbored region
+* `M5-hex/square-nut` installed where required:
+	* 2x `M5-hex-nut` pressed into bottom of `front-left-leg`
+	* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `front-drag-chain-mount`
+	* 1x `M5-hex-nut` pressed into bottom of `back-leg`
+	* 2x `M5-hex-nut` pressed into `y-gantry`
+* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
+* `GT2-belt` has been correctly tensioned
+* `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
+* `Linear-rail` is centered atop `aluminum-extrusion`
+* `y-gantry` sits flat on `linear-rail-carriage`
+* `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
+* `GT2-belt` lays flat in the `600mm-alu-extrusion` channels 
+* 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `600mm-alu-extrusion`
+* `Timing-pulley` is tightened down and at proper height
+* `Y1` cable is secured with a zip-tie and exits the port labeled `Y1`
+
+!!!warning "Stay vigilant for new failure modes not listed above and report them to a production lead when found"
 	
 !!!success "If everything looks good" 
 	Set the finished `y-gantry-left` aside for functional QC testing at the Gundam test station

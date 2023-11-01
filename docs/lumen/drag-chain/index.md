@@ -150,11 +150,26 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
 
 ## OQC Checks
 
-1. Ensure LH/RH labels are present on both sides of 4mm pneumatic tubing
-1. Ensure zip ties are present in all instructed locations (2 on `umbilical-cable-strain-relief`, 2 on `x-cable-chain-bracket`, 3 between end of drag chain and `umbilical-cable-strain-relief`), and that excess is removed
-1. Ensure the DL cable and USB camera cable exit the drag chain between the x-gantry side end link and the final cover on that side
-1. Ensure XM cable is installed in the correct location and `x-motor-cable-guide` is installed with the connector in the correct orientation
-1. Introspect
-1. If your drag chain passes all these checks, it is good to ship. Install a 2" x 9" bag over both sides of the cable ends to protect them during shipment. 
+	
+* Inspect the *x-gantry side* of `drag-chain` and confirm the following cables are present and installed in the correct direction
 
+	!!!info "A quick way to tell which side of the `drag-chain` is the *x-gantry side*: it is the side where the cables are shorter exiting the `drag-chain`"
+	
+	*  `LM` cable: 6-pin connector with `LM` label
+	*  `RM` cable: 6-pin connector with `RM` label
+	*  `ZM` cable: 6-pin connector with **NO** label
+	*  `ZL` cable: 3-pin connector with **NO** label
+	*  	`DL` cable: 3-pin connector with **NO** label, exits `drag-chain` between end-link and final cover
+	*  	`USB` cable: 4-pin connector with **NO** label, exits `drag-chain` between end-link and final cover
+	
+* Inspect the `drag-chain` and confirm the following tubes are present and labeled correctly on both sides
+	*  	<span style="background-color:red">**Red**</span> `4mm-pneumatic-tubing` with `LH` label
+	*  	<span style="background-color:blue">**Blue**</span> `4mm-pneumatic-tubing` with `RH` label
+* Confirm `zip-tie`'s are trimmed flush and present in the following locations:
+	*  2x on `umbilical-cable-strain-relief`
+	*  2x on `x-cable-chain-bracket` where `XM` cable leaves the drag-chain
+		* While here, confirm that `XM` cable exits `drag-chain` in place of the 12th `drag-chain-cover`
+	*  2x connecting `x-motor-cable-guide` to end of `XM` cable
+	*  3x evenly spaced between `drag-chain` and `umbilical-cable-strain-relief`
 
+!!!success "If all checks pass, place the completed `drag-chain` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> found on the pack-out shelf while it awaits peer-review"

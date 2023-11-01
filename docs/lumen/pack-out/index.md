@@ -50,7 +50,7 @@
 
 ###Packaging `x-gantry`
 * Perform `x-gantry` QC
-	* `GT2-belt` has been trimmed to appropriate length
+	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
 	* Camera is installed with two bolts
 	* Camera lens cap is present
 	* The wire connectors on both `NEMA-11-stepper-motor` units face away from each other, sitting adjacent to their respective cable strain relief points
@@ -81,10 +81,11 @@
 		* 2x `M5-hex-nut` pressed into bottom of `front-right-leg`
 		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
 		* 2x `M5-hex-nut` pressed into `y-gantry`
-	* `GT2-belt` has been trimmed to appropriate length
+	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
 	* `GT2-belt` has been correctly tensioned
 	* `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
 	* `Linear-rail` is centered atop `aluminum-extrusion`
+	* `y-gantry` sits flat on `linear-rail-carriage`
 	* `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
 	* `GT2-belt` lays flat in the `600mm-alu-extrusion` channels 
 	* 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `600mm-alu-extrusion`
@@ -100,19 +101,21 @@
 ###Packaging `y-gantry-left`
 * Perform `y-gantry-left` QC
 	* Confirm M5 bolts are installed in every counterbored region
-	* 2x `M5-hex-nut` pressed into bottom of `front-left-leg`
-	* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `front-drag-chain-mount`
-	* 1x `M5-hex-nut` pressed into bottom of `back-leg`
-	* 2x `M5-hex-nut` pressed into `y-gantry`
-* `GT2-belt` has been trimmed to appropriate length
-* `GT2-belt` has been correctly tensioned
-* `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
-* `Linear-rail` is centered atop `aluminum-extrusion`
-* `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
-* `GT2-belt` lays flat in the `600mm-alu-extrusion` channels 
-* 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `600mm-alu-extrusion`
-* `Timing-pulley` is tightened down and at proper height
-* `Y1` cable is secured with a zip-tie and exits the port labeled `Y1`
+	* `M5-hex/square-nut` installed where required:
+		* 2x `M5-hex-nut` pressed into bottom of `front-left-leg`
+		* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `front-drag-chain-mount`
+		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
+		* 2x `M5-hex-nut` pressed into `y-gantry`
+	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
+	* `GT2-belt` has been correctly tensioned
+	* `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
+	* `Linear-rail` is centered atop `aluminum-extrusion`
+	* `y-gantry` sits flat on `linear-rail-carriage`
+	* `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
+	* `GT2-belt` lays flat in the `600mm-alu-extrusion` channels 
+	* 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `600mm-alu-extrusion`
+	* `Timing-pulley` is tightened down and at proper height
+	* `Y1` cable is secured with a zip-tie and exits the port labeled `Y1`
 
 	!!!success "If all checks pass, continue onward"
 
@@ -196,6 +199,7 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	* `Front-feeder-rail` QC: 
 		* `Slot #1` - `#Slot 25` are installed sequentially from left to right
 		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
+		* Confirm the slit in the `2x3-idc-connector` faces towards the left of the `feeder-slot`
 		* The 2x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
 		* The 2x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
 			* Total 2x `M5x8-bolt` and `M5-t-nut`
@@ -205,6 +209,7 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 		* `Slot #26` - `#Slot 50` are installed sequentially from left to right
 		* Confirm that `#Slot 50` is printed in yellow plastic
 		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
+		* Confirm the slit in the `2x3-idc-connector` faces towards the left of the `feeder-slot`
 		* The 4x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
 		* The 4x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
 			* Total 4x `M5x8-bolt` and `M5-t-nut`
@@ -219,20 +224,24 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 1. Perform `drag-chain-assembly` QC before inserting the assemble above the feeder rails
  
-	* Inspect the toolhead side of `drag-chain` and confirm the following cables are present and installed in the correct direction
+	* Inspect the *x-gantry side* of `drag-chain` and confirm the following cables are present and installed in the correct direction
+
+		!!!info "A quick way to tell which side of the `drag-chain` is the *x-gantry side*: it is the side where the cables are shorter exiting the `drag-chain`"
+	
 		*  `LM` cable: 6-pin connector with `LM` label
 		*  `RM` cable: 6-pin connector with `RM` label
 		*  `ZM` cable: 6-pin connector with **NO** label
 		*  `ZL` cable: 3-pin connector with **NO** label
 		*  	`DL` cable: 3-pin connector with **NO** label, exits `drag-chain` between end-link and final cover
 		*  	`USB` cable: 4-pin connector with **NO** label, exits `drag-chain` between end-link and final cover
+	
 	* Inspect the `drag-chain` and confirm the following tubes are present and labeled correctly on both sides
-		*  	Red `4mm-pneumatic-tubing` with `LH` label
-		*  	Blue `4mm-pneumatic-tubing` with `RH` label
+		*  	<span style="background-color:red">**Red**</span> `4mm-pneumatic-tubing` with `LH` label
+		*  	<span style="background-color:blue">**Blue**</span> `4mm-pneumatic-tubing` with `RH` label
 	* Confirm `zip-tie`'s are trimmed flush and present in the following locations:
 		*  2x on `umbilical-cable-strain-relief`
 		*  2x on `x-cable-chain-bracket` where `XM` cable leaves the drag-chain
-			* While checking this, confirm that `XM` cable exits `drag-chain` in place of the 10th cover
+			* While here, confirm that `XM` cable exits `drag-chain` in place of the 12th `drag-chain-cover`
 		*  2x connecting `x-motor-cable-guide` to end of `XM` cable
 		*  3x evenly spaced between `drag-chain` and `umbilical-cable-strain-relief`
 		
