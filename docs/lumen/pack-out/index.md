@@ -154,7 +154,7 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 ### Packaging misc. parts
 * Insert the following items into the **right-side** cavity of `upper-foam-tray`
 
-	!!!note "Packaging each of the following items while inspect them for their given QC inspection criteria"
+	!!!note "Package each of the following items while inspecting them for their given QC inspection criteria"
 
 	* `front-drag-chain-mount` - confirm 2x `M5-hex-nut` installed into print
 	* `aux-staging-plate-foot` - confirm top-side M3 bolt and bottom-side `rubber-foot`
@@ -199,7 +199,7 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	* `Front-feeder-rail` QC: 
 		* `Slot #1` - `#Slot 25` are installed sequentially from left to right
 		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-		* Confirm the slit in the `2x3-idc-connector` faces towards the left of the `feeder-slot`
+		* Confirm the slit in every `2x3-idc-connector` faces towards the left of each `feeder-slot`
 		* The 2x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
 		* The 2x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
 			* Total 2x `M5x8-bolt` and `M5-t-nut`
@@ -209,16 +209,15 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 		* `Slot #26` - `#Slot 50` are installed sequentially from left to right
 		* Confirm that `#Slot 50` is printed in yellow plastic
 		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-		* Confirm the slit in the `2x3-idc-connector` faces towards the left of the `feeder-slot`
+		* Confirm the slit in every `2x3-idc-connector` faces towards the left of each `feeder-slot`
 		* The 4x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
 		* The 4x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
 			* Total 4x `M5x8-bolt` and `M5-t-nut`
 
  		!!!success "If all checks pass, continue onward" 
  
- 2. Place the finished feeder rails into the `upper-foam-tray`"
- 
-	 	![](img/removing-front-and-back-rails.jpg)
+ 2. Place the finished feeder rails into the `upper-foam-tray`
+	 ![](img/removing-front-and-back-rails.jpg)
 
 ###Packaging `drag-chain`
 
