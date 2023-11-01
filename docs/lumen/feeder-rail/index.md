@@ -71,8 +71,12 @@ Perform the following quality control checks:
 
 * `Slot #1` - `#Slot 25` are installed sequentially from left to right
 * Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-* **2x** additional `M5x8-bolt` and `M5-t-nut` are installed into each `corner-bracket` 
+* Confirm the slit in the `2x3-idc-connector` faces towards the left of the `feeder-slot`
 * The 2x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
+* The 2x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
+	* Total 2x `M5x8-bolt` and `M5-t-nut`
+
+!!!success "If all checks pass, bring the completed `front-feeder-rail` to the shelf for peer-review and pack-out."
 
 ## Assemble rear-feeder-rail
 This section of the work instruction will be a little less detailed than the above section on `front-feeder-rail` as it builds off the same process.
@@ -140,9 +144,11 @@ This section of the work instruction will be a little less detailed than the abo
 Perform the following quality control checks:
 
 * `Slot #26` - `#Slot 50` are installed sequentially from left to right
-* Double-check that `#Slot 50` is printed in yellow plastic
+* Confirm that `#Slot 50` is printed in yellow plastic
 * Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-* **4x** additional `M5x8-bolt` and `M5-t-nut` are installed into each `corner-bracket` 
+* Confirm the slit in the `2x3-idc-connector` faces towards the left of the `feeder-slot`
 * The 4x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
+* The 4x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
+	* Total 4x `M5x8-bolt` and `M5-t-nut`
 
-
+!!!success "If all checks pass, bring the completed `rear-feeder-rail` to the shelf for peer-review and pack-out."
