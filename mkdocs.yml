@@ -19,20 +19,23 @@ theme:
   favicon: img/favicon.ico
   font:
     text: Roboto
+  palette:
+    scheme: slate
+    primary: amber
   features:
     - navigation.footer
+    - navigation.instant
     - navigation.top
-    - toc.integrate
     - toc.follow
     - navigation.indexes
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.tracking
 
-
 nav:
-  - OHAI: index.md
+  - Home: index.md
   - LumenPnP (v3.1):
         - Introduction: lumen/index.md
         - Motherboard: lumen/mobo/index.md
@@ -74,3 +77,8 @@ nav:
         - Getting Started Kit: misc/ftp-kit/index.md
         - Vacuum Sensor Upgrade Kit: misc/rev3-vac-interposer/index.md
         - Feeder Part Kit: misc/feeder-part-kit/index.md
+  
+  - Operations:
+        - Overview: operations/index.md
+        - Order Fulfillment: operations/order-fulfillment/index.md
+        - Ordering from LCSC: operations/purchasing-from-lcsc/index.md
