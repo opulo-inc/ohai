@@ -1,38 +1,4 @@
-:root {
-  --md-primary-fg-color:        black;
-  --md-primary-fg-color--light: #C07EF4;
-  --md-primary-fg-color--dark:  #34164A;
 
-  --md-accent-fg-color: #C07EF4;
-}
-
-a {
-  color: #C07EF4;
-}
-
-a:hover {
-  color: white;
-}
-
-h1 {
-  color: #C07EF4;
-}
-
-.md-content {
-  --md-typeset-a-color: #31a1f0;
-}
-
-a.md-nav__link {
-  color: black;
-}
-
-a.md-nav__link:hover {
-  color: #C07EF4;
-}
-
-label.md-nav__title {
-  color: #C07EF4;
-}
 
 table {
   margin:auto;
@@ -50,9 +16,9 @@ tr {
   text-align: center;
 }
 
-.md-tabs {
-  display: none;
-}
+; .md-tabs {
+;  display: none;
+; }
 
 :root {
   --md-admonition-icon--glue: url('clock-hour-timer-svgrepo-com.svg')

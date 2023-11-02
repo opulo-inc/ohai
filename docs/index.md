@@ -19,4 +19,4 @@ Open Hardware Assembly Instructions for products made by Opulo Inc.
 
 ## Logistics Standard Operating Procedures:
 
-- [Order Fulfillment SOP](order-fulfillment/index.md)
+- [Order Fulfillment SOP](operations/order-fulfillment/index.md)
