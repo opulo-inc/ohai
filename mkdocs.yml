@@ -77,6 +77,7 @@ nav:
         - Getting Started Kit: misc/ftp-kit/index.md
         - Vacuum Sensor Upgrade Kit: misc/rev3-vac-interposer/index.md
         - Feeder Part Kit: misc/feeder-part-kit/index.md
+        - Strip Feeder: misc/strip-feeder/index.md
   
   - Operations:
         - Overview: operations/index.md

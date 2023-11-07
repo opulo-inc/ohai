@@ -347,6 +347,6 @@ Run the staging plate assembly through the QC inspection form found here:
 
 - Add a `QC PASS` sticker to the `primary-staging-plate`'s `bottom-camera-cover`
 	![](img/staging-plate-qc-sticker.jpg)
-- Binder clip the `machine-serial-label-sticker` to the side of the `primary-staging-plate`
+- Binder clip the `box-sn-label` to the side of the `primary-staging-plate`
 	![](img/clipped-sn-label.JPG)
 - Bring the completed `primary-staging-plate` to the shelf for peer-review and pack-out
