@@ -141,15 +141,18 @@
 
     ![](img/slotcable.jpg)
     
-    
 ### Confirm the contents of `lower-foam-tray`
 Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
    ![](img/IMG_5122.jpg)
- 
+
 ## Package `upper-foam-tray`
 
 !!!warning "The following steps must be conducted by someone other than the original assembler."
+
+- Begin by laying out empty `upper-foam-tray` pieces
+
+	![](img/empty-upper.jpeg)
 
 ### Packaging misc. parts
 * Insert the following items into the **right-side** cavity of `upper-foam-tray`
@@ -168,24 +171,32 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
     * `24v6A-power-supply`
     * `power-cable` 
 
+	![](img/install-psu.JPG)
+
 ### Packaging `primary-staging-plate` and `aux-staging-plate`
 1. Inspect `primary-staging-plate` before packaging it into the foam tray
 	* Confirm `QC PASS sticker` is  present underneath the `staging-plate` 
-	* Confirm the `machine SN label` matches the `mobo QC receipt`'s serial number
-	* Confirm the `machine SN label` matches the box SN label that's clipped to the `primary-staging-plate`
+	* Confirm `mobo QC receipt` is present
+	* Confirm adhered `machine SN label` matches `box-sn-label` clipped to `primary-staging-plate`
 	* Review the `primary-staging-plate` for the presence of all major components (checking to see if the original QC inspector missed anything):
-		* 2x vacuum-pump
-		* 2x solenoid-valve
-		* 1x nozzle-rack w/6 nozzles
-		* mobo-top-cover
-		* bottom-camera assembly
+		* 2x `vacuum-pump`
+		* 2x `solenoid-valve`
+		* 1x `nozzle-rack` w/6 nozzles
+		* `mobo-top-cover`
+		* `bottom-camera assembly`
 	* Confirm tubing is installed correctly:
 		* Red `Vac1` line appears unkinked and runs to `LH` y-coupler
 		* Blue `Vac2` line appears unkinked and runs to `RH` y-coupler
 
  	!!!success "If all checks pass, continue onward"
  	
+1. Unclip the `box-sn-label` from `primary-staging-plate` and loosely add it to the power supply side-pocket
+
 1. Place the `primary-staging-plate` into `upper-foam-tray` in the region shown below
+
+	!!!note "The Opulo logo should face away from the `feeder-rail` pocket"
+	
+	![](img/4x-staging-plate-packed.JPG)
 
 1. Insert a foam block above each side of `primary-staging-plate`
 
@@ -193,38 +204,53 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 1. Insert `aux-staging-plate` on top of `primary-staging-plate`
 
+	!!!note "The Opulo logo should face away from the `feeder-rail` pocket"
+
+	![](img/install-aux-plate.JPG)
+
 ###Packaging `front/rear-feeder-rail`
 
-1. Perform `front-feeder-rail` and `rear-feeder-rail` QC before installing each into the foam tray
-	* `Front-feeder-rail` QC: 
+!!!note "It is much easier to check the entire batch at once for a given inspection, rather than checking each one rail at a time against this entire checklist" 
+
+1. Perform QC inspection on the front of `front-feeder-rail` and `rear-feeder-rail` pieces
+	![](img/feeder-rail-laid-out-front.JPG)
+	* `Front-feeder-rail`: 
 		* `Slot #1` - `#Slot 25` are installed sequentially from left to right
-		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-		* Confirm the slit in every `2x3-idc-connector` faces towards the left of each `feeder-slot`
-		* The 2x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
 		* The 2x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
 			* Total 2x `M5x8-bolt` and `M5-t-nut`
-
-
-	* `Rear-feeder-rail` QC:
-		* `Slot #26` - `#Slot 50` are installed sequentially from left to right
-		* Confirm that `#Slot 50` is printed in yellow plastic
 		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-		* Confirm the slit in every `2x3-idc-connector` faces towards the left of each `feeder-slot`
-		* The 4x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
-		* The 4x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
+	* `Rear-feeder-rail`:
+		* `Slot #26` - `#Slot 50` are installed sequentially from left to right
+		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
+		* The 4x installed `corner-bracket` pieces **each** have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
 			* Total 4x `M5x8-bolt` and `M5-t-nut`
 
- 		!!!success "If all checks pass, continue onward" 
+		* Confirm that `#Slot 50` is printed in yellow plastic
+
+1. Perform QC inspection on the back of `front-feeder-rail` and `rear-feeder-rail` pieces:
+	![](img/feeder-rail-laid-out.JPG)
+	* `Front-feeder-rail`: 
+		* Confirm the slit in every `2x3-idc-connector` faces towards the left of each `feeder-slot`
+		* The 2x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
+	* `Rear-feeder-rail`:
+		* Confirm the slit in every `2x3-idc-connector` faces towards the left of each `feeder-slot`
+		* The 4x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
+
+	!!!success "If all checks pass, continue onward" 
  
  2. Place the finished feeder rails into the `upper-foam-tray`
+ 	3. Orient the rails back-side upward, with `rear-feeder-rail` in the lower pocket and `slot #50` on the right  
+	
 	 ![](img/removing-front-and-back-rails.jpg)
 
 ###Packaging `drag-chain`
 
-1. Perform `drag-chain-assembly` QC before inserting the assemble above the feeder rails
+1. Perform `drag-chain` QC
  
-	* Inspect the *x-gantry side* of `drag-chain` and confirm the following cables are present and installed in the correct direction
-
+	* Inspect the `drag-chain` for missing or loose `drag-chain-cover` pieces
+	* Confirm each `drag-chain-end-link` has been reworked with the drill jig
+	* Inspect the *x-gantry side* of `drag-chain` to confirm the following cables are present and installed in the correct direction:
+		
 		!!!info "A quick way to tell which side of the `drag-chain` is the *x-gantry side*: it is the side where the cables are shorter exiting the `drag-chain`"
 	
 		*  `LM` cable: 6-pin connector with `LM` label
@@ -234,71 +260,120 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 		*  	`DL` cable: 3-pin connector with **NO** label, exits `drag-chain` between end-link and final cover
 		*  	`USB` cable: 4-pin connector with **NO** label, exits `drag-chain` between end-link and final cover
 	
-	* Inspect the `drag-chain` and confirm the following tubes are present and labeled correctly on both sides
+	* Confirm the following vacuum tubes are present and labeled correctly at both ends:
 		*  	<span style="background-color:red">**Red**</span> `4mm-pneumatic-tubing` with `LH` label
 		*  	<span style="background-color:blue">**Blue**</span> `4mm-pneumatic-tubing` with `RH` label
 	* Confirm `zip-tie`'s are trimmed flush and present in the following locations:
-		*  2x on `umbilical-cable-strain-relief`
 		*  2x on `x-cable-chain-bracket` where `XM` cable leaves the drag-chain
 			* While here, confirm that `XM` cable exits `drag-chain` in place of the 12th `drag-chain-cover`
 		*  2x connecting `x-motor-cable-guide` to end of `XM` cable
+			* While here, confirm the end of `XM` cable features a 6-pin connector with **NO** label
 		*  3x evenly spaced between `drag-chain` and `umbilical-cable-strain-relief`
+		*  2x on `umbilical-cable-strain-relief`
 		
 	!!!success "If all checks pass, continue onward"
  
  1. Install a 2" x 9" bag over both sides of `drag-chain`
+ 	2. Confirm no vacuum tubes are pinched closed by the bagging process
  2. Place the `drag-chain` into the `upper-foam-tray`
  
-  	![](img/removing-cable-chain.jpg) 
+  	![](img/install-cable-chain.jpg) 
  
 ### Confirm the contents of `upper-foam-tray`
 
 1. Confirm the `upper-foam-tray` matches the image shown below
 
- 	![](img/IMG_5126.jpg)
+ 	![](img/confirm-contents-1.JPG)
+ 	
+1. Tuck the `box-sn-label` into the accessory prints pocket after confirming the contents of `upper-foam-tray`
 
+	![](img/upper-tray-done.JPG)
+	![](img/upper-tray-done-set.JPG)
     
-## Packing the box
- 1. Place the packaged `lower-foam-tray` into the LumenPnP packaging
+## Package LumenPnP Box
+!!!warning "Perform this process 1 machine at a time"
+	It's OK for this work to be performed by the original machine assembler
+
+1. Gather the following items:
+	- Empty LumenPnP box
+	- Packaged and QC'd upper-foam-tray
+	- Packaged and QC'd lower-foam-tray
+	- All relevant shipping paperwork, including packing slip, shipping label, and any international forms
+	![](img/packout-final1.jpg)
+2. Adhere shipping documents to box
+	- Adhere all relevant shipping documentation to the top left side of the LumenPnP box flap 
+
+3. Examine the packing slip and take note of what (if any) additional items must be packaged  
+
+	![](img/packing_slip.jpg)
+
+4. Open the [OQC Checklist](https://docs.google.com/forms/d/e/1FAIpQLSddZwlLa26bw81xRC3UofJ12yaRr4eiF1ZQTFnbHVbXxjBo6A/viewform?usp=sharing)
+	- Fill out this checklist as you package the LumenPnP
+	
+	![](img/oqc-form.png)
+
+5. Complete the first page of the `OQC Checklist` page
+
+	![](img/QC-form/2-qc-form.jpeg)
+
+6. Examine the contents of the `lower-foam-tray` and complete the corresponding `OQC Checklist` page
+
+	![](img/QC-form/3-qc-form.jpeg)
+
+7. Place the packaged `lower-foam-tray` into the LumenPnP packaging
 	* Orient the tray so that the packaged `x-gantry` is closer to the Opulo logo side of the box 
  
     ![](img/lower-tray-v3.1.jpg)
     
-2. Place the packaged `upper-foam-tray` into the LumenPnP packaging
+8. Examine the contents of the `upper-foam-tray` and complete the corresponding `OQC Checklist` page
+
+    ![](img/QC-form/3.5-qc-form.jpeg)
+
+9. Place the packaged `upper-foam-tray` into the LumenPnP packaging
     * Orient the tray so that the staging plates are closer to the Opulo logo side of the box
  
     ![](img/first-tray-removal.png)
     ![](img/first-tray-v3-1.jpg)
+    
+    !!!note "Please ignore that `box-sn-label` is not tucked into `upper-foam-tray`'s right-side pocket in this photo"
    
-1. Remove the `machine-serial-label` from the `upper-foam-tray` and install it onto the LumenPnP graphic side of the box in the region shown 
+10. Remove the `box-sn-label` from the `upper-foam-tray` and adhere it to the LumenPnP box in the region shown below 
 
- 	!!!warning "It is **critical** that this label matches the serial number listed on the underside of the `primary-staging-plate"
+ 	!!!warning "It is **critical** that this label matches the serial number listed on the underside of the `primary-staging-plate`"
 
    	![](img/outer-serial-label.jpeg)
 
-## Add top foam sheet
-1. Install a `top-foam-sheet` above the `upper-foam-tray`
+11. Complete the corresponding `OQC Checklist` page
+
+	   ![](img/QC-form/4-qc-form.jpeg)
+
+12. If for the last question you selected `Yes` for *contains additional items*, you will be directed to the `Extra Items Checklist` page
+	- Please check-off any additional parts that this order will contain before proceeding
+
+	   ![](img/QC-form/5-qc-form.jpeg)
+
+13. Proceed to the `Finalize Shipment` page of the `OQC Checklist` and work your way through it
+
+	   ![](img/QC-form/6-qc-form.jpeg)
+
+14. Install a `top-foam-sheet` above the `upper-foam-tray`
 
 	!!!note "Is this LumenPnP being shipped with feeders?"
 		Use `feeder trays` and a `top-cardboard-pad` instead of a `top-foam-sheet` **if** the LumenPnP order includes either feeders and/or items that use a `feeder-accessory-tray`. 
 
-1. Fill out a `getting-started-card` with the machine's `version number`
+15. Fill out a `getting-started-card` with the machine's `version number`
 
     ![](img/getting-started-card.png)
 
-1. Use double-sided tape to attached the `getting-started-card` to the `top-foam sheet` 
+16. Use double-sided tape to attached the `getting-started-card` to the `top-foam sheet` 
     * Orient the card so that it's bottom edge faces toward the Opulo logo side of the box
     
     ![](img/opened-box.png)
 
-## Adhere shipping documents
-* Print out and install all relevant shipping documentation onto the top left side of the box flap 
+17. Tape the LumenPnP box shut 
+18. Adhere an `orange sticker` to the top-right corner of the box.
+19. Click `Submit` on the final page of `OQC Checklist` page
 
-## OQC
-* Every single LumenPnP that's produced must go through outgoing quality control in a process that's guided by the [LumenPnP - Serial Tracker and OQC Form](https://docs.google.com/forms/d/e/1FAIpQLSddZwlLa26bw81xRC3UofJ12yaRr4eiF1ZQTFnbHVbXxjBo6A/viewform?usp=sharing).
-	
-	![](img/oqc-form.png)
-
-* After a LumenPnP has gone through OQC, tape the box shut before adhering an orange fragile sticker to the top-right corner of the box.
+	   ![](img/QC-form/8-qc-form.jpeg)
 
 !!!success "The LumenPnP should now be ready for fulfillment!" 
