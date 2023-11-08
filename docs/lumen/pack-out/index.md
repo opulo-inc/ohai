@@ -314,11 +314,11 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 5. Complete the first page of the `OQC Checklist` page
 
-	![](img/QC-form/2-qc-form.jpeg)
+	![](img/QC-Form/2-qc-form.jpeg)
 
 6. Examine the contents of the `lower-foam-tray` and complete the corresponding `OQC Checklist` page
 
-	![](img/QC-form/3-qc-form.jpeg)
+	![](img/QC-Form/3-qc-form.jpeg)
 
 7. Place the packaged `lower-foam-tray` into the LumenPnP packaging
 	* Orient the tray so that the packaged `x-gantry` is closer to the Opulo logo side of the box 
@@ -327,7 +327,7 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
     
 8. Examine the contents of the `upper-foam-tray` and complete the corresponding `OQC Checklist` page
 
-    ![](img/QC-form/3.5-qc-form.jpeg)
+    ![](img/QC-Form/3.5-qc-form.jpeg)
 
 9. Place the packaged `upper-foam-tray` into the LumenPnP packaging
     * Orient the tray so that the staging plates are closer to the Opulo logo side of the box
@@ -345,16 +345,16 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 11. Complete the corresponding `OQC Checklist` page
 
-	   ![](img/QC-form/4-qc-form.jpeg)
+	   ![](img/QC-Form/4-qc-form.jpeg)
 
 12. If for the last question you selected `Yes` for *contains additional items*, you will be directed to the `Extra Items Checklist` page
 	- Please check-off any additional parts that this order will contain before proceeding
 
-	   ![](img/QC-form/5-qc-form.jpeg)
+	   ![](img/QC-Form/5-qc-form.jpeg)
 
 13. Proceed to the `Finalize Shipment` page of the `OQC Checklist` and work your way through it
 
-	   ![](img/QC-form/6-qc-form.jpeg)
+	   ![](img/QC-Form/6-qc-form.jpeg)
 
 14. Install a `top-foam-sheet` above the `upper-foam-tray`
 
@@ -374,6 +374,6 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 18. Adhere an `orange sticker` to the top-right corner of the box.
 19. Click `Submit` on the final page of `OQC Checklist` page
 
-	   ![](img/QC-form/8-qc-form.jpeg)
+	   ![](img/QC-Form/8-qc-form.jpeg)
 
 !!!success "The LumenPnP should now be ready for fulfillment!" 
