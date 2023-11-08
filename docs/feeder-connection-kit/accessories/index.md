@@ -12,7 +12,7 @@ This section will guide the reader on how to properly prepare the accessories th
 
 	![](img/IMG_6181.jpeg)
 
-* Weigh each `bagged-extrusion-cable-clips`, confirming it weighs `20g`
+* Weigh each `bagged-extrusion-cable-clips`, confirming it weighs `19.9g`
 
 	![](img/IMG_6182.jpeg) 
 	
