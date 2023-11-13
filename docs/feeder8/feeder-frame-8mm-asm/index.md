@@ -5,7 +5,6 @@ This section will guide the reader through the process of installing various har
 * Inspect the print for defects
 	* Use a heat gun to remove any stringing
 	* Check the first layer for a smooth surface
-* Clean up any loose plastic in the hex nut pockets
 * Firmly press the up and down buttons so that they can move freely
 	
 
@@ -22,23 +21,6 @@ This section will guide the reader through the process of installing various har
 	
 	!!! success "OK"
 		<img src="img/img10.JPG" width="60%" height=auto>
-
-## Install Hex Nuts
-
-* Place `feeder-frame-8mm` onto `feeder-cradle jig` 
-
-* Use the `arbor-press-jig` to install 9x `m3-hex-nut` into `feeder-frame-8mm`
-	
-	<img src="img/install-hex-nuts-1.JPG" width="60%" height=auto>
-	
-	<img src="img/install-hex-nuts-2.JPG" width="60%" height=auto>
-
-	<img src="img/install-hex-nuts-3.JPG" width="60%" height=auto>
-
-	<img src="img/install-hex-nuts-5.JPG" width="60%" height=auto>
-
-* Turn the `feeder-frame-8mm` upside down and lightly tap it against the workbench surface
-	* If any `m3-hex-nut` pieces fall out, add a drop of `LOCTITE 435` to side of the nut before reinstalling into the respective pocket in `feeder-frame-8mm`
 
 
 ## Install Light Diffuser
@@ -57,10 +39,10 @@ This section will guide the reader through the process of installing various har
 ## Install 8mm Fiducial Board
 * Add a small amount of `LOCTITE 435` in the front pocket of the `feeder-frame-8mm`
 
-	`TO DO: ADD PHOTO`
+	![](img/IMG_2198.jpg)
 
 * Manually install `8mm-fiducial-board` into the front pocket of `feeder-frame-8mm`
 	*  The fiducial markers should remain visible when installed 
 
-	`TO DO: ADD PHOTO`
+	![](img/IMG_2199.jpg)
 
