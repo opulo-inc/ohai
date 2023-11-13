@@ -11,14 +11,14 @@ This section will guide the reader through the process of installing 2x `peel-ge
 	<img src="img/img5.JPG" width="60%" height=auto>
 	<img src="img/img6.JPG" width="60%" height=auto>
 
-* Use a torque screwdriver and a `2mm hex` bit to tighten  2x `M3x14` flathead screws into `peel-gear-frame`
-	* Set the torque spec to `2 cN.m` to properly secure the peel gears
+* Use a screwdriver and a `2mm hex` bit to tighten  2x `M3x14` flathead screws into `peel-gear-frame`
+	* Tighten screws as much as possible without feeling resistance when turning the gears
 
 	<img src="img/img7.JPG" width="60%" height=auto>
 	
 	<img src="img/img8.jpg" width="60%" height=auto>
 	
-* After the screws have been torqued to spec, manually rotate the gears to check the friction
+* After the screws have been torqued, manually rotate the gears to check the friction
 	* The tightened screws should not have added much (or any) resistance when spinning a `peel-gear` by hand
 	* Loosen the screws a little bit if you observe high friction in the `peel-gear-box`
 
