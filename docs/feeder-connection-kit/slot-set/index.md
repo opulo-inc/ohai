@@ -20,7 +20,6 @@ This section will guide the reader on how to properly assemble and package a `fe
 * Set each `feeder-slot-asm` into the `feeder-slot-cradle-jig`, being sure to place them in numerically sequential order
 	![](img/slot-set-7.JPG)
 	![](img/slot-set-8.JPG)
-	![](img/slot-set-08.JPG)
 
 * Repeat the previous step an additional time for the 50th `feeder-slot-asm` but instead use the *yellow* `feeder-slot-bracket-last` 
 	![](img/slot-set-13.JPG)
