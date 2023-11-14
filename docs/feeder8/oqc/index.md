@@ -31,7 +31,7 @@
   	![](img/oqc-34.JPG)
   	![](img/gundam3.jpg)
   	
-4. If required, choose the appropriate test from the `Test to Run` drop-down menu
+4. Choose the appropriate test from the `Test to Run` drop-down menu
 5. Click the `Run Test` button found at the bottom of the Gundam application window
 6. Input the following information when the application prompts for data input:
 	* `Please input the unit source version` - Enter the current production revision number (`v1.1.0` for example)
@@ -48,7 +48,6 @@
 ## Install 8mm-feeder-sticker
 1. Install `feeder-sticker-application-jig` on the backside of the feeder
 	* It should sit snug on the feeder without being able to move around
-	!!!info "`feeder-sticker-application-jig` is now grey instead of green"
 
      ![](img/sticker1.jpg)
      ![](img/sticker2.jpg)

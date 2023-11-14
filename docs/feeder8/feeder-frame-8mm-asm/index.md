@@ -4,8 +4,9 @@ This section will guide the reader through the process of installing various har
 ## Prepare `feeder-frame-8mm` 
 * Inspect the print for defects
 	* Use a heat gun to remove any stringing
-	* Check the first layer for a smooth surface
-* Firmly press the up and down buttons so that they can move freely
+	* Check the first layer to ensure it is free of defects and printed on the tuxtured print bed as shown
+	![](img/IMG_2231.jpg)
+	* Firmly press the up and down buttons so that they can move freely
 	
 
 	!!! note "Note on button handling"
@@ -45,4 +46,7 @@ This section will guide the reader through the process of installing various har
 	*  The fiducial markers should remain visible when installed 
 
 	![](img/IMG_2199.jpg)
+
+* Orient `feeder-frame-8mm` upright for 30 minutes to allow `LOCTITE 435` time to cure 
+	![](img/IMG_2232.jpg)
 
