@@ -31,8 +31,7 @@ This section will guide the reader on how to prepare and glue the `shaft-collar-
 	<img src="img/img7.png" width="60%" height=auto> 
 
 * Place `shaft-collar` onto the center post of `shaft-alignment-jig`
- 	* Orient `shaft-collar` so the `set-screw` is above the green soldermask on `drive-wheel` and facing towards 1 of 3 locating bumps on `shaft-alignment-jig`
-
+ 	* Orient `shaft-collar` so the `set-screw` is above the green soldermask on `drive-wheel` 
 
 	<img src="img/img8.jpg" width="60%" height=auto> 
 
@@ -77,7 +76,7 @@ This section will guide the reader on how to prepare and glue the `shaft-collar-
 		*  This will help to avoid unneeded stress to partially cured glue
 	*  Remove the `drive-wheel-asm` by pressing the outer-edges of `shaft-collar-alignment-jig` downward to actuate the jig's ejector pins
 	
-	<img src="img/eject.JPG" width="60%" height=auto>
+	<img src="img/eject.jpg" width="60%" height=auto>
 
 	<img src="img/img16.jpg" width="60%" height=auto>
 
