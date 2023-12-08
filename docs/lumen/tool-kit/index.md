@@ -10,7 +10,9 @@ Currently, we have repurchased several hundred pieces of `ASM-0048-02` which mus
 
 	* +7 pcs `M5x16-bolt`
 	* +2 pcs `M5x10-bolt`
-	* +1 pcs `silicone-grease-packet`
+	* +2 pcs `silicone-grease-packet`
+	* +4pcs `M5 t-nut`
+	* +4PCS `M5x8-bolt`
 
 	<img src="img/IMG_2011.jpg" width="60%"/>
 
@@ -21,7 +23,7 @@ Currently, we have repurchased several hundred pieces of `ASM-0048-02` which mus
 	* After a bag passes weight check, add a `QC Pass` sticker to the outside of the bag
 		
 	!!!note "Stockpiling `lumen-v3.1-hardware-kit` pieces"
-		If more pieces of `lumen-v3-hardware-kit` are reworked than what's needed for a given production batch, place the excess in a <span style="color:green"> green QC-Pass bin</span> labeled `lumen-v3.1-hardware-kit (ASM-0048-03)`
+		If more pieces of `lumen-v3-hardware-kit` are reworked than what's needed for a given production batch, place the excess in a <span style="color:green"> green QC-Pass bin</span> labeled `lumen-v3.1-hardware-kit (ASM-0048-04)`
 
 ## Assemble Tool Kit
 * Gather components shown:
