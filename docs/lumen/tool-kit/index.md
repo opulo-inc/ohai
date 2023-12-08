@@ -10,11 +10,13 @@ Currently, we have repurchased several hundred pieces of `ASM-0048-02` which mus
 
 	* +7 pcs `M5x16-bolt`
 	* +2 pcs `M5x10-bolt`
+	* +4PCS `M5x8-bolt`
 	* +2 pcs `silicone-grease-packet`
 	* +4pcs `M5 t-nut`
-	* +4PCS `M5x8-bolt`
 
 	<img src="img/IMG_2011.jpg" width="60%"/>
+	
+	!!!warning "The above photo is out of date"
 
 ### QC Check
 * After reworking inventory to match the latest requirements of a `lumen-v3.1-hardware-kit`, proceed with a weight check.
