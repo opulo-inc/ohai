@@ -46,7 +46,8 @@
 ###Packaging `getting-started-kit`
 * Insert `getting-started-kit` into the lower region of the tray
 	* Only pull these items from a <span style="color:green"> green QC-Pass bin</span>.
-
+	
+	![](img/insert-ftp.jpeg)
 
 ###Packaging `x-gantry`
 * Perform `x-gantry` QC
@@ -75,6 +76,9 @@
 	   	 ![](img/removing-x-gantry.png)
 
 ###Packaging `y-gantry-right`
+
+![](img/y-gantry-right.png)
+
 * Perform `y-gantry-right` QC
 	* Confirm M5 bolts are installed in every counterbored region
 	* `M5-hex/square-nut` installed where required:
@@ -99,6 +103,9 @@
  	![](img/remove-right-legs.png)
 
 ###Packaging `y-gantry-left`
+
+![](img/y-gantry-left.png)
+
 * Perform `y-gantry-left` QC
 	* Confirm M5 bolts are installed in every counterbored region
 	* `M5-hex/square-nut` installed where required:
