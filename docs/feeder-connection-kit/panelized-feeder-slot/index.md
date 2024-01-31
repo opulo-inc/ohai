@@ -38,6 +38,7 @@ The `feeder-slot-panel` PCB requires the installation of 8x `2x3-IDC-connector`
 * Press the switch on the stylus when all spring pins are compressed against the pads
 	![](img/program-blade-5.jpeg)
 * Look at the screen:
+	
 	!!!failure "The programming step failed if you see *anything other than a `success` message*"
 		* The jig is capable of detecting shorts, and will fail programming if one is detected
 			* The screen will display which pin it sensed has shorted
