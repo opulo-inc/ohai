@@ -1,92 +1,75 @@
 # Panelized Feeder Slot
-This section will guide the reader on how to properly create a `panelized-feeder-slot` PCBA
-
+This section will guide the reader on how to properly create a `feeder-slot-panel` PCBA
 
 ## SMT
-
-* Paste slot panels two at a time.
-* Load two pasted slot panels into the Slot Lumen.
+* Paste slot panels three at a time.
+* Load three pasted slot panels into the Slot Lumen
 * Run the job in OpenPnP
-  * Early stencils have a mistake from JLCPCB where the 120R termination resistor cutout is missing. If this is the case for the stencil you're running, disable that part in openpnp and mount after reflow.
-* Remove the panels and reflow them in the oven one at a time.
-* Inspect for any shorts or shifted components and rework as needed.
+* Remove the panels and reflow them in the oven *one at a time*
+* Inspect for any shorts or shifted components and rework as needed
 * Add the 120R termination resistor to the 50th slot PCB if needed
 
 ## THT
-The `panelized-feeder-slot` PCBA requires the installation of 50x `2x3-IDC-connectors. The process for installing these will be covered in the subsections below.
+The `feeder-slot-panel` PCB requires the installation of 8x `2x3-IDC-connector`
 
-### Component Installation
-
-* After trimming the connectors, insert them into a panel that has undergone SMT.
+* Install 8x `2x3-idc-connnector` into the `feeder-slot-panel` in the orientation shown below
 	
 	!!!inspection "Check Orientation"
 		Be sure that ALL connectors have the keying slot facing ***towards*** the cutout in the PCB. Reference the picture below.
+		![](img/8x-connectors-installed.jpeg)
 
-	![](img/dip-slot-set-pca-1.JPG)
-	![](img/dip-slot-set-pca-2.JPG)
+* Flip the board over and proceed to solder 8x  `2x3-idc-connnector` to `feeder-slot-panel` with a soldering iron and lead-free solder
 
-* Affix the retention bracket on top of the connectors as shown:
-  
-	![](img/retention-bracket.jpg)
+	![](img/8x-connectors-soldered.jpeg)
 
-
-### Dip Soldering
-* Don the PPE by the solder pot. None of these items are optional:
-  * Safety Glasses
-  * Gloves
-  * Apron
-  * Respirator
-  * Close-Toed Shoes
-
-	![](img/ppe.jpg)
-
-* Preheat the board for 45 seconds by holding it over the pot.
-
-* Apply flux to the underside of the PCBA by spritzing it with the spray bottle by the solder pot.
-	
-	!!!inspection "Inspect that the underside is fully coated in flux before proceeding"
-		![](img/dip-slot-set-pca-6.JPG)
-
-* Skim the top layer of dross/oxidation from the top of the pot.
-
-* Dip the board into the solder pot at an angle, push down gently for 2-3 seconds. Then remove at an angle, so one corner is last to leave the pot.
-![](img/dip-slot-set-pca-7.JPG)
-
-### Solder Cleanup
-* Proceed to address any solder bridging that may have resulted from the dip soldering process before proceeding
-	
-	![](img/dip-slot-set-pca-10.JPG)
-	![](img/dip-slot-set-pca-11.JPG)
-	
-* Proceed after removing all instances of solder bridging
-	![](img/dip-slot-set-pca-13.JPG)
-
-### Board Cleanup
-* Lay a slot panel connector-side down.
-	![](img/clean-1.jpg)
-* Squirt IPA onto the top side of the board.
-	![](img/clean-2.jpg)
-* Use the toothbrush to clean up any remaining flux or debris on the board.
-	![](img/clean-3.jpg)
-* Wipe down with a paper towel until clean and streak-free.
-	![](img/clean-4.jpg)
-	![](img/clean-5.jpg)
+* Place the completed `feeder-slot-panel` units into the yellow bin found at the slot assembly work station
+	![](img/slots-in-bins3.jpeg)
 
 ## Programming
-
 * Grab the stylus from the slot programmer.
   ![](img/pgrm-slot-set-pca-14.JPG)
-* Ensure that the address is set to `1`. You can adjust the address with the buttons to the right of the screen.
-* Place the spring pins of the stylus against the pads on the first slot. Make sure the orientation matches as shown below.
-  ![](img/pgrm-slot-set-pca-15.JPG)
-  ![](img/pgrm-slot-set-pca-16.JPG)
-* When all spring pins are their pads, press the switch on the stylus.
-* Look at the screen. 
-    * If you see the `1 - SUCCESS` then the first slot was programmed correctly.
-    * If you see anything other than success, programming failed. The jig is capable of detecting shorts, and will fail programming if one is detected. It will display which pin it has sensed has shorted. Perform any necessary cleanup and try again. The jig will remember your place.
-* After successfully programming address `1`, perform the same step for the next 49 addresses.
+* Ensure that the address is set to `1`
+	* You can adjust the address with the buttons to the right of the screen
+* Place the spring pins of the stylus against the pads on `Slot #1`
+	* Make sure the orientation matches as shown below:
+		  ![](img/pgrm-slot-set-pca-15.JPG)
+		  ![](img/program-blade-4.jpeg)
+
+* Press the switch on the stylus when all spring pins are compressed against the pads
+	![](img/program-blade-5.jpeg)
+* Look at the screen:
+	!!!failure "The programming step failed if you see *anything other than a `success` message*"
+		* The jig is capable of detecting shorts, and will fail programming if one is detected
+			* The screen will display which pin it sensed has shorted
+		* If a failure is observed perform any necessary cleanup and try again
+		* Note that the jig will remember the last place you left off
+
+	!!!success "If the programmer reads `1 - SUCCESS` proceed to the next slot"
+		![](img/program-blade-3.jpeg)
+
+* After successfully programming address `1`, repeat this step for the next 49 addresses while moving in the following order:<br> <span style="color:#FF00FF"> Pink (4th row) </span> → <span style="color:Red"> Red (2nd row) </span> → <span style="color:Green"> Green (3rd row) </span> → <span style="color:#0096FF"> Blue (1st row) </span>
+	![](img/programming-blade-4.jpg)
+
+	!!!warning "Pay **extreme attention** to avoid programming any slot with the wrong value"
 
 ## QC
-Ensure your completed PCBA matches the image below before passing the completed to assembly along for further use on the assembly line 
-![](img/clean-5.JPG)
-![](img/slot-set-2.JPG)
+Ensure your completed PCBA meets the following requirements:
+
+- 8x `2x3 IDC connector` are present with each connector's slit facing towards the `Feeder Floor REV07` silkscreen text
+- Switch the programmer to `QC Mode` and confirm that Slots #1, #13, #26, #38, and #50 each have a programmed value that matches the top-side silkscreen text
+
+	!!!info "For example:"
+		Confirm that Slot #26 is *actually* programmed as Slot #26
+
+- Gold spring finger pads are free of damage
+
+Place each quality checked `feeder-slot-panel` into the appropriate QC bin:
+
+!!!success "Place all QC passing `feeder-slot-panel` units into the green QC bin"
+	![](img/slots-in-bins1.jpeg)
+	
+!!!failure "Place all QC failing `feeder-slot-panel` units into the red QC bin"
+	Be sure to label each defective unit with any issues it has
+	![](img/slots-in-bins2.jpeg)
+
+The next step is to proceed to `Feeder Slot Set Final Assembly`
