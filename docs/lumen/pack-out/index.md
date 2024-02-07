@@ -8,7 +8,7 @@
     * `x-gantry`
     * `getting-started-kit`
     * `Tool-kit`
-    * `feeder-slot-cable-harness`
+    * `feeder-blade-harness-set`
     * 2x `front-leg-extension`
 	 * 2x `back-leg-extension` 
      
@@ -143,10 +143,13 @@
    		 ![](img/frontlegextension.jpg)
    		 
    		 
-### Packaging `feeder-slot-cable-harness`
-1. Insert `feeder-slot-cable-harness` into the tray in the region shown below 
+### Packaging `feeder-blade-harness-set`
+1. Insert `feeder-blade-harness-set` into the tray in the region shown below 
 
     ![](img/slotcable.jpg)
+
+	!!!warning "This photo is out of date"
+		Be sure to use the new version of this cable, `feeder-blade-harness-set`, rather than the earlier version shown above.
     
 ### Confirm the contents of `lower-foam-tray`
 Confirm the `lower-foam-tray` matches the image shown below before continuing:
@@ -398,4 +401,4 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 	   ![](img/QC-Form/8-qc-form.jpeg)
 
-!!!success "The LumenPnP should now be ready for fulfillment!" 
+!!!success "The LumenPnP should now be ready for fulfillment!"

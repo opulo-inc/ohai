@@ -69,3 +69,6 @@ These parts and their respective quantities are as follows:
 	![](img/build-foot-rubber.jpeg)
 - Place each `static-camera-foot` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
 	![](img/aux-staging-plate-foot.png)
+
+### feeder-blade-harness-set
+- Prepare this item by following [these instructions](/feeder-connection-kit/accessories/#feeder-blade-cable-harness)
