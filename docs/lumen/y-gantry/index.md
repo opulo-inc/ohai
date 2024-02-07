@@ -1,5 +1,5 @@
 ## Intro
-The purpose of this work instruction is to explain the assembly process for the LumenPnP v3.1.0 Left-Side Y-Gantry (`y-gantry-left`).
+The purpose of this work instruction is to explain the assembly process for the LumenPnP v3.2.0 Left-Side Y-Gantry (`y-gantry-left`).
 
 ## Create Y-Gantry Subassembly
 - Remove any stringing from the print with a heat gun
