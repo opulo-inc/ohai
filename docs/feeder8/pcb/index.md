@@ -1,4 +1,4 @@
-# PCB Assembly
+# PCB Assembly Brice
 
 This section will guide the reader on how to properly assemble and test a `feeder-mobo` for further use in all width `feeder` variants.
 
@@ -18,80 +18,80 @@ This section will guide the reader on how to properly assemble and test a `feede
     ![](img/stencil-cleaning-top.jpg)
     ![](img/stencil-cleaning-bottom.jpg)
 
-1. Grab a new feeder panel.
+2. Grab a new feeder panel.
 
     ![](img/panel.jpg)
 
-1. Insert the panel into the jig.
+3. Insert the panel into the jig.
 
     ![](img/panel-in-jig.jpg)
 
-1. Check to make sure that the stencil is aligned with the pads on the panel.
+4. Check to make sure that the stencil is aligned with the pads on the panel.
 
     ![](img/stencil-aligned.jpg)
 
-1. Grab the jar of **FRESH** Loctite GC10 solder paste.
+5. Grab the jar of **FRESH** Loctite GC10 solder paste.
 
     ![](img/loctite-gc10.jpg)
 
-1. Remove the plug from the jar.
+6. Remove the plug from the jar.
 
     ![](img/paste-plug.jpg)
     ![](img/paste-plug-removed.jpg)
 
-1. Remove some paste from the jar with the paddle, and spread it along the top of the stencil.
+7. Remove some paste from the jar with the paddle, and spread it along the top of the stencil.
 
     ![](img/applying-paste.jpg)
 
-1. IMMEDIATELY replace the plug.
+8. IMMEDIATELY replace the plug.
 
     ![](img/plug-reinserted.jpg)
 
-1. Grab the squeegee tool.
+9. Grab the squeegee tool.
 
     ![](img/squeegee.jpg)
 
-1. Align the squeegee on the stencil so that the **boltheads are facing up**.
+10. Align the squeegee on the stencil so that the **boltheads are facing up**.
 
     ![](img/boltheads-up.jpg)
     ![](img/about-to-squeegee.jpg)
 
-1. Squeegee paste across the panel. **Apply plenty of force**. Make sure you use the correct angle. An angle too high will result in not enough paste, and an angle too low will result in too much.
+11. Squeegee paste across the panel. **Apply plenty of force**. Make sure you use the correct angle. An angle too high will result in not enough paste, and an angle too low will result in too much.
 
     ![](img/correct-angle.jpg)
     ![](img/angle-high.jpg)
     ![](img/angle-low.jpg)
     ![](img/angle-range-results.jpg)
 
-1. With a high angle, scrape up any remaining paste on the top of the stencil. Do this once in the Y axis, and twice in the X axis, covering the whole panel.
+12. With a high angle, scrape up any remaining paste on the top of the stencil. Do this once in the Y axis, and twice in the X axis, covering the whole panel.
 
     ![](img/scrape-y.jpg)
     ![](img/scrape-x.jpg)
 
-1. Lift the stencil away from the board in a smooth motion. **Do NOT bring the stencil back onto the PCB after lifting**.
+13. Lift the stencil away from the board in a smooth motion. **Do NOT bring the stencil back onto the PCB after lifting**.
 
     ![](img/lift-stencil.jpg)
 
-1. Inspect the paste. Make sure that there is a sufficient gap between pads. If the paste is heavily bridging, wipe off the paste and redo the process.
+14. Inspect the paste. Make sure that there is a sufficient gap between pads. If the paste is heavily bridging, wipe off the paste and redo the process.
 
     ![](img/paste-ok.jpg)
     ![](img/paste-ng.jpg)
 
-1. Clean the stencil like before.
+15. Clean the stencil like before.
 
     ![](img/stencil-ipa.jpg)
     ![](img/stencil-cleaning-top.jpg)
     ![](img/stencil-cleaning-bottom.jpg)
 
-1. Repeat the process of adding a blank panel, squeegeeing, and cleaning until the necessary amount of panels are pasted. Only paste what you are **SURE** you can populate and reflow in the same day. If you complete that number early, you can paste more boards and run more jobs, but leaving a panel pasted and not reflowed overnight is **not acceptable**.
+16. Repeat the process of adding a blank panel, squeegeeing, and cleaning until the necessary amount of panels are pasted. Only paste what you are **SURE** you can populate and reflow in the same day. If you complete that number early, you can paste more boards and run more jobs, but leaving a panel pasted and not reflowed overnight is **not acceptable**.
 
-1. If you are done pasting, scrape any remaining paste off of squeegee with the paddle, and scrape it into the **OLD Paste container**.
+17. If you are done pasting, scrape any remaining paste off of squeegee with the paddle, and scrape it into the **OLD Paste container**.
 
     ![](img/scrape-paste-squeegee.jpg)
     ![](img/paste-removed-squeegee.jpg)
     ![](img/paste-recycle.jpg)
 
-1. When done pasting, immediately wash your hands, and wipe down the work area. We do not use leaded solder paste at Opulo, but even the unleaded stuff isn't great to have hanging around.
+18. When done pasting, immediately wash your hands, and wipe down the work area. We do not use leaded solder paste at Opulo, but even the unleaded stuff isn't great to have hanging around.
 
     ![](img/wash-hands.jpeg)
 
