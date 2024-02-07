@@ -46,7 +46,8 @@
 ###Packaging `getting-started-kit`
 * Insert `getting-started-kit` into the lower region of the tray
 	* Only pull these items from a <span style="color:green"> green QC-Pass bin</span>.
-
+	
+	![](img/insert-ftp.jpeg)
 
 ###Packaging `x-gantry`
 * Perform `x-gantry` QC
@@ -75,6 +76,9 @@
 	   	 ![](img/removing-x-gantry.png)
 
 ###Packaging `y-gantry-right`
+
+![](img/y-gantry-right.png)
+
 * Perform `y-gantry-right` QC
 	* Confirm M5 bolts are installed in every counterbored region
 	* `M5-hex/square-nut` installed where required:
@@ -99,6 +103,9 @@
  	![](img/remove-right-legs.png)
 
 ###Packaging `y-gantry-left`
+
+![](img/y-gantry-left.png)
+
 * Perform `y-gantry-left` QC
 	* Confirm M5 bolts are installed in every counterbored region
 	* `M5-hex/square-nut` installed where required:
@@ -215,12 +222,14 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 1. Perform QC inspection on the front of `front-feeder-rail` and `rear-feeder-rail` pieces
 	![](img/feeder-rail-laid-out-front.JPG)
 	* `Front-feeder-rail`: 
-		* `Slot #1` - `#Slot 25` are installed sequentially from left to right
+		* `Slot #1` - `#Slot 25` are installed sequentially from left to right when examined visually
+		* `Slot #1` - `#Slot 25` are installed sequentially from left to right when checked with a `slot-programmer-jig` that is set to `read mode`
 		* The 2x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
 			* Total 2x `M5x8-bolt` and `M5-t-nut`
 		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
 	* `Rear-feeder-rail`:
-		* `Slot #26` - `#Slot 50` are installed sequentially from left to right
+		* `Slot #26` - `#Slot 50` are installed sequentially from left to right when examined visually
+		* `Slot #26` - `#Slot 50` are installed sequentially from left to right when checked with a `slot-programmer-jig` that is set to `read mode`
 		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
 		* The 4x installed `corner-bracket` pieces **each** have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
 			* Total 4x `M5x8-bolt` and `M5-t-nut`
@@ -301,7 +310,15 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	- All relevant shipping paperwork, including packing slip, shipping label, and any international forms
 	![](img/packout-final1.jpg)
 2. Adhere shipping documents to box
-	- Adhere all relevant shipping documentation to the top left side of the LumenPnP box flap 
+	- Adhere all relevant shipping documentation to the top left side of the LumenPnP box flap
+	- Set the packing slip aside **if** it lists product pricing information, otherwise it can be adhered below the shipping label
+
+2. Remove the `box-sn-label` from the `upper-foam-tray` and adhere it to the LumenPnP box in the region shown below 
+
+ 	!!!warning "It is **critical** that this label matches the serial number listed on the underside of the `primary-staging-plate`"
+
+   	![](img/outer-serial-label.jpeg)
+
 
 3. Examine the packing slip and take note of what (if any) additional items must be packaged  
 
@@ -334,25 +351,27 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
  
     ![](img/first-tray-removal.png)
     ![](img/first-tray-v3-1.jpg)
-    
-    !!!note "Please ignore that `box-sn-label` is not tucked into `upper-foam-tray`'s right-side pocket in this photo"
-   
-10. Remove the `box-sn-label` from the `upper-foam-tray` and adhere it to the LumenPnP box in the region shown below 
-
- 	!!!warning "It is **critical** that this label matches the serial number listed on the underside of the `primary-staging-plate`"
-
-   	![](img/outer-serial-label.jpeg)
 
 11. Complete the corresponding `OQC Checklist` page
 
 	   ![](img/QC-Form/4-qc-form.jpeg)
 
-12. If for the last question you selected `Yes` for *contains additional items*, you will be directed to the `Extra Items Checklist` page
-	- Please check-off any additional parts that this order will contain before proceeding
+12. Reference the order's `packing list` to determine if the box must include *any additional items*
+	- If the order **includes** additional items, select `Yes` to this page's last question before proceeding
+	- If the order **does not include** additional items, select `No` to this page's last question before proceeding
+	
+12.  If you answered `Yes` to the previous question you will be directed to the `Extra Items Checklist` page
+	- Package any additional items required into the open void regions of the LumenPnP's packaging
+	- If the order includes `feeders` or items suitable for a `feeder-accessory-tray` package them above the `upper-foam-tray` like so:
+	
+		![](img/feeder-packing1.jpg)
+		![](img/feeder-packing3.jpg)		
+		
+	- After adding any additional items to the order, check-off any additional items this order contains before proceeding
 
-	   ![](img/QC-Form/5-qc-form.jpeg)
+	 	  ![](img/QC-Form/5-qc-form.jpeg)
 
-13. Proceed to the `Finalize Shipment` page of the `OQC Checklist` and work your way through it
+13. Proceed to the `Finalize Shipment` page of the `OQC Checklist` and work your way through alongside following these last 6 steps
 
 	   ![](img/QC-Form/6-qc-form.jpeg)
 
@@ -369,8 +388,11 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
     * Orient the card so that it's bottom edge faces toward the Opulo logo side of the box
     
     ![](img/opened-box.png)
+    
+	!!!note "If the packing slip had pricing info listed on it, please tape it next to the `getting-started-card` at this time"
 
 17. Tape the LumenPnP box shut 
+
 18. Adhere an `orange sticker` to the top-right corner of the box.
 19. Click `Submit` on the final page of `OQC Checklist` page
 
