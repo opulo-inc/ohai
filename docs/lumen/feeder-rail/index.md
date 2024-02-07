@@ -1,7 +1,9 @@
-#Front-feeder-rail / Rear-feeder-rail
-
+#Feeder Rail (Front and Rear)
 ## Introduction
 The purpose of these work instructions is to cover the assembly process for the LumenPnP's front and rear feeder rail. These rails are used by the LumenPnP to space its two y-gantry assemblies apart. These rails also allow for auto feeders to be installed onto the LumenPnP and electronically connected via the 50x mounted feeder slots.
+
+!!!warning "This set of work instructions is out of date"
+	This document shows how to assemble feeder rails with Individual Feeder Slots rather than the Feeder Blades we now use as of the LumenPnP v3.2 release. Please consult a teamamte if you are not verbally trained on what to do differently."
 
 Before:
    

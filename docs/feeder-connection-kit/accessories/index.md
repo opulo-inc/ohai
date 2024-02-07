@@ -28,28 +28,28 @@ This section will guide the reader on how to properly prepare the accessories th
 ![](img/IMG_3669.png)
 
 
-## feeder-blade-cable-harness
+## feeder-blade-harness-set
 ###Cutting up feeder-slot-cable-harness
 * Begin by unpacking a stock `feeder-slot-cable-harness`
 	![](img/feeder-blade-cable-harness-rework1.jpg)
-* Unroll the harness and cut the cable after Slot #1 connector to create `mobo-to-slot1-cable-harness` before setting it aside for later use
+* Unroll the harness and cut the cable after Slot #1 connector to create `mobo-to-slot1-harness` before setting it aside for later use
 	![](img/feeder-blade-cable-harness-rework2.jpg)
 * Cut the loose cable leading up to the Slot #2 IDC connector
 	![](img/feeder-blade-cable-harness-rework3.jpg)
-* Cut out the center of the cable between Slot #25 and #26 as shown below to create `slot25-to-slot26-cable-harness` before setting it aside for later use
+* Cut out the center of the cable between Slot #25 and #26 as shown below to create `slot25-to-slot26-harness` before setting it aside for later use
 	![](img/feeder-blade-cable-harness-rework4.jpg)
 	![](img/feeder-blade-cable-harness-rework5.jpg)
 	![](img/feeder-blade-cable-harness-rework6.jpg)
 	![](img/feeder-blade-cable-harness-rework7.jpg)
-* Segment the remaining `feeder-slot-cable-harness` into 30mm long cables with a connector at each end to create 23x `blade12-to-blade13-cable-harness` before setting them aside for later use
+* Segment the remaining `feeder-slot-cable-harness` into 30mm long cables with a connector at each end to create 23x `blade-jumper-harness` before setting them aside for later use
 	![](img/feeder-blade-cable-harness-rework8.jpg)
 	![](img/feeder-blade-cable-harness-rework10.jpg)
 
-###Packaging feeder-blade-cable-harness
+###Packaging feeder-blade-harness-set
 * Collect the following cables and package them into a `4x6-anti-static-bag` before sealing it shut
-	* 1x `mobo-to-slot1-cable-harness`
-	* 1x `slot25-to-slot26-cable-harness`
-	* 2x `blade12-to-blade13-cable-harness`
+	* 1x `mobo-to-slot1-harness`
+	* 1x `slot25-to-slot26-harness`
+	* 2x `blade-jumper-harness`
 	
 	![](img/feeder-blade-cable-harness-rework11.jpg)
 	![](img/feeder-blade-cable-harness-rework12.jpg)
@@ -58,8 +58,8 @@ This section will guide the reader on how to properly prepare the accessories th
 ###Additional notes
 * To keep the workstation organized keep everything organized in the bin shown below:
 	* Section #1 - unmodified `feeder-slot-cable-harness` pieces
-	* Section #2 - spare `blade12-to-blade13-cable-harness` pieces
-	* Section #3 - finished and bagged`feeder-blade-cable-harness` units
+	* Section #2 - spare `blade-jumper-harness` pieces
+	* Section #3 - finished and bagged`feeder-blade-harness-set` units
 	![](img/feeder-blade-cable-harness-rework14.jpg)
 
 !!!success "These three assemblies can now be set aside for further use in packout"
