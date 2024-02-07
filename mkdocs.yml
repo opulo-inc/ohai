@@ -1,7 +1,7 @@
 site_name: OHAI - Open Hardware Assembly Instructions
 site_url: https://ohai.opulo.io/
 repo_url: https://github.com/opulo-inc/ohai/
-copyright: LumenPnP and its related works are proudly released under the GPL-3.0 license - Opulo Inc 2023
+copyright: LumenPnP and its related works are proudly released under the GPL-3.0 license - Opulo Inc 2024
 extra_css: [stylesheets/extra.css]
 
 #plugins:
@@ -36,12 +36,12 @@ theme:
 
 nav:
   - Home: index.md
-  - LumenPnP (v3.1):
+  - LumenPnP:
         - Introduction: lumen/index.md
         - Motherboard: lumen/mobo/index.md
         - X Gantry: lumen/x-gantry/index.md
         - Y Gantry: lumen/y-gantry/index.md
-        - Front/Rear Feeder Rail: lumen/feeder-rail/index.md
+        - Feeder Rail (Front and Rear): lumen/feeder-rail/index.md
         - Drag Chain: lumen/drag-chain/index.md
         - Staging Plate: lumen/staging-plate/index.md
         - Getting Started Kit: misc/ftp-kit/index.md
@@ -62,8 +62,8 @@ nav:
 
   - Feeder Connection Kit:
         - Introduction: feeder-connection-kit/index.md
-        - Feeder Slot PCBA: feeder-connection-kit/panelized-feeder-slot/index.md
-        - Feeder Slot Set Final Assembly: feeder-connection-kit/slot-set/index.md
+        - Feeder Blade PCBA: feeder-connection-kit/panelized-feeder-slot/index.md
+        - Feeder Blade Set Final Assembly: feeder-connection-kit/slot-set/index.md
         - Feeder Accessory Preparation: feeder-connection-kit/accessories/index.md
         - Packaging: feeder-connection-kit/packout/index.md
 
