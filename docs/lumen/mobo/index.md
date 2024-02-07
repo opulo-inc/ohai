@@ -194,11 +194,15 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 1. Plug the motherboard into the computer using a USB-B cable. Hold the Boot button until you see your terminal output change. If you never do, put the board in the MRB tray.
 
-1. If you do see a change, it means we’ve booted into DFU mode successfully. Check off the “DFU” checkmark on the receipt and move on to the next step.
+1. If you do see a change, it means we’ve booted into DFU mode successfully. Check off the “DFU” checkmark on the receipt.
+
+1. Type `CTRL-C` into terminal to cancel the dfu command.
 
 ### Serial
 
-1. Press the reset button on the motherboard, and open CNCjs on your computer. Refresh the available ports, and look for one in the dropdown. Click the available port (with the name STMicroelectronics), and hit connect. Type “M115” in the console and hit enter. Look for an output like the following (doesn’t have to be exact):
+1. With the motherboard still plugged into the computer in DFU mode, type `flashmarlin` into the terminal and wait for the firmware upload to complete
+
+2. Press the reset button on the motherboard, and go to [debug.opulo.io](https://debug.opulo.io/) in Chrome on the QC computer. Click "Connect" in the upper right, and select the `MARLIN_OPULO_LUMEN` option. Type `M115` in the console and hit enter. Look for an output like the following (doesn’t have to be exact):
 
         Cap:EEPROM:1
         Cap:AUTOREPORT_TEMP:1
@@ -209,7 +213,7 @@ This section will guide the reader on how to properly assemble and test a `mobo`
         Cap:TOGGLE_LIGHTS:0
         Cap:EMERGENCY_PARSER:1  
 
-1. If any part of this fails to occur, put the board in the “MRB” tray. If successful, check the serial connection box on the receipt, and move to the `Needs THT` tray.
+3. If any part of this fails to occur, put the board in the “MRB” tray. If successful, check the serial connection box on the receipt, and move to the `Needs THT` tray.
 
 ## Needs THT
 
