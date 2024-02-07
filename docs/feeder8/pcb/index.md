@@ -1,4 +1,4 @@
-# PCB Assembly Brice
+# PCB Assembly
 
 This section will guide the reader on how to properly assemble and test a `feeder-mobo` for further use in all width `feeder` variants.
 
