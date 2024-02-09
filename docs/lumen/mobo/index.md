@@ -233,32 +233,25 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 3. Insert a fuse into the fuse holder.
 
-4. Open VSCode on your computer, and boot up Gundam.
+4. On the QC computer, if Gundam is not already open, open a new terminal, and type `gundam` then the enter key.
 
-5. Affix the motherboard to the Jaeger jig using two screws and the nearby allen key, and plug in all the cables and tubing, EXCEPT FOR THE POWER PLUG.
+5. Affix the motherboard to the Jaeger jig using two screws and the nearby allen key, and plug in all the cables and tubing, EXCEPT FOR THE POWER PLUG. The power plug MUST come last.
 
 6. Plug in the power plug last, after everything has been connected.
 
-7. Plug the motherboard into your computer using the USB-B cable.
+7. Plug the motherboard into the QC computer using the USB-B cable.
 
-8. Hit “Scan Ports” and look for a port to populate the dropdown menu.
+8. Select the “REV04-Mobo.json” test from the dropdown menu, then hit “Run Test”.
 
-9. Select the “REV04-Mobo.json” test from the dropdown menu, then hit “Run Test”.
+1. Perform each of the tests in Gundam, and follow the prompts.
 
-10. Gundam will prompt you for the motherboard serial number. Enter it in the format “MB00000” where the zeros are the serial number. Be sure to include all five digits, even if the serial has leading zeros. You can find this on the bottom of the board, or on the test receipt.
+9. If some of the tests fail, continue through the rest of the test until every test has been run.
 
-11. Gundam will prompt you for a revision. Enter “REV04”.
+10. Remove the board from the jig by first unplugging the usb port and power, then unplugging all of the cables to the actuators. Then unscrew the screws mounting the board to the jig.
 
-12. Give the app a moment to log the data, then the test page will appear. 
-Proceed through each subtest and follow the instructions for each one.
+11. If the test succeeded, you can mark the receipt checkbox for “Jaeger Jig”, then put the board and its receipt into the PASS tray.
 
-1. If some of the tests fail, continue through the rest of the test until every test has been run.
-
-2. Remove the board from the jig by first unplugging the usb port and power, then unplugging all of the cables to the actuators. Then unscrew the screws mounting the board to the jig.
-
-3. If the test succeeded, you can mark the receipt checkbox for “Jaeger Jig”, then put the board and its receipt into the PASS tray.
-
-4. If the test failed, address the issue with rework and retest.
+12. If the test failed, address the issue with rework and retest.
 
   
 ## SMT Troubleshooting
