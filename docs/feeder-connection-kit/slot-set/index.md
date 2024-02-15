@@ -2,11 +2,18 @@
 
 This section will guide the reader on how to properly assemble and package a `feeder-blade-set`
 
+## Materials Prep
+
+* Check 2x `blade-12` and 2x `blade-13` using the granite block to ensure the print printed without warping
+	![](img/IMG_2604.jpeg)
+
 ## Assembly Process
 * Begin by separating a `feeder-blade-panel` into its 4x separate rows
 	![](img/break-slots2.jpg)
 	![](img/break-slots25.jpg)
 	![](img/slot-set-3.JPG)
+
+
 
 * Install each `blade13-pcb` into a `blade13` 3D print to create `feeder-blade13-asm`
 	![](img/place-slots-in-blade2.jpeg)
