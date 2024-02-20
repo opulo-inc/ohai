@@ -34,12 +34,12 @@ After:
 7. Collect a `feeder-blade-set` from inventory
 	![](img/IMG_2607.jpeg)
 	
-10. Install the blade assembly numbered 1-12 onto the front left side of the `2020-alu-extrusion`
+10. Install Feeder Slot Blade (#1 - #12) onto the front left side of the `2020-alu-extrusion`
     * Press the blade assembly downward and inward (towards the sidewall of the jig) while tightening the 5x `M5x10-bolt` to `0.7N/M`, starting with the center screw and tighening the screws in pairs moving outwards
 	![](img/IMG_2608.jpeg)
 	![](img/IMG_2609.jpeg)
 	
-11. Repeat the two previous steps to install the blade numbered 13-25
+11. Repeat the two previous steps to install Feeder Slot Blade (#13 - #25)
 	![](img/IMG_2610.jpeg)
 	![](img/IMG_2611.jpeg)
 
@@ -101,13 +101,13 @@ This section of the work instruction will be a little less detailed than the abo
 
 ### Install feeder blades
 
-2. Install the blade numbered 26-37 onto the left side of `2020-alu-extrusion`
+2. Install Feeder Slot Blade (#26 - #37) onto the left side of `2020-alu-extrusion`
     * Press the blade downward and inward (towards the sidewall of the jig) while tightening the 5x `M5x10-bolt` to `0.7N/M`, starting with the center screw and tighening the screws in pairs moving outwards
 	
 	![](img/IMG_2608.jpeg)
 	![](img/IMG_2609.jpeg)
 
-3. Repeat the two previous steps to install the blade numbered 38-50
+3. Repeat the two previous steps to install Feeder Slot Blade (#38 - #50)
 	![](img/IMG_2610.jpeg)
 	![](img/IMG_2611.jpeg)
 
