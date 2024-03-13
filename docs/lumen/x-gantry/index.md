@@ -300,30 +300,27 @@ Assemble the x-gantry-linear-axis
 
 *   Attach z-gantry-left and z-gantry-right onto each respective linear rail carriages + z-gantry-backplate with 4x M3x8 bolts per side
 
-	*   Align each z-gantry to be parallel with the linear-rail by lightly pressing it outward with your hand, away from the mid-plane of the x-gantry-subassembly 
+	*   Align each z-gantry to be parallel with the linear-rail by lightly pressing it outward with your hand, away from the mid-plane of the x-gantry-subassembly
 		*   As these bolts are tightend ensure that the z-gantry doesn’t collide with the z-idler’s bolt head
 	*   Tighten bolts to 0.3 N/M, moving in a star pattern
 
 		<img src="images/image26.jpg" width="60%"/>
 
 *   Prepare pneumatic-toolhead-assembly
-
-	*   Attach 2x NEMA 11 stepper motors and corresponding nozzle components
-
-	*   Install a CP40-holder and pneumatic-coupler onto 2x NEMA 11 stepper motors
+	*   Install a `nozzle-holder` and `rotary-pneumatic-adapter` onto `NEMA11-hollow-shaft-stepper`
+		*  Use a torque driver w/custom `rotary-pneumatic-adapter-socket` and 8mm wrench to tighten these components onto the motor shaft
+		*  Set the torque driver to `0.5 N/M` for this step
+		*  Use the 8mm wrench to hold the `nozzle-holder` stationary while applying torque from the `rotary-pneumatic-adapter`side
+		*  The `rotary-pneumatic-adapter` should be installed closer to the motor's cable connector
 
 		<img src="images/image31.jpg" width="60%"/>
 		<img src="images/image10.jpg" width="60%"/>
-
-	*   Use a torque wrench with a 10mm socket to tighten these fittings onto the NEMA 11 motor with 0.5 N/M of force.
-
 		<img src="images/image54.jpg" width="60%"/>
 		<img src="images/image30.jpg" width="60%"/>
 
 	*   Install 2x pneumatic-toolhead-assembly onto x-gantry-front-subassembly
 
 	*   Bolt pneumatic-toolhead-assembly onto left side z-ganty
-
 		*   Attach with 4x M2.5x8 bolts
 		*   Torque each bolt to 0.3 N/M
 
@@ -333,7 +330,7 @@ Assemble the x-gantry-linear-axis
 
 	*   Repeat above process to attach a pneumatic-toolhead-assembly to the right side z-gantry
 
-	<img src="images/image69.jpg" width="60%"/>
+		<img src="images/image69.jpg" width="60%"/>
 
 ### X-gantry final assembly
 
@@ -456,7 +453,7 @@ Inspect the completed `x-gantry` for the following criteria:
 * Camera is installed with two bolts
 * Camera lens cap is present
 * The wire connectors on both `NEMA-11-stepper-motor` units face away from each other, sitting adjacent to their respective cable strain relief points
-* Each `CP40-holder` has been lubricated and fit-tested with a nozzle
+* Each `nozzle-holder` has been lubricated and fit-tested with a nozzle
 * `Z-belt-loop` feels appropriately tensioned when plucked
 * Each `z-gantry` moves smoothly when actuated back-and-forth by hand
 * 2x `M5-hex-nut` are installed in `x-gantry-back` for use with `drag-chain` attachment 
