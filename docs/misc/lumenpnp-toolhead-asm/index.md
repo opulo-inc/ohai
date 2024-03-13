@@ -34,6 +34,19 @@ The purpose of this work instructions is to document the assembly process for th
 	<img src="img/image12.JPG" width="60%"/>
 	<img src="img/image13.JPG" width="60%"/>
 
+### Prepare spare-o-ring-set
+
+1. Place 2x `nozzle-holder-o-ring` into a 1.5" x 1.5" plastic bag
+![alt text](img/or1.JPG)
+![alt text](img/or2.JPG)
+
+2. Add a few drops of `precision-machine-oil` into the plastic bag before sealing it shut
+![alt text](img/or3.JPG)
+
+3. Adhere a `Nozzle Holder Spare O-Rings` label to the outside of the bag
+![alt text](img/or4.JPG)
+![alt text](img/or5.JPG)
+
 ### Prepare Packaging
 
 5. Print LumenPnP Toolhead Assembly bag labels by accessing our account on [Avery Print](https://www.avery.com/myaccount/projects)
@@ -57,6 +70,7 @@ The purpose of this work instructions is to document the assembly process for th
 	* `l-motor-harness`
 	* `silicone-grease-packet`
 	* Bagged `RM` cable labels
+	* `spare-o-ring-set`
 
 	<img src="img/image9.JPG" width="60%"/>
 	<img src="img/image10.JPG" width="60%"/>
