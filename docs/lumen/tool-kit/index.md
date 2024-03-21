@@ -27,10 +27,25 @@ Currently, we have repurchased several hundred pieces of `ASM-0048-02` which mus
 	!!!note "Stockpiling `lumen-v3.1-hardware-kit` pieces"
 		If more pieces of `lumen-v3-hardware-kit` are reworked than what's needed for a given production batch, place the excess in a <span style="color:green"> green QC-Pass bin</span> labeled `lumen-v3.1-hardware-kit (ASM-0048-04)`
 
+## Prepare spare-o-ring-set
+
+1. Place 2x `nozzle-holder-o-ring` into a 1.5" x 1.5" plastic bag
+![alt text](img/or1.JPG)
+![alt text](img/or2.JPG)
+
+2. Add a few drops of `precision-machine-oil` into the plastic bag before sealing it shut
+![alt text](img/or3.JPG)
+
+3. Adhere a `Nozzle Holder Spare O-Rings` label to the outside of the bag
+![alt text](img/or4.JPG)
+![alt text](img/or5.JPG)
+
 ## Assemble Tool Kit
 * Gather components shown:
 
 	<img src="img/tool-bag-exploded.png" width="60%"/>
+
+	`TO DO: UPDATE PHOTO TO SHOW spare-o-ring-set`
 
 * Start by placing the `zip-tie-bag` into the `tool-kit-bag`’s zipped pouch
 
@@ -74,6 +89,9 @@ Currently, we have repurchased several hundred pieces of `ASM-0048-02` which mus
     
     <img src="img/image-16.jpg" width="60%"/>
 
+* Place the `spare-o-ring-set` into the `tool-kit-bag`’s pouch
+
+	`TO DO: ADD PHOTO`
 
 * Zip up the pouch
 
