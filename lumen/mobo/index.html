@@ -1,0 +1,2344 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ohai.opulo.io/lumen/mobo/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../x-gantry/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.14">
+    
+    
+      
+        <title>Motherboard - OHAI - Open Hardware Assembly Instructions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.10ba22f1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lumenpnp-motherboard-rev04" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-header__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OHAI - Open Hardware Assembly Instructions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Motherboard
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/opulo-inc/ohai/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  LumenPnP
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../feeder8/" class="md-tabs__link">
+          
+  
+    
+  
+  8mm Feeder
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../feeder-connection-kit/" class="md-tabs__link">
+          
+  
+    
+  
+  Feeder Connection Kit
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../misc/" class="md-tabs__link">
+          
+  
+    
+  
+  Misc Products
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../operations/" class="md-tabs__link">
+          
+  
+    
+  
+  Operations
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-nav__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.png" alt="logo">
+
+    </a>
+    OHAI - Open Hardware Assembly Instructions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/opulo-inc/ohai/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    LumenPnP
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            LumenPnP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Motherboard
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Motherboard
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#solder-paste" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solder Paste
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smt" class="md-nav__link">
+    <span class="md-ellipsis">
+      SMT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#needs-pogo" class="md-nav__link">
+    <span class="md-ellipsis">
+      NEEDS Pogo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#needs-usb-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Needs USB Checks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Needs USB Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usb-connector" class="md-nav__link">
+    <span class="md-ellipsis">
+      USB Connector
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ferrite-beads" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ferrite Beads
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dfu" class="md-nav__link">
+    <span class="md-ellipsis">
+      DFU
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Serial
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#needs-tht" class="md-nav__link">
+    <span class="md-ellipsis">
+      Needs THT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#needs-jaeger" class="md-nav__link">
+    <span class="md-ellipsis">
+      Needs Jaeger
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smt-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      SMT Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SMT Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#is-the-feeder-inserted-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is the feeder inserted? Error
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mispick" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mispick
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mrb" class="md-nav__link">
+    <span class="md-ellipsis">
+      MRB
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../x-gantry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    X Gantry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../y-gantry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Y Gantry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../feeder-rail/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feeder Rail (Front and Rear)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drag-chain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drag Chain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../staging-plate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Staging Plate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/ftp-kit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started Kit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tool-kit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tool Kit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../additional-parts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Additional Parts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pack-out/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Packaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../feeder8/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    8mm Feeder
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            8mm Feeder
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/pcb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PCB
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-motor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Peel Motor Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/indexing-wheel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drive Wheel Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-gear-frame/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Peel Gear Box
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/feeder-frame-8mm-asm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frame Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/assembly/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Final Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/oqc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OQC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/packout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Packaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../feeder-connection-kit/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Feeder Connection Kit
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Feeder Connection Kit
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder-connection-kit/panelized-feeder-slot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feeder Blade PCBA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder-connection-kit/slot-set/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feeder Blade Set Final Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder-connection-kit/accessories/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feeder Accessory Preparation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder-connection-kit/packout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Packaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../misc/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Misc Products
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Misc Products
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/lumenpnp-toolhead-asm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LumenPnP Toolhead Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/vac-and-valve-set/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LumenPnP Vacuum Pump and Valve Set
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/cp40-noz-set/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Packaged CP40 Nozzle Set
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/v3-pcb-kit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LumenPnP PCB Kit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/staging-plate-set/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Staging Plate 1/2 Pack
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/ftp-kit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started Kit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/rev3-vac-interposer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vacuum Sensor Upgrade Kit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/feeder-part-kit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feeder Part Kit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/strip-feeder/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Strip Feeder
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../operations/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Operations
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Operations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/order-fulfillment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Order Fulfillment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/purchasing-from-lcsc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ordering from LCSC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#solder-paste" class="md-nav__link">
+    <span class="md-ellipsis">
+      Solder Paste
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smt" class="md-nav__link">
+    <span class="md-ellipsis">
+      SMT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#needs-pogo" class="md-nav__link">
+    <span class="md-ellipsis">
+      NEEDS Pogo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#needs-usb-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Needs USB Checks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Needs USB Checks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usb-connector" class="md-nav__link">
+    <span class="md-ellipsis">
+      USB Connector
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ferrite-beads" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ferrite Beads
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dfu" class="md-nav__link">
+    <span class="md-ellipsis">
+      DFU
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Serial
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#needs-tht" class="md-nav__link">
+    <span class="md-ellipsis">
+      Needs THT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#needs-jaeger" class="md-nav__link">
+    <span class="md-ellipsis">
+      Needs Jaeger
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smt-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      SMT Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SMT Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#is-the-feeder-inserted-error" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is the feeder inserted? Error
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mispick" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mispick
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mrb" class="md-nav__link">
+    <span class="md-ellipsis">
+      MRB
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="lumenpnp-motherboard-rev04">LumenPnP Motherboard (REV04)</h1>
+<p>This section will guide the reader on how to properly assemble and test a <code>mobo</code> for further use in the LumenPnP.</p>
+<h2 id="solder-paste">Solder Paste</h2>
+<ol>
+<li>
+<p>Inspect the stencil. Make sure all the voids are clear of debris and solder paste.</p>
+<p><img alt="" src="img/stencil-ng.jpg" style="height:350px" />
+<img alt="" src="img/stencil-ok.jpg" style="height:350px" /></p>
+</li>
+<li>
+<p>If the stencil is not clean, squirt IPA onto the stencil.</p>
+<p><img alt="" src="img/stencil-ipa.jpg" /></p>
+</li>
+<li>
+<p>Use a paper towel to <strong>very lightly</strong> wipe down the stencil. Do <strong>not</strong> apply hard pressure, as it'll cause the stencil to cut the paper towel and cause debris to form.</p>
+<p><img alt="" src="img/stencil-cleaning-top.jpg" />
+<img alt="" src="img/stencil-cleaning-bottom.jpg" /></p>
+</li>
+<li>
+<p>Grab a new mobo panel.</p>
+</li>
+<li>
+<p>Insert the panel into the jig.</p>
+</li>
+<li>
+<p>Check to make sure that the stencil is aligned with the pads on the panel.</p>
+<p><img alt="" src="img/stencil-aligned.jpg" /></p>
+</li>
+<li>
+<p>Grab the jar of <strong>FRESH</strong> Loctite GC10 solder paste.</p>
+<p><img alt="" src="img/loctite-gc10.jpg" /></p>
+</li>
+<li>
+<p>Remove the plug from the jar.</p>
+<p><img alt="" src="img/paste-plug.jpg" />
+<img alt="" src="img/paste-plug-removed.jpg" /></p>
+</li>
+<li>
+<p>Remove some paste from the jar with the paddle, and spread it along the top of the stencil.</p>
+<p><img alt="" src="img/applying-paste.jpg" /></p>
+</li>
+<li>
+<p>IMMEDIATELY replace the plug.</p>
+<p><img alt="" src="img/plug-reinserted.jpg" /></p>
+</li>
+<li>
+<p>Grab the squeegee tool.</p>
+<p><img alt="" src="img/squeegee.jpg" /></p>
+</li>
+<li>
+<p>Align the squeegee on the stencil so that the <strong>boltheads are facing up</strong>.</p>
+<p><img alt="" src="img/boltheads-up.jpg" />
+<img alt="" src="img/about-to-squeegee.jpg" /></p>
+</li>
+<li>
+<p>Squeegee paste across the panel. <strong>Apply plenty of force</strong>. Make sure you use the correct angle. An angle too high will result in not enough paste, and an angle too low will result in too much.</p>
+<p><img alt="" src="img/correct-angle.jpg" />
+<img alt="" src="img/angle-high.jpg" />
+<img alt="" src="img/angle-low.jpg" />
+<img alt="" src="img/angle-range-results.jpg" /></p>
+</li>
+<li>
+<p>With a high angle, scrape up any remaining paste on the top of the stencil. Do this once in the Y axis, and twice in the X axis, covering the whole panel.</p>
+<p><img alt="" src="img/scrape-y.jpg" />
+<img alt="" src="img/scrape-x.jpg" /></p>
+</li>
+<li>
+<p>Lift the stencil away from the board in a smooth motion. <strong>Do NOT bring the stencil back onto the PCB after lifting</strong>.</p>
+<p><img alt="" src="img/lift-stencil.jpg" /></p>
+</li>
+<li>
+<p>Inspect the paste. Make sure that there is a sufficient gap between pads. If the paste is heavily bridging, wipe off the paste and redo the process.</p>
+<p><img alt="" src="img/paste-ok.jpg" />
+<img alt="" src="img/paste-ng.jpg" /></p>
+</li>
+<li>
+<p>Clean the stencil like before.</p>
+<p><img alt="" src="img/stencil-ipa.jpg" />
+<img alt="" src="img/stencil-cleaning-top.jpg" />
+<img alt="" src="img/stencil-cleaning-bottom.jpg" /></p>
+</li>
+<li>
+<p>Repeat the process of adding a blank panel, squeegeeing, and cleaning until the necessary amount of panels are pasted. Only paste what you are <strong>SURE</strong> you can populate and reflow in the same day. If you complete that number early, you can paste more boards and run more jobs, but leaving a panel pasted and not reflowed overnight is <strong>not acceptable</strong>.</p>
+</li>
+<li>
+<p>If you are done pasting, scrape any remaining paste off of squeegee with the paddle, and scrape it into the <strong>OLD Paste container</strong>.</p>
+<p><img alt="" src="img/scrape-paste-squeegee.jpg" />
+<img alt="" src="img/paste-removed-squeegee.jpg" />
+<img alt="" src="img/paste-recycle.jpg" /></p>
+</li>
+</ol>
+<h2 id="smt">SMT</h2>
+<ol>
+<li>
+<p>Identify the Lumen configured for Motherboard production.</p>
+<p><img alt="" src="img/.jpg" /></p>
+</li>
+<li>
+<p>Place a panel onto the panel platter.</p>
+</li>
+<li>
+<p>Use the M3x8mm screws to bolt the panel into the jig using the Populo screwdriver by the machine.</p>
+</li>
+<li>
+<p>Log into the computer used to control the mobo Lumen.</p>
+<p><img alt="" src="img/ubuntu-desktop.png" /></p>
+</li>
+<li>
+<p>If not already open, open OpenPnP by tapping the <code>Windows/Command</code> key and typing "openpnp" and hitting enter.</p>
+<p><img alt="" src="img/opening-opnp.png" /></p>
+</li>
+<li>
+<p>Home the Lumen with the home icon in the bottom left of the UI.</p>
+<p><img alt="" src="img/home-machine.png" /></p>
+</li>
+<li>
+<p>As part of homing, the machine will find the homing fiducial. The screen should look similar to below.</p>
+<p><img alt="" src="img/finding-homing-fid.png" /></p>
+</li>
+<li>
+<p>The machine will also perform a nozzle tip calibration. The screen should look similar to below.</p>
+<p><img alt="" src="img/nozzle-tip-cal.png" /></p>
+</li>
+<li>
+<p>Click the <code>PLAY</code> icon along the top button bar.</p>
+<p><img alt="" src="img/run-job.png" /></p>
+</li>
+<li>
+<p>Hit <code>Yes</code> to the reset placements popup.</p>
+<p><img alt="" src="img/reset-placements.png" /></p>
+</li>
+<li>
+<p>The machine will perform a fiducial check. It will scan the fiducials on both boards with the top camera, and use their location to get accurate placements. This will take a couple minutes. The screen should look similar to below.</p>
+<p><img alt="" src="img/finding-fids.png" /></p>
+</li>
+<li>
+<p>The machine will begin feeding a part with a feeder, pick it with the first nozzle, then feed another part. It will then hold the part over the bottom camera to calibrate its position, then place it. It will repeat this process until the job is done.</p>
+</li>
+<li>
+<p>When the job is complete, remove the panel from the machine with the Populo screwdriver.</p>
+</li>
+</ol>
+<h2 id="reflow">Reflow</h2>
+<ol>
+<li>
+<p>Inspect the panel for accuracy. Adjust any components necessary to ensure a successful reflow, and correct any calibration that could be causing an alignment error. Ask Stephen for help if you get stuck.</p>
+</li>
+<li>
+<p>Insert the panel into the reflow oven.</p>
+</li>
+<li>
+<p>Press the top button to return to the menu.</p>
+<p><img alt="" src="img/reflow-to-menu.jpg" /></p>
+</li>
+<li>
+<p>Make sure the current setting is <code>Loctite GC10</code>, then press the top button to run the reflow cycle.</p>
+<p><img alt="" src="img/reflow-start.jpg" />
+<img alt="" src="img/reflow-starting.jpg" /></p>
+</li>
+<li>
+<p>Work on another task until the Reflow Master beeps <strong>and</strong> says "REFLOW DONE!".</p>
+<p><img alt="" src="img/reflow-to-menu.jpg" /></p>
+</li>
+<li>
+<p>Using the pliers by the oven, grab the panel and place it in the Motherboard <code>NEEDS POGO</code> tray in the rack.</p>
+</li>
+</ol>
+<h2 id="needs-pogo">NEEDS Pogo</h2>
+<ol>
+<li>
+<p>Depanel the boards from the panel using the depaneling tool.</p>
+<p><img alt="" src="img/.jpg" /></p>
+</li>
+<li>
+<p>The board now needs to be run through the pogo pin jig.</p>
+<div class="admonition warning">
+<p class="admonition-title">Do not use the pogo pin jig.</p>
+<p>The motherboard pogo pin jig, albeit useful, is fragile and easy to break. If you have boards in this tray that need to move forward, ask Stephen to perform the pogo test.</p>
+</div>
+</li>
+</ol>
+<h2 id="needs-usb-checks">Needs USB Checks</h2>
+<h3 id="usb-connector">USB Connector</h3>
+<ol>
+<li>
+<p>Mount the board in the Omnivice and put the receipt tucked under the mat.</p>
+</li>
+<li>
+<p>Solder on the USB type B connector.</p>
+</li>
+<li>
+<p>Give the connector a strong push and try to rip it off. It is important that it is very strongly soldered into the board.</p>
+</li>
+<li>
+<p>If it succeeds, check the “USB Connector” checkbox on the receipt.</p>
+</li>
+</ol>
+<h3 id="ferrite-beads">Ferrite Beads</h3>
+<ol>
+<li>
+<p>Check to see if all the ferrite beads connected to the output of the stepper motor drivers are soldered correctly. To do this, we’ll use continuity mode on the multimeter and check that we get a beep between every pin in every stepper motor connector, and an adjoining output pin in the stepper drivers. Use the schematic to reference which stepper motor connector pins should be connected to which stepper driver pins.</p>
+</li>
+<li>
+<p>If all ferrite beads produce a beep, check off the “Bead Probe” checkbox.</p>
+</li>
+</ol>
+<h3 id="dfu">DFU</h3>
+<ol>
+<li>
+<p>Open a new terminal window on the QC computer, and type “dfu” and hit enter.</p>
+</li>
+<li>
+<p>Hold down the “BOOT” button on the motherboard.</p>
+</li>
+<li>
+<p>Plug the motherboard into the computer using a USB-B cable. Hold the Boot button until you see your terminal output change. If you never do, put the board in the MRB tray.</p>
+</li>
+<li>
+<p>If you do see a change, it means we’ve booted into DFU mode successfully. Check off the “DFU” checkmark on the receipt.</p>
+</li>
+<li>
+<p>Type <code>CTRL-C</code> into terminal to cancel the dfu command.</p>
+</li>
+</ol>
+<h3 id="serial">Serial</h3>
+<ol>
+<li>
+<p>With the motherboard still plugged into the computer in DFU mode, type <code>flashmarlin</code> into the terminal and wait for the firmware upload to complete</p>
+</li>
+<li>
+<p>Press the reset button on the motherboard, and go to <a href="https://debug.opulo.io/">debug.opulo.io</a> in Chrome on the QC computer. Click "Connect" in the upper right, and select the <code>MARLIN_OPULO_LUMEN</code> option. Type <code>M115</code> in the console and hit enter. Look for an output like the following (doesn’t have to be exact):</p>
+<pre><code>Cap:EEPROM:1
+Cap:AUTOREPORT_TEMP:1
+Cap:PROGRESS:0
+Cap:AUTOLEVEL:1
+Cap:Z_PROBE:1
+Cap:SOFTWARE_POWER:0
+Cap:TOGGLE_LIGHTS:0
+Cap:EMERGENCY_PARSER:1
+</code></pre>
+</li>
+<li>
+<p>If any part of this fails to occur, put the board in the “MRB” tray. If successful, check the serial connection box on the receipt, and move to the <code>Needs THT</code> tray.</p>
+</li>
+</ol>
+<h2 id="needs-tht">Needs THT</h2>
+<ol>
+<li>
+<p>Populate the through hole components in the motherboard, as shown below. Double check the polarity using the silkscreen for reference.</p>
+<p><img alt="" src="img/mobo-tht.png" /></p>
+</li>
+<li>
+<p>Bolt it to the jig.</p>
+</li>
+<li>
+<p>Flip it over and solder the pins.</p>
+</li>
+</ol>
+<h2 id="needs-jaeger">Needs Jaeger</h2>
+<ol>
+<li>
+<p>Install stepper motor drivers into the six slots.</p>
+</li>
+<li>
+<p>Using the black plastic jig, affix a heatsink to each driver.</p>
+</li>
+<li>
+<p>Insert a fuse into the fuse holder.</p>
+</li>
+<li>
+<p>On the QC computer, if Gundam is not already open, open a new terminal, and type <code>gundam</code> then the enter key.</p>
+</li>
+<li>
+<p>Affix the motherboard to the Jaeger jig using two screws and the nearby allen key, and plug in all the cables and tubing, EXCEPT FOR THE POWER PLUG. The power plug MUST come last.</p>
+</li>
+<li>
+<p>Plug in the power plug last, after everything has been connected.</p>
+</li>
+<li>
+<p>Plug the motherboard into the QC computer using the USB-B cable.</p>
+</li>
+<li>
+<p>Select the “REV04-Mobo.json” test from the dropdown menu, then hit “Run Test”.</p>
+</li>
+<li>
+<p>Perform each of the tests in Gundam, and follow the prompts.</p>
+</li>
+<li>
+<p>If some of the tests fail, continue through the rest of the test until every test has been run.</p>
+</li>
+<li>
+<p>Remove the board from the jig by first unplugging the usb port and power, then unplugging all of the cables to the actuators. Then unscrew the screws mounting the board to the jig.</p>
+</li>
+<li>
+<p>If the test succeeded, you can mark the receipt checkbox for “Jaeger Jig”, then put the board and its receipt into the PASS tray.</p>
+</li>
+<li>
+<p>If the test failed, address the issue with rework and retest.</p>
+</li>
+</ol>
+<h2 id="smt-troubleshooting">SMT Troubleshooting</h2>
+<h3 id="is-the-feeder-inserted-error"><code>Is the feeder inserted?</code> Error</h3>
+<ul>
+<li>Find the feeder that has the <code>Enabled?</code> checkbox <em>unchecked</em>.</li>
+<li>In the settings menu for that feeder, click the <code>Find</code> button. Check to see that the slot address now has a number.</li>
+<li>Recheck the <code>Enabled?</code> checkbox for the feeder.</li>
+<li>Hit the play button on the job to resume.</li>
+</ul>
+<h3 id="mispick">Mispick</h3>
+<ul>
+<li>Set pick position. If it wasn't set well to begin with, try tuning it to be more accurate.<ul>
+<li>Select the feeder from the list under the <code>Feeders</code> tab in OpenPnP.
+  <img alt="" src="img/opnp-feeder-tab.png" /></li>
+<li>Click the <code>Move Nozzle To Position</code> button.</li>
+<li>using the jog controls in OpenPnP, adjust the nozzle tip to be in the exact center of the part, and gently pressing into the part.</li>
+<li>Capture the new, better pick position with the <code>Capture Nozzle Position</code> button.</li>
+<li>Jog the nozzle up to prevent a collision.</li>
+<li>Click the <code>Pick Part</code> button in OpenPnP to test the newly captured pick position.</li>
+</ul>
+</li>
+<li>Check the nozzle tip for clogs.<ul>
+<li>If the nozzle tip has some solder paste stuck in the tip, it won't pick nearly as well.</li>
+<li>Remove the nozzle tip from the nozzle, and hold it up to a light. Check to see if you can see light shining through the tip.</li>
+<li>If there's a blockage, clear it with some magnet wire. If it's difficult to clear, try soaking in IPA. Ask your manager about doing this if you think it's necessary.</li>
+</ul>
+</li>
+<li>Increase dwell time.<ul>
+<li>If the pick movement is too quick, it's possible that the pump doesn't pull enough vacuum to grab the part before moving away from the tape.</li>
+<li>This can be adjusted in the OpenPnP <code>Machine Config</code> tab under the relevant nozzle tip in the <code>Nozzle Tips</code> section. Increase the value under <code>Pick Dwell Time</code>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="mrb">MRB</h2>
+<p>This process depends greatly on the error that the test jig threw. After attempting to rework the issue, rerun the board through the test jig again, and continue to rework based on the output. The following is a list of rework tips for fixing the problems the jig catches.</p>
+<p>It always helps to just give the board a once-over and check for any miscellaneous mistakes or solder shorts, especially on the STM32. Check for polarity of parts as well.
+Use the KiCAD source file for the board to diagnose which pin is having a connection issue. Trace the pin on the board to the location where the test jig probes it (almost always a through hole) and ensure everything is soldered through that whole process.
+Using the multimeter, check for continuity between the pin leg and the pad (or another pad you’d expect the pin to be connected to).
+When in doubt, add a ton of flux and hit it with hot air for a minute. Allowing the part to reflow and settle into its pads can sometimes clear up a hidden short or bad solder joint.
+When reworking any pins, always use flux. And don’t be shy about your usage of it. It’s always great to add a ton of the stuff. We can always clean it up later.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Introduction
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../x-gantry/" class="md-footer__link md-footer__link--next" aria-label="Next: X Gantry">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                X Gantry
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      LumenPnP and its related works are proudly released under the GPL-3.0 license - Opulo Inc 2024
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.instant", "navigation.top", "toc.follow", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.bd41221c.min.js"></script>
+      
+    
+  </body>
+</html>
