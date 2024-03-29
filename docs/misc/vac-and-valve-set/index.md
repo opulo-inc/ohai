@@ -3,22 +3,6 @@
 
 The purpose of this work instruction is to document the assembly process for the LumenPnP Vacuum Pump and Valve Set [`SKU-0004-00`]
 
-## Bill of Materials
-
-| ITEM  | Opulo MFG PN            | MANUFACTURER P/N            | PART DESCRIPTION                     | QUANTITY | PART COMMENT                                  |
-|-------|-------------------------|-----------------------------|--------------------------------------|----------|-----------------------------------------------|
-| **1** | ASM-0004-02<br>PARTLIST | Left Head Wired Vacuum Pump | Wired Vacuum Pump Assembly           |  1 each  |                                               |
-|     1 | CHA-0011-00             | pump-harness                | pump-harness                         |  1 each  |                                               |
-|     2 | INS-0004-00             | heat-shrink-tube            | 3.2mm Heat Shrink Tubing             |  15.0 mm | Black, 3:1 shrink ratio                       |
-|     3 | INS-0004-00             | heat-shrink-tube            | 3.2mm Heat Shrink Tubing             |  15.0 mm | Black, 3:1 shrink ratio                       |
-|     4 | PNU-0001-00             | vacuum-pump                 | 24V Vacuum Air Pump                  |  1 each  |                                               |
-| **2** | PNU-0004-00             | solenoid-valve              | 24V 3-Way Solenoid Air Valve         |  1 each  |                                               |
-| **3** | FBO-0004-00             | rubber-band                 | Rubber Band (3 1/2" x 1/8" #33)      |  1 each  | Used to manage cable attached to vacuum-pump  |
-| **4** | PKG-0011-00             | 6" x 9" Polybag             | 6" x 9" Polybag                      |  1 each  | Plastic bag used for component packaging      |
-| **5** | ASM-0015-00<br>PARTLIST | Packaged Rubber Band Set    | PE bag containing 2pcs rubber bands  |  1 each  |                                               |
-|     1 | FBO-0004-00             | rubber-band                 | Rubber Band (3 1/2" x 1/8" #33)      |  2 each  |                                               |
-|     2 | PKG-0007-00             | S-10819                     | 1 1/2" x 1 1/2" Reclosable Bag       |  1 each  | Plastic bag used for component packaging      |
-
 ## Instructions
 
 ### Create Wired Vacuum Pump Assembly
