@@ -4,13 +4,7 @@ This section will guide the reader on how to properly package 5x `feeder-8mm` un
 * Fold a flat-packed `Corrugated Quad-Fold Feeder Insert` to prepare it for use
 * Place 5x `feeder-8mm` into a `Corrugated Quad-Fold Feeder Insert` tray
 
-	![](img/packed-1.png)
-	
-	!!!note "Note on light-diffusor consistency"
-		* Early feeder units were produced with two different styles of `light-diffuser` PCBs - regular (bare FR4 color w/black Opulo logo)and inverted (black solder mask with masked-out Opulo logo)
-		* It is important to avoid mixing the two types within a single `Corrugated Quad-Fold Feeder Insert` tray
-		* Please indicate that a `Corrugated Quad-Fold Feeder Insert` tray contains feeders w/the black `light-diffuser` by writing a `B` in the corner of the tray with a permanent marker.
-	
+	![](img/packed-1.png)	
 	
 * Insert a spool-arm above each of the  5x `feeder-8mm`, oriented to match the image shown below
 
@@ -18,6 +12,7 @@ This section will guide the reader on how to properly package 5x `feeder-8mm` un
 	![](img/packed-3.png)
 
 *  Place 5x `thimble` into a `1x1-plastic-bag` before adding a little bit of double-sided tape to the backside of the bagged 3D prints
+	* Double-sided tape can be found in a bin on top of Docker  
 
 	![](img/packed-4.png)
 	![](img/packed-5.png)
