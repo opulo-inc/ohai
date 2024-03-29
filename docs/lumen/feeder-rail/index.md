@@ -2,17 +2,13 @@
 ## Introduction
 The purpose of these work instructions is to cover the assembly process for the LumenPnP's front and rear feeder rail. These rails are used by the LumenPnP to space its two y-gantry assemblies apart. These rails also allow for auto feeders to be installed onto the LumenPnP and electronically connected via the 50x mounted feeder slots.
 
-!!!warning "This set of work instructions is out of date"
-	This document shows how to assemble feeder rails with Individual Feeder Slots rather than the Feeder Blades we now use as of the LumenPnP v3.2 release. Please consult a teamamte if you are not verbally trained on what to do differently."
 
 Before:
-   
-   <img style="height:500px;" src="img/feeder-slot-rail-1.jpg">
+   ![](img/IMG_2630.jpeg)
 
 After:
- 
-   <img style="height:500px;" src="img/feeder-slot-rail-48.jpg">
-
+	![](img/IMG_2628.jpeg)
+   
 ## Assemble front-feeder-rail
 ### Insert extrusion into assembly jig
 1. Insert a piece of `2020-alu-extrusion` into the `feeder-rail-asm-jig`
@@ -34,45 +30,34 @@ After:
 6. Confirm the WIP `front-feeder-rail` matches the image below
 	<img style="height:500px;" src="img/feeder-slot-rail-11.jpg">
 
-### Install feeder slots
-7. Collect a `feeder-slot-set` and `feeder-slot-hardware-set` from inventory
-	<img style="height:500px;" src="img/feeder-slot-rail-12.jpg">
-8. Empty the contents of the `feeder-slot-hardware-set` into the empty cavity of the `feeder-accessory-tray`
-	<img style="height:500px;" src="img/feeder-slot-rail-13.jpg">
-9. Install fasteners onto `Slot #1`
-    * Begin by placing an `M5x10-bolt` through the `slot-bracket` print before loosely threading a `M5-t-nut` onto the end of the bolt
+### Install feeder blades
+7. Collect a `feeder-blade-set` from inventory
+	![](img/IMG_2607.jpeg)
 	
-	 <img style="height:500px;" src="img/feeder-slot-rail-14.jpg">
-	 <img style="height:500px;" src="img/feeder-slot-rail-15.jpg">
+10. Install Feeder Slot Blade (#1 - #12) onto the front left side of the `2020-alu-extrusion`
+    * Press the blade assembly downward and inward (towards the sidewall of the jig) while tightening the 5x `M5x10-bolt` to `0.7N/M`, starting with the center screw and tighening the screws in pairs moving outwards
+	![](img/IMG_2608.jpeg)
+	![](img/IMG_2609.jpeg)
 	
-10. Install `Slot #1` onto the front left side of the `2020-alu-extrusion`
-    * Press `Slot #1` downward and inward (towards the sidewall of the jig) while tightening the `M5x10-bolt` to `0.7N/M`
-	
-	<img style="height:500px;" src="img/feeder-slot-rail-16.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-18.jpg">
-
-11. Repeat the two previous steps to install `Slot #2` - `#Slot 25`
-	<img style="height:500px;" src="img/feeder-slot-rail-19.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-20.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-22.jpg">
+11. Repeat the two previous steps to install Feeder Slot Blade (#13 - #25)
+	![](img/IMG_2610.jpeg)
+	![](img/IMG_2611.jpeg)
 
 ### Install additional fasteners
 12. Pull the WIP `front-feeder-rail` outward to remove it from `feeder-rail-asm-jig`
-	<img style="height:500px;" src="img/feeder-slot-rail-23.jpg">
+	![](img/IMG_2613.jpeg)
 
 13. Install an additional `M5x8-bolt` and `M5-t-nut` into each `corner-bracket` 
     * These bolts should be installed hand-tight (`<0.2N/M`) 
 	
-	<img style="height:500px;" src="img/feeder-slot-rail-24.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-28.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-29.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-31.jpg">
+	![](img/IMG_2618.jpeg)
 
 ### OQC
 Perform the following quality control checks:
 
-* `Slot #1` - `#Slot 25` are installed sequentially from left to right
-* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
+* Feeder blades are installed sequentially from left to right
+* Wiggle the installed blades to ensure no screws are loose, retightening any if needed
+* Ensure the print is free of defects and fits flush to `2020-alu-extrusion
 * Confirm the slit in the `2x3-idc-connector` faces towards the left of the `feeder-slot`
 * The 2x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
 * The 2x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
@@ -114,40 +99,31 @@ This section of the work instruction will be a little less detailed than the abo
 9. Confirm the WIP `rear-feeder-rail` matches the image below
 	<img style="height:500px;" src="img/feeder-slot-rail-39.jpg">
 
-### Install feeder slots
+### Install feeder blades
 
-1. Install fasteners onto `Slot #26`
-    * Begin by placing an `M5x10-bolt` through the `slot-bracket` print before loosely threading a `M5-t-nut` onto the end of the bolt
-
-	<img style="height:500px;" src="img/feeder-slot-rail-40.jpg">
-
-2. Install `Slot #26` onto the left side of `2020-alu-extrusion`
-    * Press `Slot #26` downward and inward (towards the sidewall of the jig) while tightening the `M5x10-bolt` to `0.7N/M`
+2. Install Feeder Slot Blade (#26 - #37) onto the left side of `2020-alu-extrusion`
+    * Press the blade downward and inward (towards the sidewall of the jig) while tightening the 5x `M5x10-bolt` to `0.7N/M`, starting with the center screw and tighening the screws in pairs moving outwards
 	
-	<img style="height:500px;" src="img/feeder-slot-rail-16.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-18.jpg">
+	![](img/IMG_2608.jpeg)
+	![](img/IMG_2609.jpeg)
 
-3. Repeat the two previous steps to install `Slot #27` - `#Slot 50`
-	<img style="height:500px;" src="img/feeder-slot-rail-19.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-20.jpg"> 
-	<img style="height:500px;" src="img/feeder-slot-rail-41.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-42.jpg">
+3. Repeat the two previous steps to install Feeder Slot Blade (#38 - #50)
+	![](img/IMG_2610.jpeg)
+	![](img/IMG_2611.jpeg)
 
 ### Install additional fasteners
 1. Pull the WIP `rear-feeder-rail` outward to remove it from `feeder-rail-asm-jig`
-	<img style="height:500px;" src="img/feeder-slot-rail-44.jpg">
+	![](img/IMG_2619.jpeg)
 2.  Install **2x** additional `M5x8-bolt` and `M5-t-nut` into each `corner-bracket` 
     * These bolts should be installed hand-tight (`<0.2N/M`) 
+	![](img/IMG_2620.jpeg)
 	
-	<img style="height:500px;" src="img/feeder-slot-rail-45.jpg">
-	<img style="height:500px;" src="img/feeder-slot-rail-46.jpg">
-
 ### OQC
 Perform the following quality control checks:
 
-* `Slot #26` - `#Slot 50` are installed sequentially from left to right
-* Confirm that `#Slot 50` is printed in yellow plastic
-* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
+* Feeder blades are installed sequentially from left to right
+* Wiggle the installed blades to ensure none are loose, retightening any if needed
+* The 2x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
 * Confirm the slit in the `2x3-idc-connector` faces towards the left of the `feeder-slot`
 * The 4x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
 * The 4x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
