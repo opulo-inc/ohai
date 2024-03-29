@@ -1,18 +1,9 @@
 ## Purpose
 
-The purpose of this work instructions is to document the assembly process for the LumenPnP PCB Kit [`SKU-0003-02`]
+The purpose of this work instructions is to document the assembly process for the LumenPnP PCB Kit [`SKU-0003-03`]
 
-## Bill of Material
-| ITEM  | Opulo MFG PN            | MANUFACTURER P/N        | PART DESCRIPTION                                         | QUANTITY | PART COMMENT                              |
-|-------|-------------------------|-------------------------|----------------------------------------------------------|----------|-------------------------------------------|
-|   1   | PKG-0013-00             | esd-safe-mailer         | ESD Safe Mailer                                          |  1 each  | 7" x 5" x 1 1/2"                          |
-|   2   | ASM-0024-00<br>PARTLIST | Packaged Datum Board    | Plastic bag containing Datum Board PCB and sticker       |  1 each  |                                           |
-|   3   | ASM-0026-00<br>PARTLIST | Packaged Ring Light Set | Plastic bag containing a top and bottom ring light PCAs  |  1 each  |                                           |  
-|   4   | PCA-0002-00             | limit-switch-board      | Endstop Mechanical Limit Switch for 3D Printer           |  1 each  |                                           |
-|   5   | PCA-0011-03<br>PARTLIST | motherboard-rev04       | Electronics controller for LumenPnP                      |  1 each  |                                           |
-|   6   | N/A                     | N/A                     | 4" x 4" Red ESD Bag                                      |  1 each  | Reused ELP camera packaging material      |
- 
-!!! info "Please reference [Aligni](https://opulo.aligni.com/part/477576#tab_part-list) for a partslist view that includes child items"
+!!!note "If you are making a LumenPnP PCB Replacement Kit, follow the process mentioned below except do not include the additional parts."
+
  
 ## Instructions
 
@@ -24,7 +15,7 @@ The purpose of this work instructions is to document the assembly process for th
 
 	<img src="img/image2.JPG" width="60%"/>
 
-	### Package the motherboard
+### Package the motherboard
 	
 2. Gather a motherboard-rev04 [`PCA-0011-03`] and 4" x 4" Red ESD Bag from inventory
 
@@ -39,7 +30,7 @@ The purpose of this work instructions is to document the assembly process for th
 
 	<img src="img/image5.JPG" width="60%"/>
 	
-	### Prepare additional components
+### Prepare additional components
 
 6. Proceed by preparing the following components:
 	-  Packaged Ring Light Set [`ASM-0026-00`] - Place a top-ring-light and bottom-ring-light into a 2 1/2" x 3" Reclosable Bag
@@ -53,7 +44,7 @@ The purpose of this work instructions is to document the assembly process for th
 	
 		<img src="img/image6.JPG" width="60%"/>
 		
-	### Package additional components
+### Package additional components
 	
 7. Place a sheet of pink foam into the esd-safe-mailer
 	- Leave half of the foam sitting against the motherboard
@@ -73,7 +64,7 @@ The purpose of this work instructions is to document the assembly process for th
 11. Fold the rest of the pink foam over the Packaged Ring Light Set
 	- This will result in something like a taco of additional components sitting beside the motherboard
 
-	### Finalize
+### Finalize
 	
 12. Close the esd-safe-mailer
 13. Write the following information on the box's front face with a silver permanent marker:
@@ -85,4 +76,4 @@ The purpose of this work instructions is to document the assembly process for th
 
 14. Tape the esd-safe-mailer closed with 3" wide packaging tape side-to-side and front-to-back
 
-!!! Success "LumenPnP PCB Kit [`SKU-0003-02`] Completed"
+!!! Success "LumenPnP PCB Kit [`SKU-0003`] Completed"
