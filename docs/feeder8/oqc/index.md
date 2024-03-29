@@ -3,7 +3,7 @@
 
 ## Update the firmware
 !!!note "This step may have already been completed!" 
-	If the motherboard on the feeder already has the feeder-rev-sticker adhered - if so, you may skip this step. The PCB should have already been programmed with the latest firmware version.
+	If the motherboard on the feeder already has the feeder-rev-sticker adhered you may skip this step. This sticker indicates that the PCB has already been programmed with the latest firmware version.
 	
 * Update the feeder to the latest firmware by connecting it to a UART dongle 
 * Upload the code via STM32CubeProgrammer
@@ -63,7 +63,8 @@ After completing all prior assembly and testing work, CHECK EVERY BULLET on EVER
 
 * Release Lever moves freely with a snappy action
 * Release Lever does NOT move laterally
-* Flexure buttons click easily and are not mushy
+* Flexure buttons click easily **and are not mushy**
+	* If any feeders have mushy buttons they can be reworked quickly with a heat-gun. See Lucian for details 
 * Reset button clicks easily
 * Fiducial board is inserted
 * Fiducial board does NOT have any excess glue
