@@ -37,9 +37,9 @@ The purpose of this work instructions is to document the assembly process of cre
 	![](img/check-coefficient-for-version.png)
 * Once you have identified the correct version of `aux-staging-plate-foot` to use, collect the unprocessed 3D print from the relevant container for use in the next step
 	![](img/various-aux-staging-plate-feet.jpg)
-* See lumen/additional-parts/#aux-staging-plate-foot for guidance on assembling the `aux-staging-plate-foot`
+* See [here](/lumen/additional-parts/#aux-staging-plate-foot) for guidance on assembling the `aux-staging-plate-foot`
 	
-	!!!warning "Do not include the rubber-foot if the version is `v3.0.4`"
+	!!!warning "Skip the `rubber-foot` if the version is `v3.0.4`"
 
 #### Prepare Packaging
 * Fold staging plate box
