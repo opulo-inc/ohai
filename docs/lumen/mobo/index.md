@@ -174,9 +174,9 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 1. Mount the board in the Omnivice and put the receipt tucked under the mat.
 
-1. Solder on the USB type B connector.
+1. Solder on the USB type B connector, the fuse holder, and the barrel jack.
 
-1. Give the connector a strong push and try to rip it off. It is important that it is very strongly soldered into the board.
+1. Give the USB connector a strong push and try to rip it off. It is important that it is very strongly soldered into the board.
 
 1. If it succeeds, check the “USB Connector” checkbox on the receipt.
 
@@ -190,13 +190,15 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 1. Open a new terminal window on the QC computer, and type “dfu” and hit enter.
 
-1. Hold down the “BOOT” button on the motherboard.
+1. Plug the motherboard into the computer using a USB-B cable.
 
-1. Plug the motherboard into the computer using a USB-B cable. Hold the Boot button until you see your terminal output change. If you never do, put the board in the MRB tray.
+2. Hold down the “BOOT” button on the motherboard.
 
-1. If you do see a change, it means we’ve booted into DFU mode successfully. Check off the “DFU” checkmark on the receipt.
+3. Plug in the barrel jack. Hold the Boot button until you see your terminal output change. If you never do, put the board in the MRB tray.
 
-1. Type `CTRL-C` into terminal to cancel the dfu command.
+4. If you do see a change, it means we’ve booted into DFU mode successfully. Check off the “DFU” checkmark on the receipt.
+
+5. Type `CTRL-C` into terminal to cancel the dfu command.
 
 ### Serial
 
@@ -217,6 +219,8 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 ## Needs THT
 
+1. Remove the fuse from the fuse holder on the motherboard.
+
 1. Populate the through hole components in the motherboard, as shown below. Double check the polarity using the silkscreen for reference.
 
     ![](img/mobo-tht.png)
@@ -231,7 +235,7 @@ This section will guide the reader on how to properly assemble and test a `mobo`
 
 2. Using the black plastic jig, affix a heatsink to each driver.
 
-3. Insert a fuse into the fuse holder.
+3. Reinsert a fuse into the fuse holder.
 
 4. On the QC computer, if Gundam is not already open, open a new terminal, and type `gundam` then the enter key.
 
