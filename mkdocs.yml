@@ -83,3 +83,4 @@ nav:
         - Overview: operations/index.md
         - Order Fulfillment: operations/order-fulfillment/index.md
         - Ordering from LCSC: operations/purchasing-from-lcsc/index.md
+        - Print Farm: operations/print-farm/index.md
