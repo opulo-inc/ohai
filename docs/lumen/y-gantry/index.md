@@ -1,10 +1,12 @@
 ## Intro
-The purpose of this work instruction is to explain the assembly process for the LumenPnP v3.2.0 Left-Side Y-Gantry (`y-gantry-left`).
+The purpose of this work instruction is to explain the assembly process for the LumenPnP v4 Left-Side Y-Gantry (`y-gantry-left`). This document also serves as the work instruction for the `y-gantry-right` subassemby, as this is simply a mirror of the left-side.
 
 ## Create Y-Gantry Subassembly
 - Remove any stringing from the print with a heat gun
 - Insert 6x `m5-hex-nut` into the following region
-	![](img/y-gantry-hex-nut.png)
+	![](img/y-gantry-hex-nut.jpeg)
+- Install 2x `m5-square-nut` into the location shown below
+	![](img/y-gantry-square-nut.jpg)
 
 ## Create Front-Left-Leg Subassembly
 
