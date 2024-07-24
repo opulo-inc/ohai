@@ -12,6 +12,7 @@ These parts and their respective quantities are as follows:
 * 1x `front-drag-chain-mount`
 * 1x `static-camera-foot`
 * 1x `aux-staging-plate-foot`
+* 1x `nozzle-rack`
 
 ## Work Instructions
 
@@ -72,3 +73,22 @@ These parts and their respective quantities are as follows:
 
 ### feeder-blade-harness-set
 - Prepare this item by following [these instructions](/feeder-connection-kit/accessories/#feeder-blade-cable-harness)
+
+### nozzle-rack
+
+* Install all 6 different nozzles onto the `nozzle-rack`, ensuring that each nozzle can pop in and out relatively easily
+
+ <img src="img/image24.jpg" width="60%"/>
+
+* Place a rubber-band around the `nozzle-rack` after each nozzles has been installed
+  * This is to keep them from falling off the `staging-plate` in transit to the customer
+
+ <img src="img/image18.jpg" width="60%"/>
+
+* Insert 2x `m3-hex-head-bolt` into the left and right outermost slots on the `nozzle-rack`
+     
+    <img src="img/image13.jpg" width="60%"/>
+
+ !!!note
+		- This photo is out of date, it should show 2x M3-hex-head-bolt instead of nuts
+		- These slots have a loose fit so use care to avoid losing a bolt during handling
