@@ -97,8 +97,6 @@ Use the `bottom-camera-focus-jig` to pre-focus `bottom-camera`
  
 ***
 
-
-
 ## Final Assembly
 
 #### Installing bottom-camera-assembly
