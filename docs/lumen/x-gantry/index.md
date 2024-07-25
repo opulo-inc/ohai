@@ -6,50 +6,59 @@ Preparing x-gantry
 
 ### Prepare `X-gantry-back`
 
-*  Install `M5-hex-nut`
+####  Install fasteners
 
-#### Top-camera-assembly preparation
+*	Remove any stringing from the print with a heat gun
+*	Insert #x `m5-hex-nut` into the following region
 
-*   Use the top-camera-focus-jig to pre-focus top-cameras
+*	Insert 2x `m3-square-nut` into the following region
 
-*   Connect top-camera-focus-jig to a laptop and open a native camera viewing application
+
+#### Focus `top-camera`
+
+*   Use `top-camera-focus-jig` to pre-focus `top-camera`
+
+*   Connect `top-camera-focus-ji`g` to a laptop and open a native camera viewing application
 
 	<img src="images/image36.jpg"/>
 
-*   Remove the top-camera lens cap
-*   Loosen the set screw found on the side of the lens body that locks the focus
+*   Remove `lens-cap` from `top-camera`
+*   Loosen `set-screw` on side of lens body
 
 	<img src="images/image21.jpg"/>
 
-*   Install the top-camera fully into the top-camera-focus-jig, plugging the USB cable into the camera module afterwards
+*   Install the `top-camera` fully into the `top-camera-focus-jig`, plugging the USB cable into the camera module afterwards
 
 	<img src="images/image56.jpg"/>
 
-*   In Photobooth, change the selected camera to PnP Top to view the camera feed of the top-camera. The setup should now look like the following image
+*   In Photobooth, change the selected camera to `PnP Top` to view the camera feed from  `top-camera`
 
 	<img src="images/image60.jpg"/> 
 
-*   Rotate the camera lens until the live viewport shows the datum board as focused as possible
+*   Rotate camera lens until live view shows `datum-board` as focused as possible
 
 	<img src="images/image39.jpg"/>
-	
+
 	<img src="images/image48.jpg"/>
-	
+
 	!!! info "Camera view before and after focusing shown above"
-	 	
-*   Once the camera is focused, tighten the set screw to lock in the adjustments
-*   Put a red dot on the camera PCB with a sharpie to denote that the camera has passed testing
+
+*   Once the camera is focused, tighten `set-screw` to preserve the adjustments
+*   Add a red dot to the PCB with a marker to denote that the unit has been QC'd
 
 	<img src="images/image41.jpg"/>
 
-*   Remove the top-camera from the top-camera-focus-jig and immediately replace the lens cap.
+*   Remove the `top-camera` from `top-camera-focus-jig` and immediately replace `lens-cap`
 
 #### Install `top-camera` and `top-ring-light` into `x-gantry-back`
 
-*   Installing top-ring-light into top-light-mount
+*   Install `top-camera` into x-gantry-back
 
+*   Install `top-ring-light` into `top-light-mount`
 
-### Install `NEMA-17-stepper-motor` onto `x-motor-mount`
+*   Install `top-light-mount` onto back of `x-gantry-back` before securing in place with 2x `M3x14-bolt`
+
+### Prepare `NEMA-17-stepper-motor` for x-axis
 
 *   Set `timing-pulley` height on `NEMA-17-stepper-motor` shaft with `x-pulley-spacer-jig`
 
@@ -64,7 +73,7 @@ Preparing x-gantry
 
 	<img src="images/motor-connector-orientation.jpg"/>
 
-*   Bolt `NEMA-17-stepper-motor` onto x-`motor-mount` with 4x M3x8 bolts
+*   Bolt `NEMA-17-stepper-motor` onto x-`motor-mount` with 4x `M3x8-bolt`
 
 	*   Tighten these bolts to 0.4 N/M
 
@@ -72,7 +81,7 @@ Preparing x-gantry
 
 ### Install `XY-limit-switch-board` onto `x-motor-mount`
 
-*  Install `XY-limit-switch-board` onto `x-motor-mount` and secure it with 2x `m3x12-self-tapping-flat-head-screws`
+*  Install `XY-limit-switch-board` onto `x-motor-mount` and secure it with 2x `m3x12-self-tapping-flat-head-screw`
 
 	<img src="images/install-xy-limit-switch-board.png" />
 
@@ -99,13 +108,20 @@ Preparing x-gantry
 
 ### Install `alu-extrusion` onto `x-motor-mount`
 
-<img src="images/install-ext-into-x-motor-mount.jpg"/>
+*	Insert `alu-extrusion` into `x-idler-mount`, using light force as necessary
 
-<img src="images/install-x-motor-mount-t-nut.jpg"/>
+	<img src="images/install-ext-into-x-motor-mount.jpg"/>
 
-<img src="images/install-x-motor-mount-t-nut2.jpg"/>
+*	Insert 2x `M5-t-nut` into `alu-extrusion`
 
-<img src="images/install-x-motor-mount-bolt.jpg"/>
+	<img src="images/install-x-motor-mount-t-nut.jpg"/>
+
+	<img src="images/install-x-motor-mount-t-nut2.jpg"/>
+
+*	Secure `alu-extrusion` in place with 2x `M5x10-socket-head-bolt`
+	* Tigthen these bolts to 0.6N/M
+
+	<img src="images/install-x-motor-mount-bolt.jpg"/>
 
 ### Install `M3-t-nut-bar`
 
@@ -140,40 +156,88 @@ Preparing x-gantry
 
 ### Install `linear-rail-525mm`
 
-<img src="images/install-x-linear-rail.jpg"/>
+*	Roughtly position `linear-rail-250mm` onto top-side of `alu-extrusion`
 
-<img src="images/install-x-linear-rail-2.jpg"/>
+	<img src="images/install-x-linear-rail.jpg"/>
 
-<img src="images/install-x-linear-rail-3.jpg"/>
+*	Place a `linear-rail-2020-alignment-jig` on both ends of `linear-rail-525mm`
+	*	Do not cover any bolt holes with the jig
 
-<img src="images/install-x-linear-rail-4.jpg"/>
+	<img src="images/install-x-linear-rail-2.jpg"/>
+
+*	Visually center `linear-rail-525mm` between `x-motor-mount` and `x-idler-mount`
+*	Slide the `M3-t-nut-bar` to line up with the rail's bolt hole pattern
+*	Starting from the `x-motor-mount` side, lightly snug a `M3x8-bolt` into every other bolt hole on `linear-rail-525mm`
+	*	Move the `linear-rail-carriage` out of the way as needed
+	
+	<img src="images/install-x-linear-rail-3.jpg"/>
+
+*	Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end.
+	*	A torque wrench set to 0.5N/M must be used when tighening these bolts
+
+	<img src="images/install-x-linear-rail-4.jpg"/>
 
 *	Remove the `linear-rail-2020-alignment-jig` from both ends of `linear-rail-525mm`
-
-*	 Slide the `linear-rail-carriage` back and forth a few times, checking to see that it travels smoothly and consistently
+*	Slide the `linear-rail-carriage` back and forth a few times, checking to see that it travels smoothly and consistently
 
 ### Install GT2-belt
+* Route a 1.5m-long piece of `GT2-belt` through `x-gantry-back`
+	
+	!!!info "Belt routing step-by-step"
+			* Start by running the belt through the left-side slot on `x-gantry-back' and leave 75mm of extra belt poking out
+			* Run it through the extrusion towards the `x-motor-mount`
+			* Wrap it around the `timing-pulley`
+			* Run it back through the extrusion towards the `x-idler-mount`
+			* Wrap it around the `idler-pulley`
+			* Run it back through the extrusion towards the `x-motor-mount` again
+			* Have the belt exit through the right-side slot on `x-gantry-back`
+	
+	<img src="images/install-x-GT2-belt.jpg"/>
 
-<img src="images/install-x-GT2-belt.jpg"/>
+* Slide the `x-gantry-back` onto the `linear-rail-carriage` while pulling slack out of the `GT2-belt`
 
-<img src="images/install-x-GT2-belt-2.jpg"/>
-
-
-*	Bolt `x-gantr-back` to the linear-rail-carriage with 4x `M3x16-socket-headbolt`
-	*	Tighten each bolt to 0.6 N/M
+	<img src="images/install-x-GT2-belt-2.jpg"/>
+	
+* Bolt `x-gantry-back` to the `linear-rail-carriage` with 4x `M3x8-bolt`
+	*   Tighten each bolt to 0.5 N/M
 	*	Push `x-gantry-back` inward towards the `linear-rail-carriage` while tightening the mounting bolts to align it
+
+	!!!warning "Ensure that `x-gantry-back` sits flush against `linear-rail-carriage` without any visible gaps"
 
 	<img src="images/bolt-x-gantry-back-to-linear-rail.jpg"/>
 
-<img src="images/bolt-belt-clamp1-to-x-gantry-back.jpg"/>
+* Use `belt-clamp` with 2x `M5x10-bolt` to clamp the left-side of the `GT2-belt` to the `x-gantry-back`
+	* Tighten each `M5x10-bolt` to 0.5 N.M
 
-<img src="images/bolt-belt-clamp1-to-x-gantry-back-2.jpg"/>
+	<img src="images/bolt-belt-clamp1-to-x-gantry-back.jpg"/>
+	<img src="images/bolt-belt-clamp1-to-x-gantry-back-2.jpg"/>
 
-<img src="images/bolt-belt-clamp2-to-x-gantry-back.jpg"/>
+### Tension belt
 
-<img src="images/trim-x-belt.jpg"/>
+* Pull the right-side `GT2-belt` tightly towards `x-motor-mount`
+* Use `belt-clamp` with 2x `M5x10-bolt` to clamp the right-side `GT2-belt` to the `y-gantry`
+	* Tighten each `M5x10-bolt` to 0.5 N.M 
 
+	<img src="images/bolt-belt-clamp2-to-x-gantry-back.jpg"/>
+
+* Rotate the `M3x16-bolt` clockwise on `belt-tensioner-arm` installed on `x-idler-mount` to tension the `GT2-belt`
+	* This will cause the `belt-tensioner-arm` to pull the `idler-pulley` away from `x-idler-mount` adding desired tension to the `GT2-belt`
+
+	<img src="images/tension-x-belt-1.jpg"/>
+	<img src="images/tension-x-belt-2.jpg"/>
+
+
+* Trim the loose `GT2-belt` on either side of the `x-gantry-back`
+	* For the `x-motor-mount` side of the `x-gantry-backy` print, trim loose `GT2-belt` until flush against `belt-clamp`
+	* For the `x-idler-mount` side of the `x-gantry-back` print, trim loose `GT2-belt` until approx. 15mm of `GT2-belt` remains past `belt-clamp`
+
+	<img src="images/trim-x-belt.jpg"/>
+
+### Confirm progress
+*	Check that finsihed `x-linear-axis` matches the image shown below before proceeeding
 <img src="images/finished-x-linear-axis.jpg"/>
+
+
 
 ## Create `x-gantry-front` subassembly
 
@@ -195,7 +259,7 @@ Preparing x-gantry
 
 		<img src="images/image9.jpg"/>
 
-	*   Install an M3x16 Flathead bolt into `z-gantry-backplate-right` to a depth that roughly matches the image shown below
+	*   Install 1x `M3x16-flathead-bolt` into `z-gantry-backplate-right` to a depth that roughly matches the image shown below
 		*   This screw depth will be precisely adjusted in later steps
 
 		<img src="images/image51.jpg"/>
@@ -204,7 +268,7 @@ Preparing x-gantry
 	*   Place a `gt2-belt-loop` onto the `z-belt-alignment-jig`
 	*   Place `z-gantry-backplate-left` and `z-gantry-backplate-right` onto the `z-belt-alignment-jig` to align them correctly on the `gt2-belt-loop`
 	*   Twist `z-gantry-backplate-left` upwards to pull the completed `z-belt-subassembly` off of the `z-belt-alignment-jig`
-	*   Use a dull knife or other tool to push the `gt2-belt-loop` all the way down into the cavity of each `z-ganry-backplate`
+	*   Use a dull knife or other tool to push the `gt2-belt-loop` all the way down into the cavity of each `z-gantry-backplate-####`
 
 	!!!note "TO DO: Add info about LOCTITE 435 Usage"
 
@@ -232,9 +296,9 @@ Preparing x-gantry
 *   Secure with 2x `M3x12-self-tapping-button-head`
 *   Make sure each limit switch clicks and feels normal when actuated
 
-<img src="images/image22.jpg"/>
+	<img src="images/image22.jpg"/>
 
-<img src="images/image63.jpg"/>
+	<img src="images/image63.jpg"/>
 
 ### Install z-axis belt drive components
 
@@ -245,7 +309,7 @@ Preparing x-gantry
 
 *   Begin by placing `z-belt-subassembly` onto  `x-gantry-front`
 
-	*   The `z-gantry-backplate-right` should fit over the right `linear-rail-carriage`, and the same goes for the left side
+	*   The `z-gantry-backplate-right` should fit over the right `linear-rail-carriage`, and the same goes for the left-side
 
 	*	The `gt2-belt-loop` should wrap around the `idler-pulley`
 
@@ -322,83 +386,78 @@ Preparing x-gantry
 
 *   Repeat above process to attach a `pneumatic-toolhead-assembly` to the left-side `z-gantry`
 
-
 	<img src="images/x-gantry-front-done1.jpg"/>
 
 ## Install `x-gantry-front` onto `x-linear-axis`
 
-*	Words go here
+*	Use 4x `M5x10-bolt` to attach `x-gantry-front` onto `x-linear-axis`
+	*	Move the toolheads out of the way as needed
+	*	Torque each bolt to `0.8 N/M`
+
+	![alt text](images/bolt-x-gantry-front-1.jpg)
+	![alt text](images/bolt-x-gantry-front-2.jpg)
+	![alt text](images/bolt-x-gantry-front-3.jpg)
 
 ## Gundam test `x-gantry`
 
 *   Ensure that the Gundam motherboard is unplugged from 24vDC power
-*   Check that the x-gantry fits correctly on the x-gantry-spacer-jig
-*   Slide a bolt into the x-gantry on either side of x-gantry-spacer-jig to prevent it from falling during testing
-*   Bolt down the test jig’s drag-chain onto x-gantry-back-subassembly with 2x M5x16 bolts
-*   Connect the test jig’s z-limit-switch, x-motor, and z-motor cables to the x-gantry being tested on the x-gantry-spacer-jig
-*   Connect the Gundam motherboard to 24vDC power and then press reset on the motherboard
+*   Check that `x-gantry` fits correctly on `x-gantry-spacer-jig`
+*   Slide a `M5x25-bolt` into the `x-gantry` from either side of `x-gantry-spacer-jig` to prevent it from falling during testing
+*   Bolt down the test jig’s drag chain onto `x-gantry-back` with 1x `M5x16-bolt`
+*   Connect the test jig’s `z-limit`, `x-motor`, and `z-motor` cable into x-gantry
+*   Connect the Gundam motherboard to 24vDC power and then press reset on Gundam motherboard
 *   Connect the motherboard to the Gundam test software
-*   Begin testing the x-gantry by running various macros
+*   Begin testing the `x-gantry` by running various macros:
 
-*   Check X-Home
+	*   Check X-Home
 
-	*   If the toolhead is moving very slow, the stepper drivers may not have initialized properly - try restarting the motherboard again
+		*   If the toolhead is moving very slow, the stepper drivers may not have initialized properly - try restarting the motherboard again
 
-*   Check X-Movement Speed
+	*   Check X-Movement Speed
 
-	*   Ensure that no weird sounds are heard, if so consult with team for debugging steps
-	*   Adjust the tightness of the belts and each tensioner-bar as needed to pass this test
-	
-*   Test Z-Home
+		*   Ensure that no weird sounds are heard, if so consult with team for debugging steps
+		*   Adjust the tightness of the belts and each tensioner-bar as needed to pass this test
+		
+	*   Test Z-Home
 
-	*   Check that the z-belt is adequately tensioned and adjust if necessary - you shouldn’t be able to twist the belt too much
-	*   Adjust the M3x16 bolt either up or down, if needed, provided the z-gantries are not aligned vertically after homing,
-	
-	*   This can be checked by sliding a brass shim across the top of the motor while checking to see if it sits higher/lower than the top surface of the adjacent motor
-	
-	*   Repeat this test and continue adjusting the M3x16 bolt until the alignment appears to be perfect
-	
-*   Test Z-Movement Speed
+		*   Check that the z-belt is adequately tensioned and adjust if necessary - you shouldn’t be able to twist the belt too much
+		*   Adjust the M3x16 bolt either up or down, if needed, provided the z-gantries are not aligned vertically after homing,
+		
+		*   This can be checked by sliding a brass shim across the top of the motor while checking to see if it sits higher/lower than the top surface of the adjacent motor
+		
+		*   Repeat this test and continue adjusting the M3x16 bolt until the alignment appears to be perfect
+		
+	*   Test Z-Movement Speed
 
 !!! failure   "If issues arrise, continue rerunning tests and reworking the x-gantry"
 
 !!! success  "Once everything is passing, proceed with the following steps"
 
-*   Remove x-gantry from Gundam
+*   Remove `x-gantry` from Gundam
 	*   Disconnect Gundam motherboard from 24vDC power
-	*   Unplug the test jig’s z-limit-switch, x-motor, and z-motor cables from the x-gantry being tested on the x-gantry-spacer-jig
-	*   Unscrew the drag-chain mounting hardware from the x-gantry being tested on the x-gantry-spacer-jig
-	*   Remove the 2 M5x25 bolts used initially for keeping the x-gantry from falling off the x-gantry-spacer-jig
-
-
-## Install top-camera-assembly
-*   Install top-camera and Light subassembly onto x-gantry
-	*   Use two M3x14mm screws to mount the top-camera and Light subassembly onto the back of the X Gantry Back.
-
-	<img src="images/image19.jpg"/>
-
-	<img src="images/image49.jpg"/>
+	*   Unplug the test jig’s `z-limit`, `x-motor`, and `z-motor` cables from `x-gantry`
+	*   Unscrew `drag-chain mounting hardware` from `x-gantry`
+	*   Remove the 2x `M5x25-bolt` used to keep `x-gantry` on `x-gantry-spacer-jig`
 
 ## QC Checklist
 Inspect the completed `x-gantry` for the following criteria:
 
-* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
+* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, 15mm on the other)
 * Camera is installed with two bolts
 * Camera lens cap is present
 * The wire connectors on both `NEMA-11-stepper-motor` units face away from each other, sitting adjacent to their respective cable strain relief points
 * Each `nozzle-holder` has been lubricated and fit-tested with a nozzle
 * `Z-belt-loop` feels appropriately tensioned when plucked
 * Each `z-gantry` moves smoothly when actuated back-and-forth by hand
-* 2x `M5-hex-nut` are installed in `x-gantry-back` for use with `drag-chain` attachment 
-* `NEMA-17-stepper-motor` wire connector faces towards `drag-chain` mounting location on `x-gantry-back`
+* 1x `M5-hex-nut` are installed in `x-gantry-back` for use with `drag-chain` attachment
+* `NEMA-17-stepper-motor` wire connector faces towards `z-limit-switch`
 * `Linear-rail` is centered atop `aluminum-extrusion`
-* `x-idler-mount` and `x-motor-mount` are secured to `600mm-alu-extrusion` with 2x `M5x10-bolt` per side
-* 2x `M5-hex-nut` are installed in `x-motor-mount` for use with the `x-motor-cable-guide`
+* `x-idler-mount` and `x-motor-mount` are secured to `alu-extrusion` with 2x `M5x10-bolt` per side
 * `Tensioner-arm` is installed on `x-idler-mount` in the correct orientation (IE acorn-nut facing touches print)
 * `Timing-pulley` is tightened down and at proper height
-* `GT2-belt` lays flat and is roughly centered in the `600mm-alu-extrusion` channels
+* `GT2-belt` lays flat and is roughly centered in the `alu-extrusion` channels
 * `GT2-belt` has been correctly tensioned
 * `X-gantry-toolhead` moves smoothly when actuated back and forth by hand
 
 
-!!!success "If all checks pass, bring the completed `x-gantry` to the shelf for peer-review and pack-out."
+!!!success "If all checks pass, place completed `x-gantry` on shelf for peer-review and pack-out."
