@@ -126,7 +126,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 ## Assemble y-gantry-left
 
-### Install front-left-leg and back-leg onto 600mm-alu-extrusion 
+### Install front-left-leg and back-leg onto 600mm-alu-extrusion
 
 - Begin by inserting a `525mm-m3-t-nut-bar` into a piece of `600mm-alu-extrusion`
 	- There should be about 51.5mm between the end of the `525mm-m3-t-nut-bar` and the right-side end of the `600mm-alu-extrusion` after installation
@@ -145,13 +145,13 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 		![](img/back-leg-t-nut-insertion.png)
 
-	- Insert 3x `M5x10-bolt` into `back-leg` and thread the bolts into each corresponding `M3-t-nut` 
+	- Insert 3x `M5x10-bolt` into `back-leg` and thread the bolts into each corresponding `M3-t-nut`
 
 		![](img/bolt-back-leg-to-ext.png)
 
 - Bolt `front-left-leg` to `600mm-alu-extrusion`
 	- Slide the `M3-t-nut-bar` out of the way *if needed*
-	- Insert an `M3-t-nut` into the upper channel of `600mm-alu-extrusion` 
+	- Insert an `M3-t-nut` into the upper channel of `600mm-alu-extrusion`
 	- Align the `M3-t-nut` with the top-side bolt hole on `front-left-leg`  
 		
 		![](img/insert-front-leg-top-t-nut.png)
@@ -184,13 +184,13 @@ The purpose of this work instruction is to explain the assembly process for the 
 	![](img/insert-y-rail-alignment-jig.png)
 
 - Visually center the `linear-rail-550mm` between the `back-leg` and `front-left-leg`
-- Slide the `M3-t-nut-bar` to line up with the linear rail's bolt hole pattern 
+- Slide the `M3-t-nut-bar` to line up with the linear rail's bolt hole pattern
 - Starting from the `front-left-leg` side, lightly snug a `M3x8-bolt` into **every other** bolt hole on `linear-rail-550mm`
 	- Move the `linear-rail-carriage` out of the way as needed
 
 	![](img/install-11x-linear-rail-bolts.png)
 	
-- Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end. 
+- Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end
 	- A torque wrench should be used to set the specified bolt torque
 	- The torque specification for these `M3x8-bolts` is `0.5N/M`
 
@@ -226,7 +226,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 	![](img/route-belt-through-step2.png)
 	![](img/belt-pulled-through-irl.png)
 	
-- Bolt `y-gantry` to the `linear-rail-carriage` with` 4x `M3x8-bolt`
+- Bolt `y-gantry` to the `linear-rail-carriage` with 4x `M3x8-bolt`
 	- Tighten each bolt to 0.5 N/M
 	- Push `y-gantry` inward towards the `linear-rail-carriage while tightening the mounting bolts to align it  
 
