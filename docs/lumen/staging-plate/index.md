@@ -6,6 +6,7 @@
 
 * Use an arbor press to insert the given quantities of `M3-hex-nut` into the following parts:
   * 4x for `bottom-camera mount`
+  * 3x for 3x `peek-cable-clamp`
 
     !!! note
         Be sure to change the arbor press tip for the different prints as needed.
@@ -32,7 +33,7 @@
 
 ### Focus the bottom-camera
 
-Use the `bottom-camera-focus-jig` to pre-focus `bottom-camera`
+Use `bottom-camera-focus-jig` to pre-focus `bottom-camera`
 
 * Loosen the set screw on the side of the lens, this will let the lens focal-point be adjusted
   * Be careful not to loosen it too much or the screw may fall out and get lost!
@@ -80,7 +81,7 @@ Use the `bottom-camera-focus-jig` to pre-focus `bottom-camera`
 
 ### Creating bottom-camera-assembly
 
-* Attach `bottom-camera` and `bottom-camera-cover` to `bottom-camera-mount` with 4x M2.5x8 bolts
+* Attach `bottom-camera` and `bottom-camera-cover` to `bottom-camera-mount` with 4x `M2.5x8-bolt`
 
  <img src="img/image2.jpg" width="60%"/>
  <img src="img/image17.jpg" width="60%"/>
@@ -101,7 +102,7 @@ Use the `bottom-camera-focus-jig` to pre-focus `bottom-camera`
 
 #### Installing bottom-camera-assembly
 
-* Attach `bottom-camera-assembly` onto `staging-plate` with 4x M3x16 bolts
+* Attach `bottom-camera-assembly` onto `staging-plate` with 4x `M3x16-bolt`
 
  <img src="img/image22.jpg" width="60%"/>
 
@@ -109,7 +110,7 @@ Use the `bottom-camera-focus-jig` to pre-focus `bottom-camera`
 
  <img src="img/image5.jpg" width="60%"/>
 
-* The usb-cable connector found on `bottom-camera` should match the orientation shown below when installed - *as close to the Opulo logo as possible*
+* The JST cable connector found on `bottom-camera` should match the orientation shown below when installed - *as close to the Opulo logo as possible*
 
  <img src="img/image6.jpg" width="60%"/>
 
@@ -120,8 +121,8 @@ Use the `bottom-camera-focus-jig` to pre-focus `bottom-camera`
 
 #### Install datum-board and datum-board-mount
 
-* Use four M3x16mm screws and four M3 nuts to secure the `datum-board` and `datum-board-mount` to the `staging-plate` on the rear of the `bottom-camera`, through holes: B18, A19, A21, B22.
-  * Use a 2.5mm hex wrench and a 5.5mm (6mm if 5.5mm is unavailable) socket wrench to tighten these M3x16mm screws
+* Use four `M3x16mm-bolt` and 4x `M3-hex-nut` to secure the `datum-board` and `datum-board-mount` to `staging-plate` on the rear of the `bottom-camera`, through holes: B18, A19, A21, B22.
+  * Use a 2.5mm hex wrench and a 5.5mm (6mm if 5.5mm is unavailable) socket wrench to tighten these bolts
   * The fisheye calibration pattern should be facing down, and the gold grid lines and fiducial in the center of the Opulo logo facing upwards
 
    <img src="img/image11.png" width="60%"/>
