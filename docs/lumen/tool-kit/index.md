@@ -2,7 +2,7 @@
 
 ## Prepare `spare-o-ring-set`
 
-1. Place 2x `nozzle-holder-o-ring` into a 1.5" x 1.5" plastic bag
+1. Place 2x `nozzle-holder-o-ring` into a `1.5x1.5-bag`
 ![alt text](img/or1.JPG)
 ![alt text](img/or2.JPG)
 
