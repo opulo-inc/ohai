@@ -1,307 +1,301 @@
-#Packaging LumenPnP V3.1
+# Packaging LumenPnP v4
 
 ## Reviewing packaging layout
 
 1. The following components are packaged into the `lower-foam-tray`:
-    * `y-gantry-left`
-    * `y-gantry-right`
-    * `x-gantry`
-    * `getting-started-kit`
-    * `Tool-kit`
-    * `feeder-blade-harness-set`
-    * 2x `front-leg-extension`
-	 * 2x `back-leg-extension` 
-     
+	* `y-gantry-left`
+	* `y-gantry-right`
+	* `x-gantry`
+	* `nozzle-rack`
+	* `getting-started-kit`
+	* `tool-kit-bag`
+	* `feeder-blade-harness-set`
+	* `x-cable-chain-support`
+	* 2x `front-leg-extension`
+	* 2x `back-leg-extension`
+
 2. The following components are packaged into the `upper-foam-tray`:
-    * `primary-staging-plate`
-    * `static-camera-foot`
-    * `aux-staging-plate`
-    * `aux-staging-plate-foot`
-    * `bagged-10x-extrusion-cable-clips`
-    * `drag-chain-assembly`
-    * `front-drag-chain-mount`
-    * `24v6A-power-supply` 
-    * `power-cable` 
-    * `front-feeder-rail`
-    * `rear-feeder-rail`
- 
+	* `primary-staging-plate`
+	* `aux-staging-plate`
+	* `static-camera-foot`
+	* `aux-staging-plate-foot`
+	* `bagged-10x-extrusion-cable-clips`
+	* `squaring-bracket`
+	* `y-limit-striker`
+	* `drag-chain-assembly`
+	* `front-feeder-rail`
+	* `rear-feeder-rail`
+	* `24v6A-power-supply`
+	* `power-cable`
 
 ## Package `lower-foam-tray`
 
 !!!warning "The following steps must be conducted by someone other than the original assembler."
 
-###Packaging `tool-kit` 
-* Perform `tool-kit` QC
-	* Confirm `QC PASS sticker` is  present on `lumen-v3.1-hardware-kit` bag
-	* Confirm `bottom-camera-cable` was added to zipped pouch
-	* Confirm `squaring-bracket` was added to zipped pouch
-	* Confirm `feeder-programmer` was added to zipped pouch
-	* Confirm `DRIVE-WHEEL-ASM Adjustment Hex Key` was added to zipped pouch
+### `tool-kit-bag` and `back-leg-extension`
+
+1. Confirm `lumenpnp-v4-hardware-kit` is present in `tool-kit-bag`
+
+	!!!success "If OK continue onward"
+
+2. Add `tool-kit-bag` into the middle region of `lower-foam-tray`
+	* Orient the `tool-kit-bag` so its Opulo logo faces the `x-gantry-toolhead`
+
+	![alt text](img/IMG_24.JPG)
+
+1. Insert 2x `back-leg-extension` - stacking them on the left of `tool-kit-bag`
+	* Confirm both pieces have `rubber-feet` installed
+
+	![alt text](img/IMG_25.JPG)
+	![alt text](img/IMG_26.JPG)
+
+### `getting-started-kit` and `feeder-blade-harness-set`
+1. Insert `getting-started-kit` into the lower left region of tray
+	* Only pull these items from a <span style="color:green"> green QC-Pass bin</span>.
+
+	![alt text](img/IMG_28.JPG)
+	![alt text](img/IMG_29.JPG)
+
+ 
+2. Insert `feeder-blade-harness-set` to the right of `getting-started-kit`
+
+	!!!warning "Please remember this is the new JST PH cables! We do not need to make IDC cables anymore."
+
+	![alt text](img/IMG_30.JPG)
+	![alt text](img/IMG_31.JPG)
+
+### `x-gantry`
+1. Perform `x-gantry` QC
+	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, 15mm on the other)
+	* `lens-cap` is present on `top-camera`
+	* The wire connectors on both `NEMA-11-stepper-motor` units face away from each other
+	* Each `nozzle-holder` has been lubricated and fit-tested with a nozzle
+	* `z-belt-loop` feels appropriately tensioned when plucked
+	* Each `z-gantry` moves smoothly when actuated back-and-forth by hand
+	* 1x `M5-hex-nut` is installed in `x-gantry-back` for mounting `cable-splay`
+	* `NEMA-17-stepper-motor` wire connector faces `z-limit-switch`
+	* `linear-rail` is centered atop `alu-extrusion`
+	* `x-idler-mount` and `x-motor-mount` are secured to `alu-extrusion` with 2x `M5x10-bolt` per side
+	* `belt-tensioner-arm` is installed on `x-idler-mount` in the correct orientation (IE acorn-nut facing touches print)
+	* `timing-pulley` for both x & z  are tightened down and at proper height
+	* `GT2-belt` lays flat and is roughly centered in `alu-extrusion` channel
+	* `GT2-belt` has been correctly tensioned
+	* `x-gantry-toolhead` moves smoothly when actuated back and forth by hand
 
 	!!!success "If all checks pass, continue onward"
 
-* Add `tool-kit` into the middle region of `lower-foam-tray`
-	* Orient the `tool-kit` so the Opulo logo faces towards the `x-gantry` 
+* Package `x-gantry` into `lower-foam-tray`
 
-###Packaging `getting-started-kit`
-* Insert `getting-started-kit` into the lower region of the tray
-	* Only pull these items from a <span style="color:green"> green QC-Pass bin</span>.
-	
-	![](img/insert-ftp.jpeg)
+	![alt text](img/IMG_32.JPG)
 
-###Packaging `x-gantry`
-* Perform `x-gantry` QC
-	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
-	* Camera is installed with two bolts
-	* Camera lens cap is present
-	* The wire connectors on both `NEMA-11-stepper-motor` units face away from each other, sitting adjacent to their respective cable strain relief points
-	* Each `CP40-holder` has been lubricated and fit-tested with a nozzle
-	* `Z-belt-loop` feels appropriately tensioned when plucked
-	* Each `z-gantry` moves smoothly when actuated back-and-forth by hand
-	* 2x `M5-hex-nut` are installed in `x-gantry-back` for use with `drag-chain` attachment 
-	* `NEMA-17-stepper-motor` wire connector faces towards `drag-chain` mounting location on `x-gantry-back`
-	* `Linear-rail` is centered atop `aluminum-extrusion`
-	* `x-idler-mount` and `x-motor-mount` are secured to `600mm-alu-extrusion` with 2x `M5x10-bolt` per side
-	* 2x `M5-hex-nut` are installed in `x-motor-mount` for use with the `x-motor-cable-guide`
-	* `Tensioner-arm` is installed on `x-idler-mount` in the correct orientation (IE acorn-nut facing touches print)
-	* `Timing-pulley` is tightened down and at proper height
-	* `GT2-belt` lays flat and is roughly centered in the `600mm-alu-extrusion` channels
-	* `GT2-belt` has been correctly tensioned
-	* `X-gantry-toolhead` moves smoothly when actuated back and forth by hand
-		
-		!!!success "If all checks pass, continue onward"
-	
-	* Package `x-gantry` into `lower-foam-tray`, in the region shown below
+### `x-cable-chain-support`
+* Place `x-cable-chain-support` on the bottom of the `y-gantry` pocket
 
-	   	 ![](img/removing-x-gantry.png)
+	![alt text](img/IMG_33.JPG)
 
-###Packaging `y-gantry-right`
+### `y-gantry-right`
 
 ![](img/y-gantry-right.png)
 
-* Perform `y-gantry-right` QC
+1. Perform `y-gantry-right` QC
 	* Confirm M5 bolts are installed in every counterbored region
 	* `M5-hex/square-nut` installed where required:
 		* 2x `M5-hex-nut` pressed into bottom of `front-right-leg`
-		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
-		* 2x `M5-hex-nut` pressed into `y-gantry`
-	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
+  		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
+  		* 2x `M5-hex-nut` pressed into `y-gantry` on textured face
+  		* 2x `M5-square-nut` pressed into `y-gantry` for drag chain support beam mounting
+	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, 15mm on the other)
 	* `GT2-belt` has been correctly tensioned
-	* `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
-	* `Linear-rail` is centered atop `aluminum-extrusion`
+	* `belt-tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
+	* `linear-rail` is centered atop `aluminum-extrusion`
 	* `y-gantry` sits flat on `linear-rail-carriage`
 	* `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
-	* `GT2-belt` lays flat in the `600mm-alu-extrusion` channels 
-	* 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `600mm-alu-extrusion`
-	* `Timing-pulley` is tightened down and at proper height
+	* `GT2-belt` lays flat in the `alu-extrusion` channels
+	* 3x `extrusion-cable-clip` have been installed onto the lower `alu-extrusion`
+	* `timing-pulley` is tightened down and at proper height
 	*  `Y2` cable is secured with a zip-tie and exits the port labeled `Y2`
 
 	!!!success "If all checks pass, continue onward"
 
-*  Package `y-gantry-right` into `lower-foam-tray`, in the region shown below
+*  Package `y-gantry-right` into `lower-foam-tray`
   
- 	![](img/remove-right-legs.png)
+	![alt text](img/IMG_34.JPG)
 
-###Packaging `y-gantry-left`
+### `y-gantry-left`
 
 ![](img/y-gantry-left.png)
 
-* Perform `y-gantry-left` QC
+1. Perform `y-gantry-left` QC
 	* Confirm M5 bolts are installed in every counterbored region
 	* `M5-hex/square-nut` installed where required:
 		* 2x `M5-hex-nut` pressed into bottom of `front-left-leg`
 		* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `front-drag-chain-mount`
-		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
-		* 2x `M5-hex-nut` pressed into `y-gantry`
-	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
+  		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
+  		* 2x `M5-hex-nut` pressed into `y-gantry` on textured face
+  		* 2x `M5-square-nut` pressed into `y-gantry` for `x-cable-chain-support` mounting
+	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, 15mm on the other)
 	* `GT2-belt` has been correctly tensioned
-	* `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
-	* `Linear-rail` is centered atop `aluminum-extrusion`
+	* `belt-Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
+	* `linear-rail` is centered atop `aluminum-extrusion`
 	* `y-gantry` sits flat on `linear-rail-carriage`
 	* `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
-	* `GT2-belt` lays flat in the `600mm-alu-extrusion` channels 
-	* 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `600mm-alu-extrusion`
-	* `Timing-pulley` is tightened down and at proper height
+	* `GT2-belt` lays flat in the `alu-extrusion` channels
+	* 3x `extrusion-cable-clip` have been installed onto the lower `alu-extrusion`
+	* `timing-pulley` is tightened down and at proper height
 	* `Y1` cable is secured with a zip-tie and exits the port labeled `Y1`
 
 	!!!success "If all checks pass, continue onward"
 
-*  Package `y-gantry-left` into `lower-foam-tray`, in the region shown below
+*  Package `y-gantry-left` into `lower-foam-tray`
 
-	![](img/remove-left-legs.png)
+	![alt text](img/IMG_35.JPG)
 
+### `front-leg-extension` and `nozzle-rack`
+1. Insert `nozzle-rack` into the bottom right pocket
 
-### Packaging `front/back-leg-extension`
-1. Insert 2x `back-leg-extension` into the tray in the region shown below
-	* Confirm both pieces have `rubber-feet` installed 
+	![alt text](img/IMG_36.JPG)
+	![alt text](img/IMG_37.JPG)
 
-   		 ![](img/backlegextension.jpg)
+1. Insert 2x `front-leg-extension`, stacking them in the same region
+	* Confirm both pieces have `rubber-feet` installed
 
-1. Insert 2x `front-leg-extension` into the tray
-	* Confirm both pieces have `rubber-feet` installed 
+	![alt text](img/IMG_38.JPG)
+	![alt text](img/IMG_39.JPG)
 
-   		 ![](img/frontlegextension.jpg)
-   		 
-   		 
-### Packaging `feeder-blade-harness-set`
-1. Insert `feeder-blade-harness-set` into the tray in the region shown below 
-
-    ![](img/slotcable.jpg)
-
-	!!!warning "This photo is out of date"
-		Be sure to use the new version of this cable, `feeder-blade-harness-set`, rather than the earlier version shown above.
-    
 ### Confirm the contents of `lower-foam-tray`
 Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
-   ![](img/IMG_5122.jpg)
+![alt text](img/IMG_40.JPG)
 
 ## Package `upper-foam-tray`
 
 !!!warning "The following steps must be conducted by someone other than the original assembler."
 
-- Begin by laying out empty `upper-foam-tray` pieces
-
-	![](img/empty-upper.jpeg)
-
-### Packaging misc. parts
-* Insert the following items into the **right-side** cavity of `upper-foam-tray`
+### misc. parts
+1. Insert the following items into the **right-side** pocket of `upper-foam-tray`
 
 	!!!note "Package each of the following items while inspecting them for their given QC inspection criteria"
-
-	* `front-drag-chain-mount` - confirm 2x `M5-hex-nut` installed into print
+	* `squaring-bracket` - confirm print is latest revision (gold PLA with hex wrench features)
+	* `y-limit-striker` - confirm `M5-thumb-screw` is installed and appears to stick-out the correct amount
 	* `aux-staging-plate-foot` - confirm top-side M3 bolt and bottom-side `rubber-foot`
 	* `static-camera-foot` - confirm bottom-side `rubber-foot`
-	* `Bagged-10x-extrusion-cable-clips`
+	* `bagged-10x-extrusion-cable-clips`
 		* Only pull these items from a <span style="color:green"> green QC-Pass bin</span>.
-	
+
+	![alt text](img/IMG_41.JPG)
+	![alt text](img/IMG_43.JPG)
 		<img src="img/toplayerrightarrangement.jpg" width="60%"/>
 
-1. Insert the following into the **left-side** cavity of the foam tray:
-    * `24v6A-power-supply`
-    * `power-cable` 
+1. Insert the following into the **left-side** pocket
+    * `24v6A-power-supply` (unboxed)
+    * `power-cable`
 
-	![](img/install-psu.JPG)
+	![alt text](img/IMG_44.JPG)
+	![alt text](img/IMG_45.JPG)
+	![alt text](img/IMG_46.JPG)
 
-### Packaging `primary-staging-plate` and `aux-staging-plate`
+2. Confirm the left and right side pockets match the image below before continuing
+
+	![alt text](img/IMG_47.JPG)
+
+### `primary-staging-plate`
 1. Inspect `primary-staging-plate` before packaging it into the foam tray
-	* Confirm `QC PASS sticker` is  present underneath the `staging-plate` 
-	* Confirm `mobo QC receipt` is present
-	* Confirm adhered `machine SN label` matches `box-sn-label` clipped to `primary-staging-plate`
-	* Review the `primary-staging-plate` for the presence of all major components (checking to see if the original QC inspector missed anything):
-		* 2x `vacuum-pump`
-		* 2x `solenoid-valve`
-		* 1x `nozzle-rack` w/6 nozzles
-		* `mobo-top-cover`
-		* `bottom-camera assembly`
-	* Confirm tubing is installed correctly:
-		* Red `Vac1` line appears unkinked and runs to `LH` y-coupler
-		* Blue `Vac2` line appears unkinked and runs to `RH` y-coupler
+	* Confirm `QC PASS sticker` is  present on the `bottom-camera-cover`
+	* Review the `primary-staging-plate` for the presence of all major components
+		* `datum-board`
+		* `bottom-camera-assembly`
+		* 3x `peek-cable-clamp`
+		* `bottom-light-harness` and `bottom-camera-harness` w/propper cable managment (`peek-cable-clamp` usage and rubber-band for securing loose cables)
 
- 	!!!success "If all checks pass, continue onward"
- 	
-1. Unclip the `box-sn-label` from `primary-staging-plate` and loosely add it to the power supply side-pocket
+	![alt text](img/IMG_49.JPG)
+
+	!!!note "TO DO: Photoshop in QC Sticker"
+
+	!!!success "If all checks pass, continue onward"
 
 1. Place the `primary-staging-plate` into `upper-foam-tray` in the region shown below
 
 	!!!note "The Opulo logo should face away from the `feeder-rail` pocket"
-	
-	![](img/4x-staging-plate-packed.JPG)
+
+	![alt text](img/IMG_50.JPG)
 
 1. Insert a foam block above each side of `primary-staging-plate`
 
- 	![](img/IMG_5127.jpg)
+	![alt text](img/IMG_51.JPG)
+
+### `electronics-cabinet`
+
+1. Insert `electronics-cabinet` on right-side of `bottom-camera-assembly`
+
+	![alt text](img/IMG_53.JPG)
+
+1. Unclip the `box-sn-label` from `electronics-cabinet` and loosely add it to right side accessory pocket
+
+	![alt text](img/IMG_54.JPG)
+
+### `aux-staging-plate`
 
 1. Insert `aux-staging-plate` on top of `primary-staging-plate`
 
 	!!!note "The Opulo logo should face away from the `feeder-rail` pocket"
 
-	![](img/install-aux-plate.JPG)
+	![alt text](img/IMG_55.JPG)
+	![alt text](img/IMG_56.JPG)
 
-###Packaging `front/rear-feeder-rail`
+### `front/rear-feeder-rail`
 
-!!!note "It is much easier to check the entire batch at once for a given inspection, rather than checking each one rail at a time against this entire checklist" 
+!!!note "It is much easier to check the entire batch at once for a given inspection, rather than checking each one rail at a time against this entire checklist"
 
 1. Perform QC inspection on the front of `front-feeder-rail` and `rear-feeder-rail` pieces
-	![](img/feeder-rail-laid-out-front.JPG)
-	* `Front-feeder-rail`: 
-		* `Slot #1` - `#Slot 25` are installed sequentially from left to right when examined visually
-		* `Slot #1` - `#Slot 25` are installed sequentially from left to right when checked with a `slot-programmer-jig` that is set to `read mode`
-		* The 2x installed `corner-bracket` pieces each have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
-			* Total 2x `M5x8-bolt` and `M5-t-nut`
-		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-	* `Rear-feeder-rail`:
-		* `Slot #26` - `#Slot 50` are installed sequentially from left to right when examined visually
-		* `Slot #26` - `#Slot 50` are installed sequentially from left to right when checked with a `slot-programmer-jig` that is set to `read mode`
-		* Wiggle all of the installed slots to ensure none are loose, retightening any if needed
-		* The 4x installed `corner-bracket` pieces **each** have a spare `M5x8-bolt` and `M5-t-nut` installed into the unused holes
-			* Total 4x `M5x8-bolt` and `M5-t-nut`
-
-		* Confirm that `#Slot 50` is printed in yellow plastic
-
-1. Perform QC inspection on the back of `front-feeder-rail` and `rear-feeder-rail` pieces:
-	![](img/feeder-rail-laid-out.JPG)
-	* `Front-feeder-rail`: 
-		* Confirm the slit in every `2x3-idc-connector` faces towards the left of each `feeder-slot`
-		* The 2x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
-	* `Rear-feeder-rail`:
-		* Confirm the slit in every `2x3-idc-connector` faces towards the left of each `feeder-slot`
-		* The 4x installed `corner-bracket` pieces are flush to the `2020-alu-extrusion`
-
-	!!!success "If all checks pass, continue onward" 
- 
- 2. Place the finished feeder rails into the `upper-foam-tray`
- 	3. Orient the rails back-side upward, with `rear-feeder-rail` in the lower pocket and `slot #50` on the right  
 	
-	 ![](img/removing-front-and-back-rails.jpg)
+	![alt text](img/IMG_61.JPG)
 
-###Packaging `drag-chain`
+* Feeder blades are installed sequentially from left to right
+* Wiggle the installed blades to ensure no screws are loose, retightening any if needed
+* Ensure the print is free of defects and fits flush to `alu-extrusion
+* The 2x installed `corner-bracket` pieces are flush to the `alu-extrusion`
+* Confirm a `blade-jumper-harness` is installed into each `feeder-rail`
+* Use the `feeder-programmer` to check that Slots `#1`, `#12`, `#13`, `#25`, `#26`, `#37` `#38`, and `#50` are programmed correctly
+
+	!!!success "If all checks pass, continue onward"
+
+ 2. Add `front-feeder-rail` and `rear-feeder-rail` into  `upper-foam-tray`
+	* Orient the rails back-side up, with `rear-feeder-rail` in the lower pocket and `slot #50` on the right  
+
+	![alt text](img/IMG_62.JPG)
+	![alt text](img/IMG_63.JPG)
+	![alt text](img/IMG_64.JPG)
+
+### `drag-chain`
 
 1. Perform `drag-chain` QC
- 
+
 	* Inspect the `drag-chain` for missing or loose `drag-chain-cover` pieces
-	* Confirm each `drag-chain-end-link` has been reworked with the drill jig
-	* Inspect the *x-gantry side* of `drag-chain` to confirm the following cables are present and installed in the correct direction:
-		
-		!!!info "A quick way to tell which side of the `drag-chain` is the *x-gantry side*: it is the side where the cables are shorter exiting the `drag-chain`"
-	
-		*  `LM` cable: 6-pin connector with `LM` label
-		*  `RM` cable: 6-pin connector with `RM` label
-		*  `ZM` cable: 6-pin connector with **NO** label
-		*  `ZL` cable: 3-pin connector with **NO** label
-		*  	`DL` cable: 3-pin connector with **NO** label, exits `drag-chain` between end-link and final cover
-		*  	`USB` cable: 4-pin connector with **NO** label, exits `drag-chain` between end-link and final cover
-	
 	* Confirm the following vacuum tubes are present and labeled correctly at both ends:
 		*  	<span style="background-color:red">**Red**</span> `4mm-pneumatic-tubing` with `LH` label
 		*  	<span style="background-color:blue">**Blue**</span> `4mm-pneumatic-tubing` with `RH` label
-	* Confirm `zip-tie`'s are trimmed flush and present in the following locations:
-		*  2x on `x-cable-chain-bracket` where `XM` cable leaves the drag-chain
-			* While here, confirm that `XM` cable exits `drag-chain` in place of the 12th `drag-chain-cover`
-		*  2x connecting `x-motor-cable-guide` to end of `XM` cable
-			* While here, confirm the end of `XM` cable features a 6-pin connector with **NO** label
-		*  3x evenly spaced between `drag-chain` and `umbilical-cable-strain-relief`
-		*  2x on `umbilical-cable-strain-relief`
-		
+	* Confirm the 2x `zip-tie` used in `cable-splay` are trimmed flush and present
+
 	!!!success "If all checks pass, continue onward"
- 
- 1. Install a 2" x 9" bag over both sides of `drag-chain`
- 	2. Confirm no vacuum tubes are pinched closed by the bagging process
- 2. Place the `drag-chain` into the `upper-foam-tray`
- 
-  	![](img/install-cable-chain.jpg) 
- 
+
+ 1. Secure loose cables with a rubber-band on both ends of `drag-chain`
+	* Confirm no vacuum tubes are pinched closed by the bagging process
+
+	![alt text](img/IMG_65.JPG)
+	![alt text](img/IMG_66.JPG)
+	![alt text](img/IMG_67.JPG)
+
+ 2. Place `drag-chain` into `upper-foam-tray`
+
+	![alt text](img/IMG_68.JPG)
+	![alt text](img/IMG_70.JPG)
+
 ### Confirm the contents of `upper-foam-tray`
 
 1. Confirm the `upper-foam-tray` matches the image shown below
 
- 	![](img/confirm-contents-1.JPG)
- 	
-1. Tuck the `box-sn-label` into the accessory prints pocket after confirming the contents of `upper-foam-tray`
+	![alt text](img/IMG_93.JPG)
 
-	![](img/upper-tray-done.JPG)
-	![](img/upper-tray-done-set.JPG)
-    
 ## Package LumenPnP Box
 !!!warning "Perform this process 1 machine at a time"
 	It's OK for this work to be performed by the original machine assembler
@@ -311,17 +305,20 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	- Packaged and QC'd upper-foam-tray
 	- Packaged and QC'd lower-foam-tray
 	- All relevant shipping paperwork, including packing slip, shipping label, and any international forms
-	![](img/packout-final1.jpg)
+
+	![alt text](img/IMG_77.JPG)
+
+2. Remove the `box-sn-label` from the `upper-foam-tray` and adhere it to the LumenPnP box in the region shown below
+
+	!!!warning "It is **critical** that this label matches the serial number listed on the backside of `electronics-cabinet`"
+
+	![alt text](img/IMG_78.JPG)
+
 2. Adhere shipping documents to box
 	- Adhere all relevant shipping documentation to the top left side of the LumenPnP box flap
 	- Set the packing slip aside **if** it lists product pricing information, otherwise it can be adhered below the shipping label
 
-2. Remove the `box-sn-label` from the `upper-foam-tray` and adhere it to the LumenPnP box in the region shown below 
-
- 	!!!warning "It is **critical** that this label matches the serial number listed on the underside of the `primary-staging-plate`"
-
-   	![](img/outer-serial-label.jpeg)
-
+	![alt text](img/IMG_94.JPG)
 
 3. Examine the packing slip and take note of what (if any) additional items must be packaged  
 
@@ -329,7 +326,7 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 4. Open the [OQC Checklist](https://docs.google.com/forms/d/e/1FAIpQLSddZwlLa26bw81xRC3UofJ12yaRr4eiF1ZQTFnbHVbXxjBo6A/viewform?usp=sharing)
 	- Fill out this checklist as you package the LumenPnP
-	
+
 	![](img/oqc-form.png)
 
 5. Complete the first page of the `OQC Checklist` page
@@ -341,64 +338,76 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	![](img/QC-Form/3-qc-form.jpeg)
 
 7. Place the packaged `lower-foam-tray` into the LumenPnP packaging
-	* Orient the tray so that the packaged `x-gantry` is closer to the Opulo logo side of the box 
- 
-    ![](img/lower-tray-v3.1.jpg)
-    
+	* Orient the tray so that the packaged `x-gantry` is closer to the Opulo logo side of the box
+
+	![alt text](img/IMG_79.JPG)
+
 8. Examine the contents of the `upper-foam-tray` and complete the corresponding `OQC Checklist` page
 
     ![](img/QC-Form/3.5-qc-form.jpeg)
 
 9. Place the packaged `upper-foam-tray` into the LumenPnP packaging
     * Orient the tray so that the staging plates are closer to the Opulo logo side of the box
- 
-    ![](img/first-tray-removal.png)
-    ![](img/first-tray-v3-1.jpg)
+
+	![alt text](img/IMG_82.JPG)
 
 11. Complete the corresponding `OQC Checklist` page
 
-	   ![](img/QC-Form/4-qc-form.jpeg)
+	![](img/QC-Form/4-qc-form.jpeg)
 
 12. Reference the order's `packing list` to determine if the box must include *any additional items*
 	- If the order **includes** additional items, select `Yes` to this page's last question before proceeding
 	- If the order **does not include** additional items, select `No` to this page's last question before proceeding
-	
+
 12.  If you answered `Yes` to the previous question you will be directed to the `Extra Items Checklist` page
 	- Package any additional items required into the open void regions of the LumenPnP's packaging
-	- If the order includes `feeders` or items suitable for a `feeder-accessory-tray` package them above the `upper-foam-tray` like so:
 	
-		![](img/feeder-packing1.jpg)
-		![](img/feeder-packing3.jpg)		
-		
+	!!!info "If the order includes `feeders` or items suitable for a `feeder-accessory-tray` package them above the `upper-foam-tray` like so:"
+		![alt text](img/IMG_83.JPG)
+		![alt text](img/IMG_86.JPG)
+
 	- After adding any additional items to the order, check-off any additional items this order contains before proceeding
 
-	 	  ![](img/QC-Form/5-qc-form.jpeg)
-
-13. Proceed to the `Finalize Shipment` page of the `OQC Checklist` and work your way through alongside following these last 6 steps
-
-	   ![](img/QC-Form/6-qc-form.jpeg)
-
-14. Install a `top-foam-sheet` above the `upper-foam-tray`
-
-	!!!note "Is this LumenPnP being shipped with feeders?"
-		Use `feeder trays` and a `top-cardboard-pad` instead of a `top-foam-sheet` **if** the LumenPnP order includes either feeders and/or items that use a `feeder-accessory-tray`. 
+		![](img/QC-Form/5-qc-form.jpeg)
 
 15. Fill out a `getting-started-card` with the machine's `version number`
 
     ![](img/getting-started-card.png)
 
-16. Use double-sided tape to attached the `getting-started-card` to the `top-foam sheet` 
+16. Peel the wax paper off the back of `getting-started-card` and adhere it to `top-foam sheet`
     * Orient the card so that it's bottom edge faces toward the Opulo logo side of the box
-    
-    ![](img/opened-box.png)
-    
-	!!!note "If the packing slip had pricing info listed on it, please tape it next to the `getting-started-card` at this time"
 
-17. Tape the LumenPnP box shut 
+	!!!warning "If the order being packed included feeders skip this step"
+
+	![alt text](img/IMG_90.JPG)
+	![alt text](img/IMG_91.JPG)
+
+14. Install a `top-foam-sheet` above the `upper-foam-tray`
+
+	!!!warning "If the order being packed included feeders skip this step"
+
+	![alt text](img/IMG_92.JPG)
+
+	!!!note "Is this LumenPnP being shipped with feeders? Follow this note below instead of the above step!"
+		Use `feeder trays` and a `top-cardboard-pad` instead of a `top-foam-sheet` **if** the LumenPnP order includes either feeders and/or items that use a `feeder-accessory-tray`
+		![alt text](img/IMG_87.JPG)
+		![alt text](img/IMG_88.JPG)
+		![alt text](img/IMG_89.JPG)
+
+13. Proceed to the `Finalize Shipment` page of the `OQC Checklist` and work your way through alongside following these last steps
+
+	![](img/QC-Form/6-qc-form.jpeg)
+
+17. Tape the LumenPnP box shut
+
+	![alt text](img/IMG_95.JPG)
 
 18. Adhere an `orange sticker` to the top-right corner of the box.
+
+	![alt text](img/IMG_96.JPG)
+
 19. Click `Submit` on the final page of `OQC Checklist` page
 
-	   ![](img/QC-Form/8-qc-form.jpeg)
+	![](img/QC-Form/8-qc-form.jpeg)
 
 !!!success "The LumenPnP should now be ready for fulfillment!"
