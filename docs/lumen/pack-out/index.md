@@ -184,7 +184,6 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 	![alt text](img/IMG_41.JPG)
 	![alt text](img/IMG_43.JPG)
-		<img src="img/toplayerrightarrangement.jpg" width="60%"/>
 
 1. Insert the following into the **left-side** pocket
     * `24v6A-power-supply` (unboxed)
@@ -200,12 +199,12 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 ### `primary-staging-plate`
 1. Inspect `primary-staging-plate` before packaging it into the foam tray
-	* Confirm `QC PASS sticker` is  present on the `bottom-camera-cover`
 	* Review the `primary-staging-plate` for the presence of all major components
 		* `datum-board`
-		* `bottom-camera-assembly`
+		* `bottom-camera-assembly` (with QC pass sticker)
 		* 3x `peek-cable-clamp`
-		* `bottom-light-harness` and `bottom-camera-harness` w/propper cable managment (`peek-cable-clamp` usage and rubber-band for securing loose cables)
+		* `bottom-light-harness` and `bottom-camera-harness` w/propper cable managment
+			* `peek-cable-clamp` usage and rubber-band for securing loose cables
 
 	![alt text](img/IMG_49.JPG)
 
@@ -223,13 +222,13 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 	![alt text](img/IMG_51.JPG)
 
-### `electronics-cabinet`
+### `control-box`
 
-1. Insert `electronics-cabinet` on right-side of `bottom-camera-assembly`
+1. Insert `control-box` on right-side of `bottom-camera-assembly`
 
 	![alt text](img/IMG_53.JPG)
 
-1. Unclip the `box-sn-label` from `electronics-cabinet` and loosely add it to right side accessory pocket
+1. Unclip the `box-sn-label` from `control-box` and loosely add it to right side accessory pocket
 
 	![alt text](img/IMG_54.JPG)
 
@@ -250,14 +249,14 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	
 	![alt text](img/IMG_61.JPG)
 
-* Feeder blades are installed sequentially from left to right
-* Wiggle the installed blades to ensure no screws are loose, retightening any if needed
-* Ensure the print is free of defects and fits flush to `alu-extrusion
-* The 2x installed `corner-bracket` pieces are flush to the `alu-extrusion`
-* Confirm a `blade-jumper-harness` is installed into each `feeder-rail`
-* Use the `feeder-programmer` to check that Slots `#1`, `#12`, `#13`, `#25`, `#26`, `#37` `#38`, and `#50` are programmed correctly
+	* Feeder blades are installed sequentially from left to right
+	* Wiggle the installed blades to ensure no screws are loose, retightening any if needed
+	* Ensure the print is free of defects and fits flush to `alu-extrusion
+	* The 2x installed `corner-bracket` pieces are flush to the `alu-extrusion`
+	* Confirm a `blade-jumper-harness` is installed into each `feeder-rail`
+	* Use the `feeder-programmer` to check that Slots `#1`, `#12`, `#13`, `#25`, `#26`, `#37` `#38`, and `#50` are programmed correctly
 
-	!!!success "If all checks pass, continue onward"
+		!!!success "If all checks pass continue onward"
 
  2. Add `front-feeder-rail` and `rear-feeder-rail` into  `upper-foam-tray`
 	* Orient the rails back-side up, with `rear-feeder-rail` in the lower pocket and `slot #50` on the right  
@@ -270,16 +269,16 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 1. Perform `drag-chain` QC
 
-	* Inspect the `drag-chain` for missing or loose `drag-chain-cover` pieces
+	* Inspect `drag-chain` for missing or loose `drag-chain-cover` pieces
 	* Confirm the following vacuum tubes are present and labeled correctly at both ends:
 		*  	<span style="background-color:red">**Red**</span> `4mm-pneumatic-tubing` with `LH` label
 		*  	<span style="background-color:blue">**Blue**</span> `4mm-pneumatic-tubing` with `RH` label
-	* Confirm the 2x `zip-tie` used in `cable-splay` are trimmed flush and present
+	* Confirm 2x `zip-tie` used in `cable-splay` are trimmed flush and present
 
 	!!!success "If all checks pass, continue onward"
 
  1. Secure loose cables with a rubber-band on both ends of `drag-chain`
-	* Confirm no vacuum tubes are pinched closed by the bagging process
+	* Confirm no vacuum tubes are pinched closed by the rubber banding
 
 	![alt text](img/IMG_65.JPG)
 	![alt text](img/IMG_66.JPG)
@@ -310,7 +309,7 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 2. Remove the `box-sn-label` from the `upper-foam-tray` and adhere it to the LumenPnP box in the region shown below
 
-	!!!warning "It is **critical** that this label matches the serial number listed on the backside of `electronics-cabinet`"
+	!!!warning "It is **critical** that this label matches the serial number listed on the backside of `control-box`"
 
 	![alt text](img/IMG_78.JPG)
 
