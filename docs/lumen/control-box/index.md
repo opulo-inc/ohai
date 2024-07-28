@@ -1,8 +1,8 @@
-# LumenPnP Electronics Cabinet
+# LumenPnP Control Box
 ## Introduction
-The purpose of these work instructions is to cover the assembly process for the LumenPnP's Electronics Cabinet. This assembly is used by the LumenPnP to contain its microcontroller and pnumatics system.
+The purpose of these work instructions is to cover the assembly process for the LumenPnP's Control Box. This assembly is used by the LumenPnP to contain its microcontroller and pnumatics system.
 
-## Assemble `electronics-cabinet`
+## Assemble `control-box`
 
 ![alt text](img/IMG_1870.JPG)
 ![alt text](img/IMG_1871.JPG)
