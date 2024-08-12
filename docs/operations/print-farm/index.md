@@ -6,7 +6,7 @@ There are a few things you need to do to prepare to slice and upload for our pri
 
 ### BambuStudio Setup
 
-1. Download version [1.8.4 of BambuStudio](https://github.com/bambulab/BambuStudio/releases/tag/v01.08.04.51).
+1. Download version [1.9.1 of BambuStudio](https://github.com/bambulab/BambuStudio/releases/tag/v01.08.04.51).
 2. Login to the OpuloInc Bambu account. Ask Lucian for the credentials.
     ![](img/account.png)
 3. Make sure you're logged in by checking that:
@@ -93,13 +93,25 @@ With your 3MFs up to date, we'll slice them and send them to all the printers on
 
 ### Sending
 
-We use a utility to upload all sliced files to our print farm. Open FarmUpload on your computer, select the `settings.json` file in the "Print Farm Files" Drive folder, and select the newly filled `slice` folder.
+We use a utility to upload all sliced files to our print farm. Open [FarmUpload](https://github.com/opulo-inc/farm-upload/releases) on your computer, select the `settings.json` file in the "Print Farm Files" Drive folder, and select the newly filled `slice` folder.
 
-### Notify
+### Making Kanban Cards
 
-1. Next to the print farm is a board with the current version of each product. Update to the verison you just sliced for.
-2. Post in #factory-floor about the version change, and that folks should be mindful of the new version.
-3. Check the "Update Print Farm" Mattermost Playbook for this release.
+Before switching over the farm, you need to update the Kanban cards.
+
+1. Go to the [Opulo Kanban Card Document](https://docs.google.com/presentation/d/1iP0LQSKqcGVxUUVWdpAv4Ua863dX2MB9aPtw2I8KEZI/edit). There is a card type called "Kanban" that you should use when making new cards. Do the following:
+   1. Delete cards for any parts that are not part of the new build.
+   2. Add new cards for any new parts.
+   3. Edit any cards for parts that have changed (material, color, build plate).
+2. Print any changed or new cards on the Dymo label printer.
+3. Grab the "Kanban Supplies" box on the rack by the print farm to get the printed cards you can affix the labels to.
+
+### Officially Change Over
+
+1. Find the print bins for all parts that have changed, and parts that are no longer needed. Throw away all the parts in the bins, and the kanban cards for the parts that have new cards.
+2. Put all the new cards you made in the last section into new bins to support the new parts.
+3. Next to the print farm is a board with the current version of each product. Update to the verison you just sliced for.
+4. Post in #factory-floor about the version change, and that folks should be mindful of the new version when selecting the print to run from the printer.
 
 ## Running the Print Farm
 
