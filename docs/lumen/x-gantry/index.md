@@ -156,7 +156,7 @@ Preparing x-gantry
 
 ### Install `linear-rail-525mm`
 
-*	Roughtly position `linear-rail-250mm` onto top-side of `alu-extrusion`
+*	Roughtly position `linear-rail-525mm` onto top-side of `alu-extrusion`
 
 	<img src="images/install-x-linear-rail.jpg"/>
 
@@ -184,7 +184,7 @@ Preparing x-gantry
 * Route a 1.5m-long piece of `GT2-belt` through `x-gantry-back`
 	
 	!!!info "Belt routing step-by-step"
-			* Start by running the belt through the left-side slot on `x-gantry-back' and leave 75mm of extra belt poking out
+			* Start by running the belt through the left-side slot on `x-gantry-back` and leave 75mm of extra belt poking out
 			* Run it through the extrusion towards the `x-motor-mount`
 			* Wrap it around the `timing-pulley`
 			* Run it back through the extrusion towards the `x-idler-mount`
