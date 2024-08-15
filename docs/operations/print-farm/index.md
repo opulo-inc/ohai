@@ -6,7 +6,7 @@ There are a few things you need to do to prepare to slice and upload for our pri
 
 ### BambuStudio Setup
 
-1. Download version [1.9.1 of BambuStudio](https://github.com/bambulab/BambuStudio/releases/tag/v01.08.04.51).
+1. Download version [1.9.3.50 of BambuStudio](https://github.com/bambulab/BambuStudio/releases/).
 2. Login to the OpuloInc Bambu account. Ask Lucian for the credentials.
     ![](img/account.png)
 3. Make sure you're logged in by checking that:
