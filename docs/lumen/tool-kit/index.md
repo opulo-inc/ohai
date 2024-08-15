@@ -40,6 +40,8 @@
 
 	![alt text](img/tool-kit-bag-v4-8.JPG)
 
+	!!!warning "The bag has been updated to contain 8x M5x16-Flat-Head and the weight hasn't be updated for this yet"
+
 * After a bag passes weight check, adhere a `bolt-kit-bag-label` to the outside of `lumenpnp-v4-hardware-kit`
 	* Note that the current Opulo MFG P/N for `lumenpnp-v4-hardware-kit` is `ASM-0048-05`
 	
