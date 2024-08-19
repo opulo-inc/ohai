@@ -4,49 +4,54 @@ Preparing x-gantry
 ## Create `x-linear-axis` subassembly
 ---------------------------------
 
-### Prepare `X-gantry-back`
+### Prepare `x-gantry-back`
 
 ####  Install fasteners
 
 *	Remove any stringing from the print with a heat gun
-*	Insert #x `m5-hex-nut` into the following region
+*	Insert 4x `m5-hex-nut` into the following region
 
-*	Insert 2x `m3-square-nut` into the following region
+	<img src="images/nut1-x-gantry-back.jpg"/>
 
+*	Insert 5x `m5-hex-nut` into the following region 
+	* Add a drop of `blue-loctite` into each of these pockets to permanently secure each nut in place
+	<img src="images/nut2-x-gantry-back.jpg"/>
 
-#### Focus `top-camera`
+#### Check `top-camera` focus
 
-*   Use `top-camera-focus-jig` to pre-focus `top-camera`
+*   Use `top-camera-focus-jig` to check focus of `top-camera`
 
-*   Connect `top-camera-focus-ji`g` to a laptop and open a native camera viewing application
+*   Connect `top-camera-focus-jig` to a laptop and open a native camera viewing application
 
 	<img src="images/image36.jpg"/>
 
 *   Remove `lens-cap` from `top-camera`
-*   Loosen `set-screw` on side of lens body
-
-	<img src="images/image21.jpg"/>
 
 *   Install the `top-camera` fully into the `top-camera-focus-jig`, plugging the USB cable into the camera module afterwards
 
 	<img src="images/image56.jpg"/>
 
-*   In Photobooth, change the selected camera to `PnP Top` to view the camera feed from  `top-camera`
+*   In Photobooth, change the selected camera to `LumenPnP Top` to view the camera feed from  `top-camera`
 
 	<img src="images/image60.jpg"/> 
 
-*   Rotate camera lens until live view shows `datum-board` as focused as possible
-
-	<img src="images/image39.jpg"/>
+!!!success "If the datum-board is sharp and nicely focused continue onward"
 
 	<img src="images/image48.jpg"/>
 
-	!!! info "Camera view before and after focusing shown above"
+!!!failure "If the datum-board is blurry and out of focus, follow instructions below"
 
-*   Once the camera is focused, tighten `set-screw` to preserve the adjustments
-*   Add a red dot to the PCB with a marker to denote that the unit has been QC'd
+	<img src="images/image39.jpg"/>
 
-	<img src="images/image41.jpg"/>
+	*   Loosen `set-screw` on side of lens body
+
+		<img src="images/image21.jpg"/>
+
+	*   Rotate camera lens until live view shows `datum-board` as focused as possible
+
+		<img src="images/image48.jpg"/>
+
+	*   Once the camera is refocused, tighten `set-screw` to preserve the adjustments
 
 *   Remove the `top-camera` from `top-camera-focus-jig` and immediately replace `lens-cap`
 
@@ -54,9 +59,19 @@ Preparing x-gantry
 
 *   Install `top-camera` into x-gantry-back
 
+	<img src="images/x-gantry-back-install-camera.jpg"/>
+
 *   Install `top-ring-light` into `top-light-mount`
 
-*   Install `top-light-mount` onto back of `x-gantry-back` before securing in place with 2x `M3x14-bolt`
+	<img src="images/install-ring-light.jpg"/>
+
+*   Install `top-light-mount` onto back of `x-gantry-back`
+
+	<img src="images/install-top-light-mount1.jpg"/>
+
+*   Secure `top-light-mount` in place with 2x `M3x12-self-tapping-flat-head`
+
+	<img src="images/screw-in-top-light-mount.jpg"/>
 
 ### Prepare `NEMA-17-stepper-motor` for x-axis
 
@@ -404,7 +419,7 @@ Preparing x-gantry
 *   Check that `x-gantry` fits correctly on `x-gantry-spacer-jig`
 *   Slide a `M5x25-bolt` into the `x-gantry` from either side of `x-gantry-spacer-jig` to prevent it from falling during testing
 *   Bolt down the test jig’s drag chain onto `x-gantry-back` with 1x `M5x16-bolt`
-*   Connect the test jig’s `z-limit`, `x-motor`, and `z-motor` cable into x-gantry
+*   Connect the test jig’s `xy-limit`, `z-limit`, `x-motor`, and `z-motor` cables into x-gantry
 *   Connect the Gundam motherboard to 24vDC power and then press reset on Gundam motherboard
 *   Connect the motherboard to the Gundam test software
 *   Begin testing the `x-gantry` by running various macros:
@@ -421,11 +436,9 @@ Preparing x-gantry
 	*   Test Z-Home
 
 		*   Check that the z-belt is adequately tensioned and adjust if necessary - you shouldn’t be able to twist the belt too much
-		*   Adjust the M3x16 bolt either up or down, if needed, provided the z-gantries are not aligned vertically after homing,
-		
-		*   This can be checked by sliding a brass shim across the top of the motor while checking to see if it sits higher/lower than the top surface of the adjacent motor
-		
-		*   Repeat this test and continue adjusting the M3x16 bolt until the alignment appears to be perfect
+		*   Adjust the M3x16 bolt either up or down as needed, until the z-gantrys are aligned vertically after homing
+			*   This can be checked by sliding a brass shim across the top of the motor while checking to see if it sits higher/lower than the top surface of the adjacent motor
+			*   Repeat this test and continue adjusting the M3x16 bolt until the alignment appears to be perfect
 		
 	*   Test Z-Movement Speed
 
@@ -435,7 +448,7 @@ Preparing x-gantry
 
 *   Remove `x-gantry` from Gundam
 	*   Disconnect Gundam motherboard from 24vDC power
-	*   Unplug the test jig’s `z-limit`, `x-motor`, and `z-motor` cables from `x-gantry`
+	*   Unplug the test jig’s `xy-limit`, `z-limit`, `x-motor`, and `z-motor` cables from `x-gantry`
 	*   Unscrew `drag-chain mounting hardware` from `x-gantry`
 	*   Remove the 2x `M5x25-bolt` used to keep `x-gantry` on `x-gantry-spacer-jig`
 
