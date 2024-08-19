@@ -1,7 +1,7 @@
 
 ## Purpose
 
-The purpose of this work instruction is to document the assembly process for the LumenPnP Vacuum Pump and Valve Set [`SKU-0004-00`]
+The purpose of this work instruction is to document the assembly process for the LumenPnP v3 Vacuum Pump and Valve Set [`SKU-0004-00`]
 
 ## Instructions
 
