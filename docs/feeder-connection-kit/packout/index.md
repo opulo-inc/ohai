@@ -19,21 +19,24 @@ This section will guide the reader on how to properly package a `feeder-connecti
 
 ## Package additional items
 
+!!!warning "Photos are out of date!"
+
 * Move to Ghidra to finish packing
 	![](img/move-to-ghidra.JPG)
 
 * Install the other accessories into the `feeder-accessory-tray`:
-	* **feeder-blade-cable-harness**
-		
-		!!!warning "DO NOT MIX THIS UP WITH THE `feeder-slot-cable-harness` WE USED TO USE HERE"
-	
+	* **feeder-blade-harness-set**
+
+		!!!warning "DO NOT MIX THIS UP WITH THE `feeder-slot-cable-harness` WE USED TO USE HERE - ALSO BE SURE IT IS REWORKED TO INCLUDE JUMPERS"
+
+	* feeder-blade-adapter-set
 	* feeder-programmer
 	* bagged-extrusion-cable-clips
 	* drive-wheel-adj-key
-	
+
 	![](img/blade-packaging2.JPG)
-	
+
 * Add some foam to the `feeder-connection-kit` tray to protect the items in transit
 	![](img/blade-packaging3.JPG)
-	
+
 	!!!info "The foam shown in use here is 3 pieces of foam covering from 2020 aluminum extrusion"

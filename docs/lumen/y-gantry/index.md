@@ -232,9 +232,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	!!!warning "Ensure that `y-gantry` sits flush against `linear-rail-carriage` without any visible gaps"
 
-
 	![](img/bolt-y-gantry-to-carriage.png)
-
 
 - Use `belt-clamp` with 2x `M5x10-bolt` to clamp the left-side of the `GT2-belt` to the `y-gantry`
 	- Tighten each `M5x10-bolt` to 0.5 N.M
@@ -287,7 +285,7 @@ Confirm this by inspecting the completed `y-gantry-left` assembly with the follo
 * `GT2-belt` has been correctly tensioned
 * `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
 * `Linear-rail` is centered atop `aluminum-extrusion`
-* `y-gantry` sits flat on `linear-rail-carriage`
+* `y-gantry-left` sits flat on `linear-rail-carriage`
 * `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
 * `GT2-belt` lays flat in the `600mm-alu-extrusion` channels
 * 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `600mm-alu-extrusion`
@@ -295,6 +293,6 @@ Confirm this by inspecting the completed `y-gantry-left` assembly with the follo
 * `Y1` cable is secured with a zip-tie and exits the port labeled `Y1`
 
 !!!warning "Stay vigilant for new failure modes not listed above and report them to a production lead when found"
-	
+
 !!!success "If everything looks good"
 	Set the finished `y-gantry-left` aside for functional QC testing at the Gundam test station
