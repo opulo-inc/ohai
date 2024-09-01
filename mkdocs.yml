@@ -1,7 +1,7 @@
 site_name: OHAI - Open Hardware Assembly Instructions
 site_url: https://ohai.opulo.io/
 repo_url: https://github.com/opulo-inc/ohai/
-copyright: LumenPnP and its related works are proudly released under the GPL-3.0 license - Opulo Inc 2024
+copyright: LumenPnP and its related works are proudly released under the CERN-OHL-W-2.0 license - Opulo Inc 2024
 extra_css: [stylesheets/extra.css]
 
 #plugins:
@@ -18,10 +18,11 @@ theme:
   logo: img/opulo.png
   favicon: img/favicon.ico
   font:
-    text: Roboto
+    text: Lexend
+    # code: Ubuntu Mono
   palette:
     scheme: slate
-    primary: amber
+    primary: deep purple
   features:
     - navigation.footer
     - navigation.instant
@@ -70,18 +71,19 @@ nav:
 
   - Misc Products:
         - Overview: misc/index.md
-        - LumenPnP Toolhead Assembly: misc/lumenpnp-toolhead-asm/index.md
-        - LumenPnP Vacuum Pump and Valve Set: misc/vac-and-valve-set/index.md
+        - LumenPnP v2/v3 Toolhead Assembly: misc/lumenpnp-toolhead-asm-v3/index.md
+        - LumenPnP v4 Toolhead Assembly: misc/lumenpnp-toolhead-asm-v4/index.md
+        - LumenPnP v2/v3 Vacuum Pump and Valve Set: misc/vac-and-valve-set-v3/index.md
         - Packaged CP40 Nozzle Set: misc/cp40-noz-set/index.md
-        - LumenPnP PCB Kit: misc/v3-pcb-kit/index.md
+        - LumenPnP v3 PCB Kit: misc/v3-pcb-kit/index.md
+        - LumenPnP v4 Control Box: lumen/control-box/index.md
         - Staging Plate 1/2 Pack: misc/staging-plate-set/index.md
         - Getting Started Kit: misc/ftp-kit/index.md
-        - Vacuum Sensor Upgrade Kit: misc/rev3-vac-interposer/index.md
+        - Vacuum Sensor Upgrade Kit (for v2 machine owners): misc/rev3-vac-interposer/index.md
         - Feeder Part Kit: misc/feeder-part-kit/index.md
         - Strip Feeder: misc/strip-feeder/index.md
   
   - Operations:
         - Overview: operations/index.md
-        - Order Fulfillment: operations/order-fulfillment/index.md
         - Ordering from LCSC: operations/purchasing-from-lcsc/index.md
         - Print Farm: operations/print-farm/index.md
