@@ -31,7 +31,7 @@ Preparing x-gantry
 
 	<img src="images/image56.jpg"/>
 
-*   In Photobooth, change the selected camera to `LumenPnP Top` to view the camera feed from  `top-camera`
+*   In Photo Booth, change the selected camera to `LumenPnP Top` to view the camera feed from  `top-camera`
 
 	<img src="images/image60.jpg"/> 
 
@@ -78,7 +78,7 @@ Preparing x-gantry
 *   Set `timing-pulley` height on `NEMA-17-stepper-motor` shaft with `x-pulley-spacer-jig`
 
 *  Tighten the first `set-screw` into the flat region found on the `NEMA-17-stepper-motor` shaft, before tightening the second `set-screw`
-	*   Tighten each `set-screw` to 0.6 N/M
+	*   Tighten each `set-screw` to 0.5 N/M
 
 	<img src="images/image34.jpg"/>
 
@@ -90,7 +90,7 @@ Preparing x-gantry
 
 *   Bolt `NEMA-17-stepper-motor` onto x-`motor-mount` with 4x `M3x8-bolt`
 
-	*   Tighten these bolts to 0.4 N/M
+	*   Tighten these bolts to 0.5 N/M
 
 	<img src="images/image4.jpg"/>
 
@@ -104,7 +104,7 @@ Preparing x-gantry
 
 *  If you have not already done so, assemble 1x `belt-tensioner-arm`
 
-	!!!note "For reference building this sub-assembly, visit the [Y Gantry OHAI page](../lumen/y-gantry/#prepare-belt-tensioner-arm)"
+	!!!note "For reference building this sub-assembly, visit the [Y Gantry OHAI page](../y-gantry/#prepare-belt-tensioner-arm)"
 
 * Install 1x `M5-lock-nut` into `x-idler-mount`
 
@@ -134,7 +134,7 @@ Preparing x-gantry
 	<img src="images/install-x-motor-mount-t-nut2.jpg"/>
 
 *	Secure `alu-extrusion` in place with 2x `M5x10-socket-head-bolt`
-	* Tigthen these bolts to 0.6N/M
+	* Tighten these bolts to 0.5N/M
 
 	<img src="images/install-x-motor-mount-bolt.jpg"/>
 
@@ -164,14 +164,14 @@ Preparing x-gantry
 	<img src="images/install-x-idler-mount-3.jpg"/>
 
 *	Secure `x-idler-mount` in place with 2x `M5x10-socket-head-bolt`
-	* Tigthen these bolts to 0.6N/M
+	* Tighten these bolts to 0.5N/M
 
 	<img src="images/install-x-idler-mount-4.jpg"/>
 	
 
 ### Install `linear-rail-525mm`
 
-*	Roughtly position `linear-rail-525mm` onto top-side of `alu-extrusion`
+*	Roughly position `linear-rail-525mm` onto top-side of `alu-extrusion`
 
 	<img src="images/install-x-linear-rail.jpg"/>
 
@@ -188,7 +188,7 @@ Preparing x-gantry
 	<img src="images/install-x-linear-rail-3.jpg"/>
 
 *	Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end.
-	*	A torque wrench set to 0.5N/M must be used when tighening these bolts
+	*	A torque wrench set to 0.5N/M must be used when tightening these bolts
 
 	<img src="images/install-x-linear-rail-4.jpg"/>
 
@@ -243,13 +243,13 @@ Preparing x-gantry
 
 
 * Trim the loose `GT2-belt` on either side of the `x-gantry-back`
-	* For the `x-motor-mount` side of the `x-gantry-backy` print, trim loose `GT2-belt` until flush against `belt-clamp`
+	* For the `x-motor-mount` side of the `x-gantry-back` print, trim loose `GT2-belt` until flush against `belt-clamp`
 	* For the `x-idler-mount` side of the `x-gantry-back` print, trim loose `GT2-belt` until approx. 15mm of `GT2-belt` remains past `belt-clamp`
 
 	<img src="images/trim-x-belt.jpg"/>
 
 ### Confirm progress
-*	Check that finsihed `x-linear-axis` matches the image shown below before proceeeding
+*	Check that finished `x-linear-axis` matches the image shown below before proceeding
 <img src="images/finished-x-linear-axis.jpg"/>
 
 
@@ -317,7 +317,7 @@ Preparing x-gantry
 
 ### Install z-axis belt drive components
 
-*   Secure `idler-pulley` onto `x-gantry-front`  with 1x `M5x25-bolt`, tigthend enough that the pulley can rotate freely without resistance
+*   Secure `idler-pulley` onto `x-gantry-front`  with 1x `M5x25-bolt`, tightened enough that the pulley can rotate freely without resistance
 *   Check that the pulley can only rotate - it should not be able to move up and down if the bolt is tightened correctly
 
 	<img src="images/image20.jpg"/>
@@ -360,8 +360,8 @@ Preparing x-gantry
 *   Loosely attach a `z-gantry` onto the left-side `linear-rail-carriage` with 4x `M3x8-bolt` per side
 	<img src="images/bolt-left-head.jpg"/>
 
-*   Align `z-gantry` paralell to `linear-rail` by lightly pressing it outward, while tigtening the mounting bolts
-	*   Tighten bolts to 0.3 N/M, moving in a star pattern
+*   Align `z-gantry` parallel to `linear-rail` by lightly pressing it outward, while tightening the mounting bolts
+	*   Tighten bolts to 0.5 N/M, moving in a star pattern
 
 	<img src="images/image26.jpg"/>
 
@@ -373,7 +373,7 @@ Preparing x-gantry
 
 *   Bolt `NEMA11-hollow-shaft-stepper` onto left-side `z-ganty`
 	*   Attach with 4x M2.5x8 bolts
-	*   Torque each bolt to 0.3 N/M
+	*   Torque each bolt to **0.3 N/M**
 
 	<img src="images/bolt-nema11-1.jpg"/>
 
@@ -399,15 +399,15 @@ Preparing x-gantry
 
 	<img src="images/tighten-toolhead.jpg"/>
 
-*   Repeat above process to attach a `pneumatic-toolhead-assembly` to the left-side `z-gantry`
+*   Repeat above process to attach a `rotary-pneumatic-toolhead-assembly` to the left-side `z-gantry`
 
 	<img src="images/x-gantry-front-done1.jpg"/>
 
 ## Install `x-gantry-front` onto `x-linear-axis`
 
 *	Use 4x `M5x10-bolt` to attach `x-gantry-front` onto `x-linear-axis`
-	*	Move the toolheads out of the way as needed
-	*	Torque each bolt to `0.8 N/M`
+	*	Move each toolhead out of the way as needed
+	*	Torque each bolt to **`0.8 N/M`**
 
 	![alt text](images/bolt-x-gantry-front-1.jpg)
 	![alt text](images/bolt-x-gantry-front-2.jpg)
@@ -436,13 +436,13 @@ Preparing x-gantry
 	*   Test Z-Home
 
 		*   Check that the z-belt is adequately tensioned and adjust if necessary - you shouldn’t be able to twist the belt too much
-		*   Adjust the M3x16 bolt either up or down as needed, until the z-gantrys are aligned vertically after homing
+		*   Adjust the M3x16 bolt either up or down as needed, until the z-gantry's are aligned vertically after homing
 			*   This can be checked by sliding a brass shim across the top of the motor while checking to see if it sits higher/lower than the top surface of the adjacent motor
 			*   Repeat this test and continue adjusting the M3x16 bolt until the alignment appears to be perfect
 		
 	*   Test Z-Movement Speed
 
-!!! failure   "If issues arrise, continue rerunning tests and reworking the x-gantry"
+!!! failure   "If issues arise, continue rerunning tests and reworking the x-gantry"
 
 !!! success  "Once everything is passing, proceed with the following steps"
 
@@ -456,15 +456,15 @@ Preparing x-gantry
 Inspect the completed `x-gantry` for the following criteria:
 
 * `GT2-belt` has been trimmed to appropriate length (flush on 1 side, 15mm on the other)
-* Camera is installed with two bolts
+* `Top-light-mount` is attached with two screws
 * Camera lens cap is present
 * The wire connectors on both `NEMA-11-stepper-motor` units face away from each other, sitting adjacent to their respective cable strain relief points
 * Each `nozzle-holder` has been lubricated and fit-tested with a nozzle
 * `Z-belt-loop` feels appropriately tensioned when plucked
 * Each `z-gantry` moves smoothly when actuated back-and-forth by hand
-* 1x `M5-hex-nut` are installed in `x-gantry-back` for use with `drag-chain` attachment
+* 1x `M5-hex-nut` is installed in `x-gantry-back` for use in `cable-splay` attachment
 * `NEMA-17-stepper-motor` wire connector faces towards `z-limit-switch`
-* `Linear-rail` is centered atop `aluminum-extrusion`
+* `Linear-rail` is centered atop `alu-extrusion`
 * `x-idler-mount` and `x-motor-mount` are secured to `alu-extrusion` with 2x `M5x10-bolt` per side
 * `Tensioner-arm` is installed on `x-idler-mount` in the correct orientation (IE acorn-nut facing touches print)
 * `Timing-pulley` is tightened down and at proper height
