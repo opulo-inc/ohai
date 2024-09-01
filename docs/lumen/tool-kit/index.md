@@ -35,7 +35,7 @@
 	![alt text](img/tool-kit-bag-v4-4.JPG)
 
 * QC review `lumenpnp-v4-hardware-kit` with a weight check
-	* Confirm each bag weighs `175.0 +/- 0.5g`
+	* Confirm each bag weighs `176.6 +/- 0.5g`
 	* If a bag weighs less than this, recount the pieces and rework as needed before proceeding
 
 	![alt text](img/tool-kit-bag-v4-8.JPG)
@@ -64,10 +64,6 @@
 * Place `USB-A to USB-B cable` above `ESD wrist strap`, towards the bottom of pouch
 
 	<img src="img/image6.png"/>
-
-* Place `phillips-screwdriver` into pouch
-
-	![alt text](img/tool-kit-bag-v4-11.JPG)
 
 * Place `feeder-programmer` into pouch
 
