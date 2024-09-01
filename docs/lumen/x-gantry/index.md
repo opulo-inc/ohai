@@ -13,7 +13,7 @@ Preparing x-gantry
 
 	<img src="images/nut1-x-gantry-back.jpg"/>
 
-*	Insert 5x `m5-hex-nut` into the following region 
+*	Insert 5x `m5-hex-nut` into the following region
 	* Add a drop of `blue-loctite` into each of these pockets to permanently secure each nut in place
 	<img src="images/nut2-x-gantry-back.jpg"/>
 
@@ -73,7 +73,7 @@ Preparing x-gantry
 
 	<img src="images/screw-in-top-light-mount.jpg"/>
 
-### Prepare `NEMA-17-stepper-motor` for x-axis
+### Prepare `NEMA-17-stepper-motor` for `x-linear-axis`
 
 *   Set `timing-pulley` height on `NEMA-17-stepper-motor` shaft with `x-pulley-spacer-jig`
 
@@ -195,25 +195,25 @@ Preparing x-gantry
 *	Remove the `linear-rail-2020-alignment-jig` from both ends of `linear-rail-525mm`
 *	Slide the `linear-rail-carriage` back and forth a few times, checking to see that it travels smoothly and consistently
 
-### Install GT2-belt
+### Install GT2-belt and x-gantry-back
 * Route a 1.5m-long piece of `GT2-belt` through `x-gantry-back`
 	
 	!!!info "Belt routing step-by-step"
-			* Start by running the belt through the left-side slot on `x-gantry-back` and leave 75mm of extra belt poking out
-			* Run it through the extrusion towards the `x-motor-mount`
-			* Wrap it around the `timing-pulley`
-			* Run it back through the extrusion towards the `x-idler-mount`
-			* Wrap it around the `idler-pulley`
-			* Run it back through the extrusion towards the `x-motor-mount` again
-			* Have the belt exit through the right-side slot on `x-gantry-back`
-	
+		* Start by running the belt through the left-side slot on `x-gantry-back` and leave 75mm of extra belt poking out
+		* Run it through the extrusion towards the `x-motor-mount`
+		* Wrap it around the `timing-pulley`
+		* Run it back through the extrusion towards the `x-idler-mount`
+		* Wrap it around the `idler-pulley`
+		* Run it back through the extrusion towards the `x-motor-mount` again
+		* Have the belt exit through the right-side slot on `x-gantry-back`
+
 	<img src="images/install-x-GT2-belt.jpg"/>
 
 * Slide the `x-gantry-back` onto the `linear-rail-carriage` while pulling slack out of the `GT2-belt`
 
 	<img src="images/install-x-GT2-belt-2.jpg"/>
 	
-* Bolt `x-gantry-back` to the `linear-rail-carriage` with 4x `M3x8-bolt`
+* Bolt `x-gantry-back` to the `linear-rail-carriage` with 4x `M3x16-bolt`
 	*   Tighten each bolt to 0.5 N/M
 	*	Push `x-gantry-back` inward towards the `linear-rail-carriage` while tightening the mounting bolts to align it
 
@@ -231,7 +231,7 @@ Preparing x-gantry
 
 * Pull the right-side `GT2-belt` tightly towards `x-motor-mount`
 * Use `belt-clamp` with 2x `M5x10-bolt` to clamp the right-side `GT2-belt` to the `y-gantry`
-	* Tighten each `M5x10-bolt` to 0.5 N.M 
+	* Tighten each `M5x10-bolt` to 0.5 N.M
 
 	<img src="images/bolt-belt-clamp2-to-x-gantry-back.jpg"/>
 
@@ -384,7 +384,7 @@ Preparing x-gantry
 
 	<img src="images/slide-nozzle-mask.jpg"/>
 
-*	Place `rotary-pneumatic-adapter` into `rotary-pneumatic-adapter-socket` 
+*	Place `rotary-pneumatic-adapter` into `rotary-pneumatic-adapter-socket`
 	*  Attach the custom socket to a torque driver if you have not already done so
 	*  Set the torque driver to `0.5 N/M` for the following steps
 
