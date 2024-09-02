@@ -103,7 +103,6 @@ Repeat the above process to install the right-side pneumatic system
 ![alt text](img/IMG_1903.JPG)
 ![alt text](img/IMG_1907.JPG)
 
-
 ## Connect a vacuum line to each `reduction-tee-4-6-4`
 
 - Route the vacuum lines underneath the back right motherboard standoff before plugging each tube into its respective `reduction-tee-4-6-4`
@@ -130,3 +129,19 @@ Repeat the above process to install the right-side pneumatic system
 	![alt text](img/IMG_2015.JPG)
 	
 !!!success "You may now proceed to Gundam Testing!"
+
+## Gundam Testing
+- Install `control-box-asm` into Gundam
+	![alt text](img/connect-gundam5.JPG)
+	![alt text](img/connect-gundam6.JPG)
+- Remove `control-box-lid` and set it aside
+	![alt text](img/connect-gundam1.JPG)
+- Connect the vacuum tubes, being sure to match the colors up correctly
+	![alt text](img/connect-gundam7.JPG)
+	![alt text](img/connect-gundam4.JPG)
+- Begin to connect the Gundam jig's cables into `motherboard-rev05`
+	![alt text](img/connect-gundam8.JPG)
+	![alt text](img/connect-gundam3.JPG)
+	![alt text](img/connect-gundam2.JPG)
+- Proceed to connect USB and 24v DC to the `motherboard-rev-05`
+- Connect to the Gundam test software and follow the on-screen prompts
