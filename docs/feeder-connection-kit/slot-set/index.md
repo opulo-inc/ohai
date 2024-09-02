@@ -39,5 +39,6 @@ This section will guide the reader on how to properly assemble and package a `fe
 # Next Steps
 The next step is to proceed to either:
 
-* `Feeder Accessory Preparation` - provided you are making a Feeder Connection Kit
-* `Front-feeder-rail / Rear-feeder-rail` - provided you are making a LumenPnp v4
+* [`Feeder Accessory Preparation`](../accessories/) - provided you are making a Feeder Connection Kit
+* [`Front-feeder-rail / Rear-feeder-rail`](https://ohai.opulo.io/lumen/feeder-rail/) - provided you are making a LumenPnP
+
