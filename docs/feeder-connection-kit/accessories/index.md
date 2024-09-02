@@ -31,20 +31,35 @@ This section will guide the reader on how to properly prepare the accessories th
 
 	![](img/IMG_3669.png)
 
-## Add blade-jumper-harness to feeder-blade-harness-set
+## Collect feeder-blade-harness-set
 
 * Collect a `feeder-blade-harness-set` [ASM-0079-02] from inventory
 
 	![](img/feeder-blade-harness-set-rev02.jpg)
 
-* Add 2x `blade-jumper-harness` (v4 style) into the `feeder-blade-harness-set` [ASM-0079-02] packaging
+## Feeder-connection-kit-add-ins
 
-* Denote that the jumpers have been added to the set by adding a checkmark to the bag with a permanent marker
+### Assemble `feeder-blade-idc-adapter`
 
-## Feeder-blade-adapter-set
+- Create a `50mm-idc-ribbon-cable` that matches the image below
+	![alt text](connection-kit-ph3.JPG)
+	![alt text](connection-kit-ph5.JPG)
+- Assemble `feeder-blade-idc-adapter-pcba`
+	![alt text](connection-kit-ph1.JPG)
+	![alt text](connection-kit-ph6.JPG)
+- Glue `blade-adapter-pin-cover` onto the PCBA
+	![alt text](connection-kit-ph7.JPG)
+	![alt text](connection-kit-ph13.JPG)
+	![alt text](connection-kit-ph4.JPG)
 
-* Add 1x `feeder-blade-idc-adapter` into `2x3-bag`
-* Add 1x `1x mobo-to-slot1-harness` (v3 style) into bag
+- Connect `50mm-idc-ribbon-cable` to `feeder-blade-idc-adapter-pcba`
+	![alt text](connection-kit-ph2.JPG)
+	![alt text](connection-kit-ph8.JPG)
+
+### Packing feeder-connection-kit-add-ins
+* Add 1x `feeder-blade-idc-adapter` and 2x `blade-jumper-v4` into `2x3-bag`
+	![alt text](connection-kit-ph9.JPG)
 * Seal bag shut
-* Apply `feeder-blade-adapter-set` label to the outside of bag
-!!!success "These three assemblies can now be set aside for further use in packout"
+	![alt text](connection-kit-ph11.JPG)
+
+!!!success "These assemblies can now be set aside for further use in packout"
