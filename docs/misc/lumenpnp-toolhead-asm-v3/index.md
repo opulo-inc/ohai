@@ -1,6 +1,6 @@
 ## Purpose
 
-The purpose of this work instructions is to document the assembly process for the LumenPnP Toolhead Assembly [`SKU-0005-03`]
+The purpose of this work instructions is to document the assembly process for the LumenPnP v3 Toolhead Assembly [`SKU-0005-03`]
 
 ## Instructions
 

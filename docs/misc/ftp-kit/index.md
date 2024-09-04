@@ -1,7 +1,7 @@
 # Getting Started Kit Assembly
 
 ## Intro
-The purpose of this work instruction is to explain the assembly process for the LumenPnP v3.2.0 Getting Started Kit 
+The purpose of this work instruction is to explain the assembly process for the LumenPnP Getting Started Kit 
 
 ## Preparing Universal PCB Fixture System 
 
@@ -38,7 +38,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	![](img/IMG_2252.jpeg)
 
-1. Insert 4x assembled `board-mount-dynamoc` into `4x6-anti-static-bag`
+1. Insert 4x assembled `board-mount-dynamic` into `4x6-anti-static-bag`
 
 	![](img/IMG_2253.jpeg)
 
@@ -52,15 +52,15 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 ## Preparing Component Bag
 
-1. Obtain LED's, Resistors, and `3x4 bag`
+1. Obtain the resistors and a `3x4 bag`
 
 	![](img/IMG_2592.jpeg)
 
-1. Obtain 100 of each component by cutting the tapes to 400mm lengths 
+1. Obtain 100 resistors by cutting the tape to 400mm lengths 
 
 	![](img/IMG_2257.jpeg)
 
-1. Coil the component tapes and pack them into the `3x4 bag`
+1. Coil the component tape and pack it into the `3x4 bag`
 
 	![](img/IMG_2258.jpeg)
 
@@ -91,11 +91,11 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 1. Gather the components shown
 
-!!! note 
-	If any `getting-started-kit-paper-insert` are needed, they can be found [here](https://aligni-storage-production.s3.us-west-2.amazonaws.com/sites/92bfd327-128d-4647-82fd-258df3cded4a/parts/498589/attachments/269797/Getting_Started_Kit_Paper_Insert.pdf?response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27Getting%2520Started%2520Kit%2520Paper%2520Insert.pdf%3B%20filename%2A%3DUTF-8%27%27Getting%2520Started%2520Kit%2520Paper%2520Insert.pdf&X-Amz-Expires=600&X-Amz-Date=20240209T203835Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZM5WYDPFOSPKOVPO%2F20240209%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=25cd740984f90ba7a65dd1c356ed3e877ae8b277891cc97630115a9d1e87917b)
-
+	!!! note "Out of Paper Inserts?" 
+		If more `getting-started-kit-paper-insert` are needed, they can be found [here](https://cdn.shopify.com/s/files/1/0570/4256/7355/files/Getting_Started_Kit_Paper_Insert.pdf?v=1725173152) and printed out on regular printer paper.
 	
-![](img/IMG_2596.jpeg)
+		
+	![](img/IMG_2596.jpeg)
 
 1. Insert `Bagged FTP PCB` into `6" x 9" Polybag` as shown
 
