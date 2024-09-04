@@ -2,27 +2,28 @@
 
 ## Overview
 
-This section of the work instructions covers the additional parts that must be packaged in a LumenPnP shipment prior to fulfillment. 
+This section of the work instructions covers the additional parts that must be packaged in a LumenPnP shipment prior to fulfillment.
 
-These parts and their respective quantities are as follows: 
+These parts and their respective quantities are as follows:
 
-* 1x  `bagged-extrusion-cable-clips`
-* 2x `back-leg-extension` 
-* 2x `front-leg-extension`
-* 1x `front-drag-chain-mount`
-* 1x `static-camera-foot`
-* 1x `aux-staging-plate-foot`
+- 1x `bagged-extrusion-cable-clips`
+- 2x `back-leg-extension`
+- 2x `front-leg-extension`
+- 1x `y-limit-striker`
+- 1x `static-camera-foot`
+- 1x `aux-staging-plate-foot`
+- 1x `nozzle-rack`
 
 ## Work Instructions
 
 ### bagged-extrusion-cable-clips
-- Place 10x `extrusion-cable-clip` pieces into a 3" x 4" plastic bag before sealing it shut
-	![](img/IMG_3667.png)	
+- Place 10x `extrusion-cable-clip` pieces into a `3x4-bag` before sealing it closed
+	![](img/IMG_3667.png)
 	![](img/IMG_3666.png)
 - Place each `bagged-extrusion-cable-clips` set into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
 	![](img/IMG_6181.jpeg)
 - Weigh each `bagged-extrusion-cable-clips`, confirming it weighs `20g`
-	![](img/IMG_6182.jpeg) 
+	![](img/IMG_6182.jpeg)
 - Place the `bagged-extrusion-cable-clips` pieces that pass weight check into a <span style="color:green"> green QC-Pass bin</span>
 	![](img/IMG_6185.jpg)
 
@@ -34,30 +35,47 @@ These parts and their respective quantities are as follows:
 	![](img/IMG_6179.jpg)
 	
 ### front-leg-extension
-- Clean print of any observed stringing 
+- Clean print of any observed stringing
 - Adhere 1x `rubber-foot` to each `front-leg-extension`, centering it in the circular cutout
 	![](img/front-leg-extension.png)
 - Place each `front-leg-extension` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
 	![](img/IMG_6180.jpg)
 
-### front-drag-chain-mount
+### y-limit-striker
 - Clean print of any observed stringing 
-- Use an arbor press and the respective jig to insert 2x `M5-hex-nut` into `front-drag-chain-mount`
-	![](img/front-drag-chain-mount-1.png)
-	![](img/front-drag-chain-mount-2.png)
-	![](img/front-drag-chain-mount-3.png)	![](img/front-drag-chain-mount-4.png)
-- Place each `front-drag-chain-mount` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
+- Place `y-limit-striker` into its arbor press fixture
+	![alt text](img/y-limit-striker-insert-into-jig.jpg)
+
+- Use an arbor press to insert 1x `M5-lock-nut` into `y-limit-striker`
+	![alt text](img/y-limit-striker-insert-hex-nut.jpg)
+
+- Thread a `M5-thumb-screw` into the `M5-lock-nut` previously installed into `y-limit-striker`
+	![alt text](img/y-limit-striker-bolt-thumb-screw.jpg)
+
+- Use a feeler gauage and tighten `M5-thumb-screw` until there is a `##mm` gap between back of screw and print
+	![alt text](img/y-limit-striker-shim.jpg)
+
+	!!!note "TO DO: ADD A VALUE FOR GAUGE THICKNESS"
+
+- The completed `y-limit-striker` should match the image below
+	![alt text](img/y-limit-striker-done.jpg)
+
+- Place each completed `y-limit-striker` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
 	![](img/front-drag-chain-mount.png)
+
+	!!!note "TO DO: UPDATE THIS PHOTO DURING FIRST v4 BUILD"
 
 ### static-camera-foot
 - Clean print of any observed stringing 
 - Adhere 1x `rubber-foot` to the bottom of `static-camera-foot`, centering it in the circular cutout
-	![](img/aux-foot-rubber.jpeg)
+	![](img/static-camera-foot-rubber.jpg)
 - Place each `static-camera-foot` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
 	![](img/static-camera-foot.png)
 
+	!!!note "TO DO: UPDATE THIS PHOTO DURING FIRST v4 BUILD"
+
 ### aux-staging-plate-foot
-- Clean print of any observed stringing 
+- Clean print of any observed stringing
 - Use an arbor press to insert 1x `M3-square-nut` into `aux-staging-plate-foot`
 	![](img/aux-staging-plate-foot-1.jpg)
 	![](img/aux-staging-plate-foot-2.jpg)
@@ -70,5 +88,27 @@ These parts and their respective quantities are as follows:
 - Place each `static-camera-foot` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
 	![](img/aux-staging-plate-foot.png)
 
-### feeder-blade-harness-set
-- Prepare this item by following [these instructions](/feeder-connection-kit/accessories/#feeder-blade-cable-harness)
+	!!!note "TO DO: UPDATE THIS PHOTO DURING FIRST v4 BUILD"
+
+### nozzle-rack
+
+- Insert 2x `m3-hex-head-bolt` into the left and right outermost slots on `nozzle-rack`
+     
+    <img src="img/image13.jpg" width="60%"/>
+
+- Place a `M3-wing-nut` onto each `m3-hex-head-bolt`
+
+    <img src="img/add-wing-nut.jpg" width="60%"/>
+
+- Install all 6 different nozzles onto `nozzle-rack`, ensuring that each nozzle can pop in and out relatively easily
+
+ 	<img src="img/image24.jpg" width="60%"/>
+
+- Place a `rubber-band` around `nozzle-rack` to secure each nozzle in place
+
+	<img src="img/image18.jpg" width="60%"/>
+
+- Place the completed `nozzle-rack` into a `2x3-bag` before sealing it shut
+
+	![alt text](img/bag-nozzle-rack-1.JPG)
+	![alt text](img/bag-nozzle-rack-2.JPG)
