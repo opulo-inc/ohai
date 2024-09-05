@@ -22,7 +22,7 @@ The purpose of these work instructions is to cover the assembly process for the 
 	- Connect `solenoid-valve` to `reduction-tee-4-6-4` with a 60mm piece of `6x4-soft-pvc-tubing-blue`
 	- Adhere a `Right Valve` label to the end of the `solenoid-valve` wire
 
-![alt text](img/right-pnumatics-annotated.JPG)
+![alt text](img/right-pnumatics-annotated.jpg)
 ![alt text](img/IMG_1873.JPG)
 ![alt text](img/IMG_1874.JPG)
 ![alt text](img/IMG_1876.JPG)
@@ -34,7 +34,7 @@ The purpose of these work instructions is to cover the assembly process for the 
 	- Connect `solenoid-valve` to `reduction-tee-4-6-4` with a 60mm piece of r`6x4-soft-pvc-tubing-red`
 	- Adhere a `Left Valve` label to the end of the `solenoid-valve` wire
 
-![alt text](img/left-pnumatics-annotated.JPG)
+![alt text](img/left-pnumatics-annotated.jpg)
 ![alt text](img/IMG_1878.JPG)
 ![alt text](img/IMG_1879.JPG)
 
