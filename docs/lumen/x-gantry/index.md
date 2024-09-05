@@ -405,7 +405,7 @@ Preparing x-gantry
 
 ## Install `x-gantry-front` onto `x-linear-axis`
 
-*	Use 4x `M5x10-bolt` to attach `x-gantry-front` onto `x-linear-axis`
+*	Use 4x `M5x40-bolt` to attach `x-gantry-front` onto `x-linear-axis`
 	*	Move each toolhead out of the way as needed
 	*	Torque each bolt to **`0.8 N/M`**
 
