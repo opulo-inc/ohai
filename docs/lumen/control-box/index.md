@@ -38,7 +38,6 @@ The purpose of these work instructions is to cover the assembly process for the 
 ![alt text](img/IMG_1878.JPG)
 ![alt text](img/IMG_1879.JPG)
 
-
 ## Install pneumatics systems into `control-box`
 
 ### Install left-side pneumatic system
@@ -52,11 +51,10 @@ The purpose of these work instructions is to cover the assembly process for the 
 	![alt text](img/IMG_1887.JPG)
 
 ### Install right-side pneumatic system
-Repeat the above process to install the right-side pneumatic system 
+Repeat the above process to install the right-side pneumatic system
 
 ![alt text](img/IMG_1888.JPG)
 ![alt text](img/IMG_1889.JPG)
-
 
 ## Bolt 2x `reduction-tee-4-6-4` to `control-box`
 - Use 2x `m3x30-socket-head` and 2x `m3-hex-nut` to attach  2x `reduction-tee-4-6-4` to `control-box`
@@ -75,17 +73,17 @@ Repeat the above process to install the right-side pneumatic system
 	![alt text](img/IMG_1896.JPG)
 	![alt text](img/IMG_1897.JPG)
 
-
 ## Connect vacuum lines to `motherboard-rev05`
-- Prepare a 180mm piece of `pu-tube-4x2.5-blue` and `pu-tube-4x2.5-red`
+- Prepare a 145mm piece of `pu-tube-4x2.5-blue`
+- Prepare a 165mm piece of `pu-tube-4x2.5-red`
 - Gather 1pcs `motherboard-rev05` from inventory
 
 	![alt text](img/IMG_1898.JPG)
 
 - Connect the tubes
-	- Connect `pu-tube-4x2.5-blue` to the vacuum sensor labled `Right Vac` 
-	- Connect `pu-tube-4x2.5-red` to the vacuum sensor labeled `Left Vac` 
-	
+	- Connect `pu-tube-4x2.5-blue` to the vacuum sensor labled `Right Vac`
+	- Connect `pu-tube-4x2.5-red` to the vacuum sensor labeled `Left Vac`
+
 	![alt text](img/IMG_1900.JPG)
 
 - When completed the assembly should resemble the image shown below:
@@ -93,7 +91,7 @@ Repeat the above process to install the right-side pneumatic system
 	![alt text](img/IMG_1899.JPG)
 
 ## Screw `motherboard-rev05` into `control-box`
-- Place motherboard-rev05 into `control-box` while sliding the USB and barrel jack ports into the cutouts on the left side of the print 
+- Place motherboard-rev05 into `control-box` while sliding the USB and barrel jack ports into the cutouts on the left side of the print
 	![alt text](img/IMG_1901.JPG)
 	![alt text](img/IMG_1902.JPG)
 
@@ -118,16 +116,16 @@ Repeat the above process to install the right-side pneumatic system
 
 ## Serialize `control-box`
 - Place a lid on control-box-asm
-	
+
 	!!!warning "Confirm that both buttons click when pressed"
-	
+
 	![alt text](img/IMG_2016.JPG)
 - Slide a `box-sn-label` between `control-box` and `control-box-lid`
 	![alt text](img/IMG_2017.JPG)
 - Flip the `control-box-asm` over and adhere a matching `machine-serial-label` to the `control-box`  
 	![alt text](img/IMG_2014.JPG)
 	![alt text](img/IMG_2015.JPG)
-	
+
 !!!success "You may now proceed to Gundam Testing!"
 
 ## Gundam Testing
