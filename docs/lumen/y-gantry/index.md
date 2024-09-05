@@ -145,26 +145,26 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 		![](img/back-leg-t-nut-insertion.png)
 
-	- Insert 3x `M5x10-bolt` into `back-leg` and thread the bolts into each corresponding `M3-t-nut`
+	- Insert 3x `M5x10-bolt` into `back-leg` and thread the bolts into each corresponding `M5-t-nut`
 
 		![](img/bolt-back-leg-to-ext.png)
 
 - Bolt `front-left-leg` to `600mm-alu-extrusion`
 	- Slide the `M3-t-nut-bar` out of the way *if needed*
-	- Insert an `M3-t-nut` into the upper channel of `600mm-alu-extrusion`
-	- Align the `M3-t-nut` with the top-side bolt hole on `front-left-leg`  
+	- Insert an `M5-t-nut` into the upper channel of `600mm-alu-extrusion`
+	- Align the `M5-t-nut` with the top-side bolt hole on `front-left-leg`  
 
 		![](img/insert-front-leg-top-t-nut.png)
 
-	- Insert a `M5x10-bolt` into the top-side bolt hole on `front-left-leg` and tighten it into the `M3-t-nut`
+	- Insert a `M5x10-bolt` into the top-side bolt hole on `front-left-leg` and tighten it into the `M5-t-nut`
 
 		![](img/insert-front-leg-top-m5x10-bolt.png)
 
-	- Slide 2x `M3-t-nut` into the the side channel of lower `600mm-alu-extrusion` and align them with the two bolt holes on `front-left-leg`
+	- Slide 2x `M5-t-nut` into the the side channel of lower `600mm-alu-extrusion` and align them with the two bolt holes on `front-left-leg`
 
 		![](img/insert-front-leg-bottom-t-nut.png)
 
-	- Insert 2x `M5x10-bolt` into the side bolt holes on `front-left-leg` and tighten each into the corresponding `M3-t-nut`
+	- Insert 2x `M5x10-bolt` into the side bolt holes on `front-left-leg` and tighten each into the corresponding `M5-t-nut`
 
 		![](img/insert-front-leg-side-t-nut.png)
 
