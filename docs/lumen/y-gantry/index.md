@@ -279,11 +279,15 @@ Confirm this by inspecting the completed `y-gantry-left` assembly with the follo
 * `M5-hex/square-nut` installed where required:
 	* 2x `M5-hex-nut` pressed into bottom of `front-left-leg`
 	* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `front-drag-chain-mount`
+
+		!!!note "This is only applicable when building y-gantry-left"
+			You can ignore this QC check when building y-gantry-right.
+
 	* 1x `M5-hex-nut` pressed into bottom of `back-leg`
 	* 2x `M5-hex-nut` pressed into `y-gantry`
 * `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
 * `GT2-belt` has been correctly tensioned
-* `Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
+* `Tensioner-arm` is installed on `front-left-leg` in the correct orientation (IE acorn-nut facing touches leg)
 * `Linear-rail` is centered atop `aluminum-extrusion`
 * `y-gantry-left` sits flat on `linear-rail-carriage`
 * `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
