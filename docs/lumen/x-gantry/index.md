@@ -97,6 +97,8 @@ Preparing x-gantry
 ### Install `XY-limit-switch-board` onto `x-motor-mount`
 
 *  Install `XY-limit-switch-board` onto `x-motor-mount` and secure it with 2x `m3x12-self-tapping-flat-head-screw`
+	* Tighten each screw in place with the electic torque driver
+
 
 	<img src="images/install-xy-limit-switch-board.png" />
 
@@ -184,7 +186,7 @@ Preparing x-gantry
 *	Slide the `M3-t-nut-bar` to line up with the rail's bolt hole pattern
 *	Starting from the `x-motor-mount` side, lightly snug a `M3x8-bolt` into every other bolt hole on `linear-rail-525mm`
 	*	Move the `linear-rail-carriage` out of the way as needed
-	
+
 	<img src="images/install-x-linear-rail-3.jpg"/>
 
 *	Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end.
@@ -197,7 +199,7 @@ Preparing x-gantry
 
 ### Install GT2-belt and x-gantry-back
 * Route a 1.5m-long piece of `GT2-belt` through `x-gantry-back`
-	
+
 	!!!info "Belt routing step-by-step"
 		* Start by running the belt through the left-side slot on `x-gantry-back` and leave 75mm of extra belt poking out
 		* Run it through the extrusion towards the `x-motor-mount`
@@ -212,7 +214,7 @@ Preparing x-gantry
 * Slide the `x-gantry-back` onto the `linear-rail-carriage` while pulling slack out of the `GT2-belt`
 
 	<img src="images/install-x-GT2-belt-2.jpg"/>
-	
+
 * Bolt `x-gantry-back` to the `linear-rail-carriage` with 4x `M3x16-bolt`
 	*   Tighten each bolt to 0.5 N/M
 	*	Push `x-gantry-back` inward towards the `linear-rail-carriage` while tightening the mounting bolts to align it
@@ -298,7 +300,7 @@ Preparing x-gantry
 *   Install 2x `linear-rail` by aligning them against the bumps found on `x-gantry-front`
 
 	*   Uses 3x `M3x12-self-tapping-button-head` per `linear-rail`
-	*   Tighten each bolt to 0.5 N/M
+	*   Tighten each bolt in place with the electic torque driver
 
 	<img src="images/image44.jpg"/>
 
@@ -309,6 +311,7 @@ Preparing x-gantry
 ### Install `z-axis-limit-switch`
 
 *   Secure with 2x `M3x12-self-tapping-button-head`
+	* Tighten each screw in place with the electic torque driver
 *   Make sure each limit switch clicks and feels normal when actuated
 
 	<img src="images/image22.jpg"/>
@@ -432,7 +435,7 @@ Preparing x-gantry
 
 		*   Ensure that no weird sounds are heard, if so consult with team for debugging steps
 		*   Adjust the tightness of the belts and each tensioner-bar as needed to pass this test
-		
+
 	*   Test Z-Home
 
 		*   Check that the z-belt is adequately tensioned and adjust if necessary - you shouldn’t be able to twist the belt too much
