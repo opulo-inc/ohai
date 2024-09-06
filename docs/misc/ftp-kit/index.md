@@ -1,9 +1,10 @@
 # Getting Started Kit Assembly
 
 ## Intro
-The purpose of this work instruction is to explain the assembly process for the LumenPnP Getting Started Kit 
 
-## Preparing Universal PCB Fixture System 
+The purpose of this work instruction is to explain the assembly process for the LumenPnP Getting Started Kit
+
+## Preparing Universal PCB Fixture System
 
 1. Obtain materials shown here
 
@@ -56,7 +57,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	![](img/IMG_2592.jpeg)
 
-1. Obtain 100 resistors by cutting the tape to 400mm lengths 
+1. Obtain 450 resistors by cutting the tape to 1.8m lengths
 
 	![](img/IMG_2257.jpeg)
 
@@ -70,7 +71,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 ## Assembling `Bagged-FTP-PCB`
 
-1. Gather materials shown 
+1. Gather materials shown
 
 	![](img/IMG_2593.jpeg)
 
@@ -80,9 +81,9 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 ## Obtain `8mm-strip-feeder-kit`
 
-1. If any are available, obtain  `8mm-strip-feeder-kit` 
+1. If any are available, obtain  `8mm-strip-feeder-kit`
 
-!!! note 
+!!! note
 	If none are available, instructions can be found [here](/misc/strip-feeder/)
 
 ![](img/IMG_2595.jpeg)
@@ -91,11 +92,10 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 1. Gather the components shown
 
-	!!! note "Out of Paper Inserts?" 
-		If more `getting-started-kit-paper-insert` are needed, they can be found [here](https://cdn.shopify.com/s/files/1/0570/4256/7355/files/Getting_Started_Kit_Paper_Insert.pdf?v=1725173152) and printed out on regular printer paper.
-	
-		
-	![](img/IMG_2596.jpeg)
+	!!! note "Out of Stickers?"
+		If more `getting-started-kit-sticker` are needed, navigate to the [following link](https://docs.google.com/presentation/d/1EwZdSx4vB1_bwZSGpp5nyNcZk3EFDXPD1BPt4Xalybw/edit#slide=id.g2fd26a1a0a1_0_0)
+
+	![](img/IMG_2596.png)
 
 1. Insert `Bagged FTP PCB` into `6" x 9" Polybag` as shown
 
@@ -115,12 +115,10 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 1. Insert the bagged components into `6" x 9" Polybag` as shown
 
-	![](img/IMG_2267.jpeg)
-
-1. Insert `getting-started-kit-paper-insert` into the front of the `6" x 9" Polybag` as shown
-
-	![](img/IMG_2268.jpeg)
-
-1. Seal the `Getting Started Kit`
-
 	![](img/IMG_2598.jpeg)
+
+1. Seal the `Getting Started Kit` shut
+
+1. Adhere a `getting-started-kit-sticker` to the front of the `6" x 9" Polybag` as shown
+
+	![IMG_0291.jpeg](img/IMG_0291.jpeg)
