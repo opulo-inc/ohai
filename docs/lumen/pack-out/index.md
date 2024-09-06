@@ -251,10 +251,10 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 	* Feeder blades are installed sequentially from left to right
 	* Wiggle the installed blades to ensure no screws are loose, retightening any if needed
-	* Ensure the print is free of defects and fits flush to `alu-extrusion
-	* The 2x installed `corner-bracket` pieces are flush to the `alu-extrusion`
+	* Ensure the print is free of defects and fits flush to `alu-extrusion`
+	* The 2x (front)/4x (rear) installed `corner-bracket` pieces are flush to the `alu-extrusion`
 	* Confirm a `blade-jumper-harness` is installed into each `feeder-rail`
-	* Use the `feeder-programmer` to check that Slots `#1`, `#12`, `#13`, `#25`, `#26`, `#37` `#38`, and `#50` are programmed correctly
+	* Use the `feeder-programmer` to check that Slots `#1`, `#12`, `#13`, '#23', `#25`, `#26`, `#37` `#38`, `#48`, and `#50` are programmed correctly
 
 		!!!success "If all checks pass continue onward"
 
