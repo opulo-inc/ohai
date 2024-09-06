@@ -1,4 +1,4 @@
-#LumenPnP Tool Kit
+# LumenPnP Tool Kit
 
 ## Prepare `spare-o-ring-set`
 
@@ -38,7 +38,7 @@
 	* Confirm each bag weighs `176.6 +/- 0.5g`
 	* If a bag weighs less than this, recount the pieces and rework as needed before proceeding
 
-	![alt text](img/tool-kit-bag-v4-8.JPG)
+	![alt text](img/tool-kit-bag-v4-8.png)
 
 	!!!warning "The bag has been updated to contain 8x M5x16-Flat-Head and the weight hasn't be updated for this yet"
 
