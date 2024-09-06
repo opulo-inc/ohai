@@ -8,7 +8,7 @@ This section will guide the reader on how to properly assemble and package a `fe
 	![](img/IMG_2604.jpeg)
 
 ## Assembly Process
-* Begin by separating a `feeder-blade-panel` into four separate rows
+* Begin by separating a `feeder-blade-panel (PCBA)` into four separate rows
 	![](img/break-slots2.jpg)
 	![](img/break-slots25.jpg)
 	![](img/slot-set-3.JPG)

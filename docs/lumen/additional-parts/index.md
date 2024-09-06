@@ -61,9 +61,7 @@ These parts and their respective quantities are as follows:
 	![alt text](img/y-limit-striker-done.jpg)
 
 - Place each completed `y-limit-striker` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
-	![](img/front-drag-chain-mount.png)
-
-	!!!note "TO DO: UPDATE THIS PHOTO DURING FIRST v4 BUILD"
+	![](img/y-limit-striker-bin.png)
 
 ### static-camera-foot
 - Clean print of any observed stringing 
@@ -71,8 +69,6 @@ These parts and their respective quantities are as follows:
 	![](img/static-camera-foot-rubber.jpg)
 - Place each `static-camera-foot` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
 	![](img/static-camera-foot.png)
-
-	!!!note "TO DO: UPDATE THIS PHOTO DURING FIRST v4 BUILD"
 
 ### aux-staging-plate-foot
 - Clean print of any observed stringing
@@ -85,15 +81,13 @@ These parts and their respective quantities are as follows:
 	![](img/build-foot.png)
 - Adhere 1x `rubber-foot` to the bottom of `aux-staging-plate-foot`, centering it in the circular cutout
 	![](img/build-foot-rubber.jpeg)
-- Place each `static-camera-foot` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
-	![](img/aux-staging-plate-foot.png)
-
-	!!!note "TO DO: UPDATE THIS PHOTO DURING FIRST v4 BUILD"
+- Place each `aux-staging-plate-foot` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
+	![](img/aux-staging-plate-foot-bin.png)
 
 ### nozzle-rack
 
 - Insert 2x `m3-hex-head-bolt` into the left and right outermost slots on `nozzle-rack`
-     
+
     <img src="img/image13.jpg" width="60%"/>
 
 - Place a `M3-wing-nut` onto each `m3-hex-head-bolt`
@@ -112,3 +106,5 @@ These parts and their respective quantities are as follows:
 
 	![alt text](img/bag-nozzle-rack-1.JPG)
 	![alt text](img/bag-nozzle-rack-2.JPG)
+
+- Place the completed `nozzle-rack` assemblies in a bin on the packout shelf while they await future use
