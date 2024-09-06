@@ -41,4 +41,3 @@ The next step is to proceed to either:
 
 * [`Feeder Accessory Preparation`](../accessories/) - provided you are making a Feeder Connection Kit
 * [`Front-feeder-rail / Rear-feeder-rail`](https://ohai.opulo.io/lumen/feeder-rail/) - provided you are making a LumenPnP
-
