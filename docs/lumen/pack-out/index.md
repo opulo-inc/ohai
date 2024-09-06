@@ -152,6 +152,7 @@
 
 ### `front-leg-extension` and `nozzle-rack`
 1. Insert `nozzle-rack` into the bottom right pocket
+	* Confirm the `nozzle-rack` has all its mounting hardware installed by peering through the bag
 
 	![alt text](img/IMG_36.JPG)
 	![alt text](img/IMG_37.JPG)
@@ -269,11 +270,12 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 1. Perform `drag-chain` QC
 
-	* Inspect `drag-chain` for missing or loose `drag-chain-cover` pieces
-	* Confirm the following vacuum tubes are present and labeled correctly at both ends:
-		*  	<span style="background-color:red">**Red**</span> `4mm-pneumatic-tubing` with `LH` label
-		*  	<span style="background-color:blue">**Blue**</span> `4mm-pneumatic-tubing` with `RH` label
+	* Confirm the following vacuum tubes are present at both ends:
+		*  	<span style="background-color:red">**Red**</span> `4mm-pneumatic-tubing`
+		*  	<span style="background-color:blue">**Blue**</span> `4mm-pneumatic-tubing`
 	* Confirm 2x `zip-tie` used in `cable-splay` are trimmed flush and present
+	* Confirm presence of `top-camera-cable`
+	* Confirm presence of `x-harness` and double check that `x-harness` has the correct orientation
 
 	!!!success "If all checks pass, continue onward"
 
