@@ -51,12 +51,13 @@
 
 ### `getting-started-kit` and `feeder-blade-harness-set`
 1. Insert `getting-started-kit` into the lower left region of tray
-	* Only pull these items from a <span style="color:green"> green QC-Pass bin</span>.
+	* QC must be performed if collecting `getting-started-kit` pieces from anything other than a <span style="color:green"> green QC-Pass bin</span>
+	* QC this item by weighing and confirming a mass of either 168g or 150g (varies based on the version of tape used)
 
 	![alt text](img/IMG_28.JPG)
 	![alt text](img/IMG_29.JPG)
 
- 
+
 2. Insert `feeder-blade-harness-set` to the right of `getting-started-kit`
 
 	!!!warning "Please remember this is the new JST PH cables! We do not need to make IDC cables anymore."
@@ -66,7 +67,7 @@
 
 ### `x-gantry`
 1. Perform `x-gantry` QC
-	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, 15mm on the other)
+	* `GT2-belt` has been trimmed to appropriate length (flush on x-motor-mount side, aprox. 15mm on the x-idler-mount side)
 	* `lens-cap` is present on `top-camera`
 	* The wire connectors on both `NEMA-11-stepper-motor` units face away from each other
 	* Each `nozzle-holder` has been lubricated and fit-tested with a nozzle
@@ -104,7 +105,7 @@
   		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
   		* 2x `M5-hex-nut` pressed into `y-gantry` on textured face
   		* 2x `M5-square-nut` pressed into `y-gantry` for drag chain support beam mounting
-	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, 15mm on the other)
+	* `GT2-belt` has been trimmed to appropriate length (flush on front-right-leg side, approx. 15mm on `back-leg` side)
 	* `GT2-belt` has been correctly tensioned
 	* `belt-tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
 	* `linear-rail` is centered atop `aluminum-extrusion`
@@ -133,7 +134,7 @@
   		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
   		* 2x `M5-hex-nut` pressed into `y-gantry` on textured face
   		* 2x `M5-square-nut` pressed into `y-gantry` for `x-cable-chain-support` mounting
-	* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, 15mm on the other)
+	* `GT2-belt` has been trimmed to appropriate length (flush on `front-left-leg` side, approx. 15mm on `back-leg` side)
 	* `GT2-belt` has been correctly tensioned
 	* `belt-Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
 	* `linear-rail` is centered atop `aluminum-extrusion`
