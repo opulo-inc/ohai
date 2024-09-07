@@ -178,8 +178,8 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 1. Insert the following items into the **right-side** pocket of `upper-foam-tray`
 
 	!!!note "Package each of the following items while inspecting them for their given QC inspection criteria"
-	* `squaring-bracket` - confirm print is latest revision (gold PLA with hex wrench features)
-	* `y-limit-striker` - confirm `M5-thumb-screw` is installed and appears to stick-out the correct amount
+	* `squaring-bracket` - confirm print is latest revision (gold PLA & hex wrench feature)
+	* `y-limit-striker` - confirm `M5-thumb-screw` is installed and appears to stick-out `1.5mm`
 	* `aux-staging-plate-foot` - confirm top-side M3 bolt and bottom-side `rubber-foot`
 	* `static-camera-foot` - confirm bottom-side `rubber-foot`
 	* `bagged-10x-extrusion-cable-clips`
