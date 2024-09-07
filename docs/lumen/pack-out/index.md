@@ -74,7 +74,8 @@
 	* `z-belt-loop` feels appropriately tensioned when plucked
 	* Each `z-gantry` moves smoothly when actuated back-and-forth by hand
 	* 1x `M5-hex-nut` is installed in `x-gantry-back` for mounting `cable-splay`
-	* `NEMA-17-stepper-motor` wire connector faces `z-limit-switch`
+	* The wire connector on `NEMA-17-stepper-motor` that is attached to `x-gantry-front`  faces `z-limit-switch`
+	* The wire connector on `NEMA-17-stepper-motor` that is attached to `x-motor-mount` faces away from `xy-limit-switch`
 	* `linear-rail` is centered atop `alu-extrusion`
 	* `x-idler-mount` and `x-motor-mount` are secured to `alu-extrusion` with 2x `M5x10-bolt` per side
 	* `belt-tensioner-arm` is installed on `x-idler-mount` in the correct orientation (IE acorn-nut facing touches print)
