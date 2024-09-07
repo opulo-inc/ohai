@@ -289,20 +289,21 @@ Confirm this by inspecting the completed `y-gantry-left` assembly with the follo
 
 	* 1x `M5-hex-nut` pressed into bottom of `back-leg`
 	* 2x `M5-hex-nut` pressed into `y-gantry`
+
 * `GT2-belt` has been trimmed to appropriate length:
-	* Flush on `front-right-leg` side
+	* Flush on `front-left-leg` side
 	* Approx. 15mm on `back-leg` side
 * `GT2-belt` has been correctly tensioned
-* `Tensioner-arm` is installed on `front-left-leg` in the correct orientation (IE acorn-nut facing touches leg)
-* `Linear-rail` is centered atop `aluminum-extrusion`
+* `GT2-belt` lays flat in the `alu-extrusion` channels
+* `timing-pulley` is tightened down and at proper height
+* `tensioner-arm` is installed on `front-left-leg` in the correct orientation (IE acorn-nut facing touches leg)
+* `linear-rail` is centered atop `aluminum-extrusion`
 * `y-gantry-left` sits flat on `linear-rail-carriage`
 * `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
-* `GT2-belt` lays flat in the `alu-extrusion` channels
-* 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `alu-extrusion`
-* `Timing-pulley` is tightened down and at proper height
+* 3x `extrusion-cable-clip` have been installed onto the lower `alu-extrusion`
 * `Y1` cable is secured with a zip-tie and exits the port labeled `Y1`
 
 !!!warning "Stay vigilant for new failure modes not listed above and report them to a production lead when found"
 
-!!!success "If everything looks good"
-	Set the finished `y-gantry-left` aside for functional QC testing at the Gundam test station
+!!!success "If all checks pass"
+	Set the finished `y-gantry-left` aside for Buddy QC testing
