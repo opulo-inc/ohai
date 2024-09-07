@@ -268,6 +268,10 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	![](img/y-gantry-extrusion-cable-clip.png)
 
+- Position the right-most `extrusion-cable-clamp` and the cable to match the following image:
+
+	![alt text](img/y-gantry-final-wiring.png)
+
 ## Quality Checks
 A `y-gantry-left` that was built while following the above steps will match the following image.
 
@@ -285,7 +289,7 @@ Confirm this by inspecting the completed `y-gantry-left` assembly with the follo
 
 	* 1x `M5-hex-nut` pressed into bottom of `back-leg`
 	* 2x `M5-hex-nut` pressed into `y-gantry`
-* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, approx. 15mm on the other)
+* `GT2-belt` has been trimmed to appropriate length (flush on `front-right-leg` side, approx. 15mm on `back-leg` side)
 * `GT2-belt` has been correctly tensioned
 * `Tensioner-arm` is installed on `front-left-leg` in the correct orientation (IE acorn-nut facing touches leg)
 * `Linear-rail` is centered atop `aluminum-extrusion`
