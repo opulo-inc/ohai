@@ -114,12 +114,13 @@ Repeat the above process to install the right-side pneumatic system
 - Add a `zip-tie` around all four cables to keep them well managed
 	![alt text](img/IMG_1911.JPG)
 
-## Serialize `control-box`
-- Place a lid on control-box-asm
-
-	!!!warning "Confirm that both buttons click when pressed"
+## Create serialized `control-box-asm`
+- Collect a `control-box-lid` from inventory and **lightly press the back-side of each button outward to ensure each button can move freely**
+- Place a `control-box-lid` onto `control-box` to create `control-box-asm`
+- Confirm that both buttons click when pressed
 
 	![alt text](img/IMG_2016.JPG)
+
 - Slide a `box-sn-label` between `control-box` and `control-box-lid`
 	![alt text](img/IMG_2017.JPG)
 - Flip the `control-box-asm` over and adhere a matching `machine-serial-label` to the `control-box`  
