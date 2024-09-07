@@ -289,7 +289,9 @@ Confirm this by inspecting the completed `y-gantry-left` assembly with the follo
 
 	* 1x `M5-hex-nut` pressed into bottom of `back-leg`
 	* 2x `M5-hex-nut` pressed into `y-gantry`
-* `GT2-belt` has been trimmed to appropriate length (flush on `front-right-leg` side, approx. 15mm on `back-leg` side)
+* `GT2-belt` has been trimmed to appropriate length:
+	* Flush on `front-right-leg` side
+	* Approx. 15mm on `back-leg` side
 * `GT2-belt` has been correctly tensioned
 * `Tensioner-arm` is installed on `front-left-leg` in the correct orientation (IE acorn-nut facing touches leg)
 * `Linear-rail` is centered atop `aluminum-extrusion`
