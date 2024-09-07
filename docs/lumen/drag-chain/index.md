@@ -4,9 +4,17 @@ This section will guide the reader on how to properly assemble the LumenPNP v3.1
 
 ## Prepare `cable-splay` ##
 
-* Begin by 
+* Begin by
 
 ## Assembling the Drag Chain ##
+
+ 1. Secure loose cables with a rubber-band on both ends of `drag-chain`
+	* Confirm no vacuum tubes are pinched closed by the rubber banding
+
+	![alt text](img/IMG_65.JPG)
+	![alt text](img/IMG_66.JPG)
+	![alt text](img/IMG_67.JPG)
+
 
 ## OQC Checks ##
 
