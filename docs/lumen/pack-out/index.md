@@ -275,18 +275,13 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	* Confirm the following vacuum tubes are present at both ends:
 		*  	<span style="background-color:red">**Red**</span> `4mm-pneumatic-tubing`
 		*  	<span style="background-color:blue">**Blue**</span> `4mm-pneumatic-tubing`
-	* Confirm 2x `zip-tie` used in `cable-splay` are trimmed flush and present
+	* Confirm 3x `zip-tie` used in `cable-splay` are trimmed flush and present
 	* Confirm presence of `top-camera-cable`
 	* Confirm presence of `x-harness` and double check that `x-harness` has the correct orientation
 
+		![alt text](img/x-harness-qc.png)
+
 	!!!success "If all checks pass, continue onward"
-
- 1. Secure loose cables with a rubber-band on both ends of `drag-chain`
-	* Confirm no vacuum tubes are pinched closed by the rubber banding
-
-	![alt text](img/IMG_65.JPG)
-	![alt text](img/IMG_66.JPG)
-	![alt text](img/IMG_67.JPG)
 
  2. Place `drag-chain` into `upper-foam-tray`
 
