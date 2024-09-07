@@ -67,14 +67,19 @@
 
 ### `x-gantry`
 1. Perform `x-gantry` QC
-	* `GT2-belt` has been trimmed to appropriate length (flush on x-motor-mount side, aprox. 15mm on the x-idler-mount side)
+	* `GT2-belt` has been trimmed to appropriate length:
+		* Flush on `x-motor-mount` side
+		* Approx. 15mm on `x-idler-mount` side
 	* `lens-cap` is present on `top-camera`
 	* The wire connectors on both `NEMA-11-stepper-motor` units face away from each other
-	* Each `nozzle-holder` has been lubricated and fit-tested with a nozzle
+	* Confirm each `nozzle-holder` fulfills the following requirements:
+	    * Appears lubricated
+		* Moves smoothly and in a straight path when actuated manually
+		* Springs back to the extended position after being depressed by hand
 	* `z-belt-loop` feels appropriately tensioned when plucked
 	* Each `z-gantry` moves smoothly when actuated back-and-forth by hand
 	* 1x `M5-hex-nut` is installed in `x-gantry-back` for mounting `cable-splay`
-	* The wire connector on `NEMA-17-stepper-motor` that is attached to `x-gantry-front`  faces `z-limit-switch`
+	* The wire connector on `NEMA-17-stepper-motor` that is attached to `x-gantry-front` faces `z-limit-switch`
 	* The wire connector on `NEMA-17-stepper-motor` that is attached to `x-motor-mount` faces away from `xy-limit-switch`
 	* `linear-rail` is centered atop `alu-extrusion`
 	* `x-idler-mount` and `x-motor-mount` are secured to `alu-extrusion` with 2x `M5x10-bolt` per side
@@ -100,13 +105,15 @@
 ![](img/y-gantry-right.png)
 
 1. Perform `y-gantry-right` QC
-	* Confirm M5 bolts are installed in every counterbored region
+	* Confirm M5 bolts are installed in every recessed region
 	* `M5-hex/square-nut` installed where required:
 		* 2x `M5-hex-nut` pressed into bottom of `front-right-leg`
   		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
   		* 2x `M5-hex-nut` pressed into `y-gantry` on textured face
   		* 2x `M5-square-nut` pressed into `y-gantry` for attaching `x-cable-chain-support`
-	* `GT2-belt` has been trimmed to appropriate length (flush on `front-right-leg` side, approx. 15mm on `back-leg` side)
+	* `GT2-belt` has been trimmed to appropriate length:
+		* Flush on `front-right-leg` side
+		* Approx. 15mm on `back-leg` side
 	* `GT2-belt` has been correctly tensioned
 	* `belt-tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
 	* `linear-rail` is centered atop `aluminum-extrusion`
@@ -128,14 +135,16 @@
 ![](img/y-gantry-left.png)
 
 1. Perform `y-gantry-left` QC
-	* Confirm M5 bolts are installed in every counterbored region
+	* Confirm M5 bolts are installed in every recessed region
 	* `M5-hex/square-nut` installed where required:
 		* 2x `M5-hex-nut` pressed into bottom of `front-left-leg`
 		* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `y-limit-striker`
   		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
   		* 2x `M5-hex-nut` pressed into `y-gantry` on textured face
   		* 2x `M5-square-nut` pressed into `y-gantry` for `x-cable-chain-support` mounting
-	* `GT2-belt` has been trimmed to appropriate length (flush on `front-left-leg` side, approx. 15mm on `back-leg` side)
+	* `GT2-belt` has been trimmed to appropriate length:
+		* Flush on `front-left-leg` side
+		* Approx. 15mm on `back-leg` side
 	* `GT2-belt` has been correctly tensioned
 	* `belt-Tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
 	* `linear-rail` is centered atop `aluminum-extrusion`
@@ -204,16 +213,12 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 1. Inspect `primary-staging-plate` before packaging it into the foam tray
 	* Review the `primary-staging-plate` for the presence of all major components
 		* `datum-board`
-		* `bottom-camera-assembly` (with QC pass sticker)
+		* `bottom-camera-assembly` (with lens cap removed)
 		* 3x `peek-cable-clamp`
 		* `bottom-light-harness` and `bottom-camera-harness` w/propper cable managment
 			* `peek-cable-clamp` usage and rubber-band for securing loose cables
 
 	![alt text](img/IMG_49.JPG)
-
-	!!!note "TO DO: Photoshop in QC Sticker"
-
-	!!!success "If all checks pass, continue onward"
 
 1. Place the `primary-staging-plate` into `upper-foam-tray` in the region shown below
 
