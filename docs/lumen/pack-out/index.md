@@ -104,8 +104,8 @@
 		* 2x `M5-hex-nut` pressed into bottom of `front-right-leg`
   		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
   		* 2x `M5-hex-nut` pressed into `y-gantry` on textured face
-  		* 2x `M5-square-nut` pressed into `y-gantry` for drag chain support beam mounting
-	* `GT2-belt` has been trimmed to appropriate length (flush on front-right-leg side, approx. 15mm on `back-leg` side)
+  		* 2x `M5-square-nut` pressed into `y-gantry` for attaching `x-cable-chain-support`
+	* `GT2-belt` has been trimmed to appropriate length (flush on `front-right-leg` side, approx. 15mm on `back-leg` side)
 	* `GT2-belt` has been correctly tensioned
 	* `belt-tensioner-arm` is installed on `front-right-leg` in the correct orientation (IE acorn-nut facing touches leg)
 	* `linear-rail` is centered atop `aluminum-extrusion`
@@ -130,7 +130,7 @@
 	* Confirm M5 bolts are installed in every counterbored region
 	* `M5-hex/square-nut` installed where required:
 		* 2x `M5-hex-nut` pressed into bottom of `front-left-leg`
-		* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `front-drag-chain-mount`
+		* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `y-limit-striker`
   		* 1x `M5-hex-nut` pressed into bottom of `back-leg`
   		* 2x `M5-hex-nut` pressed into `y-gantry` on textured face
   		* 2x `M5-square-nut` pressed into `y-gantry` for `x-cable-chain-support` mounting
@@ -153,7 +153,7 @@
 
 ### `front-leg-extension` and `nozzle-rack`
 1. Insert `nozzle-rack` into the bottom right pocket
-	* Confirm the `nozzle-rack` has all its mounting hardware installed by peering through the bag
+	* Confirm `nozzle-rack` has all its mounting hardware installed by peering through the bag
 
 	![alt text](img/IMG_36.JPG)
 	![alt text](img/IMG_37.JPG)
