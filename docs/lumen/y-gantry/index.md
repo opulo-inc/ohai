@@ -126,22 +126,22 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 ## Assemble y-gantry-left
 
-### Install front-left-leg and back-leg onto 600mm-alu-extrusion
+### Install front-left-leg and back-leg onto alu-extrusion
 
-- Begin by inserting a `525mm-m3-t-nut-bar` into a piece of `600mm-alu-extrusion`
-	- There should be about 51.5mm between the end of the `525mm-m3-t-nut-bar` and the right-side end of the `600mm-alu-extrusion` after installation
+- Begin by inserting a `525mm-m3-t-nut-bar` into a piece of `alu-extrusion`
+	- There should be about 51.5mm between the end of the `525mm-m3-t-nut-bar` and the right-side end of the `alu-extrusion` after installation
 	- The `525mm-m3-t-nut-bar` needs to be slide aside in later steps, so do not bother to make this perfect right now
 
 	![](img/install-tnut-bar.png)
 
-- Insert `front-left-leg` and `back-leg` onto 2x pieces of `600mm-alu-extrusion`
-	- The `525mm-m3-t-nut-bar` is oriented in the top-side groove of the uppermost `600mm-alu-extrusion`
+- Insert `front-left-leg` and `back-leg` onto 2x pieces of `alu-extrusion`
+	- The `525mm-m3-t-nut-bar` is oriented in the top-side groove of the uppermost `alu-extrusion`
 	- The extrusion pieces should be *fully* inserted into each leg
 
 	![](img/install-legs-onto-ext.png)
 
-- Bolt `back-leg` to `600mm-alu-extrusion`
-	- Insert 3x `m3-t-nut` into the `600mm-alu-extrusion` pieces before sliding each of them into alignment with the matching bolt holes on `back-leg`
+- Bolt `back-leg` to `alu-extrusion`
+	- Insert 3x `m3-t-nut` into the `alu-extrusion` pieces before sliding each of them into alignment with the matching bolt holes on `back-leg`
 
 		![](img/back-leg-t-nut-insertion.png)
 
@@ -149,9 +149,9 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 		![](img/bolt-back-leg-to-ext.png)
 
-- Bolt `front-left-leg` to `600mm-alu-extrusion`
+- Bolt `front-left-leg` to `alu-extrusion`
 	- Slide the `M3-t-nut-bar` out of the way *if needed*
-	- Insert an `M5-t-nut` into the upper channel of `600mm-alu-extrusion`
+	- Insert an `M5-t-nut` into the upper channel of `alu-extrusion`
 	- Align the `M5-t-nut` with the top-side bolt hole on `front-left-leg`  
 
 		![](img/insert-front-leg-top-t-nut.png)
@@ -160,7 +160,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 		![](img/insert-front-leg-top-m5x10-bolt.png)
 
-	- Slide 2x `M5-t-nut` into the the side channel of lower `600mm-alu-extrusion` and align them with the two bolt holes on `front-left-leg`
+	- Slide 2x `M5-t-nut` into the the side channel of lower `alu-extrusion` and align them with the two bolt holes on `front-left-leg`
 
 		![](img/insert-front-leg-bottom-t-nut.png)
 
@@ -174,7 +174,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 ### Install linear-rail-550mm
 
-- Roughtly position `linear-rail-550mm` onto top-side of uppermost `600mm-alu-extrusion`
+- Roughtly position `linear-rail-550mm` onto top-side of uppermost `alu-extrusion`
 
 	![](img/position-y-linear-rail.png)
 
@@ -212,13 +212,13 @@ The purpose of this work instruction is to explain the assembly process for the 
 - Route a 1.3m-long piece of `GT2-belt` through `y-gantry-left`
 
 	!!!info "Belt routing step-by-step"
-			- Start by running the belt through the `y-gantry`'s left-side slot and leave 75mm of extra belt poking out
-			- Run it through the extrusion towards the `back-leg`
-			- Wrap it around the `timing-pulley`
-			- Run it back through the extrusion towards the `front-left-leg`
-			- Wrap it around the `idler-pulley`
-			- Run it back through the extrusion towards the `back-leg` again
-			- Have the belt exit through the `y-gantry`'s right-side slot
+		- Start by running the belt through the `y-gantry`'s left-side slot and leave 75mm of extra belt poking out
+		- Run it through the extrusion towards the `back-leg`
+		- Wrap it around the `timing-pulley`
+		- Run it back through the extrusion towards the `front-left-leg`
+		- Wrap it around the `idler-pulley`
+		- Run it back through the extrusion towards the `back-leg` again
+		- Have the belt exit through the `y-gantry`'s right-side slot
 
 	![](img/route-belt-through-step1.png)
 
@@ -264,7 +264,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 ### Add cable management
 
-- Use **3x** `extrusion-cable-clip` to secure the `Y1-stepper-motor-cable` to the inner side of the lower `600mm-alu-extrusion`
+- Use **3x** `extrusion-cable-clip` to secure the `Y1-stepper-motor-cable` to the inner side of the lower `alu-extrusion`
 
 	![](img/y-gantry-extrusion-cable-clip.png)
 
@@ -278,21 +278,21 @@ Confirm this by inspecting the completed `y-gantry-left` assembly with the follo
 * Confirm M5 bolts are installed in every counterbored region
 * `M5-hex/square-nut` installed where required:
 	* 2x `M5-hex-nut` pressed into bottom of `front-left-leg`
-	* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `front-drag-chain-mount`
+	* 1x `M5-square-nut` pressed into side of `front-left-leg` for use with `y-limit-striker`
 
-		!!!note "This is only applicable when building y-gantry-left"
-			You can ignore this QC check when building y-gantry-right.
+		!!!info "This is only applicable when building y-gantry-left"
+			Please ignore this QC check when building y-gantry-right.
 
 	* 1x `M5-hex-nut` pressed into bottom of `back-leg`
 	* 2x `M5-hex-nut` pressed into `y-gantry`
-* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, ~1/2" - 3/4" on the other)
+* `GT2-belt` has been trimmed to appropriate length (flush on 1 side, approx. 15mm on the other)
 * `GT2-belt` has been correctly tensioned
 * `Tensioner-arm` is installed on `front-left-leg` in the correct orientation (IE acorn-nut facing touches leg)
 * `Linear-rail` is centered atop `aluminum-extrusion`
 * `y-gantry-left` sits flat on `linear-rail-carriage`
 * `y-gantry` feels smooth and free of friction across the y-min to y-max travel range when actuated by hand
-* `GT2-belt` lays flat in the `600mm-alu-extrusion` channels
-* 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `600mm-alu-extrusion`
+* `GT2-belt` lays flat in the `alu-extrusion` channels
+* 3x `extrusion-cable-clip` have been installed onto the `y-gantry-left`'s lower `alu-extrusion`
 * `Timing-pulley` is tightened down and at proper height
 * `Y1` cable is secured with a zip-tie and exits the port labeled `Y1`
 
