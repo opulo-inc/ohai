@@ -127,3 +127,11 @@ We run the print farm in a [kanban](https://www.youtube.com/watch?v=Levkx8f0qL4)
 5. If the parts are now full to the green line, return the kanban card to the parts bin in Ghidra or the Tequila Sunrise. If the parts have not reached the green line, keep the kanban by the print farm to indicate more need to be printed.
 
 While consuming parts in a build, when you notice the part level in a bin goes below the red line, take the kanban card and put it on the board by the print farm.
+
+## Performing Maintenance ##
+
+Any time a printer is being repaired, log the work completed to the appropriate `Printer Service Records Google Sheet` by scanning the QR code found on each printer.
+
+   ![](img/service-barcode.png)
+
+   ![](img/service-log.png)
