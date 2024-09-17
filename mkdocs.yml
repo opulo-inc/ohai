@@ -1,6 +1,7 @@
 site_name: OHAI - Open Hardware Assembly Instructions
 site_url: https://ohai.opulo.io/
-repo_url: https://github.com/opulo-inc/ohai/
+repo_url: https://github.com/opulo-inc/lumenpnp/
+edit_uri: https://github.com/opulo-inc/ohai/edit/main/docs
 copyright: LumenPnP and its related works are proudly released under the CERN-OHL-W-2.0 license - Opulo Inc 2024
 extra_css: [stylesheets/extra.css]
 
