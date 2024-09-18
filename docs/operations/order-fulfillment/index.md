@@ -1,120 +1,100 @@
 # Opulo Order Fulfillment SOP
 
-## Deciding What to Fulfill:
+## Deciding What to Fulfill
 
-1. Review the `Opulo Shopify Store - Coefficient Data Steam` for orders that are eligible for fulfillment. The following criteria must be met:
-		
-	- Every line item in the `order` must have an `Est Ship Date` **value that's no later than Friday of the given production week
-**	
-- 	All of the line items within the order number must have one of the following fulfillment statuses: 
-		- `UNFULFILLED - PAID`
-		- `UNFULFILLED - PENDING`
-		- `UNFULFILLED - PARTIALLY REFUNDED` 
-			
-			!!!warning "Please double-check items with this status before fulfilling them!"
-				It is important to lookup orders with this status in Shopify to determine what exactly was refunded prior to fulfillment. It is possible for Coefficient to state that a refunded item still required fulfillment so we must be careful in these circumstances.
-				
-	-  Each line item within the order must have a `Build Number` entered
-	-  Each line item within the order must have the `Built?` checkbox checked
-		
-		!!!info "This checkbox is to indicate that an item is on a shelf in salable form, ready for shipping"
-		
-2. Review `Opulo Shopify Store - Coefficient Data Steam` queue for `Replacement Parts` orders that **SHOULD** be shipped this week that didn't receive an `Est Ship Date` or `Build Number`
-	- If feasible, create a build for these items in Aligni with a due-date that matches the `Est Ship Date` desired 
-	- Enter a matching `Est Ship Date` for any replacement part that is being added to the fulfillment batch
-	- Check-off the `Built?` checkbox when the replacement part's build has been completed
+- Review Coeffient V3 to see which orders should be shipped based off their `Batch WK#`
+	- Orders are sorted into a given `Batch WK#` based off their `Planned Ship Date`, which may differ from the `Order Due Date`
+  
+	![](batching-orders.png)
 
-## Purchasing Shipping Labels:
+	!!!info "See [here](planned-ship-date-calc.md) for more information on our Planned Ship Date calculations"  
 
-3.  Go to Shopify and purchase shipping labels for `orders` that met the criteria listed in the previous step
+3. Go to ShipStation and create a batch for the orders that fall within the given `Batch WK#` you wish to fulfill.
+
+	- Name the ShipStation batch to `Batch WK#`, where `#` is replaced with the batch's given week number
 	- Be sure to select the correct box size for the items and ask for help if needed
-
-4. Screenshot the `Purchased Shipping Label` webpage in Shopify to create the `Order-Packing-Checklist` for the week
-	- We will come back to this in the next section 
-
-5. Set the `Pickup Date` for the required shipping carriers 
- - Customers can currently pick between UPS, USPS, and DHL at checkout so multiple pickups may be required
-
-6. Print out all the shipping labels for the week on `4x6 Label Paper` with the Dymo 4XL Label Printer
-
-7. Return to the `Opulo Shopify Store - Coefficient Data Steam` and input the date each fulfilled order is expected to be transferred to the shipping carrier in the `Actual Ship Date` text-field
 
 ## Prepare the Order-Packing-Checklist
 
-1. Prepare an `Order-Packing-Checklist` for the week's fulfillment using the [Google Slides template](https://docs.google.com/presentation/d/1bjngnZyvqVTuc3WafVRS6TTGYHAocfyJrHuGKA1xy9k/edit?usp=sharing) 
-	-  Make a copy of `Slide 1` and replace the image with the screenshot taken in the earlier section, adjusting the slide as needed
+- Prepare an `Order-Packing-Checklist` for the week's fulfillment using the [Google Slides template](https://docs.google.com/presentation/d/1bjngnZyvqVTuc3WafVRS6TTGYHAocfyJrHuGKA1xy9k/edit?usp=sharing)
+
+	- Make a copy of the most recent slide and replace the image with the screenshot of the ShipStation batch you are working with
 	- The checklist printout should look like the following image:
-![](Order-Packing-Checklist.png)
+
+		![](Order-Packing-Checklist.png)
+
+3. Fill in the time and date for any scheduled pickup, per carrier
+
+  	 - Write "Drop off" for any carrier that we will bring the packages to ourselves
 
 2. Print out the week's checklist when ready
-3. Write in the time and date for any scheduled pickup, per carrier
-4. Write "Drop off" for any carrier that we will bring the packages to ourselves
 
-## Handling the Shipping Labels
-1. Separate the printed shipping labels while leaving all pages related to a given `order` connected
-	- Domestic shipping labels will have 2 pages per order, these are: 
-		- Shipping Label 
+## Purchasing Shipping Labels
+
+3. Review each ShipStation order in the batch for correctness - double check the package size, declared values, and shipping methods are all appropriate
+
+	!!!note "Training is required for this step"
+		Please ask Lucian for help if it's your first time doing this.
+
+4. Purchase the labels
+
+## Create a Pickup
+
+5. Set the `Pickup Date` for the required shipping carriers
+
+  - Customers can currently pick between UPS, USPS, and DHL at checkout so multiple pickups may be required
+
+6. Print out all the shipping labels for the week on `4x6 Label Paper` with the Dymo 4XL Label Printer
+
+## Handling the Shipping Paperwork
+
+- Separate the shipping labels by order number, leaving related shipping label(s) and packing slips connected
+
+	- Domestic shipping labels will have 2 pages per order, these are:
+		- Shipping Label
 		- Packaging Slip
-	- 	International shipping labels will have 2 or more pages per order, these are: 
-		- Shipping Label 
+
+	- International shipping labels will have 2 or more pages per order, these are:
+		- Shipping Label
 		- Packaging Slip
-		- Customs Declaration 
-			
+		- Customs Declaration (3x copies, printed seperately on A4 paper)
+
 			!!!info "DHL does not require a Customs Declaration Sheet"
 				This information is electronically transmitted to Customs agencies automatically
 
 2. **For International Orders Only:**
+
 	- Sign all copies of the `Customs Declaration Form`
 	- Place all signed copies of the `Customs Declaration Form` into a resealable adhesive-backed plastic document holder
 	- Paper clip the `Shipping Label` and `Packing Slip` to the front of the plastic document holder
 
-3. Sort the shipping documents into containers that reflect the packaging used
-	- The containers used for sorting should correspond to the packaging the week's orders require
-	- Reference the `Order-Packing-Checklist` to determine what packaging is required for the week's fulfillment
-
 ## Packaging Orders
-- Begin packaging orders by working through each container's sorted shipping documents
-	- For example pack every order that had its shipping documents sorted into the `2-Tray OPF bin` before proceeding to the shipping documents sorted in the `4-Tray OPF bin` 
-	- This will help prevent shipping customers more or less than of what they paid for
+
+- Begin packaging orders by working through the `Order Packing Checklist`
+- Reference the `Order-Packing-Checklist` to determine what packaging is required for the week's fulfillment
 - Check-off and write in your initials on the printed `Order-Packing-Checklist` **each time an order is packaged and taped shut**
 
 ### Additional Guidelines for Packaging
 
-- Orders with line-items that have multiple Est. Ship Dates: 
-	- When packaging an `order` it is critical to check `Coefficient ` for what `build number`/`est-Ship-Date` the items in an `order` should be from
-
- 		- Example 1) If there's 10pcs of `SKU-9999` made "this week" and 15pcs of `SKU-9999` made "last week" still here, the two batches must go with the exact orders they were prescribed to
-
-		- Example 2) In the image shown below, there is a LumenPnP that is produced the week of `2023-07-28` and it's packaged alongside a feeder 5pk and slot set made weeks prior. It would be important to ensure that this LumenPnP was packaged with these exact goods from the specified weeks.
-	
-		![](multi-week-production.png)
-		
 - Shipments with a pending payment status
-	- Alert customer service when a shipment transitions from `UNFULFILLED - PENDING` to `FULFILLED - PENDING`, so that the team is given notice when an order with NET## terms has been shipped out
-	
-		![](NET30-fulfilled-order.png)
-		
+	- Alert customer service when these orders are ready for shipping , so that the team is given notice when an order with NET## terms has been shipped out
 - Shipment comprised of two or more packages poly-strapped together:
 	- Adhere the shipping label and other documents to the largest package in the shipment
 	- Take care to avoid the shipping documents being obstructed by the poly-straps
-	- Write the `order number` onto the smaller boxes within the bundle using a large marker 
+	- Write the `order number` onto the smaller boxes within the bundle using a large marker
 		- This is done to help the shipping carrier if the bundle breaks apart in transit
 
 !!!note "The `Order-Packing-Checklist` lists what package type an order requires if you are unsure or found the shipping documents sorted into a vague pile"
 
 !!!warning "Serialization and OQC Form Requirements"
 	Shipments that contain a uniquely serialized product (LumenPnP, PCB Kit, Replacement Motherboards) must be logged in the [LumenPnP - Serial Tracker and OQC Form](https://docs.google.com/forms/d/e/1FAIpQLSddZwlLa26bw81xRC3UofJ12yaRr4eiF1ZQTFnbHVbXxjBo6A/viewform?usp=sharing)
-	
+
 	- Shipments that contain a LumenPnP must have an orange fragile sticker adhered to the box after being taken through this form
 
 	![](oqc-form.png)
-	
-## Handling Unfulfilled Inventory
-- After all outgoing orders are packaged, label all remaining pieces of `unfulfilled inventory` with the respective `order-number` and/or future `est-ship-date` these items are reserved for 
-
-- If there is `unfulfilled inventory` leftover from the production lot without either a `order-number` or `est-ship-date` that can be allocated, consider these goods as spare stock keeping units for inventory and label each item with it's `build-number` and `production-date` (IE the date of the Friday from the week the item was built)
 
 ## Outgoing Quality Control (OQC)
+
 - Sort the taped boxes into the following stacks:
 	- DHL
 	- USPS Domestic
@@ -122,11 +102,9 @@
 	- UPS Domestic
 	- UPS International
 
-- Confirm the following: 
- 	- Docker does not have any assembled goods beyond what's expected to be in `unfulfilled inventory`
- 	- There is exactly as many packages ready to ship as what's shown in the `order-packing-checklist`
- 	- Each line in the `order-packing-checklist` is checked-off and initialed
- 	- No unused shipping labels are left sitting out
- 	- The first page of any international shipment's custom form matches the receiver's name on the shipping label 	
-
-
+- Confirm the following:
+	- Docker does not have any assembled goods beyond what's expected to be in `unfulfilled inventory`
+	- There is exactly as many packages ready to ship as what's shown in the `order-packing-checklist`
+	- Each line in the `order-packing-checklist` is checked-off and initialed
+	- No unused shipping labels are left sitting out
+	- The first page of any international shipment's custom form matches the receiver's name on the shipping label  
