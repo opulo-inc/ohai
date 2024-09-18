@@ -142,5 +142,26 @@ Repeat the above process to install the right-side pneumatic system
 	![alt text](img/connect-gundam8.JPG)
 	![alt text](img/connect-gundam3.JPG)
 	![alt text](img/connect-gundam2.JPG)
-- Proceed to connect USB and 24v DC to the `motherboard-rev-05`
-- Connect to the Gundam test software and follow the on-screen prompts
+- Proceed to connect USB-B cable to the motherboard.
+- Hold the `BOOT` button on the motherboard, and plug in the 24v DC barrel jack while holding it. After two seconds, you can stop pressing `BOOT`.
+- In a new terminal window, type `flashmarlin` to install the firmware onto the motherboard.
+- Once complete, press the `RESET` button on the motherboard.
+- Open the Gundam test software.
+  - If it's not already open, in a new terminal window, just type `gundam`.
+
+- Select the “REV05-Mobo.json” test from the dropdown menu, then hit “Run Test”.
+
+- Perform each of the tests in Gundam, and follow the prompts.
+
+- If some of the tests fail, continue through the rest of the test until every test has been run.
+
+- The last test is assigning the control box a serial number. **Only perform this test if all others have passed.** We only want to assign a serial number to a working control box.
+  - This text just prompts you for a serial number. Grab a new serial number sticker from the sheet and a new 4"x6" label from the pile, ensuring the serial numbers match, and input the serial number into the prompt for the test.
+
+- Unplug the USB and Power cables from the control box.
+
+- Unplug all of the cables and pneumatics from the control box.
+- Put the serial number sticker in the recess in the back of the control box
+- Fit a lid on the control box, and make sure the 4"x6" label is sandwiched between the box and the lid.
+- Check that both buttons click well.
+- The control box has passed Gundam QC testing!
