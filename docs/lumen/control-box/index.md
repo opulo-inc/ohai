@@ -114,19 +114,6 @@ Repeat the above process to install the right-side pneumatic system
 - Add a `zip-tie` around all four cables to keep them well managed
 	![alt text](img/IMG_1911.JPG)
 
-## Create serialized `control-box-asm`
-- Collect a `control-box-lid` from inventory and **lightly press the back-side of each button outward to ensure each button can move freely**
-- Place a `control-box-lid` onto `control-box` to create `control-box-asm`
-- Confirm that both buttons click when pressed
-
-	![alt text](img/IMG_2016.JPG)
-
-- Slide a `box-sn-label` between `control-box` and `control-box-lid`
-	![alt text](img/IMG_2017.JPG)
-- Flip the `control-box-asm` over and adhere a matching `machine-serial-label` to the `control-box`  
-	![alt text](img/IMG_2014.JPG)
-	![alt text](img/IMG_2015.JPG)
-
 !!!success "You may now proceed to Gundam Testing!"
 
 ## Gundam Testing
@@ -162,6 +149,13 @@ Repeat the above process to install the right-side pneumatic system
 
 - Unplug all of the cables and pneumatics from the control box.
 - Put the serial number sticker in the recess in the back of the control box
+
+	![alt text](img/IMG_2015.JPG)
+
 - Fit a lid on the control box, and make sure the 4"x6" label is sandwiched between the box and the lid.
+
+	![alt text](img/IMG_2017.JPG)
+
 - Check that both buttons click well.
-- The control box has passed Gundam QC testing!
+
+!!!success "The control box has passed Gundam QC testing!"
