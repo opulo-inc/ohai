@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this work instructions is to document the assembly process for the LumenPnP v4 Toolhead Assembly Kit [SKU-00##-00]
+The purpose of this work instructions is to document the assembly process for the LumenPnP v4 Toolhead Kit.
 
 ## Instructions
 
@@ -28,7 +28,7 @@ The purpose of this work instructions is to document the assembly process for th
     ![alt text](img/IMG_0480.jpg)
     ![alt text](img/IMG_0510.jpeg)
 
-- Adhere a `product-sticker` to the bagged toolhead kit
+- Adhere a `product-sticker` to the `4x6-esd-bag`
 
     ![alt text](img/toolhead-v4-packout1.JPG)
     ![alt text](img/toolhead-v4-packout2.JPG)
