@@ -7,7 +7,7 @@
         ![alt text](img/bottom-camera-cable.JPG)
     - `bottom-light-harness`
         ![alt text](img/bottom-light-harness.JPG)
-    - y`1-motor-harness`
+    - `y1-motor-harness`
         ![alt text](img/y1-motor-harness.JPG)
     - `y2-motor-harness`
         ![alt text](img/y2-motor-harness.JPG)
