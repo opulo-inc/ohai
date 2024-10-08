@@ -7,7 +7,7 @@
    	![](img/PXL_20230125_205520692.jpg)
  
 2. Slide the `peel-motor-asm` into its corresponding cavity in `feeder-frame-8mm`
-	* Tuck the excess cable into the empty region behind the `peel-motor-asm` 
+	* Tuck the excess cable into the empty region behind the `peel-motor-asm`
    
    	![](img/PXL_20230125_205545511.jpg)
 
@@ -25,7 +25,7 @@
 		![](img/drivemotor2.jpg)
 
 4. Insert 4x `M3x12mm` flathead screws into the holes in the PCB as shown below
-	* Use automatic screwdriver with power set to 6
+	* Use automatic screwdriver with power set to 4
 
 	![](img/IMG_2233.jpg)
 	![](img/IMG_2235.jpg)
@@ -36,14 +36,14 @@
    
    	![](img/bracket1.jpg)
 
-10. Insert 2x `M3x12mm` flathead screws 
+10. Insert 2x `M3x12mm` flathead screws
  	* Turn the screws in equal amounts before tightening them both to the final torque spec
  	* Tighten the 2x `M3x12mm` flathead screws to `55 cN.m (5.5 N.m)` with a `2mm` hex head driver
 
   	 ![](img/bracket2.jpg)
  	 ![](img/bracket3.jpg)
 
-	!!! failure "*DO NOT OVER-TIGHTEN*" 
+	!!! failure "*DO NOT OVER-TIGHTEN*"
 		Over-tightening can lead to bracket damage and motor skewing in the `feeder-frame-8mm`
 			![](img/install-bracket-4.JPG)
 
@@ -67,7 +67,7 @@
 !!!warning "Wearing safety glasses is required while installing springs"
 
 5. Install the spring
-	* Grab a spring and a `release-lever`, and hold the spring in the `release-lever` as shown 
+	* Grab a spring and a `release-lever`, and hold the spring in the `release-lever` as shown
 	* Match the other end of the spring up with the circular cutout in the `feeder-frame-8mm` print
 	* Finally, drop the `release-lever` into the `feeder-frame-8mm`
    
@@ -89,16 +89,16 @@
 	![](img/peel2.jpg)
 	![](img/peel3.jpg)
 
-1. Insert 2x `M3x12mm` flathead screws into the locations shown using automatic screwdriver set to 6 
+1. Insert 2x `M3x12mm` flathead screws into the locations shown using automatic screwdriver set to 6
 	![](img/peel4.jpg)
 
 ## Install the `drive-wheel-asm`
 
 !!!info "Note on `drive-motor` shaft angle"
-	Drive-motor units may come from factory with a shaft rotated at an angle that's not ideal for set-screw tightening. If this applies to the feeder you are handling, follow the steps below: 
+	Drive-motor units may come from factory with a shaft rotated at an angle that's not ideal for set-screw tightening. If this applies to the feeder you are handling, follow the steps below:
 	
 	* Power up to the affected units by plugging it into Gundam
-	* Press the feeder's jog-forward button until the shaft is at an optimal angle for subsequent assembly work 	
+	* Press the feeder's jog-forward button until the shaft is at an optimal angle for subsequent assembly work
 
 	![](img/install-gear-2.JPG)
 	
@@ -127,12 +127,12 @@
 ## Install `drive-motor-cover`
 
 18. Place a `drive-motor-cover` over the `drive-wheel-asm`
-	* The `drive-motor-cover` should lay flat with none of the cables preventing it from being flush against `feeder-frame-8mm` 
+	* The `drive-motor-cover` should lay flat with none of the cables preventing it from being flush against `feeder-frame-8mm`
    
     ![](img/cover1.jpg)
 
 19. Insert 3x `M3x12mm` flathead screws in the locations shown below
-	* Use automatic screwdriver set to 6 
+	* Use automatic screwdriver set to 6
    
     
     ![](img/cover2.jpg)
