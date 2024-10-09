@@ -46,7 +46,7 @@ nav:
         - Drag Chain: lumen/drag-chain/index.md
         - Control Box: lumen/control-box/index.md
         - Staging Plate: lumen/staging-plate/index.md
-        - Getting Started Kit: misc/ftp-kit/index.md
+        - Getting Started Kit (FTP): misc/ftp-kit/index.md
         - Tool Kit: lumen/tool-kit/index.md
         - Additional Parts: lumen/additional-parts/index.md
         - Packaging: lumen/pack-out/index.md
@@ -92,15 +92,15 @@ nav:
 
   - DIY Components:
         - Overview: diy-components/index.md
-        - Packaged CP40 Nozzle Set: lumen/additional-parts/#nozzle-rack
-        - (WIP) LumenPnP Z-Axis Linear Rail Set: diy-components/z-axis-linear-rail-set/index.md
-        - (WIP) LumenPnP 24vDC 6A Power Supply: diy-components/6A-power-supply-with-cord/index.md
-        - (WIP) LumenPnP Frame Kit: diy-components/frame-kit/index.md
+        - LumenPnP CP40 Nozzle Set: lumen/additional-parts/#nozzle-rack
+        - LumenPnP Z-Axis Linear Rail Set: diy-components/z-axis-linear-rail-set/index.md
+        - LumenPnP 24vDC 6A Power Supply: diy-components/6A-power-supply-with-cord/index.md
+        - LumenPnP Frame Kit: diy-components/frame-kit/index.md
         - LumenPnP GT2 Belt and Pulley Kit: diy-components/gt2-belt-and-pulley-kit/index.md
         - (WIP) MGN12H Linear Rail Kit: diy-components/MGN12H-linear-rail-kit/index.md
         - (WIP) NEMA 17 Stepper Motor (4-Pack): diy-components/NEMA-17-stepper-motor 4-pack/index.md
-        - (WIP) LumenPnP Ring Light Set: diy-components/ring-light-set/index.md
-        - (WIP) LumenPnP Datum Board: diy-components/datum-board-kit/index.md
+        - LumenPnP Ring Light Set: diy-components/ring-light-set/index.md
+        - LumenPnP Datum Board: diy-components/datum-board-kit/index.md
         - Feeder Part Kit: diy-components/feeder-part-kit
   
   - Operations:

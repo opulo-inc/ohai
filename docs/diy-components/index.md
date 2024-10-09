@@ -4,4 +4,4 @@ This section of Opulo OHAI is dedicated to the various DIY components and kits w
 
 ## Build # Sticker Requirements
 
-- Please be sure that each product produced has a Aligni Build # Sticker adhered
+- Please be sure that each product produced has a `build-number-sticker` adhered

@@ -5,10 +5,10 @@
 1. Plug the `peel-motor-asm` into the 2-pin connector on the PCB
    
    	![](img/PXL_20230125_205520692.jpg)
- 
+
 2. Slide the `peel-motor-asm` into its corresponding cavity in `feeder-frame-8mm`
 	* Tuck the excess cable into the empty region behind the `peel-motor-asm`
-   
+
    	![](img/PXL_20230125_205545511.jpg)
 
 1. Tilt the PCB slightly to insert the `drive-motor` cable into the six-pin connector on `feeder-motherboard`
@@ -17,7 +17,7 @@
 
 3. Press the PCB flat into `feeder-frame-8mm`
 	* Make sure the cable is not caught between them - it should lay flush
-   
+
    	![](img/PXL_20230125_205601695.jpg)
 
 1. Press `drive-motor` into its cavity while ensuring it is flush with the back of `feeder-frame-8mm` and the cables are well routed, as shown
@@ -50,17 +50,17 @@
 
 11. Check that the `drive-motor` is still flush and hasn't skewed because of tightening
 	* If it appears crooked or not flush, loosen the screws and readjust the `drive-motor`
-   
+
    	![](img/bracket4.jpg)
 
 1. Use a blade to clean up any loose plastic that was pushed through the `drive-motor-bracket` mounting screw holes during installation 
-	
+
 !!!warning "Failure to perform this step may cause issues with cosmetic sticker installation later on"
 
 
 ![](img/cleanscrews1.jpg)
 ![](img/cleanscrews2.jpg)
-   	
+
 
 ## Install the `release-lever`
 
@@ -77,7 +77,7 @@
 6. Insert an `M3x15mm` flathead screw from the backside and drive it in using the automatic screwdriver on the 4 setting (0.25 N*m).
 	* Make sure the arm can still swivel easily
 	* Make sure that the arm does not have any lateral movement
-   
+
    	![](img/release3.jpg)
 
 ## Install the `peel-gear-box`
@@ -105,8 +105,8 @@
 	![](img/install-gear-1.JPG)
 
 12. Place the 2 `Drive Wheel Shims` in the `drive-wheel-asm` cavity as shown, with the `drive-motor` shaft sticking through it
-   
-   	![](img/shim1.jpg)
+
+	![](img/shim1.jpg)
 	![](img/shim2.jpg)
 
 13. Drop the `drive-wheel-asm` onto the `drive-motor` shaft
@@ -123,19 +123,17 @@
 	 ![](img/wheel3.jpg)
 	 ![](img/wheel4.jpg)
 
-    	
 ## Install `drive-motor-cover`
 
 18. Place a `drive-motor-cover` over the `drive-wheel-asm`
 	* The `drive-motor-cover` should lay flat with none of the cables preventing it from being flush against `feeder-frame-8mm`
-   
+
     ![](img/cover1.jpg)
 
 19. Insert 3x `M3x12mm` flathead screws in the locations shown below
 	* Use automatic screwdriver set to 6
-   
-    
+
     ![](img/cover2.jpg)
 	![](img/IMG_2234.jpg)
-    
+
 !!!success "You may now proceed to OQC"
