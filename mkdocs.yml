@@ -75,7 +75,7 @@ nav:
         - LumenPnP v4 Toolhead Kit: v4-upgrade-parts/lumenpnp-toolhead-asm-v4/index.md
         - LumenPnP v4 Drag Chain Assembly Kit: v4-upgrade-parts/drag-chain-assembly-kit-v4/index.md
         - (WIP) LumenPnP v4 Endstop PCB Set: v4-upgrade-parts/endstop-set-v4/index.md
-        - (WIP) LumenPnP v4 Frame Cable Harness Set: v4-upgrade-parts/frame-cable-harness-set/index.md
+        - LumenPnP v4 Frame Cable Harness Set: v4-upgrade-parts/frame-cable-harness-set/index.md
         - LumenPnP v4 USB Camera Set: v4-upgrade-parts/lumenpnp-v4-camera-set/index.md
 
   - v2/v3 Spare Parts:
@@ -97,7 +97,7 @@ nav:
         - LumenPnP 24vDC 6A Power Supply: diy-components/6A-power-supply-with-cord/index.md
         - LumenPnP Frame Kit: diy-components/frame-kit/index.md
         - LumenPnP GT2 Belt and Pulley Kit: diy-components/gt2-belt-and-pulley-kit/index.md
-        - (WIP) MGN12H Linear Rail Kit: diy-components/MGN12H-linear-rail-kit/index.md
+        - MGN12H Linear Rail Kit: diy-components/MGN12H-linear-rail-kit/index.md
         - NEMA 17 Stepper Motor (4-Pack): diy-components/NEMA-17-stepper-motor 4-pack/index.md
         - LumenPnP Ring Light Set: diy-components/ring-light-set/index.md
         - LumenPnP Datum Board: diy-components/datum-board-kit/index.md
