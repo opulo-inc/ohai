@@ -37,12 +37,13 @@ The two variants are:
     ![alt text](img/lumenpnp-v4-camera-kit4.JPG)
 - Adhere an `esd-safety-sticker` to the front face of `foam-tray`
     ![alt text](img/lumenpnp-v4-camera-kit3.JPG)
-- Collect a `LumenPnP v4 Camera Set Sticker` from inventory
+- Collect a `product-label` sticker from inventory
     ![alt text](img/lumenpnp-v4-camera-kit5.JPG)
-- Adhere a `LumenPnP v4 Camera Set Sticker` to the top of `foam-top-lid`
-    ![alt text](img/lumenpnp-v4-camera-kit2.JPG)
+- Adhere a `product-label` to the top of `foam-top-lid`
+    ![alt text](img/IMG_0997.JPG)
 - Adhere a `build-number-sticker` to the underside of the `foam-tray`
-    ![alt text](img/lumenpnp-v4-camera-set-no-cables.JPG)
+    ![alt text](img/IMG_0998.JPG)
+    ![alt text](img/IMG_0999.JPG)
 
 !!!success "If you are making `LumenPnP v4 USB Camera Set - No Cables`"
     You may stop here and set the completed `LumenPnP v4 USB Camera Set - No Cables` aside for packout
