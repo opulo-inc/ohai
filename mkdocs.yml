@@ -101,8 +101,8 @@ nav:
         - NEMA 17 Stepper Motor (4-Pack): diy-components/NEMA-17-stepper-motor 4-pack/index.md
         - LumenPnP Ring Light Set: diy-components/ring-light-set/index.md
         - LumenPnP Datum Board: diy-components/datum-board-kit/index.md
-        - Feeder Part Kit: diy-components/feeder-part-kit
-        - Control Box: diy-components/control-box
+        - Feeder Part Kit: diy-components/feeder-part-kit/index.md
+        - Control Box: diy-components/control-box/index.md
   
   - Operations:
         - Overview: operations/index.md
