@@ -104,10 +104,9 @@
 	
 	![](img/install-gear-1.JPG)
 
-12. Place the 2 `Drive Wheel Shims` in the `drive-wheel-asm` cavity as shown, with the `drive-motor` shaft sticking through it
+12. Place the `Drive Wheel Shims` in the `drive-wheel-asm` cavity as shown, with the `drive-motor` shaft sticking through it
 
 	![](img/shim1.jpg)
-	![](img/shim2.jpg)
 
 13. Drop the `drive-wheel-asm` onto the `drive-motor` shaft
    
@@ -118,11 +117,8 @@
   
 	 ![](img/wheel2.jpg)
 
-15. Remove the `Drive Wheel Shim`
-      
-	 ![](img/wheel3.jpg)
-	 ![](img/wheel4.jpg)
-
+15. Remove the `Drive Wheel Shims`
+     
 ## Install `drive-motor-cover`
 
 18. Place a `drive-motor-cover` over the `drive-wheel-asm`
