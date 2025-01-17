@@ -6,7 +6,7 @@ There are a few things you need to do to prepare to slice and upload for our pri
 
 ### BambuStudio Setup
 
-1. Download version [1.9.3.50 of BambuStudio](https://github.com/bambulab/BambuStudio/releases/).
+1. Download version [1.10.1.50 of BambuStudio](https://github.com/bambulab/BambuStudio/releases/).
 2. Login to the OpuloInc Bambu account. Ask Lucian for the credentials.
     ![](img/account.png)
 3. Make sure you're logged in by checking that:
@@ -47,6 +47,9 @@ When we make a new release of any of our products on Github, we'll need to updat
 8. Unzip the source file you downloaded from the release.
 9. Move all unzipped files into the now empty `source` folder.
 
+    !!! danger "If some files don't export correctly"
+        Some files don't kick out from the CI correctly. If you need to add edited source files, drop them into the `source` folder, and DELETE THE OLD VERSION. The `source` folder should only ever contain one version of the source, best used for printing.
+
 ### Updating 3MFs
 
 All the files have been moved and renamed successfully. Now, we need to update the 3MF files to contain all the new changes.
@@ -59,7 +62,15 @@ All the files have been moved and renamed successfully. Now, we need to update t
     !!! warning "If the file is not present"
         If you cannot find a plate with the title of the part, it is likely a new part. Make a new plate and title it the name of the part.
 
+        The new plate MUST have a plate type dedicated to it. Click on the nut icon, and select the plate type. This makes sure the frequently changing global plate type does not affect the job.
+
+        ![](img/set-plate-type.png)
+
     ![](img/named-plate.png)
+
+    !!! danger "If the file is titled in the format `vX.X.X_ORCA`"
+
+        This is our 3MF with weird parts that need to be sliced in Orcaslicer! We use Orcaslicer for a few handy features, namely mouse-ear brims. If you need to open the 3MF with this name, do so in Orcaslicer.
 
     3. Delete all the old parts from the plate.
     4. Click the "Add new part" button.
@@ -80,7 +91,7 @@ With your 3MFs up to date, we'll slice them and send them to all the printers on
     1. Click on a plate to select it. It should appear darker than the others.
         ![](img/select-plate.png)
     2. Make sure your slicing settings are correct.
-        1. Filament should be `MFG - STANDARD - PolyLite PLA` for all prints. (The small exception is the dynamic board mount which is PETG, and peel-worm-gear gets `MFG - DETAIL - PolyLite PLA`).
+        1. Filament should be `MFG - STANDARD - PolyLite PLA` for all prints. (The small exception is the dynamic board mount which is `Generic PETG`, and peel-worm-gear gets `MFG - DETAIL - PolyLite PLA`).
         2. Process should be `MFG - STANDARD - 0.2mm P1P` for *almost* all prints. The few exceptions are that the feeder frame needs to use `MFG - FEEDER - 0.2mm P1P` and the worm-gear needs to use `MFG - DETAIL - 0.08mm P1P`.
         3. Be sure you're slicing with the correct Plate Type. Reference the [Print Farm Kanban Cards](https://docs.google.com/presentation/d/1iP0LQSKqcGVxUUVWdpAv4Ua863dX2MB9aPtw2I8KEZI/) for the correct plate type for each print.
     3. Click "Slice Plate."
@@ -94,6 +105,23 @@ With your 3MFs up to date, we'll slice them and send them to all the printers on
 ### Sending
 
 We use a utility to upload all sliced files to our print farm. Open [FarmUpload](https://github.com/opulo-inc/farm-upload/releases) on your computer, select the `settings.json` file in the "Print Farm Files" Drive folder, and select the newly filled `slice` folder.
+
+### Making Small Tweaks
+
+Sometimes we need to make small updates to slicing files, or even little design tweaks between releases. If you need to do one of these, do the following:
+
+1. Drag the new source file into the `source` folder, making sure to delete the old one. We can always get the original back from the Github release, so don't worry about trying to preserve it. The `source` folder should not be ambiguous; one file / version in the folder at a time.
+2. Pop open the 3MF file that contains the file. Delete all the instances on the plate, and import your new stuff.
+3. Reslice and such, following all the same rules as above.
+4. When done, click `Export plate sliced file` and save it in TWO PLACES. We do this so it's easy to provision a new sd card, and *also* easy to just drop in the files that are updated beyond the initial provision (and handy for the FarmUpload tool!):
+   1. Directly in the `slice` folder.
+   2. Also in the `_piecemeal` folder in the `slice` folder.
+5. Save the 3MF.
+
+!!! danger "If you need fucky settings"
+
+    In the super rare occasion where you need weird or custom settings for your part, you should make a new process preset, in the format of `MFG - NAME - layerHeight printerType`. So, for example, if I really needed slow printing for a few parts, I might save a process called `MFG - SLOW - 0.20mm P1P`.
+
 
 ### Making Kanban Cards
 
