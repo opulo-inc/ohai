@@ -6,7 +6,7 @@
 	* `y-gantry-left`
 	* `y-gantry-right`
 	* `x-gantry`
-	* `nozzle-rack`
+	* `nozzle-rack-asm`
 	* `getting-started-kit`
 	* `tool-kit-bag`
 	* `feeder-blade-harness-set`
@@ -161,8 +161,8 @@
 
 	![alt text](img/IMG_35.JPG)
 
-### `front-leg-extension` and `nozzle-rack`
-1. Insert `nozzle-rack` into the bottom right pocket
+### `front-leg-extension` and `nozzle-rack-asm`
+1. Insert `nozzle-rack-asm` into the bottom right pocket
 	* Confirm `nozzle-rack` has all its mounting hardware installed by peering through the bag
 
 	![alt text](img/IMG_36.JPG)
@@ -216,6 +216,7 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 		* `bottom-camera-assembly` (with lens cap removed)
 		* 3x `peek-cable-clamp`
 		* `bottom-light-harness` and `bottom-camera-harness` w/propper cable managment
+			* Ensure that the `bottom-camera-harness` was used and NOT the longer `top-cable-harness`
 			* `peek-cable-clamp` usage and rubber-band for securing loose cables
 
 	![alt text](img/IMG_49.JPG)
