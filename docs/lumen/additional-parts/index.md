@@ -12,7 +12,7 @@ These parts and their respective quantities are as follows:
 - 1x `y-limit-striker`
 - 1x `static-camera-foot`
 - 1x `aux-staging-plate-foot`
-- 1x `nozzle-rack`
+- 1x `nozzle-rack-asm`
 
 ## Work Instructions
 
@@ -84,7 +84,7 @@ These parts and their respective quantities are as follows:
 - Place each `aux-staging-plate-foot` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
 	![](img/aux-staging-plate-foot-bin.png)
 
-### nozzle-rack
+### nozzle-rack-asm
 
 - Insert 2x `m3-hex-head-bolt` into the left and right outermost slots on `nozzle-rack`
 
@@ -102,9 +102,9 @@ These parts and their respective quantities are as follows:
 
 	<img src="img/image18.jpg" width="60%"/>
 
-- Place the completed `nozzle-rack` into a `2x3-bag` before sealing it shut
+- Place the completed `nozzle-rack` into a `3x4-bag` before sealing it shut to create `nozzle-rack-asm`
 
 	![alt text](img/bag-nozzle-rack-1.JPG)
 	![alt text](img/bag-nozzle-rack-2.JPG)
 
-- Place the completed `nozzle-rack` assemblies in a bin on the packout shelf while they await future use
+- Place the completed `nozzle-rack-asm` assemblies in a bin on the packout shelf while they await future use
