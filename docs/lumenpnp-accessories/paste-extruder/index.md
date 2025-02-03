@@ -113,6 +113,8 @@ Remove from the jig and package in bubble wrap.
 
 ## Cartridge Prep
 
+!!!info "Follow the section below twice in order to prepare 2x bagged cartridge assembies"
+
 Get a `cartridge-gear`, a M3 hex nut, a `3ml-luer-syringe`, an M3 x 70mm threaded rod, a bottle of Loctite, and a `plunger`.
 
 ![](img/IMG_1151.webp)
