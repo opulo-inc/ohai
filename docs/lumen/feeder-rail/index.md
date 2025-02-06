@@ -56,6 +56,7 @@ Perform the following quality control checks:
 * Ensure the print is free of defects and fits flush to `alu-extrusion
 * The 2x installed `corner-bracket` pieces are flush to the `alu-extrusion`
 * Confirm `blade-jumper-harness` is installed into the blades
+* Tug on the connectors to ensure they're fully connected
 
 !!!success "If all checks pass, bring the completed `front-feeder-rail` to the shelf for peer-review and pack-out."
 
@@ -122,5 +123,6 @@ Perform the following quality control checks:
 * The 2x installed `corner-bracket` pieces are flush to the `alu-extrusion`
 * The 4x installed `corner-bracket` pieces are flush to the `alu-extrusion`
 * Confirm `blade-jumper-harness` is installed into the blades
+* Tug on the connectors to ensure they're fully connected
 
 !!!success "If all checks pass, bring the completed `rear-feeder-rail` to the shelf for peer-review and pack-out"
