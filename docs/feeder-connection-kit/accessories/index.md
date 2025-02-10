@@ -37,29 +37,32 @@ This section will guide the reader on how to properly prepare the accessories th
 
 	![](img/feeder-blade-harness-set-rev02.jpg)
 
-## Feeder-connection-kit-add-ins
+## Feeder-cable-adapter
 
-### Assemble `feeder-blade-idc-adapter`
+### Assemble `feeder-cable-adapter`
 
 - Create a `50mm-idc-ribbon-cable` that matches the image below
-	![alt text](connection-kit-ph3.JPG)
-	![alt text](connection-kit-ph5.JPG)
+	![alt text](img/connection-kit-ph3.JPG)
+	![alt text](img/connection-kit-ph5.JPG)
 - Assemble `feeder-blade-idc-adapter-pcba`
-	![alt text](connection-kit-ph1.JPG)
-	![alt text](connection-kit-ph6.JPG)
+	![alt text](img/connection-kit-ph1.JPG)
+	![alt text](img/connection-kit-ph6.JPG)
 - Glue `blade-adapter-pin-cover` onto the PCBA
-	![alt text](connection-kit-ph7.JPG)
-	![alt text](connection-kit-ph13.JPG)
-	![alt text](connection-kit-ph4.JPG)
+	![alt text](img/connection-kit-ph7.JPG)
+	![alt text](img/connection-kit-ph13.JPG)
+	![alt text](img/connection-kit-ph4.JPG)
 
 - Connect `50mm-idc-ribbon-cable` to `feeder-blade-idc-adapter-pcba`
-	![alt text](connection-kit-ph2.JPG)
-	![alt text](connection-kit-ph8.JPG)
+	![alt text](img/connection-kit-ph2.JPG)
+	![alt text](img/connection-kit-ph8.JPG)
 
-### Packing feeder-connection-kit-add-ins
+### Packing `feeder-cable-adapter`
 * Add 1x `feeder-blade-idc-adapter` and 2x `blade-jumper-v4` into `2x3-bag`
-	![alt text](connection-kit-ph9.JPG)
+	![alt text](img/connection-kit-ph9.JPG)
 * Seal bag shut
-	![alt text](connection-kit-ph11.JPG)
+	![alt text](img/connection-kit-ph11.JPG)
+
+!!!note "If the `feeder-cable-adapter` is being prepared for individual sale, adhere a `build-number-sticker` to the outside of the packaging"
+	![alt text](img/IMG_2182.JPG)
 
 !!!success "These assemblies can now be set aside for further use in packout"
