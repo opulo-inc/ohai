@@ -88,7 +88,7 @@
 	* `GT2-belt` lays flat and is roughly centered in `alu-extrusion` channel
 	* `GT2-belt` has been correctly tensioned
 	* `x-gantry-toolhead` moves smoothly when actuated back and forth by hand
-
+	* `top-ring-light` is present with the wire connector visible
 	!!!success "If all checks pass, continue onward"
 
 * Package `x-gantry` into `lower-foam-tray`
