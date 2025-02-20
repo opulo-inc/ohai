@@ -154,6 +154,26 @@ Bag the cartridge assembly into a 3in x 4in bag.
 
 ![](img/IMG_1274.webp)
 
+## Luer Lock Syringe Coupler
+
+1. Collect the following from inventory:
+
+    - 1x `luer-lock-syringe-coupler`
+    - 1x `luer-lock-syringe-coupler-label`
+    - 1x `3x4-bag`
+ 
+    ![alt text](img/luer-lock-coupler1.webp)
+
+2. Adhere `luer-lock-syringe-coupler-label` to `3x4-bag`
+
+    ![alt text](img/luer-lock-coupler2.webp)
+
+3. Place `luer-lock-syringe-coupler` in bag before sealing shut
+
+    ![alt text](img/luer-lock-coupler3.webp)
+
+4. Set aside for packout
+
 ## Kit Packing
 
 Apply the product label to a 6in x 9in bag.
@@ -167,3 +187,5 @@ Bag two `20-gauge-luer-lock-tips` into a 2.5in x 3in bag.
 Bag the following items into the product bag:
 
 ![](img/IMG_1275.webp)
+![](img/final-bag1.webp)
+![](img/final-bag2.webp)
