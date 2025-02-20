@@ -460,6 +460,7 @@ Inspect the completed `x-gantry` for the following criteria:
 
 * `GT2-belt` has been trimmed to appropriate length (flush on 1 side, 15mm on the other)
 * `Top-light-mount` is attached with two screws
+* `top-ring-light` is present with the wire connector visible
 * Camera lens cap is present
 * The wire connectors on both `NEMA-11-stepper-motor` units face away from each other, sitting adjacent to their respective cable strain relief points
 * Each `nozzle-holder` has been lubricated and fit-tested with a nozzle
