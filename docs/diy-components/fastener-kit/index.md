@@ -32,6 +32,7 @@ Prepare the following things, added to small bags with labels, as shown below
 - 4x rubber bands
 - 4x nozzle holder o-rings
 - 2x PTFE lube packets
+- 3x M5x16mm Socket Head (not pictured)
 
 ![](img/IMG_1481.JPG)
 
