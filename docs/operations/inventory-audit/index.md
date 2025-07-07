@@ -136,4 +136,4 @@ After all counts are submitted, inventory is finalized before normal operations 
 - Once **all batches are finalized**, material consumption and production may resume
 - Lucy will notify the production team that **inventory lockdown is lifted**
 
-> ⚠️ No material should be consumed between the start of inventory and the finalization of all adjustments.
+> ⚠️ No material should be consumed between the start of inventory and the finalization of all adjustments.  

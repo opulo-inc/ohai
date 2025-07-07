@@ -112,3 +112,4 @@ nav:
         - Print Farm: operations/print-farm/index.md
         - Order Fulfillment: operations/order-fulfillment/
         - Weekly removal of non-serialized shipped goods from Inventory: operations/managing-weekly-non-serialized-aligni-builds
+        - Inventory Day: inventory-audit/index.md
