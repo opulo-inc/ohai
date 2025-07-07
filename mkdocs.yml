@@ -111,5 +111,5 @@ nav:
         - Ordering from LCSC: operations/purchasing-from-lcsc/index.md
         - Print Farm: operations/print-farm/index.md
         - Order Fulfillment: operations/order-fulfillment/
-        - Weekly removal of non-serialized shipped goods from Inventory: operations/managing-weekly-non-serialized-aligni-builds
+        - Weekly removal of non-serialized shipped goods from Inventory: operations/managing-weekly-non-serialized-aligni-builds.md
         - Inventory Day: inventory-audit/index.md
