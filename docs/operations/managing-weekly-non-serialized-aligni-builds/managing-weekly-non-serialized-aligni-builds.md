@@ -9,7 +9,7 @@
 
     ![](img/step_003.png)
 
-3. Expand the "Batches" drop-down menu and Select "Open"
+3. Expand the "Batches" drop-down menu and select "Open"
 
     ![](img/step_002.png)
 
