@@ -19,27 +19,32 @@ Below are individual sections for each jig or fixture:
 
 ### Bottom Camera Focus Jig (v4)
 
-* **Description**:
-* **File Formats**: STL, STEP
-* **Download Link**: [Download ZIP](/downloads/base-alignment-jig.zip)
-* **Preview Image**: `![Base Alignment Jig](/assets/jigs/base-alignment-jig.png)`
-* **Print Tips**:
+* **Description**: A 3D printed fixture for holding a v4 bottom camera the correct distance away from a Datum Board for focusing the lens.
+* **File Formats**: STEP
+* **Download Link**: [Download .STEP](assets/bottom-camera-focus-v4.step)
+* **Image**:
+
+    ![bottom Camera Focus Jig](img/bottom-camera-focus-jig-v4.png)
+
 * **Additional things you'll need:**
 
-  * Blah
-  * Blah
+  * 1x Datum Board
+  * 4x M3x10 Self-Tapping Button Head Screws
+  * 1x [Mini Flashlight](https://www.amazon.com/Flashlight-Keychain-Rechargeable-Waterproof-Emergencies/dp/B0BHH7FXJ9/)
 
-### Top Camera Focus Jig (v4)
+#### Top Camera Focus Jig (v4)
 
-* **Description**:
-* **File Formats**: STL, STEP
-* **Download Link**: [Download ZIP](/downloads/nozzle-height-gauge.zip)
-* **Preview Image**: `![Nozzle Height Gauge](/assets/jigs/nozzle-height-gauge.png)`
-* **Print Tips**:
+* **Description**: A 3D printed fixture for holding a v4 top camera the correct distance away from a Datum Board for focusing the lens.
+* **File Formats**: TBD
+* **Download Link**: [Download .STEP](assets/top-camera-focus-v4.step)
+* **Image**:
+
+    ![top Camera Focus Jig](img/top-camera-focus-jig-v4.png)
+
 * **Additional things you'll need:**
 
-  * Blah
-  * Blah
+  * 1x Datum Board
+  * 4x M3x10 Self-Tapping Button Head Screws
 
 > **Note:** All fixtures are provided “as-is.” Check the Preview image (if available) and adjust print settings for best fit.
 
