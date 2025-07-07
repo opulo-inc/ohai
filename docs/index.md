@@ -28,6 +28,7 @@ Quick Jump to our main products:
 ---
 
 Navigate to additional Assembly Docs via the Navigation Bar at the top of this page. They are sorted into the following sections:
+
 - **Feeder Connection Kit** - A standalone product for upgrading older machines to use powered feeders.
 - **v4 Upgrade Parts** - A collection of parts used to convert older v2/v3 machines into a v4.
 - **v2/v3 Spare Parts** - A collection of parts used to support exisitng v2/v3 LumenPnP machines.
@@ -40,3 +41,4 @@ Navigate to additional Assembly Docs via the Navigation Bar at the top of this p
 - [Print Farm Managment SOP](operations/print-farm/index.md)
 - [Purchasing from LCSC SOP](operations/purchasing-from-lcsc/index.md)
 - [Inventory Day SOP](operations/inventory-audit/index.md)
+- [Weekly Removal of Non-Serialized Shipped Goods from Inventory](operations/managing-weekly-non-serialized-aligni-builds.md)
