@@ -41,4 +41,4 @@ Navigate to additional Assembly Docs via the Navigation Bar at the top of this p
 - [Print Farm Managment SOP](operations/print-farm/index.md)
 - [Purchasing from LCSC SOP](operations/purchasing-from-lcsc/index.md)
 - [Inventory Day SOP](operations/inventory-audit/index.md)
-- [Weekly Removal of Non-Serialized Shipped Goods from Inventory](operations/managing-weekly-non-serialized-aligni-builds.md)
+- [Weekly Removal of Non-Serialized Shipped Goods from Inventory](operations/managing-weekly-non-serialized-aligni-builds/index.md)
