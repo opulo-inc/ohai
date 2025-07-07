@@ -110,4 +110,5 @@ nav:
         - Overview: operations/index.md
         - Ordering from LCSC: operations/purchasing-from-lcsc/index.md
         - Print Farm: operations/print-farm/index.md
-        - Order Fulfillment SOP: operations/order-fulfillment/
+        - Order Fulfillment: operations/order-fulfillment/
+        - Weekly removal of non-serialized shipped goods from Inventory: operations/managing-weekly-non-serialized-aligni-builds
