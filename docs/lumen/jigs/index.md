@@ -32,7 +32,7 @@ Below are individual sections for each jig or fixture:
   * 4x M3x10 Self-Tapping Button Head Screws
   * 1x [Mini Flashlight](https://www.amazon.com/Flashlight-Keychain-Rechargeable-Waterproof-Emergencies/dp/B0BHH7FXJ9/)
 
-#### Top Camera Focus Jig (v4)
+### Top Camera Focus Jig (v4)
 
 * **Description**: A 3D printed fixture for holding a v4 top camera the correct distance away from a Datum Board for focusing the lens.
 * **File Formats**: TBD
@@ -47,6 +47,15 @@ Below are individual sections for each jig or fixture:
   * 4x M3x10 Self-Tapping Button Head Screws
 
 > **Note:** All fixtures are provided “as-is.” Check the Preview image (if available) and adjust print settings for best fit.
+
+### Other jigs to be added
+
+* pulley spacer jigs
+  * x-pulley-spacer-jig
+  * y-pulley-spacer-jig
+  * z-pulley-spacer-jig
+* linear-rail-2020-alignment-jig
+* z-belt-alignment-jig
 
 ---
 
