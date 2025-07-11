@@ -29,11 +29,11 @@
 
     ![](img/step_007.png)
 
-8. Click "Export"
+8. Click "Export" and save the file somewhere you can easily it on your computer
 
     ![](img/step_008.png)
 
-9. Navigate to tab "Weekly Aligni Item Removals - Google Drive"
+9. Navigate to [Weekly Aligni Item Removals - Google Drive](https://drive.google.com/drive/folders/1HGGAmzq4Ej-B4JcnH5Q7g35yrkVzUoOC)
 
     ![](img/step_009.png)
 
