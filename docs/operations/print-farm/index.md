@@ -7,7 +7,7 @@ There are a few things you need to do to prepare to slice and upload for our pri
 ### BambuStudio Setup
 
 1. Download version [1.10.1.50 of BambuStudio](https://github.com/bambulab/BambuStudio/releases/).
-2. Login to the OpuloInc Bambu account. Ask Lucian for the credentials.
+2. Login to the OpuloInc Bambu account. Ask Lucy for the credentials.
     ![](img/account.png)
 3. Make sure you're logged in by checking that:
     1. Account slicer settings are present (should say "Production" or "MFG")
@@ -156,10 +156,81 @@ We run the print farm in a [kanban](https://www.youtube.com/watch?v=Levkx8f0qL4)
 
 While consuming parts in a build, when you notice the part level in a bin goes below the red line, take the kanban card and put it on the board by the print farm.
 
-## Performing Maintenance ##
+## Performing Maintenance
+
+### Maintenance Guides
+
+- [Extruder Unit Replacement Guide](https://wiki.bambulab.com/en/p1/maintenance/extruder-unit)
+- [Complete Hotend Assembly Replacement Guide](https://wiki.bambulab.com/en/p1/maintenance/complete-hot-end-assembly)
+- [Filament cutter lever Replacement Guide](https://wiki.bambulab.com/en/x1/maintenance/replace-cutter-lever)
+
+### Logging Maintenance
 
 Any time a printer is being repaired, log the work completed to the appropriate `Printer Service Records Google Sheet` by scanning the QR code found on each printer.
 
    ![](img/service-barcode.png)
 
    ![](img/service-log.png)
+
+## Provisioning New Printers
+
+Beging provisiong any new printer by running them through the following guides:
+
+- [Unbox the P1P](https://wiki.bambulab.com/en/p1/manual/unboxing-p1p)
+- [Auxiliary Part Cooling Fan & Fan Support Installation Tutorial](https://wiki.bambulab.com/en/p1/manual/p1p-upgrades)
+
+### Setup Maintenance Tracking Spreadsheet per Printer
+
+- Naviagate to [Google Shared drives/OpuloEngineering/Manufacturing/In-House Production/3D Printing/Print Farm Service Log Sheets](https://drive.google.com/open?id=1RABxDDUh3caS2bSfsNU1StXz_j9wh1zb&usp=drive_fs) and make a copy of `# - Printer Template - Bambu Lab P1P Service Log Sheet`
+- Edit the copied template's file name by replaceing `Copy of # - Printer Template -` with the next available printer number.
+  - For example: `70 - Printer Seventy - Bambu Lab P1P Service Log Sheet`
+  - Note that these numbers are **one time use only** - if a printer has been scrapped, do not reuse it's number!
+- Open the newly created maintenance tracking sheet and fill out the following fields:
+  - Label:
+  - Serial Number:
+  - Date of Purchase:
+  - Date put into service:
+
+- Copy the URL of the given tracking sheet before coninuing on to the next section
+
+### Labeling Printers
+
+First, label each printer with a QR Code linking to it's associated maintenance tracking spreadsheet
+
+- Open [Scanable Printer Service Records Labels.label](https://drive.google.com/open?id=1yPTCML_q0V_Ewo-q2gvNiYFkUks6qnqd&usp=drive_fs) with Dymo Label
+- Double-click the QR code to open the `Barcode Objects Properties` window before pasting the previously copied URL into the `Web Page` text field
+  
+  ![alt text](img/service-records-label-2.png)
+
+- Click `OK` to close out of the `Barcode Objects Properties` window
+- Edit the text field right of the previously updated QR code to denote the correct Printer Number
+- Repeat these steps until the template is populated with data for up to three printers
+  
+  ![alt text](img/service-records-label-3.png)
+
+- Print the page out on a 4"x6" shipping label and cut the page apart into however many QR code stickers you made
+
+    ![alt text](img/IMG_3958.jpeg)
+    ![alt text](img/IMG_3959.jpeg)
+
+- Adhere the label(s) to the printer(s) you are provisioning
+
+    ![alt text](img/labeled-printers.png)
+
+Next, label the printer's power cable with it's assigned number
+
+- Open [Printer Power Cord Labels.label](https://drive.google.com/open?id=1I1gxT5yOjyFsJmb-h-ek153nlGEJeUHK&usp=drive_fs) with Dymo Label
+- Edit the template to match the printer's assigned number
+- Print two copies on 1 1/4" x 2 1/4" labels
+
+  ![dymo label view of cable label](img/PrinterPowerCordLabels01.png)
+
+  ![alt text](img/IMG_3956.jpeg)
+
+- Adhere a label to each end of the printer's power cord
+
+  ![alt text](img/IMG_3957.jpeg)
+
+### Update `sites.XML` for FileZilla Upload Support
+
+- Add the new printers to the FileZilla XML file

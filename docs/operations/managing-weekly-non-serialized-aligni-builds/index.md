@@ -379,5 +379,4 @@
  	 ![](img/step_102.png)
 
 102. Confirm all parts have been removed
-
-   ![](img/step_101.png)
+  ![](img/step_101.png)
