@@ -183,13 +183,13 @@ Beging provisiong any new printer by running them through the following guides:
 
 - Naviagate to [Google Shared drives/OpuloEngineering/Manufacturing/In-House Production/3D Printing/Print Farm Service Log Sheets](https://drive.google.com/open?id=1RABxDDUh3caS2bSfsNU1StXz_j9wh1zb&usp=drive_fs) and make a copy of `# - Printer Template - Bambu Lab P1P Service Log Sheet`
 - Edit the copied template's file name by replaceing `Copy of # - Printer Template -` with the next available printer number.
-  - For example: `70 - Printer Seventy - Bambu Lab P1P Service Log Sheet`
-  - Note that these numbers are **one time use only** - if a printer has been scrapped, do not reuse it's number!
+    - For example: `70 - Printer Seventy - Bambu Lab P1P Service Log Sheet`
+    - Note that these numbers are **one time use only** - if a printer has been scrapped, do not reuse it's number!
 - Open the newly created maintenance tracking sheet and fill out the following fields:
-  - Label:
-  - Serial Number:
-  - Date of Purchase:
-  - Date put into service:
+    - Label:
+    - Serial Number:
+    - Date of Purchase:
+    - Date put into service:
 
 - Copy the URL of the given tracking sheet before coninuing on to the next section
 
@@ -200,13 +200,13 @@ First, label each printer with a QR Code linking to it's associated maintenance 
 - Open [Scanable Printer Service Records Labels.label](https://drive.google.com/open?id=1yPTCML_q0V_Ewo-q2gvNiYFkUks6qnqd&usp=drive_fs) with Dymo Label
 - Double-click the QR code to open the `Barcode Objects Properties` window before pasting the previously copied URL into the `Web Page` text field
   
-  ![alt text](img/service-records-label-2.png)
+    ![alt text](img/service-records-label-2.png)
 
 - Click `OK` to close out of the `Barcode Objects Properties` window
 - Edit the text field right of the previously updated QR code to denote the correct Printer Number
 - Repeat these steps until the template is populated with data for up to three printers
   
-  ![alt text](img/service-records-label-3.png)
+    ![alt text](img/service-records-label-3.png)
 
 - Print the page out on a 4"x6" shipping label and cut the page apart into however many QR code stickers you made
 
@@ -223,13 +223,13 @@ Next, label the printer's power cable with it's assigned number
 - Edit the template to match the printer's assigned number
 - Print two copies on 1 1/4" x 2 1/4" labels
 
-  ![dymo label view of cable label](img/PrinterPowerCordLabels01.png)
+    ![dymo label view of cable label](img/PrinterPowerCordLabels01.png)
 
-  ![alt text](img/IMG_3956.jpeg)
+    ![alt text](img/IMG_3956.jpeg)
 
 - Adhere a label to each end of the printer's power cord
 
-  ![alt text](img/IMG_3957.jpeg)
+    ![alt text](img/IMG_3957.jpeg)
 
 ### Update `sites.XML` for FileZilla Upload Support
 
