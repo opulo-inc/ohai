@@ -17,26 +17,26 @@ The purpose of this work instructions is to document the assembly process for th
     - 1x `product-label`
     - 1x `build-number-sticker`
 
-    ![alt text](img/IMG_0797.jpg)
+    ![alt text](img/IMG_0797.webp)
 
 - Adhere a `product-label` to the `6x9-bag`
 
-    ![alt text](img/IMG_0799.jpg)
-    ![alt text](img/IMG_0800.jpg)
+    ![alt text](img/IMG_0799.webp)
+    ![alt text](img/IMG_0800.webp)
 
 - Unbox the `24vDC 6A Power Supply`
 
-    ![alt text](img/IMG_0798.jpg)
+    ![alt text](img/IMG_0798.webp)
 
 - Place a `24vDC 6A Power Supply` and `N515-C13-PWR-CBL` into the `6x9-bag` before sealing it shut
 
-    ![alt text](img/IMG_0801.jpg)
-    ![alt text](img/IMG_0802.jpg)
-    ![alt text](img/IMG_0803.jpg)
+    ![alt text](img/IMG_0801.webp)
+    ![alt text](img/IMG_0802.webp)
+    ![alt text](img/IMG_0803.webp)
 
 - Adhere a `build-number-sticker` to the `product-label` as shown in the image below
 
-    ![alt text](img/IMG_0804.jpg)
+    ![alt text](img/IMG_0804.webp)
 
 !!!success "The `LumenPnP 24vDC 6A Power Supply` is now ready for packout!"
-    ![alt text](img/IMG_0805.jpg)
+    ![alt text](img/IMG_0805.webp)

@@ -8,12 +8,12 @@ There are a few things you need to do to prepare to slice and upload for our pri
 
 1. Download version [1.10.1.50 of BambuStudio](https://github.com/bambulab/BambuStudio/releases/).
 2. Login to the OpuloInc Bambu account. Ask Lucy for the credentials.
-    ![](img/account.png)
+    ![](img/account.webp)
 3. Make sure you're logged in by checking that:
     1. Account slicer settings are present (should say "Production" or "MFG")
-        ![](img/settings.png)
+        ![](img/settings.webp)
     2. Our P1Ps (creatively named numbers 1-8) show up in the "Devices" tab.
-        ![](img/devices.png)
+        ![](img/devices.webp)
 
 ### Google Drive
 
@@ -21,9 +21,9 @@ We use Google Drive to manage all our 3MF files.
 
 1. Install [Google Drive Desktop](https://www.google.com/drive/download/) and login with your Opulo email account.
 2. Select the "Stream files" option.
-   ![](img/stream.png)
+   ![](img/stream.webp)
 3. Navigate to `Shared Drives/OpuloEngineering/Manufacturing/In-House Production/3D Printing` in Finder, and click on the little clowd/arrow icon next to it. This will keep this folder downloaded to your computer.
-   ![](img/folder.png)
+   ![](img/folder.webp)
 
 ## Updating the Print Farm
 
@@ -38,11 +38,11 @@ When we make a new release of any of our products on Github, we'll need to updat
 2. Under "Assets," download the zip file with "STLs" or "STEPs" in the name.
 3. Go to the "Print Farm Files" folder in Drive.
 4. You'll find a series of folders, one for each version of each product.
-   ![](img/print-farm-files.png)
+   ![](img/print-farm-files.webp)
 5. Duplicate the latest folder for the product you're updating. In this example, we're duplicating `LumenPnP v3.2.0`
-   ![](img/duplicate-folder.png)
+   ![](img/duplicate-folder.webp)
 6. Rename the duplicate folder name to the version of the release. Also rename all files inside to the new version number. In this example, `LumenPnP v3.2.2`.
-   ![](img/renaming-folder.png)
+   ![](img/renaming-folder.webp)
 7. Delete everything in the `source` folder, and in the `slice` folder.
 8. Unzip the source file you downloaded from the release.
 9. Move all unzipped files into the now empty `source` folder.
@@ -64,9 +64,9 @@ All the files have been moved and renamed successfully. Now, we need to update t
 
         The new plate MUST have a plate type dedicated to it. Click on the nut icon, and select the plate type. This makes sure the frequently changing global plate type does not affect the job.
 
-        ![](img/set-plate-type.png)
+        ![](img/set-plate-type.webp)
 
-    ![](img/named-plate.png)
+    ![](img/named-plate.webp)
 
     !!! danger "If the file is titled in the format `vX.X.X_ORCA`"
 
@@ -75,12 +75,12 @@ All the files have been moved and renamed successfully. Now, we need to update t
     3. Delete all the old parts from the plate.
     4. Click the "Add new part" button.
 
-        ![](img/empty-plate.png)
+        ![](img/empty-plate.webp)
 
     5. Select the new version of the part from the "source" folder for the new version.
-        ![](img/selecting-new-version.png)
+        ![](img/selecting-new-version.webp)
     6. Right click on the newly added part and select "Fill bed with copies"
-        ![](img/fill-plate.png)
+        ![](img/fill-plate.webp)
     7. It does a pretty good job of laying the parts out, but if it does something stupid, feel free to move them around a bit.
 
 ### Slicing and Saving
@@ -89,18 +89,18 @@ With your 3MFs up to date, we'll slice them and send them to all the printers on
 
 1. Open each of the 3MF files in the version folder in turn. Inside each 3MF file, you'll find a plate for each part. For each plate in each 3MF file:
     1. Click on a plate to select it. It should appear darker than the others.
-        ![](img/select-plate.png)
+        ![](img/select-plate.webp)
     2. Make sure your slicing settings are correct.
         1. Filament should be `MFG - STANDARD - PolyLite PLA` for all prints. (The small exception is the dynamic board mount which is `Generic PETG`, and peel-worm-gear gets `MFG - DETAIL - PolyLite PLA`).
         2. Process should be `MFG - STANDARD - 0.2mm P1P` for *almost* all prints. The few exceptions are that the feeder frame needs to use `MFG - FEEDER - 0.2mm P1P` and the worm-gear needs to use `MFG - DETAIL - 0.08mm P1P`.
         3. Be sure you're slicing with the correct Plate Type. Reference the [Print Farm Kanban Cards](https://docs.google.com/presentation/d/1iP0LQSKqcGVxUUVWdpAv4Ua863dX2MB9aPtw2I8KEZI/) for the correct plate type for each print.
     3. Click "Slice Plate."
-        ![](img/slice-plate.png)
+        ![](img/slice-plate.webp)
     4. Inspect the resulting toolpath. Any overhangs? Any potential issues?
     5. Click the "Export plate sliced file" button.
-        ![](img/send-print.png)
+        ![](img/send-print.webp)
     6. Save the .gcode file to the `slice` folder.
-        ![](img/popup.png)
+        ![](img/popup.webp)
 
 ### Sending
 
@@ -168,9 +168,9 @@ While consuming parts in a build, when you notice the part level in a bin goes b
 
 Any time a printer is being repaired, log the work completed to the appropriate `Printer Service Records Google Sheet` by scanning the QR code found on each printer.
 
-   ![](img/service-barcode.png)
+   ![](img/service-barcode.webp)
 
-   ![](img/service-log.png)
+   ![](img/service-log.webp)
 
 ## Provisioning New Printers
 
@@ -199,23 +199,23 @@ First, label each printer with a QR Code linking to it's associated maintenance 
 
 - Open [Scanable Printer Service Records Labels.label](https://drive.google.com/open?id=1yPTCML_q0V_Ewo-q2gvNiYFkUks6qnqd&usp=drive_fs) with Dymo Label
 - Double-click the QR code to open the `Barcode Objects Properties` window before pasting the previously copied URL into the `Web Page` text field
-  
-    ![alt text](img/service-records-label-2.png)
+
+    ![alt text](img/service-records-label-2.webp)
 
 - Click `OK` to close out of the `Barcode Objects Properties` window
 - Edit the text field right of the previously updated QR code to denote the correct Printer Number
 - Repeat these steps until the template is populated with data for up to three printers
-  
-    ![alt text](img/service-records-label-3.png)
+
+    ![alt text](img/service-records-label-3.webp)
 
 - Print the page out on a 4"x6" shipping label and cut the page apart into however many QR code stickers you made
 
-    ![alt text](img/IMG_3958.jpeg)
-    ![alt text](img/IMG_3959.jpeg)
+    ![alt text](img/IMG_3958.webp)
+    ![alt text](img/IMG_3959.webp)
 
 - Adhere the label(s) to the printer(s) you are provisioning
 
-    ![alt text](img/labeled-printers.png)
+    ![alt text](img/labeled-printers.webp)
 
 Next, label the printer's power cable with it's assigned number
 
@@ -223,13 +223,13 @@ Next, label the printer's power cable with it's assigned number
 - Edit the template to match the printer's assigned number
 - Print two copies on 1 1/4" x 2 1/4" labels
 
-    ![dymo label view of cable label](img/PrinterPowerCordLabels01.png)
+    ![dymo label view of cable label](img/PrinterPowerCordLabels01.webp)
 
-    ![alt text](img/IMG_3956.jpeg)
+    ![alt text](img/IMG_3956.webp)
 
 - Adhere a label to each end of the printer's power cord
 
-    ![alt text](img/IMG_3957.jpeg)
+    ![alt text](img/IMG_3957.webp)
 
 ### Update `sites.XML` for FileZilla Upload Support
 

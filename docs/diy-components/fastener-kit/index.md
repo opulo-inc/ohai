@@ -6,7 +6,7 @@ This work instruction is for preparing the Fastener Kit - a bag full of all the 
 
 We get a pre-made bag of *most* of the hardware pre-made.
 
-![](img/IMG_1478.JPG)
+![](img/IMG_1478.webp)
 
 It needs **six** things added, and **one** thing changed.
 
@@ -14,13 +14,13 @@ It needs **six** things added, and **one** thing changed.
 
 Hunt down the bag of 4x M3 "square nuts".
 
-![](img/IMG_1476.JPG)
+![](img/IMG_1476.webp)
 
 They're weird, and won't work for a LumenPnP build. Toss them, but keep the bag, and replace with 4x normal M3 square nuts. Add back to the main bag.
 
-![](img/IMG_1479.JPG)
+![](img/IMG_1479.webp)
 
-![](img/IMG_1480.JPG)
+![](img/IMG_1480.webp)
 
 ## Add
 
@@ -34,12 +34,12 @@ Prepare the following things, added to small bags with labels, as shown below
 - 2x PTFE lube packets
 - 3x M5x16mm Socket Head (not pictured)
 
-![](img/IMG_1481.JPG)
+![](img/IMG_1481.webp)
 
 Add to the main bag.
 
-![](img/IMG_1482.JPG)
+![](img/IMG_1482.webp)
 
 Add the label to the bag.
 
-![](img/IMG_1483.JPG)
+![](img/IMG_1483.webp)

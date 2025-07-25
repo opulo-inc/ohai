@@ -11,24 +11,24 @@ The purpose of this work instructions is to document the assembly process for th
 1. Remove the pink foam from esd-safe-mailer [`PKG-0013-00 `] and 1 piece aside for later use
 	- The 2nd piece of pink foam can be recycled or put in the spare packaging material bin at the Docker workstation
 
-	<img src="img/image1.JPG" width="60%"/>
+	<img src="img/image1.webp" width="60%"/>
 
-	<img src="img/image2.JPG" width="60%"/>
+	<img src="img/image2.webp" width="60%"/>
 
 ### Package the motherboard
 	
 2. Gather a motherboard-rev04 [`PCA-0011-03`] and 4" x 4" Red ESD Bag from inventory
 
-	<img src="img/image3.JPG" width="60%"/>
+	<img src="img/image3.webp" width="60%"/>
 
 3. Confirm the motherboard and its accompanying QC receipt have matching serial numbers
 	
-	<img src="img/image4.JPG" width="60%"/>
+	<img src="img/image4.webp" width="60%"/>
 
 4. Place the motherboard and QC receipt into the 4" x 4" Red ESD Bag
 5. Place the bagged motherboard w/receipt into the   left   side of a esd-safe-mailer [`PKG-0013-00 `]
 
-	<img src="img/image5.JPG" width="60%"/>
+	<img src="img/image5.webp" width="60%"/>
 	
 ### Prepare additional components
 
@@ -42,7 +42,7 @@ The purpose of this work instructions is to document the assembly process for th
 		
 		!!! info "Clean the datum-board with an IPA-soaked shop rag if it appears dirty"
 	
-		<img src="img/image6.JPG" width="60%"/>
+		<img src="img/image6.webp" width="60%"/>
 		
 ### Package additional components
 	
@@ -51,15 +51,15 @@ The purpose of this work instructions is to document the assembly process for th
 	- The other half of the foam sheet will be folded atop the additional components packaged into the box in subsequent steps
 8. Place the Packaged Datum Board [`ASM-0024-00`] into the box
 	
-	<img src="img/image7.JPG" width="60%"/>
+	<img src="img/image7.webp" width="60%"/>
 
 9. Place the limit-switch-board above the Packaged Datum Board
 
-	<img src="img/image8.JPG" width="60%"/>
+	<img src="img/image8.webp" width="60%"/>
 
 10.  Place the Packaged Ring Light Set above the limit switch board
 
-	<img src="img/image9.JPG" width="60%"/>
+	<img src="img/image9.webp" width="60%"/>
 	
 11. Fold the rest of the pink foam over the Packaged Ring Light Set
 	- This will result in something like a taco of additional components sitting beside the motherboard
@@ -72,7 +72,7 @@ The purpose of this work instructions is to document the assembly process for th
 	- The given LumenPnP PCB Kit (Salable) [`SKU-0003-02`] production build number
 	!!! warning "If the build number is not known, please ask for assistance"
 
-	<img src="img/image10.JPG" width="60%"/>
+	<img src="img/image10.webp" width="60%"/>
 
 14. Tape the esd-safe-mailer closed with 3" wide packaging tape side-to-side and front-to-back
 

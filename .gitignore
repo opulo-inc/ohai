@@ -1,3 +1,5 @@
-
 .DS_Store
-docs/feeder8/assembly/.DS_Store
+site/
+.vscode/
+.venv/
+venv/

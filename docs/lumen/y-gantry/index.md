@@ -4,49 +4,49 @@ The purpose of this work instruction is to explain the assembly process for the 
 ## Create Y-Gantry Subassembly
 - Remove any stringing from the print with a heat gun
 - Insert 6x `m5-hex-nut` into the following region
-	![](img/y-gantry-hex-nut.jpeg)
+	![](img/y-gantry-hex-nut.webp)
 - Install 2x `m5-square-nut` into the location shown below
-	![](img/y-gantry-square-nut.jpg)
+	![](img/y-gantry-square-nut.webp)
 
 ## Create Front-Left-Leg Subassembly
 
 ### Prepare front-left-leg
 - Remove any stringing from the print with a heat gun
 - Insert 2x `m5-hex-nut` into bottom of leg
-	![](img/front-leg-extension-mounting-nut1.png)
-	![](img/front-leg-extension-mounting-nut2.png)
+	![](img/front-leg-extension-mounting-nut1.webp)
+	![](img/front-leg-extension-mounting-nut2.webp)
 
 - Insert 1x `m5-square-nut` near extrusion pocket
- 	![](img/front-drag-chain-mount-nut.jpg)
+ 	![](img/front-drag-chain-mount-nut.webp)
  	
 - Insert 1x `m5-nylock-hex-nut` into in the underside of `belt-tensioner-arm` mounting post
-	![](img/belt-tension-arm-nut.png)
+	![](img/belt-tension-arm-nut.webp)
 
 ### Prepare belt-tensioner-arm
 - Press an `M3-hex-nut` into the `belt-tension-arm` with a `arbor-press-jig`
-![](img/tensioner-arm-m3-hex-nut-insertion.png)
+![](img/tensioner-arm-m3-hex-nut-insertion.webp)
 - Thread a `M3x16-bolt` through the `belt-tension-arm`
-![](img/m3x16-tensioner-bolt-install.png)
+![](img/m3x16-tensioner-bolt-install.webp)
 - Thread a `M3-acorn-nut` onto the end of the bolt
 	-  The `M3-acorn-nut` and `M3-hex-nut` should be on the same side of the `belt-tensioner-arm`
 	-  Tighten the `M3-acorn-nut` onto the `M3x16-bolt` with a 5.5mm socket and an allen wrench
 	
-	![](img/M3-acorn-nut-install.png)
-	![](img/tighten-acorn-nut1.png)
-	![](img/tighten-acorn-nut2.png)
+	![](img/M3-acorn-nut-install.webp)
+	![](img/tighten-acorn-nut1.webp)
+	![](img/tighten-acorn-nut2.webp)
 
 
 - Rotate the `M3x16-bolt` until the `M3-acorn-nut` is loosely resting against the `M3-hex-nut`
 
 	!!!info "This ensures the `belt-tensioner-arm` is installed with it's adjustment range fully available for when it's time to tension `GT2-belt`"
 
-	![](img/tensioner-bolt-ok-ng.png)
+	![](img/tensioner-bolt-ok-ng.webp)
 
 - Insert a `M5-nylock-hex-nut` into `belt-tension-arm`'s hex-nut pocket
-	![](img/gt2-pivot-hex-nut-insert.png)
+	![](img/gt2-pivot-hex-nut-insert.webp)
 
 - Slide a `GT2-idler-pulley` into the `belt-tensioner-arm`
-	![](img/gt2-idler-install.png)
+	![](img/gt2-idler-install.webp)
 
 	!!!note "Note that the `GT2-idler-pulley` is symmetrical, so it's orientation does not matter"
 
@@ -54,22 +54,22 @@ The purpose of this work instruction is to explain the assembly process for the 
 	- Avoid over tightening this bolt as the `GT2-idler-pulley` should be able to spin freely without resistance
 	- The bolt should, however, be tightened enough to eliminate lateral pulley movement within the `belt-tensioner-arm`
 
-	![](img/gt2-idler-pivot-bolt.png)
+	![](img/gt2-idler-pivot-bolt.webp)
 
 ### Install belt-tensioner-arm onto front-left-leg
 
 - Add a drop of `ptfe-silicone-lubricant` to both sides of `belt-tensioner-arm`'s pivot point
 
 - Install `belt-tensioner-arm` onto `front-left-leg`
-	![](img/belt-tensioner-arm-asm-install.png)
+	![](img/belt-tensioner-arm-asm-install.webp)
 
 - Secure the `belt-tensioner-arm` onto `front-left-leg` with a `M5x40-bolt`
 	- Avoid over tightening this bolt as the `belt-tensioner-arm` should be able to pivot freely without *much* resistance
 
-	![](img/belt-tensioner-pivot-bolt.png)
+	![](img/belt-tensioner-pivot-bolt.webp)
 
 - The completed `front-left-leg` should match the image shown below
-	![](img/complete-front-left-leg.png)
+	![](img/complete-front-left-leg.webp)
 
 ## Create Back-Left-Leg Subassembly
 
@@ -79,8 +79,8 @@ The purpose of this work instruction is to explain the assembly process for the 
 	- Finger strength *should* be sufficient to install this fastener into position
 	!!!glue "Glue if needed"
 		Add a drop of loctite to the region if the fastener fit is looser than normal and seems at risk of falling out in transit
-	![](img/back-leg-hex-nut1.png)
-	![](img/back-leg-hex-nut2.png)
+	![](img/back-leg-hex-nut1.webp)
+	![](img/back-leg-hex-nut2.webp)
 
 ### Prepare y-gantry stepper motor
 - Gather the following parts and tools
@@ -89,40 +89,40 @@ The purpose of this work instruction is to explain the assembly process for the 
 	- y-timing-pulley-spacer-jig
 	- Torque driver w/2mm hex driver, set to `0.7 N/M` *(not shown)*
 
-	![](img/y-gantry-motor-prep0.png)
+	![](img/y-gantry-motor-prep0.webp)
 - Use motor spacing jig to mount the timing pulley to the NEMA 17, ensuring the set screw is aligned to the flat side of the motor shaft
-	![](img/y-gantry-motor-prep1.png)
+	![](img/y-gantry-motor-prep1.webp)
 - Tighten the 2x timing pulley set screws to 0.7 N/M - first tightening the one facing the flat on the motor shaft
-	![](img/y-gantry-motor-prep2.png)
-	![](img/y-gantry-motor-prep3.png)
+	![](img/y-gantry-motor-prep2.webp)
+	![](img/y-gantry-motor-prep3.webp)
 	
 ### Install y-gantry stepper motor onto back-leg
 - Connect `Y1-stepper-motor-cable` to the `y-gantry-stepper-motor`
 
-	![](img/y1-cable-connected.png)
+	![](img/y1-cable-connected.webp)
 
 - Install the  `y-gantry-stepper-motor` onto `back-leg`
 	- The `Y1-stepper-motor-cable` should be routed through `back-leg` to exit towards the center of the machine
 	- Ensure no wires are being crushed or strained
 
-	![](img/install-y1-stepper.png)
+	![](img/install-y1-stepper.webp)
 
 - Put 4x `M3x8-bolt` through the motor mounting holes found on `back-leg`
 
-	![](img/bolt-y1-stepper-motor.png)
+	![](img/bolt-y1-stepper-motor.webp)
 
 - Install a `zip-tie` for cable strain relief
 	- Use a `zip-tie` to attached the `Y1-stepper-motor-cable` to the `back-leg` to add strain relief
 
-		![](img/zip-tie-y1-cable1.png)
+		![](img/zip-tie-y1-cable1.webp)
 
 	- Cut the `zip-tie` with `flush-cutters`
 
-		![](img/zip-tie-y1-cable2.png)
+		![](img/zip-tie-y1-cable2.webp)
 
 	- Ensure that `Y1-stepper-motor-cable` and `zip-tie` are resting against the logo-face side of `back-leg`
 
-		![](img/zip-tie-y1-cable3.png)
+		![](img/zip-tie-y1-cable3.webp)
 
 ## Assemble y-gantry-left
 
@@ -132,69 +132,69 @@ The purpose of this work instruction is to explain the assembly process for the 
 	- There should be about 51.5mm between the end of the `525mm-m3-t-nut-bar` and the right-side end of the `alu-extrusion` after installation
 	- The `525mm-m3-t-nut-bar` needs to be slide aside in later steps, so do not bother to make this perfect right now
 
-	![](img/install-tnut-bar.png)
+	![](img/install-tnut-bar.webp)
 
 - Insert `front-left-leg` and `back-leg` onto 2x pieces of `alu-extrusion`
 	- The `525mm-m3-t-nut-bar` is oriented in the top-side groove of the uppermost `alu-extrusion`
 	- The extrusion pieces should be *fully* inserted into each leg
 
-	![](img/install-legs-onto-ext.png)
+	![](img/install-legs-onto-ext.webp)
 
 - Bolt `back-leg` to `alu-extrusion`
 	- Insert 3x `m3-t-nut` into the `alu-extrusion` pieces before sliding each of them into alignment with the matching bolt holes on `back-leg`
 
-		![](img/back-leg-t-nut-insertion.png)
+		![](img/back-leg-t-nut-insertion.webp)
 
 	- Insert 3x `M5x10-bolt` into `back-leg` and thread the bolts into each corresponding `M5-t-nut`
 
-		![](img/bolt-back-leg-to-ext.png)
+		![](img/bolt-back-leg-to-ext.webp)
 
 - Bolt `front-left-leg` to `alu-extrusion`
 	- Slide the `M3-t-nut-bar` out of the way *if needed*
 	- Insert an `M5-t-nut` into the upper channel of `alu-extrusion`
 	- Align the `M5-t-nut` with the top-side bolt hole on `front-left-leg`  
 
-		![](img/insert-front-leg-top-t-nut.png)
+		![](img/insert-front-leg-top-t-nut.webp)
 
 	- Insert a `M5x10-bolt` into the top-side bolt hole on `front-left-leg` and tighten it into the `M5-t-nut`
 
-		![](img/insert-front-leg-top-m5x10-bolt.png)
+		![](img/insert-front-leg-top-m5x10-bolt.webp)
 
 	- Slide 2x `M5-t-nut` into the the side channel of lower `alu-extrusion` and align them with the two bolt holes on `front-left-leg`
 
-		![](img/insert-front-leg-bottom-t-nut.png)
+		![](img/insert-front-leg-bottom-t-nut.webp)
 
 	- Insert 2x `M5x10-bolt` into the side bolt holes on `front-left-leg` and tighten each into the corresponding `M5-t-nut`
 
-		![](img/insert-front-leg-side-t-nut.png)
+		![](img/insert-front-leg-side-t-nut.webp)
 
 - Compare the WIP `y-gantry-left` assembly to the image below after completing all previous steps, address any discrepancies as needed before proceeding onward
 
-	![](img/y-gantry-left-process-check1.png)
+	![](img/y-gantry-left-process-check1.webp)
 
 ### Install linear-rail-550mm
 
 - Roughtly position `linear-rail-550mm` onto top-side of uppermost `alu-extrusion`
 
-	![](img/position-y-linear-rail.png)
+	![](img/position-y-linear-rail.webp)
 
 - Place a `linear-rail-2020-alignment-jig` on both ends of `linear-rail-550mm`
 	- Do not cover any bolt holes with the jig  
 
-	![](img/insert-y-rail-alignment-jig.png)
+	![](img/insert-y-rail-alignment-jig.webp)
 
 - Visually center the `linear-rail-550mm` between the `back-leg` and `front-left-leg`
 - Slide the `M3-t-nut-bar` to line up with the linear rail's bolt hole pattern
 - Starting from the `front-left-leg` side, lightly snug a `M3x8-bolt` into **every other** bolt hole on `linear-rail-550mm`
 	- Move the `linear-rail-carriage` out of the way as needed
 
-	![](img/install-11x-linear-rail-bolts.png)
+	![](img/install-11x-linear-rail-bolts.webp)
 
 - Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end
 	- A torque wrench should be used to set the specified bolt torque
 	- The torque specification for these `M3x8-bolts` is `0.5N/M`
 
-	![](img/y-linear-rail-bolt-sequence.png)
+	![](img/y-linear-rail-bolt-sequence.webp)
 
 - Remove the `linear-rail-2020-alignment-jig` from both ends of `linear-rail-550mm`
 - Slide the linear-rail-carriage back and forth a few times, checking to see that it travels smoothly and consistently
@@ -203,7 +203,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 - Verify that `y-gantry-left` matches the following photo
 
-	![](img/y-gantry-checkpoint.png)
+	![](img/y-gantry-checkpoint.webp)
 
 !!!success "If `y-gantry-left` matches the photo, proceed to the next section"
 !!!failure "If `y-gantry-left` does not match the photo, correct discrepancies before proceeding to the next section"
@@ -220,11 +220,11 @@ The purpose of this work instruction is to explain the assembly process for the 
 		- Run it back through the extrusion towards the `back-leg` again
 		- Have the belt exit through the `y-gantry`'s right-side slot
 
-	![](img/route-belt-through-step1.png)
+	![](img/route-belt-through-step1.webp)
 
 - Slide the `y-gantry` subassembly onto the `linear-rail-carriage` while pulling slack out of the `GT2-belt`
-	![](img/route-belt-through-step2.png)
-	![](img/belt-pulled-through-irl.png)
+	![](img/route-belt-through-step2.webp)
+	![](img/belt-pulled-through-irl.webp)
 
 - Bolt `y-gantry` to the `linear-rail-carriage` with 4x `M3x8-bolt`
 	- Tighten each bolt to 0.5 N/M
@@ -232,50 +232,50 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	!!!warning "Ensure that `y-gantry` sits flush against `linear-rail-carriage` without any visible gaps"
 
-	![](img/bolt-y-gantry-to-carriage.png)
+	![](img/bolt-y-gantry-to-carriage.webp)
 
 - Use `belt-clamp` with 2x `M5x10-bolt` to clamp the left-side of the `GT2-belt` to the `y-gantry`
 	- Tighten each `M5x10-bolt` to 0.5 N.M
 
-	![](img/route-belt-through-step3.png)
-	![](img/route-belt-through-step4.png)
+	![](img/route-belt-through-step3.webp)
+	![](img/route-belt-through-step4.webp)
 
 ### Tension the Y-Gantry
 
 - Pull the right-side `GT2-belt` tightly towards `front-left-leg`
 
-	![](img/route-belt-through-step5.png)
+	![](img/route-belt-through-step5.webp)
 
 - Use `belt-clamp` with 2x `M5x10-bolt` to clamp the right-side `GT2-belt` to the `y-gantry`
 	- Tighten each `M5x10-bolt` to 0.5 N.M
 
-	![](img/route-belt-through-step6.png)
+	![](img/route-belt-through-step6.webp)
 
 - Rotate the `M3x16-bolt` clockwise on the `belt-tensioner-arm` to tension the `GT2-belt` installed on `y-gantry-left`
 	- This will cause the `belt-tensioner-arm` to pull the `idler-pulley` away from the `front-left-leg` which adds desired tension to `GT2-belt`
 
-	![](img/tension-belt-arm.png)
+	![](img/tension-belt-arm.webp)
 
 - Trim the loose `GT2-belt` on either side of the `y-gantry`
 	- For the `front-left-leg` side of the `y-gantry` print, trim the loose `GT2-belt` until it's flush against `belt-clamp`
 	- For the `back-leg` side of the `y-gantry` print, trim the loose `GT2-belt` until there's approx. 15mm of `GT2-belt` past `belt-clamp`
 
-	![](img/belt-cut-to-length.png)
+	![](img/belt-cut-to-length.webp)
 
 ### Add cable management
 
 - Use **3x** `extrusion-cable-clip` to secure the `Y1-stepper-motor-cable` to the inner side of the lower `alu-extrusion`
 
-	![](img/y-gantry-extrusion-cable-clip.png)
+	![](img/y-gantry-extrusion-cable-clip.webp)
 
 - Position the right-most `extrusion-cable-clamp` and the cable to match the following image:
 
-	![alt text](img/y-gantry-final-wiring.png)
+	![alt text](img/y-gantry-final-wiring.webp)
 
 ## Quality Checks
 A `y-gantry-left` that was built while following the above steps will match the following image.
 
-![](img/complete-y-gantry-left.png)
+![](img/complete-y-gantry-left.webp)
 
 Confirm this by inspecting the completed `y-gantry-left` assembly with the following QC checklist:
 

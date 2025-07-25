@@ -5,7 +5,7 @@
 - Review Coeffient V3 to see which orders should be shipped based off their `Batch WK#`
 	- Orders are sorted into a given `Batch WK#` based off their `Planned Ship Date`, which may differ from the `Order Due Date`
   
-	![](batching-orders.png)
+	![](batching-orders.webp)
 
 	!!!info "See [here](planned-ship-date-calc.md) for more information on our Planned Ship Date calculations"  
 
@@ -21,7 +21,7 @@
 	- Make a copy of the most recent slide and replace the image with the screenshot of the ShipStation batch you are working with
 	- The checklist printout should look like the following image:
 
-		![](Order-Packing-Checklist.png)
+		![](Order-Packing-Checklist.webp)
 
 3. Fill in the time and date for any scheduled pickup, per carrier
 
@@ -91,7 +91,7 @@
 
 	- Shipments that contain a LumenPnP must have an orange fragile sticker adhered to the box after being taken through this form
 
-	![](oqc-form.png)
+	![](oqc-form.webp)
 
 ## Outgoing Quality Control (OQC)
 

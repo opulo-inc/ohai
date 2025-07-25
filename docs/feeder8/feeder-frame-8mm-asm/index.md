@@ -5,7 +5,7 @@ This section will guide the reader through the process of installing various har
 * Inspect the print for defects
 	* Use a heat gun to remove any stringing
 	* Check the first layer to ensure it is free of defects and printed on the tuxtured print bed as shown
-	![](img/IMG_2231.jpg)
+	![](img/IMG_2231.webp)
 	* Firmly press the up and down buttons so that they can move freely
 	
 
@@ -18,35 +18,35 @@ This section will guide the reader through the process of installing various har
 	* Remove any loose plastic with a knife as needed
 
 	!!! failure "Rework Needed"
-		<img src="img/img9.JPG" width="60%" height=auto>
+		<img src="img/img9.webp" width="60%" height=auto>
 	
 	!!! success "OK"
-		<img src="img/img10.JPG" width="60%" height=auto>
+		<img src="img/img10.webp" width="60%" height=auto>
 
 
 ## Install Light Diffuser
 * Use an `arbor-press-jig` to install `light-diffuser-pcb (PCB-0013-01)` into `feeder-frame-8mm`
 	* The Opulo logo on `light-diffuser-pcb` should be in the correct orientation when the feeder is held in front of you
 
-	<img src="img/img5.JPG" width="60%" height=auto>
-	<img src="img/img7.JPG" width="60%" height=auto>
+	<img src="img/img5.webp" width="60%" height=auto>
+	<img src="img/img7.webp" width="60%" height=auto>
 	
 * The installed `light-diffuser-pcb` should be flush to the top-face of `feeder-frame-8mm` when installed correctly
 
-	<img src="img/img8.JPG" width="60%" height=auto>
+	<img src="img/img8.webp" width="60%" height=auto>
 
 
 
 ## Install 8mm Fiducial Board
 * Add a small amount of `LOCTITE 435` in the front pocket of the `feeder-frame-8mm`
 
-	![](img/IMG_2198.jpg)
+	![](img/IMG_2198.webp)
 
 * Manually install `8mm-fiducial-board` into the front pocket of `feeder-frame-8mm`
 	*  The fiducial markers should remain visible when installed 
 
-	![](img/IMG_2199.jpg)
+	![](img/IMG_2199.webp)
 
 * Orient `feeder-frame-8mm` upright for 30 minutes to allow `LOCTITE 435` time to cure 
-	![](img/IMG_2232.jpg)
+	![](img/IMG_2232.webp)
 

@@ -6,11 +6,11 @@ This section will guide the reader on how to properly package a `feeder-connecti
 
 * Apply hot melt glue to inside faces of `feeder-accessory-tray`
 
-	![](img/hot-glue.JPG)
+	![](img/hot-glue.webp)
 
 * Immediately after gluing, folding `feeder-accessory-tray`
 
-	![](img/feeder-connection-kit-1.JPG)
+	![](img/feeder-connection-kit-1.webp)
 
 ## Package `feeder-connection-kit`
 * Install the following items into the `feeder-accessory-tray`:
@@ -24,7 +24,7 @@ This section will guide the reader on how to properly package a `feeder-connecti
 	* `bagged-extrusion-cable-clips`
 	* `drive-wheel-adj-key`
 
-	![alt text](img/connection-kit-ph10.JPG)
+	![alt text](img/connection-kit-ph10.webp)
 
 	!!!warning "The above photo forgets to show the bagged `drive-wheel-adj-key`"
 

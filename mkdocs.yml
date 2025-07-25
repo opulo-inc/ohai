@@ -16,7 +16,7 @@ markdown_extensions:
 
 theme:
   name: material
-  logo: img/opulo.png
+  logo: img/opulo.webp
   favicon: img/favicon.ico
   font:
     text: Lexend
@@ -51,7 +51,7 @@ nav:
         - Additional Parts: lumen/additional-parts/index.md
         - Packaging: lumen/pack-out/index.md
         - Jigs: lumen/jigs/index.md
- 
+
   - Feeder:
         - Overview: feeder8/index.md
         - PCB: feeder8/pcb/index.md
@@ -106,7 +106,7 @@ nav:
         - Feeder Part Kit: diy-components/feeder-part-kit/index.md
         - Control Box: diy-components/control-box/index.md
         - Fastener Kit: diy-components/fastener-kit/index.md
-  
+
   - Operations:
         - Overview: operations/index.md
         - Ordering from LCSC: operations/purchasing-from-lcsc/index.md
@@ -114,3 +114,4 @@ nav:
         - Order Fulfillment: operations/order-fulfillment/
         - Weekly Removal of Non-Serialized Shipped Goods from Inventory: operations/managing-weekly-non-serialized-aligni-builds/index.md
         - Inventory Day: operations/inventory-audit/index.md
+        - Printing LumenPnP Lables: operations/printing_lumenpnp_labels/index.md

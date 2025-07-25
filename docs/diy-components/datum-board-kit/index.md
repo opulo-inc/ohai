@@ -14,18 +14,18 @@ The purpose of this work instructions is to document the assembly process for th
     - 1x `product-label`
     - 1x `build-number-sticker`
 
-    ![alt text](img/IMG_0807.jpg)
+    ![alt text](img/IMG_0807.webp)
 
 - Place a `datum-board` and `opulo-sticker` into the `3x4-bag` before sealing it closed
 
-    ![alt text](img/IMG_0808.jpg)
+    ![alt text](img/IMG_0808.webp)
 
 - Adhere the `product-label` to the outside of the `3x4-bag`
 
-    ![alt text](img/IMG_0809.jpg)
+    ![alt text](img/IMG_0809.webp)
 
 - Adhere a `build-number-sticker` to the `product-label`
 
-    ![alt text](img/IMG_0810.jpg)
+    ![alt text](img/IMG_0810.webp)
 
 !!!success "The `LumenPnP Datum Board Kit` is now ready for packout!"

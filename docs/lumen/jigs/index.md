@@ -24,7 +24,7 @@ Below are individual sections for each jig or fixture:
 * **Download Link**: [Download .STEP](assets/bottom-camera-focus-v4.step)
 * **Image**:
 
-    ![bottom Camera Focus Jig](img/bottom-camera-focus-jig-v4.png)
+    ![bottom Camera Focus Jig](img/bottom-camera-focus-jig-v4.webp)
 
 * **Additional things you'll need:**
 
@@ -39,7 +39,7 @@ Below are individual sections for each jig or fixture:
 * **Download Link**: [Download .STL](assets/top-camera-focus-jig-v4.stl)
 * **Image**:
 
-    ![top Camera Focus Jig](img/top-camera-focus-jig-v4.png)
+    ![top Camera Focus Jig](img/top-camera-focus-jig-v4.webp)
 
 * **Additional things you'll need:**
 
@@ -54,7 +54,7 @@ Below are individual sections for each jig or fixture:
 * **Download Link**: [Download .STL](assets/z-belt-alignment-jig.stl)
 * **Image**:
 
-    ![z-belt-alignment-jig](img/z-belt-alignment-jig.png)
+    ![z-belt-alignment-jig](img/z-belt-alignment-jig.webp)
 
 ### Drive Wheel Shims
 
@@ -63,7 +63,7 @@ Below are individual sections for each jig or fixture:
 * **Download Link**: [Download .SVG](assets/drive-wheel-shims.svg)
 * **Image**:
 
-    ![drive-wheel-shims](img/drive-wheel-shims.png)
+    ![drive-wheel-shims](img/drive-wheel-shims.webp)
 
 * **Additional things you'll need:**
   * 1.3mm brass shim stock (delivered as a flat sheet, you don't want it come rolled!)
@@ -75,7 +75,7 @@ Below are individual sections for each jig or fixture:
 * **Download Link**: [Download .STL](assets/linear-rail-2020-alignment-fixture.stl)
 * **Image**:
 
-    ![linear-rail-2020-alignment-fixture](img/linear-rail-2020-alignment-fixture.png)
+    ![linear-rail-2020-alignment-fixture](img/linear-rail-2020-alignment-fixture.webp)
 
 #### License Note
 

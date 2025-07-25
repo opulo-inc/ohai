@@ -11,11 +11,11 @@ Preparing x-gantry
 *	Remove any stringing from the print with a heat gun
 *	Insert 4x `m5-hex-nut` into the following region
 
-	<img src="images/nut1-x-gantry-back.jpg"/>
+	<img src="images/nut1-x-gantry-back.webp"/>
 
 *	Insert 5x `m5-hex-nut` into the following region
 	* Add a drop of `blue-loctite` into each of these pockets to permanently secure each nut in place
-	<img src="images/nut2-x-gantry-back.jpg"/>
+	<img src="images/nut2-x-gantry-back.webp"/>
 
 #### Check `top-camera` focus
 
@@ -23,33 +23,33 @@ Preparing x-gantry
 
 *   Connect `top-camera-focus-jig` to a laptop and open a native camera viewing application
 
-	<img src="images/image36.jpg"/>
+	<img src="images/image36.webp"/>
 
 *   Remove `lens-cap` from `top-camera`
 
 *   Install the `top-camera` fully into the `top-camera-focus-jig`, plugging the USB cable into the camera module afterwards
 
-	<img src="images/image56.jpg"/>
+	<img src="images/image56.webp"/>
 
 *   In Photo Booth, change the selected camera to `LumenPnP Top` to view the camera feed from  `top-camera`
 
-	<img src="images/image60.jpg"/> 
+	<img src="images/image60.webp"/> 
 
 !!!success "If the datum-board is sharp and nicely focused continue onward"
 
-	<img src="images/image48.jpg"/>
+	<img src="images/image48.webp"/>
 
 !!!failure "If the datum-board is blurry and out of focus, follow instructions below"
 
-	<img src="images/image39.jpg"/>
+	<img src="images/image39.webp"/>
 
 	*   Loosen `set-screw` on side of lens body
 
-		<img src="images/image21.jpg"/>
+		<img src="images/image21.webp"/>
 
 	*   Rotate camera lens until live view shows `datum-board` as focused as possible
 
-		<img src="images/image48.jpg"/>
+		<img src="images/image48.webp"/>
 
 	*   Once the camera is refocused, tighten `set-screw` to preserve the adjustments
 
@@ -59,19 +59,19 @@ Preparing x-gantry
 
 *   Install `top-camera` into x-gantry-back
 
-	<img src="images/x-gantry-back-install-camera.jpg"/>
+	<img src="images/x-gantry-back-install-camera.webp"/>
 
 *   Install `top-ring-light` into `top-light-mount`
 
-	<img src="images/install-ring-light.jpg"/>
+	<img src="images/install-ring-light.webp"/>
 
 *   Install `top-light-mount` onto back of `x-gantry-back`
 
-	<img src="images/install-top-light-mount1.jpg"/>
+	<img src="images/install-top-light-mount1.webp"/>
 
 *   Secure `top-light-mount` in place with 2x `M3x12-self-tapping-flat-head`
 
-	<img src="images/screw-in-top-light-mount.jpg"/>
+	<img src="images/screw-in-top-light-mount.webp"/>
 
 ### Prepare `NEMA-17-stepper-motor` for `x-linear-axis`
 
@@ -80,19 +80,19 @@ Preparing x-gantry
 *  Tighten the first `set-screw` into the flat region found on the `NEMA-17-stepper-motor` shaft, before tightening the second `set-screw`
 	*   Tighten each `set-screw` to 0.5 N/M
 
-	<img src="images/image34.jpg"/>
+	<img src="images/image34.webp"/>
 
 ### Install `NEMA-17-stepper-motor` onto `x-motor-mount`
 
 *	Orient `NEMA-17-stepper-motor` onto `x-motor-mount` so that the motor's connector is facing the backside of the print as shown in the image below
 
-	<img src="images/motor-connector-orientation.jpg"/>
+	<img src="images/motor-connector-orientation.webp"/>
 
 *   Bolt `NEMA-17-stepper-motor` onto x-`motor-mount` with 4x `M3x8-bolt`
 
 	*   Tighten these bolts to 0.5 N/M
 
-	<img src="images/image4.jpg"/>
+	<img src="images/image4.webp"/>
 
 ### Install `XY-limit-switch-board` onto `x-motor-mount`
 
@@ -100,7 +100,7 @@ Preparing x-gantry
 	* Tighten each screw in place with the electic torque driver
 
 
-	<img src="images/install-xy-limit-switch-board.png" />
+	<img src="images/install-xy-limit-switch-board.webp" />
 
 ### Install `belt-tensioner-arm` onto `x-idler mount`
 
@@ -110,35 +110,35 @@ Preparing x-gantry
 
 * Install 1x `M5-lock-nut` into `x-idler-mount`
 
-	<img src="images/install-belt-tensioner-arm-nut.jpg"/>
+	<img src="images/install-belt-tensioner-arm-nut.webp"/>
 
 *   Install `belt-tensioner-arm` onto `x-idler-mount`
 
-	<img src="images/place-belt-tensioner-arm.jpg"/>
+	<img src="images/place-belt-tensioner-arm.webp"/>
 
 *   Bolt `belt-tensioner-arm` to `x-idler-mount` with 1x `M5x40-socket-head-bolt`
 	*   Avoid over tightening the bolt! `belt-tensioner-arm` should be able to pivot smoothly without much resistance.
 	*   Ensure the belt-tensioner-arm is installed correctly on x-idler-mount (IE not backwards)
 		*   The acorn nut should be resting against the x-idler mount when installed correctly
 
-	<img src="images/bolt-belt-tensioner-arm.jpg"/>
+	<img src="images/bolt-belt-tensioner-arm.webp"/>
 
 ### Install `alu-extrusion` onto `x-motor-mount`
 
 *	Insert `alu-extrusion` into `x-idler-mount`, using light force as necessary
 
-	<img src="images/install-ext-into-x-motor-mount.jpg"/>
+	<img src="images/install-ext-into-x-motor-mount.webp"/>
 
 *	Insert 2x `M5-t-nut` into `alu-extrusion`
 
-	<img src="images/install-x-motor-mount-t-nut.jpg"/>
+	<img src="images/install-x-motor-mount-t-nut.webp"/>
 
-	<img src="images/install-x-motor-mount-t-nut2.jpg"/>
+	<img src="images/install-x-motor-mount-t-nut2.webp"/>
 
 *	Secure `alu-extrusion` in place with 2x `M5x10-socket-head-bolt`
 	* Tighten these bolts to 0.5N/M
 
-	<img src="images/install-x-motor-mount-bolt.jpg"/>
+	<img src="images/install-x-motor-mount-bolt.webp"/>
 
 ### Install `M3-t-nut-bar`
 
@@ -146,53 +146,53 @@ Preparing x-gantry
 
 *	Slide `M3-t-nut-bar` into top-side track of `alu-extrusion`
 
-	<img src="images/install-x-tee-nut-bar.jpg"/>
+	<img src="images/install-x-tee-nut-bar.webp"/>
 
 ### Install `x-idler-mount` onto `alu-extrusion`
 
 *	Insert 2x `M5-t-nut` into `alu-extrusion`
 
-	<img src="images/install-x-idler-t-nut.jpg"/>
+	<img src="images/install-x-idler-t-nut.webp"/>
 
 *	Slide `x-idler-mount` onto `alu-extrusion`
 
-	<img src="images/install-x-idler-mount-1.jpg"/>
+	<img src="images/install-x-idler-mount-1.webp"/>
 
-	<img src="images/install-x-idler-mount-2.jpg"/>
+	<img src="images/install-x-idler-mount-2.webp"/>
 
 *	Use `x-gantry-spacer-jig` to slide `x-idler-mount` onto `alu-extrusion` the required amount
 	*	The WIP `x-linear-axis` should be sitting on `x-gantry-spacer-jig` snug - not overly tight - when `x-idler-mount` is at the correct depth
 
-	<img src="images/install-x-idler-mount-3.jpg"/>
+	<img src="images/install-x-idler-mount-3.webp"/>
 
 *	Secure `x-idler-mount` in place with 2x `M5x10-socket-head-bolt`
 	* Tighten these bolts to 0.5N/M
 
-	<img src="images/install-x-idler-mount-4.jpg"/>
+	<img src="images/install-x-idler-mount-4.webp"/>
 	
 
 ### Install `linear-rail-525mm`
 
 *	Roughly position `linear-rail-525mm` onto top-side of `alu-extrusion`
 
-	<img src="images/install-x-linear-rail.jpg"/>
+	<img src="images/install-x-linear-rail.webp"/>
 
 *	Place a `linear-rail-2020-alignment-jig` on both ends of `linear-rail-525mm`
 	*	Do not cover any bolt holes with the jig
 
-	<img src="images/install-x-linear-rail-2.jpg"/>
+	<img src="images/install-x-linear-rail-2.webp"/>
 
 *	Visually center `linear-rail-525mm` between `x-motor-mount` and `x-idler-mount`
 *	Slide the `M3-t-nut-bar` to line up with the rail's bolt hole pattern
 *	Starting from the `x-motor-mount` side, lightly snug a `M3x8-bolt` into every other bolt hole on `linear-rail-525mm`
 	*	Move the `linear-rail-carriage` out of the way as needed
 
-	<img src="images/install-x-linear-rail-3.jpg"/>
+	<img src="images/install-x-linear-rail-3.webp"/>
 
 *	Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end.
 	*	A torque wrench set to 0.5N/M must be used when tightening these bolts
 
-	<img src="images/install-x-linear-rail-4.jpg"/>
+	<img src="images/install-x-linear-rail-4.webp"/>
 
 *	Remove the `linear-rail-2020-alignment-jig` from both ends of `linear-rail-525mm`
 *	Slide the `linear-rail-carriage` back and forth a few times, checking to see that it travels smoothly and consistently
@@ -209,11 +209,11 @@ Preparing x-gantry
 		* Run it back through the extrusion towards the `x-motor-mount` again
 		* Have the belt exit through the right-side slot on `x-gantry-back`
 
-	<img src="images/install-x-GT2-belt.jpg"/>
+	<img src="images/install-x-GT2-belt.webp"/>
 
 * Slide the `x-gantry-back` onto the `linear-rail-carriage` while pulling slack out of the `GT2-belt`
 
-	<img src="images/install-x-GT2-belt-2.jpg"/>
+	<img src="images/install-x-GT2-belt-2.webp"/>
 
 * Bolt `x-gantry-back` to the `linear-rail-carriage` with 4x `M3x16-bolt`
 	*   Tighten each bolt to 0.5 N/M
@@ -221,13 +221,13 @@ Preparing x-gantry
 
 	!!!warning "Ensure that `x-gantry-back` sits flush against `linear-rail-carriage` without any visible gaps"
 
-	<img src="images/bolt-x-gantry-back-to-linear-rail.jpg"/>
+	<img src="images/bolt-x-gantry-back-to-linear-rail.webp"/>
 
 * Use `belt-clamp` with 2x `M5x10-bolt` to clamp the left-side of the `GT2-belt` to the `x-gantry-back`
 	* Tighten each `M5x10-bolt` to 0.5 N.M
 
-	<img src="images/bolt-belt-clamp1-to-x-gantry-back.jpg"/>
-	<img src="images/bolt-belt-clamp1-to-x-gantry-back-2.jpg"/>
+	<img src="images/bolt-belt-clamp1-to-x-gantry-back.webp"/>
+	<img src="images/bolt-belt-clamp1-to-x-gantry-back-2.webp"/>
 
 ### Tension belt
 
@@ -235,24 +235,24 @@ Preparing x-gantry
 * Use `belt-clamp` with 2x `M5x10-bolt` to clamp the right-side `GT2-belt` to the `y-gantry`
 	* Tighten each `M5x10-bolt` to 0.5 N.M
 
-	<img src="images/bolt-belt-clamp2-to-x-gantry-back.jpg"/>
+	<img src="images/bolt-belt-clamp2-to-x-gantry-back.webp"/>
 
 * Rotate the `M3x16-bolt` clockwise on `belt-tensioner-arm` installed on `x-idler-mount` to tension the `GT2-belt`
 	* This will cause the `belt-tensioner-arm` to pull the `idler-pulley` away from `x-idler-mount` adding desired tension to the `GT2-belt`
 
-	<img src="images/tension-x-belt-1.jpg"/>
-	<img src="images/tension-x-belt-2.jpg"/>
+	<img src="images/tension-x-belt-1.webp"/>
+	<img src="images/tension-x-belt-2.webp"/>
 
 
 * Trim the loose `GT2-belt` on either side of the `x-gantry-back`
 	* For the `x-motor-mount` side of the `x-gantry-back` print, trim loose `GT2-belt` until flush against `belt-clamp`
 	* For the `x-idler-mount` side of the `x-gantry-back` print, trim loose `GT2-belt` until approx. 15mm of `GT2-belt` remains past `belt-clamp`
 
-	<img src="images/trim-x-belt.jpg"/>
+	<img src="images/trim-x-belt.webp"/>
 
 ### Confirm progress
 *	Check that finished `x-linear-axis` matches the image shown below before proceeding
-<img src="images/finished-x-linear-axis.jpg"/>
+<img src="images/finished-x-linear-axis.webp"/>
 
 
 
@@ -265,21 +265,21 @@ Preparing x-gantry
 	*   The 1st set-screw tightened must contact the flat region of the motor’s shaft
 		*   Tighten both set screws to 0.4 N/M
 
-		<img src="images/image58.jpg"/>
+		<img src="images/image58.webp"/>
 
-		<img src="images/image57.jpg"/>
+		<img src="images/image57.webp"/>
 
 ### Prepare `z-belt-subassembly`
 
 *   Prepare `z-gantry-backplate-right`
 	*   	Drill out the limit switch striker bolt hole on `z-gantry-backplate-right` with a 2.5mm drill bit
 
-		<img src="images/image9.jpg"/>
+		<img src="images/image9.webp"/>
 
 	*   Install 1x `M3x16-flathead-bolt` into `z-gantry-backplate-right` to a depth that roughly matches the image shown below
 		*   This screw depth will be precisely adjusted in later steps
 
-		<img src="images/image51.jpg"/>
+		<img src="images/image51.webp"/>
 
 * Install both `z-gantry-backplate-left` and `z-gantry-backplate-right` onto `gt2-belt-loop`
 	*   Place a `gt2-belt-loop` onto the `z-belt-alignment-jig`
@@ -293,7 +293,7 @@ Preparing x-gantry
 
 *   Use an arbor press to install an `M5-lock-nut` into backside of `x-gantry-front`
 
-	<img src="images/image38.jpg"/>
+	<img src="images/image38.webp"/>
 
 ### Install 2x `linear rail` onto `x-gantry-front`
 
@@ -302,11 +302,11 @@ Preparing x-gantry
 	*   Uses 3x `M3x12-self-tapping-button-head` per `linear-rail`
 	*   Tighten each bolt in place with the electic torque driver
 
-	<img src="images/image44.jpg"/>
+	<img src="images/image44.webp"/>
 
-	<img src="images/align-rail.jpg"/>
+	<img src="images/align-rail.webp"/>
 
-	<img src="images/image67.jpg"/>
+	<img src="images/image67.webp"/>
 
 ### Install `z-axis-limit-switch`
 
@@ -314,16 +314,16 @@ Preparing x-gantry
 	* Tighten each screw in place with the electic torque driver
 *   Make sure each limit switch clicks and feels normal when actuated
 
-	<img src="images/image22.jpg"/>
+	<img src="images/image22.webp"/>
 
-	<img src="images/image63.jpg"/>
+	<img src="images/image63.webp"/>
 
 ### Install z-axis belt drive components
 
 *   Secure `idler-pulley` onto `x-gantry-front`  with 1x `M5x25-bolt`, tightened enough that the pulley can rotate freely without resistance
 *   Check that the pulley can only rotate - it should not be able to move up and down if the bolt is tightened correctly
 
-	<img src="images/image20.jpg"/>
+	<img src="images/image20.webp"/>
 
 *   Begin by placing `z-belt-subassembly` onto  `x-gantry-front`
 
@@ -331,46 +331,46 @@ Preparing x-gantry
 
 	*	The `gt2-belt-loop` should wrap around the `idler-pulley`
 
-	<img src="images/image66.jpg"/>
+	<img src="images/image66.webp"/>
 
 *   Install the `NEMA-17-stepper-motor` by angling it into the `z-belt-subassembly`
 
 	*   The limit switch connector will be at a 45º from the motor’s connector when everything is in the proper position.
 
-	<img src="images/image7.jpg"/>
+	<img src="images/image7.webp"/>
 
 *   Bolt `NEMA-17-stepper-motor` onto `x-gantry-front` with 4x `M3x8-bolt`
 
 	*   Leave the bolts loose for now
 
-	<img src="images/image1.jpg"/>
+	<img src="images/image1.webp"/>
 
 *   Tension `gt2-belt-loop` by pulling the motor upwards before tightening the mounting bolts to 0.5 N/M
 
 	*   The belts should feel much firmer now - to test manually move the z-axis back and forth while inspecting the belts for sag when changing directions
 	*   You should be able to pluck the belt like a bass string
 
-		<img src="images/image8.jpg"/>
+		<img src="images/image8.webp"/>
 
-		<img src="images/image13.jpg"/>
+		<img src="images/image13.webp"/>
 
 *	The `x-gantry-front` should now match the image shown below:
 
-	<img src="images/checkpoint.jpg"/>
+	<img src="images/checkpoint.webp"/>
 
 ### Install 2x `z-gantry` 
 
 *   Loosely attach a `z-gantry` onto the left-side `linear-rail-carriage` with 4x `M3x8-bolt` per side
-	<img src="images/bolt-left-head.jpg"/>
+	<img src="images/bolt-left-head.webp"/>
 
 *   Align `z-gantry` parallel to `linear-rail` by lightly pressing it outward, while tightening the mounting bolts
 	*   Tighten bolts to 0.5 N/M, moving in a star pattern
 
-	<img src="images/image26.jpg"/>
+	<img src="images/image26.webp"/>
 
 *	Repeat this process to attach the second `z-gantry` to the right-side `linear-rail-carriage`
 
-	<img src="images/2x-z-gantry-installed.jpg"/>
+	<img src="images/2x-z-gantry-installed.webp"/>
 
 ### Install `NEMA11-hollow-shaft-stepper`
 
@@ -378,21 +378,21 @@ Preparing x-gantry
 	*   Attach with 4x M2.5x8 bolts
 	*   Torque each bolt to **0.3 N/M**
 
-	<img src="images/bolt-nema11-1.jpg"/>
+	<img src="images/bolt-nema11-1.webp"/>
 
-	<img src="images/bolt-nema11-2.jpg"/>
+	<img src="images/bolt-nema11-2.webp"/>
 
 ### Install toolhead components
 *	Slide `nozzle-mask` onto `nozzle-holder` as shown in the image below
 
-	<img src="images/slide-nozzle-mask.jpg"/>
+	<img src="images/slide-nozzle-mask.webp"/>
 
 *	Place `rotary-pneumatic-adapter` into `rotary-pneumatic-adapter-socket`
 	*  Attach the custom socket to a torque driver if you have not already done so
 	*  Set the torque driver to `0.5 N/M` for the following steps
 
-	<img src="images/image10-render.jpg"/>
-	<img src="images/image10.jpg"/>
+	<img src="images/image10-render.webp"/>
+	<img src="images/image10.webp"/>
 
 *   Install `nozzle-holder` and `rotary-pneumatic-adapter` onto `NEMA11-hollow-shaft-stepper`
 	*  Begin by loosely threading `nozzle-holder w/attached nozzle-mask` onto the `NEMA11-hollow-shaft-stepper` (on the side closest to the `idler-pulley`)
@@ -400,11 +400,11 @@ Preparing x-gantry
 	*  Place a 16mm wrench onto the flats found on `nozzle-mask`
 	*  Tighten the toolhead components onto the `NEMA11-hollow-shaft-stepper` by torquing the `rotary-pneumatic-adapter`
 
-	<img src="images/tighten-toolhead.jpg"/>
+	<img src="images/tighten-toolhead.webp"/>
 
 *   Repeat above process to attach a `rotary-pneumatic-toolhead-assembly` to the left-side `z-gantry`
 
-	<img src="images/x-gantry-front-done1.jpg"/>
+	<img src="images/x-gantry-front-done1.webp"/>
 
 ## Install `x-gantry-front` onto `x-linear-axis`
 
@@ -412,9 +412,9 @@ Preparing x-gantry
 	*	Move each toolhead out of the way as needed
 	*	Torque each bolt to **`0.8 N/M`**
 
-	![alt text](images/bolt-x-gantry-front-1.jpg)
-	![alt text](images/bolt-x-gantry-front-2.jpg)
-	![alt text](images/bolt-x-gantry-front-3.jpg)
+	![alt text](images/bolt-x-gantry-front-1.webp)
+	![alt text](images/bolt-x-gantry-front-2.webp)
+	![alt text](images/bolt-x-gantry-front-3.webp)
 
 ## Gundam test `x-gantry`
 

@@ -14,14 +14,14 @@ Open Hardware Assembly Instructions for products made by Opulo Inc.
 Quick Jump to our main products:
 
 <a href="lumen/index.html">
-  <img src="img/semi-hero-head-on-small.png" height="150"><br/>
+  <img src="img/semi-hero-head-on-small.webp" height="150"><br/>
   LumenPnP v4
 </a>
 
 ---
 
 <a href="feeder8/index.html">
-  <img src="img/feeder-gold-no-spoolglow.png" height="150"><br/>
+  <img src="img/feeder-gold-no-spoolglow.webp" height="150"><br/>
   8mm Feeder
 </a>
 

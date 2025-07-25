@@ -141,58 +141,58 @@
 
 	![][image28]
 
-[image1]: img/image_001.png
+[image1]: img/image_001.webp
 
-[image2]: img/image_002.png
+[image2]: img/image_002.webp
 
-[image3]: img/image_003.png
+[image3]: img/image_003.webp
 
-[image4]: img/image_004.png
+[image4]: img/image_004.webp
 
-[image5]: img/image_005.png
+[image5]: img/image_005.webp
 
-[image6]: img/image_006.png
+[image6]: img/image_006.webp
 
-[image7]: img/image_007.png
+[image7]: img/image_007.webp
 
-[image8]: img/image_008.png
+[image8]: img/image_008.webp
 
-[image9]: img/image_009.png
+[image9]: img/image_009.webp
 
-[image10]: img/image_010.png
+[image10]: img/image_010.webp
 
-[image11]: img/image_011.png
+[image11]: img/image_011.webp
 
-[image12]: img/image_012.png
+[image12]: img/image_012.webp
 
-[image13]: img/image_013.png
+[image13]: img/image_013.webp
 
-[image14]: img/image_014.png
+[image14]: img/image_014.webp
 
-[image15]: img/image_015.png
+[image15]: img/image_015.webp
 
-[image16]: img/image_016.png
+[image16]: img/image_016.webp
 
-[image17]: img/image_017.png
+[image17]: img/image_017.webp
 
-[image18]: img/image_018.png
+[image18]: img/image_018.webp
 
-[image19]: img/image_019.png
+[image19]: img/image_019.webp
 
-[image20]: img/image_020.png
+[image20]: img/image_020.webp
 
-[image21]: img/image_021.png
+[image21]: img/image_021.webp
 
-[image22]: img/image_022.png
+[image22]: img/image_022.webp
 
-[image23]: img/image_023.png
+[image23]: img/image_023.webp
 
-[image24]: img/image_024.png
+[image24]: img/image_024.webp
 
-[image25]: img/image_025.png
+[image25]: img/image_025.webp
 
-[image26]: img/image_026.png
+[image26]: img/image_026.webp
 
-[image27]: img/image_027.png
+[image27]: img/image_027.webp
 
-[image28]: img/image_028.png
+[image28]: img/image_028.webp

@@ -15,7 +15,7 @@ The purpose of this work instructions is to document the assembly process of cre
 	* 4x `M5x8mm-button-head`
 	* 4x `M5-tslot-nut`
 
-	![](img/staging-plate3.JPG)
+	![](img/staging-plate3.webp)
 
 ### Plastic wrap the staging plate(s) and hardware bags
 * Wrap the `staging-plate` in three wraps of plastic wrap
@@ -26,7 +26,7 @@ The purpose of this work instructions is to document the assembly process of cre
 * Fold the excess cling wrap onto the bundle for a final time
 * Pat the plastic wrap down to smooth out any creases and firm up the bond
 
-	![](img/staging-plate2.JPG)
+	![](img/staging-plate2.webp)
 
 * Adhere `build-number-sticker` to the plastic wrapped staging plate(s)
 
@@ -37,9 +37,9 @@ The purpose of this work instructions is to document the assembly process of cre
 ### Prepare aux-staging-plate-foot
 * Check either the `Opulo Shopify Store - Coefficient Data Steam` or the week's fulfillment paperwork to determine what version of the `aux-staging-plate-foot` to include
 	* The `Title + Variant` field will denote whether you should use a ≤`v3.0.4`, `v3.0.5`, or `v3.1+` version of `aux-staging-plate-foot`
-	![](img/check-coefficient-for-version.png)
+	![](img/check-coefficient-for-version.webp)
 * Once you have identified the correct version of `aux-staging-plate-foot` to use, collect the unprocessed 3D print from the relevant container for use in the next step
-	![](img/various-aux-staging-plate-feet.jpg)
+	![](img/various-aux-staging-plate-feet.webp)
 * See [here](/lumen/additional-parts/#aux-staging-plate-foot) for guidance on assembling the `aux-staging-plate-foot`
 	
 	!!!warning "Skip the `rubber-foot` if the version is `≤v3.0.4`"
