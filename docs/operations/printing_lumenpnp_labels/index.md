@@ -1,24 +1,24 @@
 # **Printing Labels for LumenPnP Machines**
 
-1. Navigate to [https://opulo.aligni.com/builds/](https://opulo.aligni.com/builds/139562)and select the LumenPnP build that's due next
+1. Navigate to [https://opulo.aligni.com/builds/](https://opulo.aligni.com/builds/)and select the LumenPnP build that's due next
 
 	![][image1]
 
-2. Click "BLD-100843 • LumenPnP"
+2. Click "BLD-100### • LumenPnP"
 
 	![][image2]
 
-3. Press \[\[cmd\]\] \+ \[\[c \]\] to copy the Build Number
+3. Press [cmd] + [c] to copy the Build Number
 
 	![][image3]
 
 # **Create LumenPnP V4 Outer Box Serial Labels**
 
-4. Navigate to to tab [My Account \- Projects | Avery Print](https://www.avery.com/myaccount/projects)
+4. Navigate to to tab [My Account - Projects | Avery Print](https://www.avery.com/myaccount/projects)
 
-	* For the login credentials see Mattermost
+	* For the login credentials go to the `Manufacturing Account Login Info` page linked here in [Mattermost](https://mattermost.opulo.io/boards/team/eyuuc1q4j3bpinkstyyshirtse/bw6ym6qa8c7d9trug4q6uxqacoy/vtgfbprkcntbebkm3e18fd36kdy)
 
-5. Select the "LumenPnP V4.X.X \- Box Sticker" project
+5. Select the "LumenPnP V4.X.X - Box Sticker" project
 
 	![][image4]
 
@@ -39,7 +39,7 @@
 	![][image8]
 
 10. Select the six digit build number used in the previous build  
-11. Press \[\[cmd\]\] \+ \[\[v\]\] to paste in the new Build Number
+11. Press [cmd] + [v] to paste in the new Build Number
 
 	![][image9]
 
@@ -74,7 +74,7 @@
 
 	![][image15]
 
-19. The LumenPnP V4 Outer Box Serial Labels will now print out \- set these aside for use on the production line\!  
+19. The LumenPnP V4 Outer Box Serial Labels will now print out - set these aside for use on the production line!  
 20. Click "**Save Project**"
 
 	![][image16]
@@ -89,8 +89,8 @@
 
 # **Create Serialized Machine ID Labels for the Control Boxes**
 
-23. Navigate to the[Machine ID Serial Label \- Google Slides](https://docs.google.com/presentation/d/15bMHYFUPsAUMRKTIfIfMkaVi0N7s6ppUkWt4rGYsCZA/edit?usp=sharing) webpage  
-24. Press \[\[cmd\]\] \+ \[\[f\]\] to open the "**Find in document**" pop-up window
+23. Navigate to the[Machine ID Serial Label - Google Slides](https://docs.google.com/presentation/d/15bMHYFUPsAUMRKTIfIfMkaVi0N7s6ppUkWt4rGYsCZA/edit?usp=sharing) webpage  
+24. Press [cmd] + [f] to open the "**Find in document**" pop-up window
 
 	![][image19]
 
@@ -104,7 +104,7 @@
 
 	![][image21]
 
-28. Press \[\[cmd\]\] \+ \[\[v\]\] to paste in the Build Number copied from Aligni
+28. Press [cmd] + [v] to paste in the Build Number copied from Aligni
 
 	![][image22]
 
@@ -116,30 +116,31 @@
 
 	![][image24]
 
-31. Repeat the "**Find and Replace**" process to change the MFD from the previous Build completion date to the current Build completion date
+	* Note that if this date semems wrong please instead use the expected nearest Friday that the current LumenPnP build should be completed by
+
+32. Repeat the "**Find and Replace**" process to change the MFD from the previous Build completion date to the current Build completion date
 
 	![][image25]
 
-32. Exit the "**Find and Replace**" pop-up window
+33. Exit the "**Find and Replace**" pop-up window
 
 	![][image26]
 
-33. Click "**Print**"
+34. Click "**Print**"
 
 	![][image27]
 
-34. Print the requisite Machine ID Labels
+35. Print the requisite Machine ID Labels
 
 	* Set the Destination to "Dymo LabelWriter 4XL"  
-		* Note \- you may need to add this paper size to your computer as a custom size and this is a pain in the butt
+		* Note - you may need to add this paper size to your computer as a custom size and this is a pain in the butt so ask for help here!
 
 	* Set the Scale to "**Fit to printable area**"  
 	* If you are printing labels for 8 machines, print pages 2-9
-		* The first page of the Google Slide Show is just a "How to Edit" instructional page  
-  
-  Once you are ready, click "**Print**" to make the labels\!
+		* The first page of the Google Slide Show is just a "How to Edit" instructional page
+  	*  Once you are ready, click "**Print**" to make the labels\!
 
-	![][image28]
+		![][image28]
 
 [image1]: img/image_001.webp
 
