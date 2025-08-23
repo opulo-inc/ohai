@@ -7,7 +7,7 @@ hide:
 # OHAI
 Open Hardware Assembly Instructions for products made by Opulo Inc.
 !!! note
-	These instructions are maintained by and for the Opulo Manufacturing Team, and will specify the use of tools that are not apart of a regular LumenPnP  tool kit, including custom assembly jigs and QC equipment. We are constantly improving our production processes and do our best to keep these instructions up-to-date, however our team may deviate from these docs as needed.
+	These instructions are maintained by and for the Opulo Manufacturing Team, and will specify the use of tools that are not part of a regular LumenPnP tool kit, including custom assembly jigs and QC equipment. We are constantly improving our production processes and do our best to keep these instructions up-to-date, however our team may deviate from these docs as needed.
 
 ## Assembly Standard Operating Procedures
 
