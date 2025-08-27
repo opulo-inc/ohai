@@ -15,5 +15,3 @@ jobs:
           python-version: 3.x
       - run: sudo apt-get update
       - run: mkdocs gh-deploy --force
-        id: deployment
-        uses: actions/deploy-pages@v4
