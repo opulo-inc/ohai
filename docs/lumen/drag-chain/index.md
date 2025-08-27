@@ -1,6 +1,6 @@
 # Drag Chain Assembly #
 
-This section will guide the reader on how to properly assemble the LumenPNP v4 Drag Chain Assembly.
+This section will guide the reader on how to properly assemble the LumenPNP v4 Drag Chain Assembly. 
 
 ## Prepare `cable-splay` ##
 
