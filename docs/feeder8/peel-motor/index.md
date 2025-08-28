@@ -8,19 +8,21 @@ Material needed
 * `LOCTITE 435` 
 * `worm-gear`
 * `peel-motor`
-![](img/img18.webp)
+
+<img src="img/img18.webp" width="60%" height=auto>
+
 <!-- add photo of all the the items needed. ALso don't know why the fuck it ain't bulletin boarding it.  -->
 
 ## Assembly 
 	
 * Dispense a 1-2 drops of `LOCTITE 435` to the end of shaft on `peel-motor`. 
 !!! glue "Start light with the glue because it can get messy"
-	![](img/img14.webp)
-<!-- omg the first pic i took of Audrey's hand but with the motor getting glued -->
+<img src="img/img14.webp" width="60%" height=auto>
+	<!-- omg the first pic i took of Audrey's hand but with the motor getting glued -->
 
 * Bring `peel-motor` shaft to hole of `worm-gear` and firmly bring pieces together.
-	![](img/img15.webp)
-	![](img/img16.webp)
+	<img src="img/img15.webp" width="60%" height=auto>
+	<img src="img/img16.webp" width="60%" height=auto>
 
 <!-- just shove it in there pic -->
 
@@ -28,8 +30,8 @@ Material needed
 	
 	<!-- the different waYS THIS BABY CAN LAY TO DRY IN THE SUN -->
 
-	![](img/img17.webp)
-	![](img/img13.webp)
+	<img src="img/img17.webp" width="60%" height=auto>
+	<img src="img/img13.webp" width="60%" height=auto>
 
 * Manually rotate the installed `peel-gear` to check if any glue fell into the motor's gearbox once it's dried for at least 3 minutes. 
 
