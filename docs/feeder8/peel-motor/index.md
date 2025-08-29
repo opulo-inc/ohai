@@ -13,6 +13,26 @@ Material needed
 
 <!-- add photo of all the the items needed. ALso don't know why the fuck it ain't bulletin boarding it.  -->
 
+## QC Worm Gears
+
+!!! Note "Not all `worm-gears` are printed consistently."
+
+* `worm-gears` should have a consistent even spiral throughout. It is to make sure that the `peel-gear` teeth can move within the `worm-gear` grooves.
+
+!!! success "A beautiful `worm-gear`!" 
+
+	<img src="img/img22.webp" width="60%" height=auto>
+
+!!! failure "Nasty boy `worm-gear`!" 
+
+	<img src="img/img21.webp" width="60%" height=auto>
+
+* run a `peel-gear` manually through the grooves of the `worm-gear` to confirm that in can run through without resistance.
+
+	<img src="img/img20.webp" width="60%" height=auto>
+
+* This gear is ready to be glued! 
+
 ## Assembly 
 	
 * Dispense a 1-2 drops of `LOCTITE 435` to the end of shaft on `peel-motor`. 
