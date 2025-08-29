@@ -2,35 +2,37 @@
 
 ## Motherboard Assembly
 
-1. Plug the `peel-motor-asm` into the 2-pin connector on the PCB
+* Plug the `peel-motor-asm` and `drive-motor` to their respective pins. 
    
-   	![](img/PXL_20230125_205520692.webp)
-
-2. Slide the `peel-motor-asm` into its corresponding cavity in `feeder-frame-8mm`
-	* Tuck the excess cable into the empty region behind the `peel-motor-asm`
-
-   	![](img/PXL_20230125_205545511.webp)
-
-1. Tilt the PCB slightly to insert the `drive-motor` cable into the six-pin connector on `feeder-motherboard`
-		![](img/drivemotor.webp)
+   <img src="img/img3.webp" width="60%" height=auto>
 
 
-3. Press the PCB flat into `feeder-frame-8mm`
-	* Make sure the cable is not caught between them - it should lay flush
+* Press `drive-motor` into its cavity while ensuring it is flush with the back of `feeder-frame`. This helps `drive-motor` stay stable as we place the board into the frame. 
+		![](img/drivemotor3.webp)
+		
+* Twist `feeder-mobo` once to help guide wires into their cavity. 
+	
+	<img src="img/img2.webp" width="60%" height=auto>
+
+* Slide the `peel-motor-asm` into its corresponding cavity in the `feeder-frame`.
+	* Tuck the excess cable into the empty region behind the `peel-motor-asm`.
+
+	<img src="img/img1.webp" width="60%" height=auto>
+   	
+
+3. Press the PCB flat into `feeder-frame`.
+	* Make sure the cable is not caught between them - it should lay flush.
 
    	![](img/PXL_20230125_205601695.webp)
 
-1. Press `drive-motor` into its cavity while ensuring it is flush with the back of `feeder-frame-8mm` and the cables are well routed, as shown
-		![](img/drivemotor3.webp)
-		![](img/drivemotor2.webp)
 
-4. Insert 4x `M3x12mm` flathead screws into the holes in the PCB as shown below
-	* Use automatic screwdriver with power set to 4
+4. Insert 4x `M3x12mm` flathead screws into the holes in the PCB as shown below.
+	* Use the torque driver with power set to 3.
 
 	![](img/IMG_2233.webp)
 	![](img/IMG_2235.webp)
 
-!!! inspect "QC Check - Test if the buttons on `feeder-frame-8mm` can easily actuate the switches on the PCB before proceeding"
+!!! inspect "QC Check - Test if the buttons on `feeder-frame` can easily click the switches on the PCB before proceeding"
 
 1. Install a `drive-motor-bracket`
    
@@ -53,13 +55,13 @@
 
    	![](img/bracket4.webp)
 
-1. Use a blade to clean up any loose plastic that was pushed through the `drive-motor-bracket` mounting screw holes during installation 
+<!-- 1. Use a blade to clean up any loose plastic that was pushed through the `drive-motor-bracket` mounting screw holes during installation 
 
 !!!warning "Failure to perform this step may cause issues with cosmetic sticker installation later on"
 
 
 ![](img/cleanscrews1.webp)
-![](img/cleanscrews2.webp)
+![](img/cleanscrews2.webp) -->
 
 
 ## Install the `release-lever`
@@ -74,22 +76,24 @@
    	![](img/release1.webp)
    	![](img/release2.webp)
 
-6. Insert an `M3x15mm` flathead screw from the backside and drive it in using the automatic screwdriver on the 4 setting (0.25 N*m).
-	* Make sure the arm can still swivel easily
-	* Make sure that the arm does not have any lateral movement
+6. Insert an `M3x15mm` flathead screw from the backside and drive it in using the torque driver on the 6 setting.
+	* Make sure the arm can still swivel easily. It should snap back smoothly. 
+	* Make sure that the arm does not have any lateral movement.
 
    	![](img/release3.webp)
 
+	!!! failure "If there is lateral movement, try using a 2.0mm screwdriver to manually drive the screw to the end point of the `release-lever`. Once you've screwed about as far it can be screwed, loosen it a bit, and test the lever for: a clean swivel, the snap back, and lateral movement again." 
+
 ## Install the `peel-gear-box`
 
-1. Obtain `peel-gear-box`
+1. Obtain `peel-gear-box`.
 	![](img/peel1.webp)
 
-1.  Place `peel-gear-box` in place, engaging with the `worm-gear` in `peel-motor-asm`
+1.  Place `peel-gear-box` in place, engaging with the `worm-gear` in `peel-motor-asm`.
 	![](img/peel2.webp)
 	![](img/peel3.webp)
 
-1. Insert 2x `M3x12mm` flathead screws into the locations shown using automatic screwdriver set to 6
+1. Insert 2x `M3x12mm` flathead screws into the locations shown using the torque driver set to 3.
 	![](img/peel4.webp)
 
 ## Install the `drive-wheel-asm`
@@ -97,12 +101,19 @@
 !!!info "Note on `drive-motor` shaft angle"
 	Drive-motor units may come from factory with a shaft rotated at an angle that's not ideal for set-screw tightening. If this applies to the feeder you are handling, follow the steps below:
 	
-	* Power up to the affected units by plugging it into Gundam
+	* Power up to the affected units by plugging it into Gundam jig at the desk. 
+
+		<!-- pic of gundam here -->
+
 	* Press the feeder's jog-forward button until the shaft is at an optimal angle for subsequent assembly work
 
 	![](img/install-gear-2.webp)
 	
 	![](img/install-gear-1.webp)
+
+!!! Note "Hold it Partner" 
+	
+	* Note what sounds the motor make. Does it click? Does it sounds smooth? Is it quiet then loud? It's important to note for when you QC the wheel placement. 
 
 12. Place the `Drive Wheel Shims` in the `drive-wheel-asm` cavity as shown, with the `drive-motor` shaft sticking through it
 
@@ -118,6 +129,19 @@
 	 ![](img/wheel2.webp)
 
 15. Remove the `Drive Wheel Shims`
+
+!!! Note "Hold it Partner" 
+
+	* Make sure to QC the wheel before moving on to the `drive-motor-cover`. Place the feeder with the set wheel back onto the gundam jig, hold the forward button, and listen/look for friction from the wheel as it cycles. 
+
+	* Remember that the drive motors can also make strange sounds from its own gears. Note what sounds come from the motor. 
+
+	* The wheel will visible slow down if it is experencing friction. You'll have to re-adjust. 
+
+	* If the wheel is moving too diagonally, you'll have to re-adjust. 
+
+	* This part does take some extra time and can be tricky to get right. Take your time, go slow to start, and do what you can. 
+
      
 ## Install `drive-motor-cover`
 
