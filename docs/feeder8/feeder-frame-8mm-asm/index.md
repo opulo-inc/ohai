@@ -62,11 +62,11 @@ This section will guide the reader through the process of installing various har
 
 !!! note "Hold it Partner"
 
-		* These buttons are print-in-place flexures, which means they need to be broken away from the layer of plastic between the buttons and frame. 
-			* Exercise care here, as pressing these buttons too far inward or outward can break them
-		* The motherboard that is installed later will prevent the damage from the buttons moving too far inwards. 
+	* These buttons are print-in-place flexures, which means they need to be broken away from the layer of plastic between the buttons and frame. 
+	* Exercise care here, as pressing these buttons too far inward or outward can break them
+	* The motherboard that is installed later will prevent the damage from the buttons moving too far inwards. 
 
-		<img src="img/img12.webp" width="60%" height=auto>
+	<img src="img/img12.webp" width="60%" height=auto>
 
 <!-- pic of buttons here. Have the pic with my fingers pushing buttons away from frame -->
 
