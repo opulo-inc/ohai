@@ -54,7 +54,8 @@ nav:
 
   - Feeder:
         - Overview: feeder8/index.md
-        - PCB: feeder8/pcb/index.md
+        - PCB Production: feeder8/pcb/index.md
+        - PCB QC: feeder8/pcb-qc/index.md
         - Peel Motor Assembly: feeder8/peel-motor/index.md
         - Drive Wheel Assembly: feeder8/indexing-wheel/index.md
         - Peel Gear Box: feeder8/peel-gear-frame/index.md
