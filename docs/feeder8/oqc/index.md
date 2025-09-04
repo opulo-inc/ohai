@@ -70,7 +70,7 @@
 
 !!!success "Proceed onward if all tests show `PASS` results"
 	  	
-		<img src="img/img3.webp" width="60%" height=auto>
+	<img src="img/img3.webp" width="60%" height=auto>
 
 <!-- This needs to be a different pic. -->
 
