@@ -2,11 +2,11 @@
 
 ## Test Feeder with Gundam
 
-1. Launch the Gundam Application by entering the commands shown in terminal
+1. Launch the Gundam Application by entering the commands shown in terminal.
 
   	![](img/gundam1.webp)
   	![](img/gundam2.webp)
-2. Load feeder into the `gundam-qc-jig` by installing it onto the orange feeder slot
+2. Load feeder into the `gundam-qc-jig` by installing it onto the orange/yellow feeder slot.
 
 	!!!note "Confirm correct programming"
 		If the feeder LEDs flash white when installed onto the slot, your feeder has old firmware and will fail to pass the subsequent tests. If this is observed, unplug the respective feeder and update its firmware before resuming regular process flow.
@@ -14,7 +14,9 @@
   	![](img/oqc-29.webp)
   	![](img/oqc-28.webp)
 
-3. In the Gundam application window, click "Scan Ports" and choose the `/dev/tty/ACM0` device ID from the drop-down list
+<!-- this is where the changes need to start -->
+
+<!-- 3. In the Gundam application window, click "Scan Ports" and choose the `/dev/tty/ACM0` device ID from the drop-down list
 
   	![](img/oqc-34.webp)
   	![](img/gundam3.webp)
@@ -26,25 +28,64 @@
 7. The Gundam application will now display a list of tests to run in sequential order
  	* Follow the Gundam test prompts to step through the testing process
 
-  	![](img/gundam4.webp)
+  	![](img/gundam4.webp) -->
+
+* The Gundam application window should be open and have an option for a drop down menu. 	
+
+<img src="img/img9.webp" width="60%" height=auto>
+	<!-- pic here -->
+
+* Choose the option that correlates with the kind of feeders you are working with. There is differences on how 8mm & 12mm runs through Gundam. 
+
+<img src="img/img8.webp" width="60%" height=auto>
+<!-- pic here -->
+
+* The test will give a set of instructions and have you answer a few questions about how the feeder is responding. 
+
+<img src="img/img6.webp" width="60%" height=auto>
+<!-- pic of how Gundam asks "did the gears spin?" -->
+
+!!! Note "Depending on if you're working with the 8mm or 12mm will change the second part of the testing." 
+
+* Second test for 8mm Feeders is running tape through feeder and letting program check the variance. 
+
+	<img src="img/img2.webp" width="60%" height=auto>
+	<img src="img/img5.webp" width="60%" height=auto>
+
+
+* Second test for 12mm Feeders is listening for friction and making sure the wheel doesn't spin too diagonally.  
+
+	<img src="img/img1.webp" width="60%" height=auto>
+
+<!-- pic of 8mm running tape. then a pic of listening for friction on the 12mm -->
+
+!!! Note "Hold it Partner" 
+
+	With the 8mm feeders, sometimes the Gundam test will stop and state that there is an "absurd y variance" or "could not find void in tape". Either unload and load the feeder to try again, or try using the second Gundam station. 
+
+	<img src="img/img4.webp" width="60%" height=auto>
 
 !!!failure "If any of the tests have failed, rework the feeder as needed to address issues"
-	If a feeder is failing to pass Gundam checks after more than 10 minutes of rework activity, set it aside and revisit later
-!!!success "Proceed onward if all tests show `PASS` results"
-	  	![](img/oqc-8.webp)
+	If a feeder is failing to pass Gundam checks after more than 10 minutes of rework activity, set it aside and revisit later.  
 
-## Install 8mm-feeder-sticker
+!!!success "Proceed onward if all tests show `PASS` results"
+	  	
+		<img src="img/img3.webp" width="60%" height=auto>
+
+<!-- This needs to be a different pic. -->
+
+## Install 8mm-feeder-sticker/12mm-feeder-sticker
 
 1. Install `feeder-sticker-application-jig` on the backside of the feeder
 	* It should sit snug on the feeder without being able to move around
 
      ![](img/sticker1.webp)
      ![](img/sticker2.webp)
-2. Adhere the right-side of `8mm-feeder-sticker` to the feeder while using the top-left corner pocket of `feeder-sticker-application-jig` to align it into position
+2. Adhere the right-side of `8mm-feeder-sticker` or `12-feeder-sticker` to the feeder while using the top-left corner pocket of `feeder-sticker-application-jig` to align it into position
      ![](img/sticker3.webp)
      ![](img/sticker5.webp)
 
-3. Remove the `feeder-sticker-application-jig` and rub the sticker to ensure it is fully adhered to the `feeder-frame-8mm`
+3. Remove the `feeder-sticker-application-jig` and rub the sticker to ensure it is fully adhered to the `feeder-frame`
 	  ![](img/sticker4.webp)
 
 ## Cosmetic Inspection
