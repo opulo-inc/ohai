@@ -95,7 +95,7 @@ After completing all prior assembly and testing work, CHECK EVERY BULLET on EVER
 * Release Lever moves freely with a snappy action
 * Release Lever does NOT move laterally
 * Flexure buttons click easily **and are not mushy**
-	* If any feeders have mushy buttons they can be reworked quickly with a heat-gun. See Lucian for details!
+	* If any feeders have mushy buttons they can be reworked quickly with a heat-gun. See Lucy for details!
 * Reset button clicks easily
 * Fiducial board is inserted
 * Fiducial board does NOT have any excess glue
