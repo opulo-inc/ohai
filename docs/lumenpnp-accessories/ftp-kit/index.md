@@ -123,5 +123,5 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	![IMG_0291.webp](img/IMG_0291.webp)
 
-1. **If you are producing this item for individual sale** adhere a `build-number-sticker` to the completed `Getting Started Kit`
 
+You now have a nice Getting Started Kit to place in the yellow FTP bin on the shelves holding the Lumens in boxes. 
