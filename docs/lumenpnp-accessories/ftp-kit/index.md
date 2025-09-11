@@ -125,3 +125,5 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 
 You now have a nice Getting Started Kit to place in the yellow FTP bin on the shelves holding the Lumens in boxes. 
+
+<!-- These shelves are annouced as the Robet Von Memorial Shelves -->
