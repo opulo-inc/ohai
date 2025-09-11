@@ -35,6 +35,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.tracking
+    - navigation.path
 
 nav:
   - Home: index.md
@@ -63,13 +64,6 @@ nav:
         - Final Assembly: feeder8/assembly/index.md
         - OQC: feeder8/oqc/index.md
         - Packaging: feeder8/packout/index.md
-
-  - Feeder Connection Kit:
-        - Introduction: feeder-connection-kit/index.md
-        - Feeder Blade PCBA: feeder-connection-kit/panelized-feeder-slot/index.md
-        - Feeder Blade Set Final Assembly: feeder-connection-kit/slot-set/index.md
-        - Feeder Accessory Preparation: feeder-connection-kit/accessories/index.md
-        - Packaging: feeder-connection-kit/packout/index.md
 
   - v4 Upgrade Parts:
         - Overview: v4-upgrade-parts/index.md
@@ -107,6 +101,7 @@ nav:
         - Feeder Part Kit: diy-components/feeder-part-kit/index.md
         - Control Box: diy-components/control-box/index.md
         - Fastener Kit: diy-components/fastener-kit/index.md
+        - Feeder Connection Kit: diy-components/feeder-connection-kit/index.md
 
   - Operations:
         - Overview: operations/index.md
@@ -116,3 +111,9 @@ nav:
         - Weekly Removal of Non-Serialized Shipped Goods from Inventory: operations/managing-weekly-non-serialized-aligni-builds/index.md
         - Inventory Day: operations/inventory-audit/index.md
         - Printing LumenPnP Lables: operations/printing_lumenpnp_labels/index.md
+
+  - Supply Chain Management:
+        - Overview: supply-chain-mgmt/index.md
+        - Creating Parts in Aligni: supply-chain-mgmt/create-parts/index.md
+        - Creating Purchase Orders in Aligni: supply-chain-mgmt/buy-parts/index.md
+        - Example walkthrough of buying parts through LCSC: supply-chain-mgmt/purchasing-from-lcsc

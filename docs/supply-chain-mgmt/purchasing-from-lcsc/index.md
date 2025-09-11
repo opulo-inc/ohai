@@ -1,4 +1,4 @@
-### Create Draft Purchase Order
+## Create Draft Purchase Order
 0. Go to the [Purchase Manager](https://opulo.aligni.com/purchases) tab of Aligni
 
 1. Click the ➕ icon to create a new purchase order
@@ -18,7 +18,7 @@
 	<img style="height:500px width:auto;" src="img/add-part-3.webp">
 	<img style="height:500px width:auto;" src="img/add-part-4.webp">
 
-###Set the part's `Vendor P/N`
+### Set the part's `Vendor P/N`
 6. Click `Set Vendor P/N` to open a selection window 
 7. Select a `Vendor P/N` that matches the packaging of on-hand inventory, requesting help from a teammate if needed
 8. Copy the  `Vendor P/N`'s URL to your computer's clipboard if available, other copy just the `Vendor P/N`
@@ -43,7 +43,7 @@
 
 	<img style="height:500px width:auto;" src="img/add-part-11.webp">
 	
-###Determine Order QTY
+### Determine Order QTY
 14. In another tab, navigate to the given part's `Inventory` tab in Aligni
 15. Examine the `Historical Consumption Rates` and compare it to the volume pricing shown in LCSC while considering the following:
 	16. What is our current inventory levels compared to the `Safety Stock` values? 
@@ -84,12 +84,12 @@
 	<img style="height:500px width:auto;" src="img/add-part-17.webp">
 	<img style="height:500px width:auto;" src="img/add-part-18.webp">
 
-21. Words	
+21. Set LCSC as the part's vendor
 	<img style="height:500px width:auto;" src="img/add-part-19.webp">
 22. Words
 	<img style="height:500px width:auto;" src="img/add-part-20.webp">
 
-###Edit PO Info
+### Edit PO Info
 
 23. Click `Edit PO`
 	<img style="height:500px width:auto;" src="img/add-part-21.webp">
@@ -115,7 +115,7 @@
 26. A confirmation pop-up will be shown when the purchase order has been approved
 <img style="height:500px width:auto;" src="img/add-part-24.webp">
 	
-###Placing the Order
+### Placing the Order
 15. Return to LCSC's order checkout page and perform the following tasks:
 	17. Input the purchase order number
 	18. Confirm the choose of shipping provider is still DHL
