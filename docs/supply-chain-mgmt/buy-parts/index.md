@@ -12,6 +12,10 @@
 
 3. Review the Purchase Details before clicking "Update"
 
+## Edit Terms
+
+Words need to go here!
+
 	![][image3]
 
 ## Add the 1st part
@@ -107,10 +111,6 @@ For this 2nd part, we will input a price directly from a previously entered quot
 25. Click "- Assign" to assign a PO number to the order – these are auto generated
 
 	![][image24]
-
-### Edit Terms
-
-Words need to go here!
 
 ### Set the desired Global Delivery Date
 

@@ -13,19 +13,24 @@
 3. You will now be brought to the `Create New Part` page
 
 ## Enter part attributes
+1. Select a `Manufacturer` –
+   * Select the Manufacturer who is responsible for the creation of this part
+     * Select "Opulo" if we are the manufacturer
+     * Select one of the relevant "Generic Factory" options if the part can be made by multiple equivalent sources – AND we aren't exactly sure where it's truly made
 
-4. Enter a `Manufacturer Part Number` - this would be the alphanumeric part number the manufacturer assigned to the given part you are adding to Aligni.
+2. Enter a `Manufacturer Part Number` –
+	* This would be the alphanumeric part number the manufacturer assigned to the given part you are adding to Aligni
 
 	![][img3]
 
-5. Set a `Part Type` –
+3. Set a `Part Type` –
 
 	* There's many different types you can pick from that match up with different types of parts that we have in our supply chain.  
 	* For this example, we'll pick `Fabricated, Other` - a catch-all for items whose type do not match other choices in the drop-down
 
 	![][img4]
 
-6. Select a `Unit of Measure` for the given part –
+4. Select a `Unit of Measure` for the given part –
 
 	* This option corresponds to how the item is consumed.  
 	* It can be a measure of length, weight, volume, or something more specific.  
@@ -33,14 +38,14 @@
 
 	![][img5]
 
-7. Set `Manufactured Here?` –
+5. Set `Manufactured Here?` –
 
 	* This field is asking whether or not the item is built by Opulo or not.  
 	* If an item is something we purchase as-is from a vendor, have `Manufactured Here?` be disabled.
 
 	![][img6]
 
-8. Set Revision fields
+6. Set Revision fields
 
 	* `Revision Name` –
 
@@ -53,7 +58,7 @@
 
 	![][img7]
 
-9. RoHS Compliance  
+7.  RoHS Compliance  
   
 	* Select the appropriate option for RoHS Compliance
 		* Select the `Yes` option if you know the part to be RoHS compliant  
@@ -65,11 +70,11 @@
 
 	![][img8]
 
-10. Click Create
+8.  Click Create
 
 	![][img9]
 
-11. Aligni will bring you to the `Details` tab of the newly created Part
+9.  Aligni will bring you to the `Details` tab of the newly created Part
 
 	![][img10]
 	
@@ -83,7 +88,7 @@
 
 	![][img12]
 
-14. Set the vendor to match where the part can be purchased from. 
+14. Set the vendor to match where the part can be purchased from
 
 	* For this example we will select `Fake Vendor`
 

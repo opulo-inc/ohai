@@ -34,7 +34,7 @@
 3. Review each ShipStation order in the batch for correctness - double check the package size, declared values, and shipping methods are all appropriate
 
 	!!!note "Training is required for this step"
-		Please ask Lucian for help if it's your first time doing this.
+		Please ask Lucy for help if it's your first time doing this.
 
 4. Purchase the labels
 

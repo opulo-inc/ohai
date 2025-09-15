@@ -105,7 +105,6 @@ nav:
 
   - Operations:
         - Overview: operations/index.md
-        - Ordering from LCSC: operations/purchasing-from-lcsc/index.md
         - Print Farm: operations/print-farm/index.md
         - Order Fulfillment: operations/order-fulfillment/
         - Weekly Removal of Non-Serialized Shipped Goods from Inventory: operations/managing-weekly-non-serialized-aligni-builds/index.md
@@ -116,4 +115,6 @@ nav:
         - Overview: supply-chain-mgmt/index.md
         - Creating Parts in Aligni: supply-chain-mgmt/create-parts/index.md
         - Creating Purchase Orders in Aligni: supply-chain-mgmt/buy-parts/index.md
-        - Example walkthrough of buying parts through LCSC: supply-chain-mgmt/purchasing-from-lcsc
+        - Example walkthrough of buying parts through LCSC: supply-chain-mgmt/purchasing-from-lcsc/index.md
+        - Aligni BOM Import: supply-chain-mgmt/aligni-bom-import/index.md
+        - Creating and Associating Vendors, Manufacturers, and Contacts: supply-chain-mgmt/create-vendor-mfg-contact/index.md
