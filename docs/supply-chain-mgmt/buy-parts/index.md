@@ -12,11 +12,11 @@
 
 3. Review the Purchase Details before clicking "Update"
 
+	![][image3]
+
 ## Edit Terms
 
-Words need to go here!
-
-	![][image3]
+* To be added
 
 ## Add the 1st part
 
