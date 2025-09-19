@@ -1,11 +1,12 @@
-#Packout
+# Packout
+
 This section will guide the reader on how to properly package 5x `feeder-8mm` units into their respective packaging tray.
 
 * Fold a flat-packed `Corrugated Quad-Fold Feeder Insert` to prepare it for use
 * Place 5x `feeder-8mm` into a `Corrugated Quad-Fold Feeder Insert` tray
 
-	![](img/packed-1.webp)	
-	
+	![](img/packed-1.webp)
+
 * Insert a spool-arm above each of the  5x `feeder-8mm`, oriented to match the image shown below
 
 	![](img/packed-2.webp)
@@ -23,5 +24,3 @@ This section will guide the reader on how to properly package 5x `feeder-8mm` un
 	![](img/packed-6.webp)
 
 !!!success "The `feeder-8mm-5x-pack` has been completed and is ready for further use!"
-
-

@@ -13,6 +13,8 @@ markdown_extensions:
   - def_list
   - attr_list
   - md_in_html
+  - pymdownx.details
+
 
 theme:
   name: material
@@ -47,9 +49,10 @@ nav:
         - Drag Chain: lumen/drag-chain/index.md
         - Control Box: lumen/control-box/index.md
         - Staging Plate: lumen/staging-plate/index.md
-        - Getting Started Kit (FTP): misc/ftp-kit/index.md
+        - Getting Started Kit (FTP): lumenpnp-accessories/ftp-kit/index.md
         - Tool Kit: lumen/tool-kit/index.md
         - Additional Parts: lumen/additional-parts/index.md
+        - Printing LumenPnP Lables: lumen/printing_lumenpnp_labels/index.md
         - Packaging: lumen/pack-out/index.md
         - Jigs: lumen/jigs/index.md
 
@@ -65,56 +68,50 @@ nav:
         - OQC: feeder8/oqc/index.md
         - Packaging: feeder8/packout/index.md
 
-  - v4 Upgrade Parts:
-        - Overview: v4-upgrade-parts/index.md
-        - LumenPnP v4 Control Box: lumen/control-box/index.md
-        - LumenPnP v4 Toolhead Kit: v4-upgrade-parts/lumenpnp-toolhead-asm-v4/index.md
-        - LumenPnP v4 Drag Chain Assembly Kit: v4-upgrade-parts/drag-chain-assembly-kit-v4/index.md
-        - (WIP) LumenPnP v4 Endstop PCB Set: v4-upgrade-parts/endstop-set-v4/index.md
-        - LumenPnP v4 Frame Cable Harness Set: v4-upgrade-parts/frame-cable-harness-set/index.md
-        - LumenPnP v4 USB Camera Set: v4-upgrade-parts/lumenpnp-v4-camera-set/index.md
+  - Other Products:
+        - Overview: assembly-guides/index.md
+ #       - DIY LumenPnP v4 Control Box: diy-components/diy-control-box/index.md
+ #       - LumenPnP v4 Toolhead Kit: v4-upgrade-parts/lumenpnp-toolhead-asm-v4/index.md
+ #       - LumenPnP v4 Drag Chain Assembly Kit: v4-upgrade-parts/drag-chain-assembly-kit-v4/index.md
+ #       - (WIP) LumenPnP v4 Endstop PCB Set: v4-upgrade-parts/endstop-set-v4/index.md
+ #       - LumenPnP v4 Frame Cable Harness Set: v4-upgrade-parts/frame-cable-harness-set/index.md
+ #      - LumenPnP v4 USB Camera Set: v4-upgrade-parts/lumenpnp-v4-camera-set/index.md
 
-  - v2/v3 Spare Parts:
-        - Overview: v2-v3_spare_parts/index.md
-        - LumenPnP v2/v3 Toolhead Kit: v2-v3_spare_parts/lumenpnp-toolhead-asm-v3/index.md
-        - LumenPnP v2/v3 Vacuum Pump and Valve Set: v2-v3_spare_parts/vac-and-valve-set-v3/index.md
-        - LumenPnP v2/v3 Replacement PCB Kit: v2-v3_spare_parts/v3-pcb-kit/index.md
+ #       - LumenPnP v2/v3 Toolhead Kit: v2-v3_spare_parts/lumenpnp-toolhead-asm-v3/index.md
+ #       - LumenPnP v2/v3 Vacuum Pump and Valve Set: v2-v3_spare_parts/vac-and-valve-set-v3/index.md
+ #       - LumenPnP v2/v3 Replacement PCB Kit: v2-v3_spare_parts/v3-pcb-kit/index.md
 
-  - LumenPnP Accessories:
-        - Overview: lumenpnp-accessories/index.md
-        - Staging Plate: lumenpnp-accessories/staging-plate-set/index.md
-        - Getting Started Kit: lumenpnp-accessories/ftp-kit/index.md
-        - Strip Feeder: lumenpnp-accessories/strip-feeder/index.md
-        - Paste Extruder Kit: lumenpnp-accessories/paste-extruder/index.md
+ #       - Staging Plate: lumenpnp-accessories/staging-plate-set/index.md
+ #       - Getting Started Kit: lumenpnp-accessories/ftp-kit/index.md
+ #       - Strip Feeder: lumenpnp-accessories/strip-feeder/index.md
+ #       - Paste Extruder Kit: lumenpnp-accessories/paste-extruder/index.md
 
-  - DIY Components:
-        - Overview: diy-components/index.md
-        - LumenPnP CP40 Nozzle Set: lumen/additional-parts/#nozzle-rack
-        - LumenPnP Z-Axis Linear Rail Set: diy-components/z-axis-linear-rail-set/index.md
-        - LumenPnP 24vDC 6A Power Supply: diy-components/6A-power-supply-with-cord/index.md
-        - LumenPnP Frame Kit: diy-components/frame-kit/index.md
-        - LumenPnP GT2 Belt and Pulley Kit: diy-components/gt2-belt-and-pulley-kit/index.md
-        - MGN12H Linear Rail Kit: diy-components/MGN12H-linear-rail-kit/index.md
-        - NEMA 17 Stepper Motor (4-Pack): diy-components/NEMA-17-stepper-motor 4-pack/index.md
-        - LumenPnP Ring Light Set: diy-components/ring-light-set/index.md
-        - LumenPnP Datum Board: diy-components/datum-board-kit/index.md
-        - Feeder Part Kit: diy-components/feeder-part-kit/index.md
-        - Control Box: diy-components/control-box/index.md
-        - Fastener Kit: diy-components/fastener-kit/index.md
-        - Feeder Connection Kit: diy-components/feeder-connection-kit/index.md
+ #       - LumenPnP CP40 Nozzle Set: lumen/additional-parts/#nozzle-rack
+ #       - LumenPnP Z-Axis Linear Rail Set: diy-components/z-axis-linear-rail-set/index.md
+ #       - LumenPnP 24vDC 6A Power Supply: diy-components/6A-power-supply-with-cord/index.md
+ #       - LumenPnP Frame Kit: diy-components/frame-kit/index.md
+ #       - LumenPnP GT2 Belt and Pulley Kit: diy-components/gt2-belt-and-pulley-kit/index.md
+ #       - MGN12H Linear Rail Kit: diy-components/MGN12H-linear-rail-kit/index.md
+ #       - NEMA 17 Stepper Motor (4-Pack): diy-components/NEMA-17-stepper-motor 4-pack/index.md
+ #       - LumenPnP Ring Light Set: diy-components/ring-light-set/index.md
+ #       - LumenPnP Datum Board: diy-components/datum-board-kit/index.md
+ #       - Feeder Part Kit: diy-components/feeder-part-kit/index.md
+ #       - Fastener Kit: diy-components/fastener-kit/index.md
+ #       - Feeder Connection Kit: diy-components/feeder-connection-kit/index.md
 
   - Operations:
         - Overview: operations/index.md
         - Print Farm: operations/print-farm/index.md
-        - Order Fulfillment: operations/order-fulfillment/
+        - Order Fulfillment: operations/order-fulfillment/index.md
         - Weekly Removal of Non-Serialized Shipped Goods from Inventory: operations/managing-weekly-non-serialized-aligni-builds/index.md
         - Inventory Day: operations/inventory-audit/index.md
-        - Printing LumenPnP Lables: operations/printing_lumenpnp_labels/index.md
 
   - Supply Chain Management:
         - Overview: supply-chain-mgmt/index.md
         - Creating and Associating Vendors, Manufacturers, and Contacts: supply-chain-mgmt/create-vendor-mfg-contact/index.md
         - Creating Parts in Aligni: supply-chain-mgmt/create-parts/index.md
+        - Importing an Assembly's BOM  into Aligni: supply-chain-mgmt/aligni-bom-import/index.md
         - Creating Purchase Orders in Aligni: supply-chain-mgmt/buy-parts/index.md
+        - Recieving Inventory from Purchase Orders: supply-chain-mgmt/receive-inventory/index.md
         - Example walkthrough of ordering through LCSC: supply-chain-mgmt/purchasing-from-lcsc/index.md
-        - Assembly BOM Import: supply-chain-mgmt/aligni-bom-import/index.md
+

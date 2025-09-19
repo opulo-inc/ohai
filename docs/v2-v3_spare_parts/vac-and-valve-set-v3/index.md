@@ -1,7 +1,12 @@
+---
+hide:
+  - navigation
+---
+# LumenPnP v2/v3 Vacuum Pump and Valve Set
 
 ## Purpose
 
-The purpose of this work instruction is to document the assembly process for the LumenPnP v3 Vacuum Pump and Valve Set [`SKU-0004-00`]
+The purpose of this work instruction is to document the assembly process for the LumenPnP v2/v3 Vacuum Pump and Valve Set [`SKU-0004-00`]
 
 ## Instructions
 
@@ -88,7 +93,5 @@ The purpose of this work instruction is to document the assembly process for the
 5. Seal the roll together by using the exposed backside of the LumenPnP Vacuum Pump and Valve Set bag label as a tape
 
 	<img src="img/image18.webp" width="60%"/>
-
-6. Adhere a `build-number-sticker` to the completed `LumenPnP Vacuum Pump and Valve Set`
 
 !!! Success "LumenPnP Vacuum Pump and Valve Set [`SKU-0004-00`] Completed"

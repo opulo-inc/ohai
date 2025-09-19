@@ -1,5 +1,7 @@
 # **Printing Labels for LumenPnP Machines**
 
+## Accessing Aligni Information
+
 1. Navigate to [https://opulo.aligni.com/builds/](https://opulo.aligni.com/builds/)and select the LumenPnP build that's due next
 
 	![][image1]
@@ -12,7 +14,7 @@
 
 	![][image3]
 
-# **Create LumenPnP V4 Outer Box Serial Labels**
+## Create LumenPnP V4 Outer Box Serial Labels
 
 4. Navigate to to tab [My Account - Projects | Avery Print](https://www.avery.com/myaccount/projects)
 
@@ -87,7 +89,7 @@
 
 	![][image18]
 
-# **Create Serialized Machine ID Labels for the Control Boxes**
+## Create Serialized Machine ID Labels for Control Boxes
 
 23. Navigate to the[Machine ID Serial Label - Google Slides](https://docs.google.com/presentation/d/15bMHYFUPsAUMRKTIfIfMkaVi0N7s6ppUkWt4rGYsCZA/edit?usp=sharing) webpage  
 24. Press [cmd] + [f] to open the "**Find in document**" pop-up window
@@ -98,9 +100,9 @@
 
 	![][image20]
 
-26. Type the previously used Build Number in the "**Find**" text field   
+26. Type the previously used Build Number in the "**Find**" text-field
     (which would be "**100847**" in this example)  
-27. Click the "**Replace with**" text field.
+27. Click the "**Replace with**" text-field
 
 	![][image21]
 
@@ -138,7 +140,7 @@
 	* Set the Scale to "**Fit to printable area**"  
 	* If you are printing labels for 8 machines, print pages 2-9
 		* The first page of the Google Slide Show is just a "How to Edit" instructional page
-  	*  Once you are ready, click "**Print**" to make the labels\!
+  	*  Once you are ready, click "**Print**" to make the labels!
 
 		![][image28]
 

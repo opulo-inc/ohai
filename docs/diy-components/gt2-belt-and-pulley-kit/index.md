@@ -1,3 +1,7 @@
+---
+hide:
+  - navigation
+---
 
 # LumenPnP GT2 Belt and Pulley Kit
 
@@ -20,11 +24,7 @@
 
     ![alt text](img/IMG_0508.webp)
 
-- Adhere a `product-sticker` to the `LumenPnP GT2 Belt and Pulley Kit`
+- Adhere a `product-sticker` to the `LumenPnP GT2 Belt and Pulley Kit` to complete the `LumenPnP GT2 Belt and Pulley Kit`
 
     ![alt text](img/gt2-kit1.webp)
-
-- Adhere a `build-number-sticker` to complete the `LumenPnP GT2 Belt and Pulley Kit`
-
-    ![alt text](img/gt2-kit2.webp)
     ![alt text](img/gt2-kit3.webp)

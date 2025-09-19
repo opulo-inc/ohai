@@ -1,6 +1,11 @@
 # LumenPnP Control Box
+
 ## Introduction
+
 The purpose of these work instructions is to cover the assembly process for the LumenPnP's Control Box. This assembly is used by the LumenPnP to contain its microcontroller and pneumatics system.
+
+!!!warning "If you are preparing a `diy-control-box` for individual sale you must also follow the [steps listed in  DIY Control Box](https://ohai.opulo.io/diy-components/diy-control-box)."
+	If you are making a DIY Control Box - follow these docs like normal until the `Gundam Testing` section before going to the above link.
 
 ## Prepare `control-box`
 
@@ -17,6 +22,7 @@ The purpose of these work instructions is to cover the assembly process for the 
 ## Prepare pneumatics
 
 ### Right-side pneumatic system
+
 - Perform the following steps:
 	- Connect `vacuum-pump` to `solenoid-valve` with a 70mm piece of `6x4-soft-pvc-tubing-blue`
 	- Connect `solenoid-valve` to `reduction-tee-4-6-4` with a 60mm piece of `6x4-soft-pvc-tubing-blue`
@@ -29,6 +35,7 @@ The purpose of these work instructions is to cover the assembly process for the 
 ![alt text](img/IMG_1877.webp)
 
 ### Left-side pneumatic system
+
 - Perform the following steps:
 	- Connect `vacuum-pump` to `solenoid-valve` with a 70mm piece of `6x4-soft-pvc-tubing-red`
 	- Connect `solenoid-valve` to `reduction-tee-4-6-4` with a 60mm piece of r`6x4-soft-pvc-tubing-red`
@@ -57,6 +64,7 @@ Repeat the above process to install the right-side pneumatic system
 ![alt text](img/IMG_1889.webp)
 
 ## Bolt 2x `reduction-tee-4-6-4` to `control-box`
+
 - Use 2x `m3x30-socket-head` and 2x `m3-hex-nut` to attach  2x `reduction-tee-4-6-4` to `control-box`
 	![alt text](img/IMG_1890.webp)
 	![alt text](img/IMG_1892.webp)
@@ -74,6 +82,7 @@ Repeat the above process to install the right-side pneumatic system
 	![alt text](img/IMG_1897.webp)
 
 ## Connect vacuum lines to `motherboard-rev05`
+
 - Prepare a 145mm piece of `pu-tube-4x2.5-blue`
 - Prepare a 165mm piece of `pu-tube-4x2.5-red`
 - Gather 1pcs `motherboard-rev05` from inventory
@@ -91,6 +100,7 @@ Repeat the above process to install the right-side pneumatic system
 	![alt text](img/IMG_1899.webp)
 
 ## Screw `motherboard-rev05` into `control-box`
+
 - Place motherboard-rev05 into `control-box` while sliding the USB and barrel jack ports into the cutouts on the left side of the print
 	![alt text](img/IMG_1901.webp)
 	![alt text](img/IMG_1902.webp)
@@ -108,6 +118,7 @@ Repeat the above process to install the right-side pneumatic system
 	![alt text](img/IMG_1909.webp)
 
 ## Perform cable management
+
 - Connect the Left Pump, Right Pump, Left Valve, and Right Valve cables into the corresponding ports on `motherboard-rev05`
 	![alt text](img/IMG_1910.webp)
 - Run the cables back along the pathway between the two rows of connectors
@@ -117,6 +128,7 @@ Repeat the above process to install the right-side pneumatic system
 !!!success "You may now proceed to Gundam Testing!"
 
 ## Gundam Testing
+
 - Install `control-box-asm` into Gundam
 	![alt text](img/connect-gundam5.webp)
 	![alt text](img/connect-gundam6.webp)

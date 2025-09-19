@@ -1,6 +1,8 @@
 
 # Removing Non-Serialized Items from `Opulo Managed Inventory` per Production Batch #
 
+## Export Item Removal List from ShipStation
+
 1. Navigate to [https://ship13.shipstation.com/home](https://ship13.shipstation.com/home) and login
 
     ![](img/step_001.webp)
@@ -32,6 +34,8 @@
 8. Click "Export" and save the file somewhere you can easily it on your computer
 
     ![](img/step_008.webp)
+
+## Prepare sanitized item removal .CSV
 
 9. Navigate to [Weekly Aligni Item Removals - Google Drive](https://drive.google.com/drive/folders/1HGGAmzq4Ej-B4JcnH5Q7g35yrkVzUoOC)
 
@@ -212,6 +216,10 @@
 
     ![](img/step_057.webp)
 
+## Removal items from inventory in Aligni
+
+### Up-Rev the Removal Batch Item
+
 58. Navigate to [opulo.aligni.com](opulo.aligni.com)
 
 59. Click on the search button in the top-right of the UI
@@ -301,6 +309,8 @@
 80. Click "Release Revision"
 
     ![](img/step_079.webp)
+
+### Make a 1pcs Build for the Removal Batch Item
 
 81. Click "New Build"
 

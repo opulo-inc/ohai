@@ -2,57 +2,56 @@
 
 The goal of this document is to outline a workflow for importing an entire BOM into Aligni Assembly with the minimum amount of manual data entry.
 
-**What is an Assembly?**
+## Definitions
 
-* Assembly-level parts are typically classified as an Assembly or PCA part type
-* An assembly can also be any part that has child items added to the BOM
+* Assembly
 
----
-
-## Create Suppliers
-
-The first step is to make sure the vendors and manufacturers relevant to the BOM have been created. Follow the steps below to achieve this:
-
-1. Go to the `Suppliers` tab of Aligni by clicking on the icon highlighted in the image below
-
-    ![][image1]
-
-    !!!info "Once Aligni has forwarded you to the Suppliers page, you can view an alphabetically sorted list of all our previously entered suppliers."
-
-2. Within the Suppliers page, proceed with creating a new supplier entry
-
-    ![][image8]
-
-      * Click on the `(+) Manufacturer` icon to create new manufacturers
-      * Click on the `(+) Vendor` icon to create new vendors
-      * Aligni will forward you to the Details page for the given supplier
-      * Enter all required information (as much known as possible)
-      * Click `Create` when you are finished
+    * Assembly-level parts are typically classified as an Assembly or PCA part type
+    * An assembly can also be any part that has child items added to the BOM
 
 ---
+## Manage Manufactuers and Vendors
 
-## Associate Vendors and Manufacturers
+* The first step is to make sure the vendors and manufacturers relevant to the BOM have been created and associated together. Follow the steps below to achieve this:
 
-Associate vendors and manufacturers together so that Aligni knows that a given vendor is approved by us to distribute components made by any given manufacturer.
+    ??? note "Refresher: Create Suppliers"
+        1. Go to the `Suppliers` tab of Aligni by clicking on the icon highlighted in the image below
 
-Steps:
+            ![][image1]
 
-1. Go to the Suppliers tab of Aligni and select the Manufacturer you wish to create a vendor association with
+            !!! info "Once Aligni has forwarded you to the Suppliers page, you can view an alphabetically sorted list of all our previously entered suppliers."
 
-2. Navigate to the `Distribution` section of the Manufacturer page
+        2. Within the Suppliers page, proceed with creating a new supplier entry
 
-    ![][image3]
-    ![][image22]
+            ![][image8]
 
-3. Click on the `Edit Distribution` icon and wait for the `Select Vendors` pop-up window to appear
-      1. Within the `Select Vendors` pop-up window, check all vendors capable of distributing for the relevant manufacturer
-      2. Click `Save Distribution` when you are finished
+            * Click on the `(+) Manufacturer` icon to create new manufacturers  
+            * Click on the `(+) Vendor` icon to create new vendors  
+            * Aligni will forward you to the Details page for the given supplier  
+            * Enter all required information (as much known as possible)  
+            * Click `Create` when you are finished
 
-     ![][image4]
+    ??? note "Refresher: Associate Vendors and Manufacturers"
+        Associate vendors and manufacturers together so that Aligni knows that a given vendor is approved by us to distribute components made by any given manufacturer.
 
-4. Confirm that the selected vendors are now listed in the Distribution details pane of the Manufacturer entry
+        Steps:
 
-    ![][image17]
+        1. Go to the Suppliers tab of Aligni and select the Manufacturer you wish to create a vendor association with
+
+        2. Navigate to the `Distribution` section of the Manufacturer page
+
+            ![][image3]
+            ![][image22]
+
+        3. Click on the `Edit Distribution` icon and wait for the `Select Vendors` pop-up window to appear
+              1. Within the `Select Vendors` pop-up window, check all vendors capable of distributing for the relevant manufacturer
+              2. Click `Save Distribution` when you are finished
+
+            ![][image4]
+
+        4. Confirm that the selected vendors are now listed in the Distribution details pane of the Manufacturer entry
+
+            ![][image17]
 
 * Repeat these steps until you have completed listings and defined distribution channels for all the components of the BOM you wish to import.
 

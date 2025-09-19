@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 ## Introduction
 This work instruction is for assembling `feeder-part-kit` - this is a pack of parts that helps customers build their own feeders. The following items are included in the kit:
 
@@ -34,7 +39,7 @@ Collect the required quantity of feeder parts from inventory and perform the fol
 	<img style="height:500px;" src="img/feeder-part-kit-1.webp">
 
 * Cut the webbing out from in-between 2 pockets to create a larger pocket for the `drive-wheel-asm`
-	* It is OK to put 1x-3x `drive-wheel-asm` pieces in each pocket provided the `shaft-collar`
+	* It is OK to put 1x to 3x `drive-wheel-asm` pieces in each pocket
 
 	<img style="height:500px;" src="img/feeder-part-kit-2.webp">
 
@@ -48,28 +53,18 @@ Collect the required quantity of feeder parts from inventory and perform the fol
 
 	<img style="height:500px;" src="img/feeder-part-kit-4.webp">
 
-* Package each `feeder-part-kit` into a `esd-safe-bag` before taping it closed and **adhere a `build-number-sticker`**
-	
+* Package each `feeder-part-kit` into a `esd-safe-bag` before taping it closed
+
 	<img style="height:500px;" src="img/feeder-part-kit-5.webp">
 	
 	<img style="height:500px;" src="img/feeder-part-kit-6.webp">
 	
 	<img style="height:500px;" src="img/feeder-part-kit-7.webp">
-	
-	<img style="height:500px;" src="img/feeder-part-kit-8.webp">
 
 ### Packaging 5+ Sets
 
 * For orders of 5+ `feeder-part-kit` sets, it's OK to simply stack filled trays atop one another
 	* Just aim for a professional looking pack-out with trays sized appropriately for the box you use
-* Adhere `build-number-sticker` -
-	* You only need to adhere the sticker that corresponds to the first SN and last SN consumed. For example if someone purchased 5pcs `feeder-part-kit` you would:
-
-		* Adhere sticker #1 and #5 (provided this is new sticker sheet) and draw a dash between the two stickers with a black marker
-
-			![alt text](img/build-stickers-5plus.webp)
-
-		* Scrap stickers #2 through #4 by crossing them out with a black marker
 
 ### Packaging 50 Sets
 When packaging 50 sets of `feeder-part-kit` use the following section for guidance. The images below show how to best package a 50pcs `feeder-part-kit` order.
@@ -103,15 +98,4 @@ When packaging 50 sets of `feeder-part-kit` use the following section for guidan
 	<img style="height:500px;" src="img/feeder-part-kit-16.webp">
 
 * Tape the `OPF-folder-box` shut
-* Adhere `build-number-sticker` -
-	* You only need to adhere the sticker that corresponds to the first SN and last SN consumed. For example if someone purchased 50pcs `feeder-part-kit` you would:
-		* Adhere sticker #1 and #50 (provided this is new sticker sheet) and draw a dash between the two stickers with a black marker
-
-			![alt text](img/build-stickers-bulk.webp)
-
-		* Scrap stickers #2 through #49 by crossing them out with a black marker
-		* The resultant `build-number-sticker-sheet` would match the following image when this is done correctly
-
-			![alt text](img/build-stickers-bulk-when-done.webp)
-
 * Proceed with the pack-out process flow

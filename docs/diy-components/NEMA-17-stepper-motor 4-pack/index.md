@@ -1,3 +1,9 @@
+---
+hide:
+  - toc
+  - navigation
+---
+
 # LumenPnP NEMA 17 Stepper Motor 4-Pack
 
 ## Purpose
@@ -27,10 +33,5 @@ The purpose of this work instructions is to document the assembly process for th
 
     ![alt text](img/IMG_0757.webp)
     ![alt text](img/IMG_0758.webp)
-
-- Adhere a `build-number-label` to the packaged motors
-
-    ![alt text](img/IMG_0763-1.webp)
-    ![alt text](img/IMG_0763-2.webp)
 
 !!!success "The completed `LumenPnP NEMA 17 Stepper Motor 4-Pack` is now ready for packout!"
