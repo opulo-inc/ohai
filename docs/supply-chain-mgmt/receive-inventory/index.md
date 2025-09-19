@@ -114,6 +114,9 @@
 
     ![](img/12.webp)
 
+    !!!warning "ONLY PRINT THE PAGE RANGE WITH LABELS ON IT"
+        Disreguarding this warning will result in the label printer printing out blank pages until it has printed 100 pages in total"
+
 16. Click `Print`
 
 17. Proceed to adhere the printed asset tags onto the appropriate pieces of inventory
