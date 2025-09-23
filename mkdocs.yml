@@ -114,4 +114,4 @@ nav:
         - Creating Purchase Orders in Aligni: supply-chain-mgmt/buy-parts/index.md
         - Recieving Inventory from Purchase Orders: supply-chain-mgmt/receive-inventory/index.md
         - Example walkthrough of ordering through LCSC: supply-chain-mgmt/purchasing-from-lcsc/index.md
-
+        - Creating and Scheduling a Bill Payment in Ramp: supply-chain-mgmt/sending-ramp-payments/index.md
