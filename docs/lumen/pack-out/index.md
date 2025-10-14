@@ -57,10 +57,11 @@
 	![alt text](img/IMG_28.webp)
 	![alt text](img/IMG_29.webp)
 
+1. QC the `feeder-blade-harness-set`. All four connectors **must** have the same wire color order as each other.
+
+	![](img/blade-harness-ok.webp)
 
 2. Insert `feeder-blade-harness-set` to the right of `getting-started-kit`
-
-	!!!warning "Please remember this is the new JST PH cables! We do not need to make IDC cables anymore."
 
 	![alt text](img/IMG_30.webp)
 	![alt text](img/IMG_31.webp)
