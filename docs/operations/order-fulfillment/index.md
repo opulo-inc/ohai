@@ -9,10 +9,25 @@
 
 	!!!info "See [here](planned-ship-date-calc.md) for more information on our Planned Ship Date calculations"  
 
-3. Go to ShipStation and create a batch for the orders that fall within the given `Batch WK#` you wish to fulfill.
+## Create ShipStation Batch
 
-	- Name the ShipStation batch to `Batch WK#`, where `#` is replaced with the batch's given week number
-	- Be sure to select the correct box size for the items and ask for help if needed
+1. Go to ShipStation and create a batch for the orders that fall within the given `Batch WK#` you wish to fulfill.
+      - Aim to ship about 10 Lumens and 35 trays of feeders in total
+2. Name the ShipStation batch to `Batch WK#`, where `#` is replaced with the batch's given week number
+
+## Preparing Shipping Labels for Purchase
+
+3. Review each ShipStation order in the batch for correctness:
+   - Selct the correct package size/set, review declared values, and ensure shipping methods are sensible.
+   - **Box Weight Check:**
+       - After loading a box size preset **double check the weight field.**
+       - If the weight has changed unexpectedly, **edit the weights back to the previously displayed total weight** to ensure accurate shipping costs.
+   - **Avoid overpaying for shipping:** Do not select a service that costs vastly more than what the customer paid.
+   - **Upgrade where possible:** If the customer’s paid shipping rate allows, consider upgrading their shipping service for faster delivery without exceeding their payment amount.
+   - **FedEx consideration:** If shipping with another carrier would lose $100+ compared to FedEx, consider switching to FedEx to reduce the loss.
+   - **Tax ID Handling:**
+       - Check the order notes for the customer’s **Tax ID** and add it to the `Recipient Tax Identification` field in ShipStation.
+       - If the Tax ID appears in **Line 3 (or elsewhere)** of the shipping address, **remove it from the address** and paste it into the `Recipient Tax Identification` field instead.
 
 ## Prepare the Order-Packing-Checklist
 
@@ -29,20 +44,25 @@
 
 2. Print out the week's checklist when ready
 
-## Purchasing Shipping Labels
+## Purchase the labels
+ - Some notes:
+     - When you purchase the labels, select the correct "Ship On" date so that you can later schedule a pickup for this day
 
-3. Review each ShipStation order in the batch for correctness - double check the package size, declared values, and shipping methods are all appropriate
+ - Cautions:
 
-	!!!note "Training is required for this step"
-		Please ask Lucy for help if it's your first time doing this.
+	!!!warning "**50 Character Line Limit:**"
+		If an error occurs during label creation, it may be because a line in the shipping address exceeds 50 characters. If this happens:
+		- Abbreviate words or
+		- Split the content into an additional line to stay within the limit.
 
-4. Purchase the labels
+
 
 ## Create a Pickup
 
 5. Set the `Pickup Date` for the required shipping carriers
 
   - Customers can currently pick between UPS, USPS, and DHL at checkout so multiple pickups may be required
+  - Note that DHL pickups are done in Shopify, UPS and USPS in ShipStation
 
 6. Print out all the shipping labels for the week on `4x6 Label Paper` with the Dymo 4XL Label Printer
 
@@ -77,6 +97,9 @@
 ### Additional Guidelines for Packaging
 
 - Shipments with a pending payment status
+    - Check the **Awaiting Payment** section in ShipStation for any orders in this list
+    	- Mark these orders as **Paid** so they appear in the `Awaiting Shipping` list
+    	- This ensures no paid-but-unmarked order is accidentally left behind
 	- Alert customer service when these orders are ready for shipping , so that the team is given notice when an order with NET## terms has been shipped out
 - Shipment comprised of two or more packages poly-strapped together:
 	- Adhere the shipping label and other documents to the largest package in the shipment
@@ -101,6 +124,7 @@
 	- USPS International
 	- UPS Domestic
 	- UPS International
+    - FedEx
 
 - Confirm the following:
 	- Docker does not have any assembled goods beyond what's expected to be in `unfulfilled inventory`
