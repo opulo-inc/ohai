@@ -97,6 +97,9 @@
 11. Click this checkbox to select all pieces of inventory being received
 
     ![](img/08.webp)
+    
+    !!!warning "ONLY PRINT THE PAGE RANGE WITH LABELS ON IT"
+        Disreguarding this warning will result in the label printer printing out blank pages until it has printed 100 pages in total"
 
 12. Click `Generate PDF`
 
@@ -113,9 +116,6 @@
 15. Confirm the print utility's settings match the image shown below
 
     ![](img/12.webp)
-
-    !!!warning "ONLY PRINT THE PAGE RANGE WITH LABELS ON IT"
-        Disreguarding this warning will result in the label printer printing out blank pages until it has printed 100 pages in total"
 
 16. Click `Print`
 
