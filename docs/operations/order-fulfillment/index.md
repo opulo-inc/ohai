@@ -97,10 +97,10 @@
 ### Additional Guidelines for Packaging
 
 - Shipments with a pending payment status
-    - Check the **Awaiting Payment** section in ShipStation for any orders in this list
-    	- Mark these orders as **Paid** so they appear in the `Awaiting Shipping` list
-    	- This ensures no paid-but-unmarked order is accidentally left behind
-	- Alert customer service when these orders are ready for shipping , so that the team is given notice when an order with NET## terms has been shipped out
+    - Check the **Awaiting Payment** section in ShipStation for orders
+    	- Always mark these orders as **Paid** so they appear in the `Awaiting Shipping` list
+    		- We do not currently use the **Awaiting Payment** list at Opulo for anything, so we always mark things as paid reguardless of payment status.
+	- If the `Ship By` field for an **Awaiting Payment** order is blank in ShipStation, manually append the date in `Custom Field 1` into the `Ship By` field
 - Shipment comprised of two or more packages poly-strapped together:
 	- Adhere the shipping label and other documents to the largest package in the shipment
 	- Take care to avoid the shipping documents being obstructed by the poly-straps
@@ -132,3 +132,7 @@
 	- Each line in the `order-packing-checklist` is checked-off and initialed
 	- No unused shipping labels are left sitting out
 	- The first page of any international shipment's custom form matches the receiver's name on the shipping label  
+
+## To do
+
+- Add documentation for replacement part and return shipping label logistics
