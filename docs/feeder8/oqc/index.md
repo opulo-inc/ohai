@@ -107,5 +107,12 @@ After completing all prior assembly and testing work, CHECK EVERY BULLET on EVER
 * Cosmetic sticker has been applied over the drive motor
 * Version number sticker has been applied to the PCB
 * Drive-wheel-shaft-collar is flush or sub-flush to the surface of the drive-motor-cover
+* `peel-worm-gear` is glued on at the appropriate depth
+    * ![](img/ok-worm.webp)
+    * ![](img/ng-worm.webp)
+* `peel-worm-gear` is not able to slide off the peel motor shaft
+    * ![](img/loose-peel-worm.webp)
+* Drive wheel is securely tightened onto drive shaft
+* Drive wheel cannot move laterally (drive motor securely mounted into frame)
 
 !!!success "If all final checks are OK, the feeder may proceed forward to packout"
