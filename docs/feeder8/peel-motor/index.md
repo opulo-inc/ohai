@@ -36,11 +36,13 @@ Material needed
 ## Assembly 
 	
 * Dispense a 1-2 drops of `LOCTITE 435` to the end of shaft on `peel-motor`. 
-!!! glue "Start light with the glue because it can get messy"
-<img src="img/img14.webp" width="60%" height=auto>
-	<!-- omg the first pic i took of Audrey's hand but with the motor getting glued -->
+		
+	!!! glue "Start light with the glue because it can get messy"
+	<img src="img/img14.webp" width="60%" height=auto>
 
 * Bring `peel-motor` shaft to hole of `worm-gear` and firmly bring pieces together.
+	
+	!!!failure "Press ALL the way on. The print has a depth stop!"
 	<img src="img/img15.webp" width="60%" height=auto>
 	<img src="img/img16.webp" width="60%" height=auto>
 

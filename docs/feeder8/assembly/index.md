@@ -2,6 +2,10 @@
 
 ## Motherboard Assembly
 
+* Pull on the `peel-worm-gear` and ensure it's properly glued onto the peel motor shaft.
+
+	![](img/pullonworm.webp)
+
 * Plug the `peel-motor-asm` and `drive-motor` to their respective pins. 
    
    <img src="img/img3.webp" width="60%" height=auto>
@@ -10,7 +14,7 @@
 * Press `drive-motor` into its cavity while ensuring it is flush with the back of `feeder-frame`. This helps `drive-motor` stay stable as we place the board into the frame. 
 		![](img/drivemotor3.webp)
 		
-* Twist `feeder-mobo` once to help guide wires into their cavity. 
+* Do NOT twist `feeder-mobo` cables inside frame. 
 	
 	<img src="img/img2.webp" width="60%" height=auto>
 
@@ -20,7 +24,7 @@
 	<img src="img/img1.webp" width="60%" height=auto>
    	
 
-3. Press the PCB flat into `feeder-frame`.
+1. Press the PCB flat into `feeder-frame`.
 	* Make sure the cable is not caught between them - it should lay flush.
 
    	![](img/PXL_20230125_205601695.webp)
@@ -44,16 +48,26 @@
 
   	 ![](img/bracket2.webp)
  	 ![](img/bracket3.webp)
+	 
+	 !!! note "Press down on the gearbox while tightening so that the motor is secured into the frame flush"
+	 ![](img/holdmotordown.webp)
 
 	!!! failure "*DO NOT OVER-TIGHTEN*"
 		Over-tightening can lead to bracket damage and motor skewing in the `feeder-frame-8mm`
 			![](img/install-bracket-4.webp)
+
+	!!! failure "*DO NOT UNDER-TIGHTEN*"
+		Undertightening can result in the motor being loose in the cavity.
 
 
 11. Check that the `drive-motor` is still flush and hasn't skewed because of tightening
 	* If it appears crooked or not flush, loosen the screws and readjust the `drive-motor`
 
    	![](img/bracket4.webp)
+
+12. Push on the backside of the motor, and ensure it does not shift in its cavity. If it does, tighten down the `drive-motor-brackets` more until they do not.
+
+	![](img/pushdrivemotor.webp)
 
 <!-- 1. Use a blade to clean up any loose plastic that was pushed through the `drive-motor-bracket` mounting screw holes during installation 
 
