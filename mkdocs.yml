@@ -115,3 +115,4 @@ nav:
         - Recieving Inventory from Purchase Orders: supply-chain-mgmt/receive-inventory/index.md
         - Example walkthrough of ordering through LCSC: supply-chain-mgmt/purchasing-from-lcsc/index.md
         - Creating and Scheduling a Bill Payment in Ramp: supply-chain-mgmt/sending-ramp-payments/index.md
+        - Material Forecasting and Purchase Planning: supply-chain-mgmt/quarterly-purchase-planning/index.md
