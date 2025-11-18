@@ -40,6 +40,10 @@ Material needed
 	!!! glue "Start light with the glue because it can get messy"
 	<img src="img/img14.webp" width="60%" height=auto>
 
+* Use the tip of the dispenser to spread the glue around the motor shaft.
+
+	<img src="img/glue-spread.webp" width="60%" height=auto>
+
 * Bring `peel-motor` shaft to hole of `worm-gear` and firmly bring pieces together.
 	
 	!!!failure "Press ALL the way on. The print has a depth stop!"
