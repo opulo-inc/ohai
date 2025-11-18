@@ -55,7 +55,7 @@ Material needed
 	<img src="img/img17.webp" width="60%" height=auto>
 	<img src="img/img13.webp" width="60%" height=auto>
 
-* Manually rotate the installed `peel-gear` to check if any glue fell into the motor's gearbox once it's dried for at least 3 minutes. 
+* Manually rotate the installed `peel-gear` to check if any glue fell into the motor's gearbox once it's dried for at least 3 hours. 
 
 !!!failure "If you cannot rotate the installed `peel-gear` by hand, scrap the subassembly and record the material waste"
 	
