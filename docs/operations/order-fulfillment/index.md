@@ -28,6 +28,12 @@
    - **Tax ID Handling:**
        - Check the order notes for the customer’s **Tax ID** and add it to the `Recipient Tax Identification` field in ShipStation.
        - If the Tax ID appears in **Line 3 (or elsewhere)** of the shipping address, **remove it from the address** and paste it into the `Recipient Tax Identification` field instead.
+   - **For Canada-bound shipments enter the following info:**
+       - Customs Declarations → “ECCN” field: `EAR99`
+           - This should be there automatically
+       - Customs Declarations → “ITN / AES Exemption” field: `NOEEI 30.36`
+           - Source: [https://www.ecfr.gov/current/title-15/subtitle-B/chapter-I/part-30/subpart-D
+](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-I/part-30/subpart-D)
 
 ## Prepare the Order-Packing-Checklist
 
