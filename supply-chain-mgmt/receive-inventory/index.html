@@ -1,0 +1,1975 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ohai.opulo.io/supply-chain-mgmt/receive-inventory/">
+      
+      
+        <link rel="prev" href="../buy-parts/">
+      
+      
+        <link rel="next" href="../purchasing-from-lcsc/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Recieving Inventory from Purchase Orders - OHAI - Open Hardware Assembly Instructions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lexend";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-to-receive-inventory-in-aligni" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-header__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OHAI - Open Hardware Assembly Instructions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Recieving Inventory from Purchase Orders
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/opulo-inc/lumenpnp/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lumen/" class="md-tabs__link">
+          
+  
+    
+  
+  LumenPnP
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../feeder8/" class="md-tabs__link">
+          
+  
+    
+  
+  Feeder
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assembly-guides/" class="md-tabs__link">
+          
+  
+    
+  
+  Other Products
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../operations/" class="md-tabs__link">
+          
+  
+    
+  
+  Operations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  Supply Chain Management
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-nav__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.webp" alt="logo">
+
+    </a>
+    OHAI - Open Hardware Assembly Instructions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/opulo-inc/lumenpnp/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../lumen/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    LumenPnP
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            LumenPnP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/x-gantry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    X Gantry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/y-gantry/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Y Gantry
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/feeder-rail/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feeder Rail (Front and Rear)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/drag-chain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drag Chain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/control-box/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Control Box
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/staging-plate/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Staging Plate
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumenpnp-accessories/ftp-kit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started Kit (FTP)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/tool-kit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tool Kit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/additional-parts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Additional Parts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/printing_lumenpnp_labels/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Printing LumenPnP Lables
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/pack-out/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Packaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/jigs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jigs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../feeder8/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Feeder
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Feeder
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/pcb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PCB Production
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/pcb-qc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PCB QC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-motor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Peel Motor Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/indexing-wheel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drive Wheel Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-gear-frame/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Peel Gear Box
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/feeder-frame-8mm-asm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frame Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/assembly/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Final Assembly
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/oqc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OQC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/packout/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Packaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../assembly-guides/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Other Products
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Other Products
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../operations/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Operations
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Operations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/print-farm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Print Farm
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/order-fulfillment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Order Fulfillment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/managing-weekly-non-serialized-aligni-builds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Weekly Removal of Non-Serialized Shipped Goods from Inventory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/inventory-audit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inventory Day
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Supply Chain Management
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Supply Chain Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create-vendor-mfg-contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating and Associating Vendors, Manufacturers, and Contacts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create-parts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating Parts in Aligni
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aligni-bom-import/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing an Assembly's BOM  into Aligni
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../buy-parts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating Purchase Orders in Aligni
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Recieving Inventory from Purchase Orders
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Recieving Inventory from Purchase Orders
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definitions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Notes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../purchasing-from-lcsc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Example walkthrough of ordering through LCSC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sending-ramp-payments/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating and Scheduling a Bill Payment in Ramp
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quarterly-purchase-planning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Material Forecasting and Purchase Planning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definitions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Notes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="how-to-receive-inventory-in-aligni">How to Receive Inventory in Aligni</h1>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>An Aligni account registered through the Opulo organization with Technican-level access</li>
+<li>Software Drivers for the Dymo 4XL Label Maker (download links below)<ul>
+<li><a href="https://download.dymo.com/dymo/Software/Mac/DCDMac1.5.0.17.pkg">macOS (versions 13 and up)</a></li>
+<li><a href="https://download.dymo.com/dymo/Software/Win/DCDSetup1.5.0.17.exe">Windows 10 and up</a></li>
+</ul>
+</li>
+<li>A computer setup to print on a 4"x 6" thermal label page format<ul>
+<li>
+<details class="info">
+<summary>How to create a custom paper size in macOS (expand if needed)</summary>
+<p>If you want to create a document that has a unique size, such as an envelope or card, first see if the paper size appears in the Paper Size pop-up menu.</p>
+<p>If not, you can create your own custom paper size. Custom paper sizes aren’t available for some printers or for all apps.</p>
+<p>Note: The following options might not be available for your printer or app. If these instructions differ from what you see onscreen, refer to the documentation that came with the app you’re using.</p>
+<ol>
+<li>
+<p>Choose File &gt; Print. If you see a Show Details button, click it to show all available options.</p>
+</li>
+<li>
+<p>Click the Paper Size pop-up menu, then choose Manage Custom Sizes.</p>
+</li>
+<li>
+<p>Click the Add button  to add a new paper size, then specify the paper size you want.</p>
+</li>
+</ol>
+<p><img alt="alt text" src="img/image.webp" /></p>
+<p>To create a new paper size based on an existing size, select a paper size in the list, then click Duplicate.</p>
+<p>To print to a custom paper size, choose it from the Paper Size pop-up menu in the Print dialog (choose File &gt; Print). To set a document size to a custom paper size, choose it from the Paper Size pop-up menu in the Page Setup dialog (choose File &gt; Page Setup).</p>
+<div class="admonition info">
+<p class="admonition-title">If a document is printing with incorrect margins or clipped text, try this:</p>
+<p>Click the Non-Printable Area pop-up menu, choose User Defined, then enter zero for the nonprintable margins. In some cases this allows the document margins to print as expected.</p>
+</div>
+<p>Source: <a href="https://support.apple.com/guide/mac-help/create-a-custom-paper-size-mchlp15541/10.13/mac/10.13">Apple Mac Help Support Docs</a></p>
+</details>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="definitions">Definitions</h2>
+<ul>
+<li>
+<p>Inventory Unit:</p>
+<ul>
+<li>A digital record in Aligni representing a physical item in stock. Created when an item is received or added manually.</li>
+</ul>
+</li>
+<li>
+<p>Inventory Location / Sublocation:</p>
+<ul>
+<li>Physical or logical storage areas defined in Aligni where received units are stored.</li>
+</ul>
+</li>
+<li>
+<p>Asset ID:</p>
+<ul>
+<li>A unique alphanumeric identifier generated by Aligni to track individual units (e.g., separate reels, trays, or packages).</li>
+</ul>
+</li>
+</ul>
+<h2 id="procedure">Procedure</h2>
+<ol>
+<li>
+<p>Navigate to the <code>Purchase</code> tab from the home page of Aligni</p>
+<p><img alt="" src="img/1758230824582.webp" /></p>
+</li>
+<li>
+<p>Click on the Purchase Order you wish to receive inventory against</p>
+<p><img alt="" src="img/01.webp" /></p>
+</li>
+<li>
+<p>Click <code>Receive Inventory</code></p>
+<p><img alt="" src="img/02.webp" /></p>
+</li>
+<li>
+<p>In the <code>Qty</code> field of every non-material item (shipping, tax, bank fees, etc) enter the value <code>1</code></p>
+<p><img alt="" src="img/03.webp" /></p>
+<div class="admonition info">
+<p class="admonition-title">The steps below assume a line item from the PO was delivered in multiple packages. If this is not the case, you simply type the line item's <code>Order Quantity</code> in the <code>QTY</code> text-field – and skip the next two steps.</p>
+</div>
+</li>
+<li>
+<p>Click this icon to open the <code>Split</code> utility's pop-up window</p>
+<p><img alt="" src="img/04.webp" /></p>
+</li>
+<li>
+<p>Enter the item quantity within each package into a separate text field</p>
+<p><img alt="" src="img/1758294846992.webp" /></p>
+<ul>
+<li>
+<div class="admonition note">
+<p class="admonition-title">Note: In this example, we entered a value of <code>1</code> three times because we recieved 3 units of <code>3000-piece-pack</code>.</p>
+<p>This will result in eventually creating a unique asset tag for each of the three 3000pcs bolt boxes.</p>
+</div>
+</li>
+<li>
+<div class="admonition warning">
+<p class="admonition-title">Verify: if the line item has arrived in full, the total of all text fields must equal the order quantity.</p>
+</div>
+</li>
+<li>Click <code>Split</code> when ready</li>
+</ul>
+</li>
+<li>
+<p>Click the <code>Datecode</code> field and enter the date the item was received in <code>yyyy-mm-dd</code> format</p>
+<p><img alt="" src="img/05.webp" /></p>
+</li>
+<li>
+<p>Check the <code>Generate Asset ID</code> box if unique IDs are required</p>
+</li>
+<li>
+<p>Click <code>Commit Inventory &amp; Print Labels</code></p>
+<p><img alt="" src="img/06.webp" /></p>
+<div class="admonition info">
+<p class="admonition-title">If you do not need an asset tag for the received item(s), simply click <code>Commit Inventory</code></p>
+</div>
+</li>
+<li>
+<p>Click the dropdown menu and select the <code>4x6 Asset Tag v3</code> option</p>
+<p><img alt="" src="img/07.webp" /></p>
+</li>
+<li>
+<p>Click this checkbox to select all pieces of inventory being received</p>
+<p><img alt="" src="img/08.webp" /></p>
+<div class="admonition warning">
+<p class="admonition-title">ONLY PRINT THE PAGE RANGE WITH LABELS ON IT</p>
+<p>Disreguarding this warning will result in the label printer printing out blank pages until it has printed 100 pages in total"</p>
+</div>
+</li>
+<li>
+<p>Click <code>Generate PDF</code></p>
+<p><img alt="" src="img/09.webp" /></p>
+</li>
+<li>
+<p>The asset tag(s) will now open in PDF format</p>
+<p><img alt="" src="img/10.webp" /></p>
+</li>
+<li>
+<p>Click <code>Print</code> from the top-right toolbar</p>
+<p><img alt="" src="img/11.webp" /></p>
+</li>
+<li>
+<p>Confirm the print utility's settings match the image shown below</p>
+<p><img alt="" src="img/12.webp" /></p>
+</li>
+<li>
+<p>Click <code>Print</code></p>
+</li>
+<li>
+<p>Proceed to adhere the printed asset tags onto the appropriate pieces of inventory</p>
+</li>
+</ol>
+<h2 id="additional-notes">Additional Notes</h2>
+<ul>
+<li>
+<p>Partial Shipments:</p>
+<ul>
+<li>You can receive items against the same PO multiple times until the line item is fully received.</li>
+<li>Once the recieved amount matches the order quantity, the line item closes and cannot be received again.</li>
+<li>This is different than splitting – making use of this is helpful when a line item is fulfilled across a span of time.</li>
+</ul>
+</li>
+<li>
+<p>Corrections:</p>
+<ul>
+<li>
+<p>If you mistakenly receive inventory:</p>
+<ol>
+<li>
+<p>Correct the item’s stock level in the Inventory tab.</p>
+</li>
+<li>
+<p>Update the PO line item’s “Received” column to reflect the correct received-to-date amount.</p>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Inventory logs cannot be edited or deleted — they act as an audit trail.</p>
+</div>
+</li>
+</ul>
+</li>
+<li>
+<p>Units of Measure:</p>
+<ul>
+<li>Aligni always stores inventory in the item’s native unit of measure.</li>
+<li>If the PO uses a different UoM, Aligni auto-converts and preserves the purchased UoM as a display field.</li>
+</ul>
+</li>
+<li>
+<p>Currency:</p>
+<ul>
+<li>All inventory is valued in the site’s base currency.</li>
+<li>Purchases in other currencies are converted at Aligni’s daily exchange rate (sourced from Google) unless you manually set another rate.</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../buy-parts/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Creating Purchase Orders in Aligni">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Creating Purchase Orders in Aligni
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../purchasing-from-lcsc/" class="md-footer__link md-footer__link--next" aria-label="Next: Example walkthrough of ordering through LCSC">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Example walkthrough of ordering through LCSC
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      LumenPnP and its related works are proudly released under the CERN-OHL-W-2.0 license - Opulo Inc 2024
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.instant", "navigation.top", "toc.follow", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.tracking", "navigation.path"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
