@@ -2,9 +2,12 @@
 
 ## Motherboard Assembly
 
-* Pull on the `peel-worm-gear` and ensure it's properly glued onto the peel motor shaft.
+* Pull on the `peel-worm-gear` and ensure it's properly glued onto the peel motor shaft. Twist the worm gear to make sure it spins the motor easily.
 
 	![](img/pullonworm.webp)
+
+	!!! Danger "Twist the Worm Gear"
+		Do NOT continue with assembly if it does not spin easily and freely. This is a critical failure that can result in the feeder not working as intended. When in doubt, put it in MRB.
 
 * Plug the `peel-motor-asm` and `drive-motor` to their respective pins. 
    
