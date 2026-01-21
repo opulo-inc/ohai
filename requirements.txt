@@ -1,6 +1,0 @@
-mkdocs==1.5.3
-mkdocs-material==9.5.17
-mkdocs-glightbox==0.3.4
-neoteroi-mkdocs==1.0.5
-pillow==10.2
-mkdocs-material[imaging] 
