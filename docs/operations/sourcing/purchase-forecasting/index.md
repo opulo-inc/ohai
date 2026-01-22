@@ -1,12 +1,11 @@
-# Purchase Forecasting & Planning SOP  
+# Purchase Forecasting
 
-**Revision:** Draft  
-**Cadence:** Weekly (with Monthly & Quarterly supplements)
+This SOP defines the standardized workflow for forecasting and purchasing materials. Mainly, it's used to ensure we don't run out of stock.
 
----
+We have an Aligni SKU called `BATCH-0002` which is used to run Material Shortage Report in Aligni. Every week on Monday, after the previous week's build is completed, we *uprev* `BATCH-0002` to have a BOM of *everything we sold in the last 90 days*. Then, when we ask Aligni what happens when we do a build for QTY 1, due in 90 days, we'll see what we're likely to run out of, and what we should purchase.
 
-## 1. Purpose
-This SOP defines the standardized workflow for forecasting and purchasing materials using a single “Proxy SKU” with a Monster BOM representing Opulo’s last quarter of sales, plus a 10% factor of safety. This ensures accurate purchasing decisions based on real consumption data and a 3-month forward forecast horizon.
+This is similar to how we do weekly removal of inventory with a QTY 1 build of `BATCH-0001`. However, we never *actually* build `BATCH-0002`, it's only ever used to check Material Shortage report, then the Build draft is deleted.
+
 
 ---
 

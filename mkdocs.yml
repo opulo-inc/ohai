@@ -14,6 +14,11 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 
 theme:
@@ -21,23 +26,29 @@ theme:
   logo: img/opulo.webp
   favicon: img/favicon.ico
   font:
-    text: Lexend
+    text: Figtree
     # code: Ubuntu Mono
   palette:
     scheme: slate
     primary: deep purple
   features:
-    - navigation.footer
-    - navigation.instant
-    - navigation.top
-    - toc.follow
-    - navigation.indexes
+    # - navigation.footer
+    # - navigation.instant
+    # - navigation.top
+    # - toc.follow
+    # - navigation.indexes
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    # - navigation.tracking
+    # - navigation.path
+    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.tracking
-    - navigation.path
+    - content.tabs.link
+    - content.action.edit
+    - toc.integrate
+    - content.code.copy
 
 nav:
   - Home: index.md
@@ -70,7 +81,18 @@ nav:
 
   - Other Products:
         - Overview: assembly-guides/index.md
- #       - DIY LumenPnP v4 Control Box: diy-components/diy-control-box/index.md
+
+  - Operations:
+        - Overview: operations/index.md
+        - Sourcing:
+          - Weekly Inventory Removal: operations/sourcing/weekly-inventory-removal/index.md
+          - Weekly Purchase Forecasting: operations/sourcing/purchase-forecasting/index.md
+          - Create PO: operations/sourcing/create-po/index.md
+          - Receiving Inventory: operations/sourcing/receive-inventory/index.md
+        - Production / Fulfillment: operations/production-fulfillment/index.md
+
+
+#       - DIY LumenPnP v4 Control Box: diy-components/diy-control-box/index.md
  #       - LumenPnP v4 Toolhead Kit: v4-upgrade-parts/lumenpnp-toolhead-asm-v4/index.md
  #       - LumenPnP v4 Drag Chain Assembly Kit: v4-upgrade-parts/drag-chain-assembly-kit-v4/index.md
  #       - (WIP) LumenPnP v4 Endstop PCB Set: v4-upgrade-parts/endstop-set-v4/index.md
@@ -98,21 +120,3 @@ nav:
  #       - Feeder Part Kit: diy-components/feeder-part-kit/index.md
  #       - Fastener Kit: diy-components/fastener-kit/index.md
  #       - Feeder Connection Kit: diy-components/feeder-connection-kit/index.md
-
-  - Operations:
-        - Overview: operations/index.md
-        - Print Farm: operations/print-farm/index.md
-        - Order Fulfillment: operations/order-fulfillment/index.md
-        - Weekly Removal of Non-Serialized Shipped Goods from Inventory: operations/managing-weekly-non-serialized-aligni-builds/index.md
-        - Inventory Day: operations/inventory-audit/index.md
-
-  - Supply Chain Management:
-        - Overview: supply-chain-mgmt/index.md
-        - Creating and Associating Vendors, Manufacturers, and Contacts: supply-chain-mgmt/create-vendor-mfg-contact/index.md
-        - Creating Parts in Aligni: supply-chain-mgmt/create-parts/index.md
-        - Importing an Assembly's BOM  into Aligni: supply-chain-mgmt/aligni-bom-import/index.md
-        - Creating Purchase Orders in Aligni: supply-chain-mgmt/buy-parts/index.md
-        - Recieving Inventory from Purchase Orders: supply-chain-mgmt/receive-inventory/index.md
-        - Example walkthrough of ordering through LCSC: supply-chain-mgmt/purchasing-from-lcsc/index.md
-        - Creating and Scheduling a Bill Payment in Ramp: supply-chain-mgmt/sending-ramp-payments/index.md
-        - Material Forecasting and Purchase Planning: supply-chain-mgmt/quarterly-purchase-planning/index.md
