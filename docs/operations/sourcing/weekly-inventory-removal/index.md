@@ -1,4 +1,4 @@
-## Finalizing Last Week's Build
+## Finalizing the Last Week's Build
 
 97. Navigate to the Finalize tab of the previous week's build, and disable "Add final assembly to inventory"
 
