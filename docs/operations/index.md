@@ -28,7 +28,7 @@ config:
 timeline
     title One Week in Opulo Manufacturing
     section Monday
-      Sourcing : Weekly Inventory Removal for last weeks build, plus any extra/ replacement parts that were not part of the Build List
+      Sourcing : Sourcing Manager Finalizes last week's `BATCH-0001` build, plus any extra / replacement parts that were not part of the original Build List
                : Sourcing Manager makes `BATCH-0001` build in Aligni based on Build List from Production Manager last week, scheduled completion this Friday
                : Sourcing Manager provides Build number for Production to use for serial numbers
                : Purchase Forecasting is run with `BATCH-0002` based on Shopify export of last 90 days of sales.
