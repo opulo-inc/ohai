@@ -96,6 +96,7 @@ nav:
             - Example Purchase: operations/sourcing/misc-aligni/example-purchase/index.md
             - Inventory Day: operations/sourcing/misc-aligni/inventory-day/index.md
         - Production / Fulfillment: operations/production-fulfillment/index.md
+        - Print Farm: operations/print-farm/index.md
 
 
 #       - DIY LumenPnP v4 Control Box: diy-components/diy-control-box/index.md
