@@ -14,15 +14,7 @@ The weekly flow is structured as follows:
 ---
 config:
   logLevel: 'debug'
-  theme: 'neutral'
-  timeline:
-    disableMulticolor: true
-  themeVariables:
-    cScale0: '#000000'
-    cScale1: '#000000'
-    cScale2: '#000000'
-    cScale3: '#000000'
-    cScale4: '#000000'
+  theme: 'dark'
 ---
 
 timeline
