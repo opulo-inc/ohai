@@ -84,13 +84,13 @@
 
 8. Check the `Generate Asset ID` box if unique IDs are required
 
-9. Click `Commit Inventory & Print Labels`
+9. Click `Commit Inventory`
 
     ![](img/06.webp)
 
-    !!!info "If you do not need an asset tag for the received item(s), simply click `Commit Inventory`"
-
-10. Click the dropdown menu and select the `4x6 Asset Tag v3` option
+    !!!info "Although the photo shows to click the option with `Print Labels`, just select the `Commit Inventory` option"
+<!-- 
+# 10. Click the dropdown menu and select the `4x6 Asset Tag v3` option
 
     ![](img/07.webp)
 
@@ -117,9 +117,13 @@
 
     ![](img/12.webp)
 
-16. Click `Print`
+16. Click `Print` -->
+
+16. Label each received box with the Aligni SKU number, and part name (eg. `NEMA-17-stepper MTR-0001`)
 
 17. Proceed to adhere the printed asset tags onto the appropriate pieces of inventory
+
+18. Stock the boxes in their appropriate shelves in inventory
 
 ## Additional Notes
 

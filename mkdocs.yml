@@ -89,6 +89,12 @@ nav:
           - Weekly Purchase Forecasting: operations/sourcing/purchase-forecasting/index.md
           - Create PO: operations/sourcing/create-po/index.md
           - Receiving Inventory: operations/sourcing/receive-inventory/index.md
+          - Aligni Misc:
+            - Create Part: operations/sourcing/misc-aligni/create-part/index.md
+            - Create Vendor: operations/sourcing/misc-aligni/create-vendor/index.md
+            - BOM Import: operations/sourcing/misc-aligni/bom-import/index.md
+            - Example Purchase: operations/sourcing/misc-aligni/example-purchase/index.md
+            - Inventory Day: operations/sourcing/misc-aligni/inventory-day/index.md
         - Production / Fulfillment: operations/production-fulfillment/index.md
 
 
