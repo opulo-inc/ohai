@@ -1,19 +1,16 @@
-# Opulo Order Fulfillment SOP
+# WHEN BEHIND - Opulo Order Fulfillment/Production
 
 ## Deciding What to Fulfill
 
-- Review Coeffient V3 to see which orders should be shipped based off their `Batch WK#`
-	- Orders are sorted into a given `Batch WK#` based off their `Planned Ship Date`, which may differ from the `Order Due Date`
-  
-	![](batching-orders.webp)
+- Review Redash dashboard to see which orders need to be shipped that week based off the `last_acceptable_ship_week` column.
 
-	!!!info "See [here](planned-ship-date-calc.md) for more information on our Planned Ship Date calculations"  
+	![](redash.webp)
 
 ## Create ShipStation Batch
 
 1. Go to ShipStation and create a batch for the orders that fall within the given `Batch WK#` you wish to fulfill.
-      - Aim to ship about 10 Lumens and 35 trays of feeders in total
-2. Name the ShipStation batch to `Batch WK#`, where `#` is replaced with the batch's given week number
+2. **MAKE SURE** to check the `Awaiting Payment` tab for any orders with Net terms. Orders that show up in Redash but not in `Awaiting Shipment` are likely there.
+2. Name the ShipStation batch to `2026-06`, where `06` is replaced with the batch's given week number for the year.
 
 ## Preparing Shipping Labels for Purchase
 
