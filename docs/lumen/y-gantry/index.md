@@ -12,9 +12,11 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 ### Prepare front-left-leg
 - Remove any stringing from the print with a heat gun
-- Insert 2x `m5-hex-nut` into bottom of leg
-	![](img/front-leg-extension-mounting-nut1.webp)
-	![](img/front-leg-extension-mounting-nut2.webp)
+- Insert 2x `M5-hex-nut` into bottom of leg. You can use a thick screwdriver to push part of the `M5-hex-nut`in and finish with the `M5-hex-nut-jig`, also known as the `thingy`. 
+	
+	![](img/with_1.webp)
+	![](img/sauce.webp)
+	![](img/the_1.webp)
 
 - Insert 1x `m5-square-nut` near extrusion pocket
  	![](img/front-drag-chain-mount-nut.webp)
