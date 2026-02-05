@@ -36,11 +36,11 @@ The purpose of this work instruction is to explain the assembly process for the 
 	![](img/tighten-acorn-nut2.webp)
 
 
-- Rotate the `M3x16-bolt` until the `M3-acorn-nut` is loosely resting against the `M3-hex-nut`
+- Rotate the `M3x16-bolt` until the `M3-acorn-nut` is fully secure and the `M3x16-bolt` has been threaded through the hex nut. 
 
 	!!!info "This ensures the `belt-tensioner-arm` is installed with it's adjustment range fully available for when it's time to tension `GT2-belt`"
 
-	![](img/tensioner-bolt-ok-ng.webp)
+	![](img/newagebelts.webp)
 
 - Insert a `M5-nylock-hex-nut` into `belt-tension-arm`'s hex-nut pocket
 	![](img/gt2-pivot-hex-nut-insert.webp)
@@ -222,6 +222,7 @@ ________________________________________________________________________________
 	<img src="img/2.webp" width="60%" height=auto>
 
 !!! info "With the other end of the `GT2-belt`" 
+
 	- Snake it through the `extrusion-rail` on the `belt-tension-arm` side first. Front to back.
 	- Wrap it around the `idler-pulley` in the `belt-tension-arm`, then snake it through the back of the `extrusion-rail`. 
 	- Pull it all the way to the other side of the rail, into the open channel, around the `timing-pulley` on the `NEMA-17`.
@@ -237,7 +238,7 @@ ________________________________________________________________________________
 	<img src="img/13circs.webp" width="60%" height=auto>
 
 - Bolt `y-gantry` to the `linear-rail-carriage` with 4x `M3x8-bolt`
-    - Tighten each bolt to 0.5 N/M
+    - Tighten each bolt to 0.7 N/M
 
 <img src="img/bolt-y-gantry-to-carriage.webp" width="60%" height=auto>
 
@@ -246,7 +247,6 @@ ________________________________________________________________________________
 - Place the partially assembled leg on its side so the gantry face and the `GT2-belt` are facing up. This will make it so much easier for tightening without the gantry moving so much. 
 
 <img src="img/10.webp" width="60%" height=auto>
-
 
 
 - Either with your fingers or the soft jaw pliers, you will pull that working end of the `GT2-belt` to tighten it to the `extrusion-rail`. Once you have tensioned it, screw it into place with a `belt-clamp` and 2x `M5x10` bolts. 
