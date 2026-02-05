@@ -208,7 +208,57 @@ The purpose of this work instruction is to explain the assembly process for the 
 !!!success "If `y-gantry-left` matches the photo, proceed to the next section"
 !!!failure "If `y-gantry-left` does not match the photo, correct discrepancies before proceeding to the next section"
 
+___________________________________________________________________________________________________________________________________
+
 ### Install GT2-belt
+
+- First slip `GT2-belt` through `y-gantry` itself. 
+- Work it through the end that is closer to the `belt-tension-arm`. (The side that DOES NOT have the long end with the two holes on top) 
+
+	<img src="img/1.webp" width="60%" height=auto>
+
+- Grab a `belt-clamp`, have the `GT2-belt` & `belt-clamp` be flushed to the edge of gantry as much as possible. Screw it down with 2x `M5x10-bolt`. 
+
+	<img src="img/2.webp" width="60%" height=auto>
+
+!!! info "With the other end of the `GT2-belt`" 
+	- Snake it through the `extrusion-rail` on the `belt-tension-arm` side first. Front to back.
+	- Wrap it around the `idler-pulley` in the `belt-tension-arm`, then snake it through the back of the `extrusion-rail`. 
+	- Pull it all the way to the other side of the rail, into the open channel, around the `timing-pulley` on the `NEMA-17`.
+	- Then bring the working end of the `GT2-belt` to the gantry and snake the belt from back to front in the open section for the belt. 
+
+<img src="img/4.webp" width="60%" height=auto>
+<img src="img/5.webp" width="60%" height=auto>
+<img src="img/6.webp" width="60%" height=auto>
+<img src="img/8.webp" width="60%" height=auto>
+
+!!! note "While tightening in the next step, make sure that the belt does not twist in the `extrusion-rail` and stays flushed on the angles on the back of the gantry."
+	
+	<img src="img/13circs.webp" width="60%" height=auto>
+
+- Bolt `y-gantry` to the `linear-rail-carriage` with 4x `M3x8-bolt`
+    - Tighten each bolt to 0.5 N/M
+
+<img src="img/bolt-y-gantry-to-carriage.webp" width="60%" height=auto>
+
+!!! failure "Ensure that `y-gantry` sits flush against `linear-rail-carriage` without any visible gaps" 
+
+- Place the partially assembled leg on its side so the gantry face and the `GT2-belt` are facing up. This will make it so much easier for tightening without the gantry moving so much. 
+
+<img src="img/10.webp" width="60%" height=auto>
+
+
+
+- Either with your fingers or the soft jaw pliers, you will pull that working end of the `GT2-belt` to tighten it to the `extrusion-rail`. Once you have tensioned it, screw it into place with a `belt-clamp` and 2x `M5x10` bolts. 
+
+<img src="img/11.webp" width="60%" height=auto>
+<img src="img/12.webp" width="60%" height=auto>
+
+
+
+
+
+<!-- ### Install GT2-belt
 - Route a 1.3m-long piece of `GT2-belt` through `y-gantry-left`
 
 	!!!info "Belt routing step-by-step"
@@ -260,7 +310,9 @@ The purpose of this work instruction is to explain the assembly process for the 
 	- For the `front-left-leg` side of the `y-gantry` print, trim the loose `GT2-belt` until it's flush against `belt-clamp`
 	- For the `back-leg` side of the `y-gantry` print, trim the loose `GT2-belt` until there's approx. 15mm of `GT2-belt` past `belt-clamp`
 
-	![](img/belt-cut-to-length.webp)
+	![](img/belt-cut-to-length.webp) -->
+
+
 
 ### Add cable management
 
