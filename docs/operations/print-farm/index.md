@@ -6,14 +6,10 @@ There are a few things you need to do to prepare to slice and upload for our pri
 
 ### BambuStudio Setup
 
-1. Download version [1.10.1.50 of BambuStudio](https://github.com/bambulab/BambuStudio/releases/).
-2. Login to the OpuloInc Bambu account. Ask Lucy for the credentials.
+1. Download version the most recent version of [BambuStudio](https://github.com/bambulab/BambuStudio/releases/).
+2. Login to the OpuloInc Bambu account. Check the pinned message in the print-farm channel on Mattermost for the credentials.
+3. Make sure you're logged in by going to the Home icon and checking that the user in the top left is OpuloInc.
     ![](img/account.webp)
-3. Make sure you're logged in by checking that:
-    1. Account slicer settings are present (should say "Production" or "MFG")
-        ![](img/settings.webp)
-    2. Our P1Ps (creatively named numbers 1-8) show up in the "Devices" tab.
-        ![](img/devices.webp)
 
 ### Google Drive
 
@@ -155,6 +151,52 @@ We run the print farm in a [kanban](https://www.youtube.com/watch?v=Levkx8f0qL4)
 5. If the parts are now full to the green line, return the kanban card to the parts bin in Ghidra or the Tequila Sunrise. If the parts have not reached the green line, keep the kanban by the print farm to indicate more need to be printed.
 
 While consuming parts in a build, when you notice the part level in a bin goes below the red line, take the kanban card and put it on the board by the print farm.
+
+### Using Bambu Farm Manager
+
+To manage all of our printers at once, we use Bambu Farm Manager running on a standalone Windows PC near the print farm. This allows us to instantly send prints to multiple printers, manage files, and more.
+
+- Open the Bambu Farm Manager Client and login.
+    - This login is not the same as Bambu Studio — please ask Nick for the credentials. 
+   
+   ![](img/iconbfm.webp)
+
+### Uploading Files
+
+Files should be uploaded to Google Drive following the guidelines laid out by the [Google Drive](#google-drive) section. Files will then be uploaded from Google Drive to the Bambu Farm Manager software manually. If there is an update to a file added to Google Drive, the file inside Bambu Farm Manager **will not** automatically update. The updated file must be re-uploaded into the Bambu Farm Manager. 
+
+1. Navigate to "Files". Choose the folder that fits the file you are uploaded and click the "Upload" button. Create a new folder if necessary by clicking the + sign to the right of "Folders List".
+
+   ![](img/uploadbutton.webp)
+   ![](img/uploadwindowbfm.webp)
+2. Click anywhere in the outlined box to open the File Explorer. Find your files (likely in the shared OpuloEngineering Drive) and upload them. You can upload up to 20 files at a time.
+
+   ![](img/uploadbfm.webp)
+
+!!! success "Files will now be available to print in the folder they were uploaded to."
+
+### Printing
+
+1. Navigate to the "Printers" page. Use this page to monitor the status of all printers connected to the Farm Manager.
+
+    ![](img/mainbfm.webp)
+
+2. Navigate to "Files" in the menu bar on the left.
+
+    ![](img/filesbfm.webp)
+
+3. This page is where the print files live. Select the file you'd like to print, click the "Create" button on the far right to create a print job. From the drop-down menu, select Direct-Print Task.
+
+    ![](img/createbfm.webp)
+
+    !!! danger "These files do not automatically update from Google Drive"
+        If there is a new version of the file you'd like to print, you need to upload the new version in "Files". Please follow along with the [Uploading Files](#uploading-files) section for clear instructions on how to upload files to the Print Farm Manager software.
+
+4. Select the printer you would like to use, make sure Timelapse is set to "Off" and Auto Bed Leveling is set to "On". Then click "Start Direct Print".
+
+    ![](img/printbfm.webp)
+
+!!! success "The job will start and can be monitored in the "Printers" page of the program."
 
 ## Performing Maintenance
 

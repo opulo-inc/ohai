@@ -36,11 +36,17 @@ Material needed
 ## Assembly 
 	
 * Dispense a 1-2 drops of `LOCTITE 435` to the end of shaft on `peel-motor`. 
-!!! glue "Start light with the glue because it can get messy"
-<img src="img/img14.webp" width="60%" height=auto>
-	<!-- omg the first pic i took of Audrey's hand but with the motor getting glued -->
+		
+	!!! glue "Start light with the glue because it can get messy"
+	<img src="img/img14.webp" width="60%" height=auto>
+
+* Use the tip of the dispenser to spread the glue around the motor shaft.
+
+	<img src="img/glue-spread.webp" width="60%" height=auto>
 
 * Bring `peel-motor` shaft to hole of `worm-gear` and firmly bring pieces together.
+	
+	!!!failure "Press ALL the way on. The print has a depth stop!"
 	<img src="img/img15.webp" width="60%" height=auto>
 	<img src="img/img16.webp" width="60%" height=auto>
 
@@ -53,7 +59,7 @@ Material needed
 	<img src="img/img17.webp" width="60%" height=auto>
 	<img src="img/img13.webp" width="60%" height=auto>
 
-* Manually rotate the installed `peel-gear` to check if any glue fell into the motor's gearbox once it's dried for at least 3 minutes. 
+* Manually rotate the installed `peel-gear` to check if any glue fell into the motor's gearbox once it's dried for at least 3 hours. 
 
 !!!failure "If you cannot rotate the installed `peel-gear` by hand, scrap the subassembly and record the material waste"
 	

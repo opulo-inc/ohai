@@ -69,10 +69,5 @@ The purpose of this work instructions is to document the assembly process for th
     ![alt text](img/v4-drag-chain-kit-19.webp)
     ![alt text](img/v4-drag-chain-kit-20.webp)
 
-12. Adhere the `build-number-sticker` to the `product label`
-
-    ![alt text](img/v4-drag-chain-kit-21.webp)
-    ![alt text](img/v4-drag-chain-kit-22.webp)
-
 !!!success "When complete the finsihed `LumenPnPv4 Drag Chain Assembly Kit` should match the image below"
     ![alt text](img/v4-drag-chain-kit-23.webp)

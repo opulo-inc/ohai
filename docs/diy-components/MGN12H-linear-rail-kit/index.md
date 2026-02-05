@@ -1,3 +1,9 @@
+---
+hide:
+  - toc
+  - navigation
+---
+
 # LumenPnP MGN12H Linear Rail Kit
 
 ## Purpose
@@ -33,10 +39,6 @@ The purpose of this work instructions is to document the assembly process for th
 
     ![alt text](img/linear-rail-kit10.webp)
     ![alt text](img/linear-rail-kit11.webp)
-
-- Adhere a `build-number-sticker` to the `LumenPnP MGN12H Linear Rail Kit`
-
-    ![alt text](img/linear-rail-kit12.webp)
 
 !!!success "The `LumenPnP MGN12H Linear Rail Kit` is now ready for packout!"
     ![alt text](img/linear-rail-kit13.webp)

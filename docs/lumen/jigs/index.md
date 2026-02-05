@@ -9,7 +9,7 @@ Welcome to the LumenPnP jigs and fixtures community resource page! Here you’ll
 1. [Available Jigs & Fixtures](#available-jigs--fixtures)
 2. [Print & Usage Guidelines](#print--usage-guidelines)
 3. [Support & Feedback](#support--feedback)
-4. [License](#Opulo LumenPnP License and Copyright Notices)
+4. [License](#Opulo--LumenPnP--License--and--Copyright--Notices)
 
 ---
 
@@ -58,7 +58,7 @@ Below are individual sections for each jig or fixture:
 
 ### Drive Wheel Shims
 
-* **Description**: A laser cut brass shim meant to correctly distance a Photon Feeder's `drive-wheel` the correct distance aaay from the feeder frame
+* **Description**: A laser cut brass shim meant to correctly distance a Photon Feeder's `drive-wheel` the correct distance away from the feeder frame
 * **File Formats**: .SVG
 * **Download Link**: [Download .SVG](assets/drive-wheel-shims.svg)
 * **Image**:
@@ -66,7 +66,7 @@ Below are individual sections for each jig or fixture:
     ![drive-wheel-shims](img/drive-wheel-shims.webp)
 
 * **Additional things you'll need:**
-  * 1.3mm brass shim stock (delivered as a flat sheet, you don't want it come rolled!)
+  * 0.3mm brass shim stock (delivered as a flat sheet, you don't want it come rolled!)
 
 ### Linear rail 2020 Alignment Fixture
 
@@ -125,7 +125,7 @@ by [AlanWarrick](https://www.thingiverse.com/AlanWarrick) is licensed under the 
 ## Opulo LumenPnP License and Copyright Notices
 
 * LumenPnP is (c) by Opulo
-* The jig and fixture designs downloadable from this page are available under the CERN-OHL-W v2 license unless otherwise specififed.
+* The jig and fixture designs downloadable from this page are available under the CERN-OHL-W v2 license unless otherwise specified.
   * Full text is available at https://cern.ch/cern-ohl.
 * Opulo's logo, branding, and other media is used throughout this project. This is Copyright (c) Opulo and all rights are reserved. You may not distribute derivative works or products bearing the Opulo logo, icon, or other relevant mark. Derivative works should remove Opulo branding.
 * The name `Opulo` and `LumenPnP` are trademarked, and only to be used by Opulo. Any derivative works should remove both marks.

@@ -1,6 +1,35 @@
 # Drag Chain Assembly #
 
-This section will guide the reader on how to properly assemble the LumenPNP v4 Drag Chain Assembly. 
+This section will guide the reader on how to properly assemble the LumenPNP v4 Drag Chain Assembly.
+
+## QC Harnesses ##
+
+Before assembling the drag chain, QC the individual cable harnesses from the manufacturer.
+
+- Head Harness
+    - Labels are all correct
+        ![bad label](img/wrong-label.webp)
+    - Colors on head side are correct
+		![](img/color-labels.webp)
+    - `Z MOTOR`, `L MOTOR`, and `R MOTOR` cables have inner conductors swapped on the head side only.
+		![](img/inner-swapped.webp)
+	- `Z MOTOR`, `L MOTOR`, and `R MOTOR` connectors skips positions 2 and 5 on the head side only.
+		![](img/skip-2-5.webp)
+    - All crimps are fully loaded
+    	![](img/not-seated.webp)
+    - No loose conductors/Exposed wire
+    	![](img/bad-crimp.webp)
+- X Gantry
+    - `X MOTOR` connector has inner conductors swapped gantry side only.
+		![](img/inner-swapped.webp)
+	- `X MOTOR` connector skips positions 2 and 5 on the gantry side only.
+		![](img/skip-2-5.webp)
+    - Labels are all correct
+        ![bad label](img/wrong-label.webp)
+    - All crimps are fully loaded
+    	![](img/not-seated.webp)
+    - No loose conductors/Exposed wire
+    	![](img/bad-crimp.webp)
 
 ## Prepare `cable-splay` ##
 

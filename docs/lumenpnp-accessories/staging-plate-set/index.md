@@ -1,3 +1,5 @@
+# Staging Plate
+
 ## Purpose
 The purpose of this work instructions is to document the assembly process of creating a customer salable `staging-plate kit`
 

@@ -7,14 +7,14 @@ permissions:
   contents: write
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
           lfs: true
       - uses: actions/setup-python@v4
         with:
-          python-version: 3.x
-      - run: pip install -r requirements.txt
+          python-version: 3.13
+      - run: pip3 install .
       - run: sudo apt-get update
       - run: mkdocs gh-deploy --force

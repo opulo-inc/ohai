@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 ## Purpose
 
 The purpose of this work instructions is to document the assembly process for the LumenPnP v3 Toolhead Assembly [`SKU-0005-03`]
@@ -76,5 +81,4 @@ The purpose of this work instructions is to document the assembly process for th
 	<img src="img/image10.webp" width="60%"/>
 
 8. Seal up the bag after all the components listed above are placed inside it
-9. Adhere a build-number-sticker to the completed `LumenPnP v3 Toolhead Assembly`
 !!! Success "LumenPnP Toolhead Assembly [`SKU-0005-03`] Completed"

@@ -57,10 +57,11 @@
 	![alt text](img/IMG_28.webp)
 	![alt text](img/IMG_29.webp)
 
+1. QC the `feeder-blade-harness-set`. All four connectors **must** have the same wire color order as each other.
+
+	![](img/blade-harness-ok.webp)
 
 2. Insert `feeder-blade-harness-set` to the right of `getting-started-kit`
-
-	!!!warning "Please remember this is the new JST PH cables! We do not need to make IDC cables anymore."
 
 	![alt text](img/IMG_30.webp)
 	![alt text](img/IMG_31.webp)
@@ -73,7 +74,7 @@
 	* `lens-cap` is present on `top-camera`
 	* The wire connectors on both `NEMA-11-stepper-motor` units face away from each other
 	* Confirm each `nozzle-holder` fulfills the following requirements:
-	    * Appears lubricated
+	    * Tip of the nozzle around the O-Rings has visible lubrication
 		* Moves smoothly and in a straight path when actuated manually
 		* Springs back to the extended position after being depressed by hand
 	* `z-belt-loop` feels appropriately tensioned when plucked
@@ -86,9 +87,11 @@
 	* `belt-tensioner-arm` is installed on `x-idler-mount` in the correct orientation (IE acorn-nut facing touches print)
 	* `timing-pulley` for both x & z  are tightened down and at proper height
 	* `GT2-belt` lays flat and is roughly centered in `alu-extrusion` channel
-	* `GT2-belt` has been correctly tensioned
+	* `GT2-belt` has been correctly tensioned (40 < Newtons to dislodge Acorn Nut< 60)
 	* `x-gantry-toolhead` moves smoothly when actuated back and forth by hand
 	* `top-ring-light` is present with the wire connector visible
+	* `x-gantry-front` is fully tightened on and cannot rotate when torqued
+	* both `z-gantry` prints are fully tightened on and cannot rotate when torqued
 	!!!success "If all checks pass, continue onward"
 
 * Package `x-gantry` into `lower-foam-tray`

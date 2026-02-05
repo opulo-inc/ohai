@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # LumenPnP v4 Camera Set
 
 ## Purpose
@@ -7,10 +12,9 @@ The purpose of this work instruction is to guide the reader on how to produce th
 The two variants are:
 
 - `LumenPnP v4 USB Camera Set - No Cables`
-    - This a set of LumenPnP v4 cameras in foam tray, tape closed with 3 stickers adhered to the outside (including a build # sticker)
+    - This a set of LumenPnP v4 cameras in foam tray, tape closed with 2 stickers adhered to the outside
 - `LumenPnP v4 USB Camera Set - Cables Included`
     - This is a bagged version of the above product where the `top-camera-harness` and `bottom-camera-harness` are also included
-    - The build number sticker is adhered to the product sticker
 
 ## Instructions
 
@@ -40,9 +44,6 @@ The two variants are:
 - Collect a `product-label` sticker from inventory
     ![alt text](img/lumenpnp-v4-camera-kit5.webp)
 - Adhere a `product-label` to the top of `foam-top-lid`
-    ![alt text](img/IMG_0997.webp)
-- Adhere a `build-number-sticker` to the underside of the `foam-tray`
-    ![alt text](img/IMG_0998.webp)
     ![alt text](img/IMG_0999.webp)
 
 !!!success "If you are making `LumenPnP v4 USB Camera Set - No Cables`"
@@ -100,9 +101,5 @@ The two variants are:
     ![alt text](img/lumenpnp-v4-camera-kit-packing6.webp)
     ![alt text](img/lumenpnp-v4-camera-kit-packing9.webp)
     ![alt text](img/lumenpnp-v4-camera-kit-packing2.webp)
-
-- Adhere a `build-number-sticker` to the bottom  of the `6x9-bag`
-    ![alt text](img/lumenpnp-v4-camera-kit-packing4.webp)
-    ![alt text](img/lumenpnp-v4-camera-kit-packing7.webp)
 
 !!!sucess "The `LumenPnP v4 USB Camera Set - With Cables` is now ready to ship!"

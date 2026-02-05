@@ -43,6 +43,13 @@ If you have not already done so, go to [this page](/feeder-connection-kit/paneli
 12. Pull the WIP `front-feeder-rail` outward to remove it from `feeder-rail-asm-jig`
 	![](img/IMG_2613.webp)
 
+2. Inspect the `blade-jumper-harness`. It is **critical** that the order of the conductors in this jumper are the **exact same** for each connector when the connectors are facing the same way.
+	![](img/jumper-ok.webp)
+	![](img/jumper-ng.webp)
+   
+    !!! danger "CRITCAL"
+		Even after you've checked this cable, *check it again*! It is critically important that this jumper has the exact same order of wire color for both connectors.
+
 13. Connect `blade-jumper-harness` to the two `PH-connector` located between `Feeder Slot Blade (#1 - #12)` and `Feeder Slot Blade (#13 - #25)`
    
 	![alt text](img/front-feeder-rail-wired.webp)
@@ -57,6 +64,7 @@ Perform the following quality control checks:
 * The 2x installed `corner-bracket` pieces are flush to the `alu-extrusion`
 * Confirm `blade-jumper-harness` is installed into the blades
 * Tug on the connectors to ensure they're fully connected
+* Ensure the wire color order is the same for both connectors on the jumper harness
 
 !!!success "If all checks pass, bring the completed `front-feeder-rail` to the shelf for peer-review and pack-out."
 
@@ -110,7 +118,14 @@ This section of the work instruction will be a little less detailed than the abo
 1. Pull the WIP `rear-feeder-rail` outward to remove it from `feeder-rail-asm-jig`
 	![](img/IMG_2619.webp)
 
-13. Connect `blade-jumper-harness` to the two `PH-connector` located between `Feeder Slot Blade (#26 - #37)` and `Feeder Slot Blade (#38 - #50)`
+2. Inspect the `blade-jumper-harness`. It is **critical** that the order of the conductors in this jumper are the **exact same** for each connector when the connectors are facing the same way.
+	![](img/jumper-ok.webp)
+	![](img/jumper-ng.webp)
+   
+    !!! danger "CRITCAL"
+		Even after you've checked this cable, *check it again*! It is critically important that this jumper has the exact same order of wire color for both connectors.
+
+3.  Connect `blade-jumper-harness` to the two `PH-connector` located between `Feeder Slot Blade (#26 - #37)` and `Feeder Slot Blade (#38 - #50)`
 
 	![alt text](img/rear-feeder-rail-wired.webp)
 	![alt text](img/feeder-rail-wired-closeup.webp)
@@ -124,5 +139,6 @@ Perform the following quality control checks:
 * The 4x installed `corner-bracket` pieces are flush to the `alu-extrusion`
 * Confirm `blade-jumper-harness` is installed into the blades
 * Tug on the connectors to ensure they're fully connected
+* Ensure the wire color order is the same for both connectors on the jumper harness
 
 !!!success "If all checks pass, bring the completed `rear-feeder-rail` to the shelf for peer-review and pack-out"

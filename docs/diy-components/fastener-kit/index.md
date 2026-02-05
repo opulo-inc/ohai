@@ -1,8 +1,17 @@
+---
+hide:
+  - navigation
+---
+
 # Fastener Kit
+
+## Purpose
 
 This work instruction is for preparing the Fastener Kit - a bag full of all the hardware needed to assemble a v4 from scratch.
 
 ![](img/fastener-kit.webp)
+
+## Overview
 
 We get a pre-made bag of *most* of the hardware pre-made.
 
@@ -10,7 +19,7 @@ We get a pre-made bag of *most* of the hardware pre-made.
 
 It needs **six** things added, and **one** thing changed.
 
-## Swap
+## Replace incorrect components
 
 Hunt down the bag of 4x M3 "square nuts".
 
@@ -22,7 +31,7 @@ They're weird, and won't work for a LumenPnP build. Toss them, but keep the bag,
 
 ![](img/IMG_1480.webp)
 
-## Add
+## Add additional components
 
 Prepare the following things, added to small bags with labels, as shown below
 

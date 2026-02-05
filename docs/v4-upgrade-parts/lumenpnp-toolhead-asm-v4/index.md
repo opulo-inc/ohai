@@ -1,3 +1,9 @@
+---
+hide:
+  - toc
+  - navigation
+---
+
 # LumenPnP v4 Toolhead Kit
 
 ## Purpose
@@ -30,12 +36,8 @@ The purpose of this work instructions is to document the assembly process for th
 
 - Adhere a `product-sticker` to the `4x6-esd-bag`
 
-<img src="img/toolheadv4stick.webp" width="60%" height=auto>
+    <img src="img/toolheadv4stick.webp" width="60%" height=auto>
 
-- This toolkit can be placed on the shelf for packout! Hooray!~ 
-<!-- <!-- ![alt text](img/toolhead-v4-packout1.webp)
-    ![alt text](img/toolhead-v4-packout2.webp) -->
+    ![alt text](img/toolhead-v4-packout2.webp)
 
-<!-- - Adhere a `build-number-sticker` to the completed `LumenPnP v4 Toolhead Kit`
-
-    ![alt text](img/toolhead-v4-packout3.webp) --> 
+- This toolkit can be placed on the shelf for packout! Hooray!

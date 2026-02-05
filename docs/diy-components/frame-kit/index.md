@@ -1,3 +1,9 @@
+---
+hide:
+  - toc
+  - navigation
+---
+
 # LumenPnP Frame Kit
 
 ## Purpose
@@ -12,7 +18,6 @@ The purpose of this work instructions is to document the assembly process for th
     - 1x `2x3-bag`
     - 1x `3x6-bag`
     - 1x `product-label`
-    - 1x `build-number-sticker`
     - 1x `26x4x2-box` (not shown)
     - 4x sheets of bubble wrap
 
@@ -79,10 +84,6 @@ The purpose of this work instructions is to document the assembly process for th
 
     ![alt text](img/IMG_0787.webp)
     ![alt text](img/IMG_0788.webp)
-
-- Adhere a `build-number-sticker` to `LumenPnP Frame Kit`
-
-    ![alt text](img/IMG_0789.webp)
 
 !!!success "Set the completed `LumenPnP Frame Kit` aside for pack out"
       ![alt text](img/IMG_0790.webp)
