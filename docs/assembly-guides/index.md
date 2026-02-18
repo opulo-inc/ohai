@@ -18,6 +18,7 @@ Welcome! This page provides quick access to all LumenPnP assembly guides, beside
 - [LumenPnP v4 Endstop PCB Set](../v4-upgrade-parts/endstop-set-v4/index.md)
 - [LumenPnP v4 Frame Cable Harness Set](../v4-upgrade-parts/frame-cable-harness-set/index.md)
 - [LumenPnP v4 USB Camera Set](../v4-upgrade-parts/lumenpnp-v4-camera-set/index.md)
+- [LumenPnP v4 Secondary Fiducial Assembly Kit](../v4-upgrade-parts/secondary-fid-assembly-kit/)
 
 ---
 
