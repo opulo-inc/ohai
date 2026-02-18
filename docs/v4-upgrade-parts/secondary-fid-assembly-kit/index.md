@@ -15,7 +15,7 @@
     ![](img/install-on-lumen.webp)
 
     !!! danger "Please Note"
-        One side of the PCB is exposed, while the other side is covered by the bracket. Make sure to face the exposed side **towards** the Ring Light on the Primary Staging Plate.
+        One side of the PCB is exposed, while the other side is covered by the bracket. Make sure to face the side that is exposed towards you while installing. The side covered by the bracket should be facing the Ring Light.
 
     ![](img/orientation-indicator.webp)
 
