@@ -28,7 +28,7 @@
 
 ### Focus the bottom-camera
 
-- Thread the `bottom-camera-cable` through the mounting print and connect it
+- Thread the `bottom-camera-cable` through `bottom-camera-cover` and connect it
 
     <img src="img/camera-cable.webp" width="60%"/>
 
