@@ -1,0 +1,2791 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ohai.opulo.io/lumen/x-gantry/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../y-gantry/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>X Gantry - OHAI - Open Hardware Assembly Instructions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Figtree:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Figtree";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#preparing-x-gantry" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-header__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OHAI - Open Hardware Assembly Instructions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              X Gantry
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/opulo-inc/lumenpnp/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  LumenPnP
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../feeder8/" class="md-tabs__link">
+          
+  
+  
+  Feeder
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assembly-guides/" class="md-tabs__link">
+          
+  
+  
+  Other Products
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../operations/" class="md-tabs__link">
+          
+  
+  
+  Operations
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-nav__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.webp" alt="logo">
+
+    </a>
+    OHAI - Open Hardware Assembly Instructions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/opulo-inc/lumenpnp/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LumenPnP
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    LumenPnP
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X Gantry
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X Gantry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-x-linear-axis-subassembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create x-linear-axis subassembly
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Create x-linear-axis subassembly">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prepare-x-gantry-back" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prepare x-gantry-back
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prepare x-gantry-back">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-fasteners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install fasteners
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-top-camera-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check top-camera focus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-top-camera-and-top-ring-light-into-x-gantry-back" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install top-camera and top-ring-light into x-gantry-back
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prepare-nema-17-stepper-motor-for-x-linear-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prepare NEMA-17-stepper-motor for x-linear-axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-nema-17-stepper-motor-onto-x-motor-mount" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install NEMA-17-stepper-motor onto x-motor-mount
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-xy-limit-switch-board-onto-x-motor-mount" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install XY-limit-switch-board onto x-motor-mount
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-belt-tensioner-arm-onto-x-idler-mount" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install belt-tensioner-arm onto x-idler mount
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-alu-extrusion-onto-x-motor-mount" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install alu-extrusion onto x-motor-mount
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-m3-t-nut-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install M3-t-nut-bar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-x-idler-mount-onto-alu-extrusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install x-idler-mount onto alu-extrusion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-linear-rail-525mm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install linear-rail-525mm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-gt2-belt-and-x-gantry-back" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install GT2-belt and x-gantry-back
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tension-belt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tension belt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confirm-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirm progress
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-x-gantry-front-subassembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create x-gantry-front subassembly
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Create x-gantry-front subassembly">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prepare-nema-17-stepper-motor-for-z-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prepare NEMA-17-stepper-motor for z-axis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prepare-z-belt-subassembly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prepare z-belt-subassembly
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-m5-lock-nut-into-x-gantry-front" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install M5-lock-nut into x-gantry-front
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-2x-linear-rail-onto-x-gantry-front" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install 2x linear rail onto x-gantry-front
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-z-axis-limit-switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install z-axis-limit-switch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-z-axis-belt-drive-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install z-axis belt drive components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-2x-z-gantry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install 2x z-gantry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-nema11-hollow-shaft-stepper" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install NEMA11-hollow-shaft-stepper
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-toolhead-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install toolhead components
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-x-gantry-front-onto-x-linear-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Install x-gantry-front onto x-linear-axis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gundam-test-x-gantry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gundam test x-gantry
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qc-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        QC Checklist
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../y-gantry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Y Gantry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../feeder-rail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feeder Rail (Front and Rear)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drag-chain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drag Chain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../control-box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control Box
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../staging-plate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Staging Plate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumenpnp-accessories/ftp-kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started Kit (FTP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tool-kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tool Kit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../additional-parts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Additional Parts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printing_lumenpnp_labels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Printing LumenPnP Lables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pack-out/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Packaging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jigs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jigs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feeder
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Feeder
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/pcb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PCB Production
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/pcb-qc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PCB QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-motor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peel Motor Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/indexing-wheel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drive Wheel Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-gear-frame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peel Gear Box
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/feeder-frame-8mm-asm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frame Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/oqc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OQC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/packout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Packaging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other Products
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Other Products
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly-guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Operations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sourcing
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sourcing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/weekly-inventory-removal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weekly Inventory Removal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/purchase-forecasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weekly Purchase Forecasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/create-po/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create PO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/receive-inventory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receiving Inventory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_5" id="__nav_5_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aligni Misc
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aligni Misc
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/create-part/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Part
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/create-vendor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Vendor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/bom-import/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM Import
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/example-purchase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example Purchase
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/inventory-day/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory Day
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/production-fulfillment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Production / Fulfillment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/print-farm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Print Farm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/opulo-inc/ohai/edit/main/docs/lumen/x-gantry/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="preparing-x-gantry">Preparing x-gantry</h1>
+<h2 id="create-x-linear-axis-subassembly">Create <code>x-linear-axis</code> subassembly</h2>
+<hr />
+<h3 id="prepare-x-gantry-back">Prepare <code>x-gantry-back</code></h3>
+<h4 id="install-fasteners">Install fasteners</h4>
+<ul>
+<li>Remove any stringing from the print with a heat gun</li>
+<li>
+<p>Insert 4x <code>m5-hex-nut</code> into the following region</p>
+<p><img src="images/nut1-x-gantry-back.webp"/></p>
+</li>
+<li>
+<p>Insert 5x <code>m5-hex-nut</code> into the following region</p>
+<ul>
+<li>Add a drop of <code>blue-loctite</code> into each of these pockets to permanently secure each nut in place
+<img src="images/nut2-x-gantry-back.webp"/></li>
+</ul>
+</li>
+</ul>
+<h4 id="check-top-camera-focus">Check <code>top-camera</code> focus</h4>
+<ul>
+<li>
+<p>Use <code>top-camera-focus-jig</code> to check focus of <code>top-camera</code></p>
+</li>
+<li>
+<p>Connect <code>top-camera-focus-jig</code> to a laptop and open a native camera viewing application</p>
+<p><img src="images/image36.webp"/></p>
+</li>
+<li>
+<p>Remove <code>lens-cap</code> from <code>top-camera</code></p>
+</li>
+<li>
+<p>Install the <code>top-camera</code> fully into the <code>top-camera-focus-jig</code>, plugging the USB cable into the camera module afterwards</p>
+<p><img src="images/image56.webp"/></p>
+</li>
+<li>
+<p>In Photo Booth, change the selected camera to <code>LumenPnP Top</code> to view the camera feed from  <code>top-camera</code></p>
+<p><img src="images/image60.webp"/> </p>
+</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">If the datum-board is sharp and nicely focused continue onward</p>
+<p><img src="images/image48.webp"/></p>
+</div>
+<div class="admonition failure">
+<p class="admonition-title">If the datum-board is blurry and out of focus, follow instructions below</p>
+<p><img src="images/image39.webp"/></p>
+<ul>
+<li>
+<p>Loosen <code>set-screw</code> on side of lens body</p>
+<p><img src="images/image21.webp"/></p>
+</li>
+<li>
+<p>Rotate camera lens until live view shows <code>datum-board</code> as focused as possible</p>
+<p><img src="images/image48.webp"/></p>
+</li>
+<li>
+<p>Once the camera is refocused, tighten <code>set-screw</code> to preserve the adjustments</p>
+</li>
+</ul>
+</div>
+<ul>
+<li>Remove the <code>top-camera</code> from <code>top-camera-focus-jig</code> and immediately replace <code>lens-cap</code></li>
+</ul>
+<h4 id="install-top-camera-and-top-ring-light-into-x-gantry-back">Install <code>top-camera</code> and <code>top-ring-light</code> into <code>x-gantry-back</code></h4>
+<ul>
+<li>
+<p>Install <code>top-camera</code> into x-gantry-back</p>
+<p><img src="images/x-gantry-back-install-camera.webp"/></p>
+</li>
+<li>
+<p>Install <code>top-ring-light</code> into <code>top-light-mount</code></p>
+<p><img src="images/install-ring-light.webp"/></p>
+</li>
+<li>
+<p>Install <code>top-light-mount</code> onto back of <code>x-gantry-back</code></p>
+<p><img src="images/install-top-light-mount1.webp"/></p>
+</li>
+<li>
+<p>Secure <code>top-light-mount</code> in place with 2x <code>M3x12-self-tapping-flat-head</code></p>
+<p><img src="images/screw-in-top-light-mount.webp"/></p>
+</li>
+</ul>
+<h3 id="prepare-nema-17-stepper-motor-for-x-linear-axis">Prepare <code>NEMA-17-stepper-motor</code> for <code>x-linear-axis</code></h3>
+<ul>
+<li>
+<p>Set <code>timing-pulley</code> height on <code>NEMA-17-stepper-motor</code> shaft with <code>x-pulley-spacer-jig</code></p>
+</li>
+<li>
+<p>Tighten the first <code>set-screw</code> into the flat region found on the <code>NEMA-17-stepper-motor</code> shaft, before tightening the second <code>set-screw</code></p>
+<ul>
+<li>Tighten each <code>set-screw</code> to 0.5 N/M</li>
+</ul>
+<p><img src="images/image34.webp"/></p>
+</li>
+</ul>
+<h3 id="install-nema-17-stepper-motor-onto-x-motor-mount">Install <code>NEMA-17-stepper-motor</code> onto <code>x-motor-mount</code></h3>
+<ul>
+<li>
+<p>Orient <code>NEMA-17-stepper-motor</code> onto <code>x-motor-mount</code> so that the motor's connector is facing the backside of the print as shown in the image below</p>
+<p><img src="images/motor-connector-orientation.webp"/></p>
+</li>
+<li>
+<p>Bolt <code>NEMA-17-stepper-motor</code> onto x-<code>motor-mount</code> with 4x <code>M3x8-bolt</code></p>
+<ul>
+<li>Tighten these bolts to 0.5 N/M</li>
+</ul>
+<p><img src="images/image4.webp"/></p>
+</li>
+</ul>
+<h3 id="install-xy-limit-switch-board-onto-x-motor-mount">Install <code>XY-limit-switch-board</code> onto <code>x-motor-mount</code></h3>
+<ul>
+<li>
+<p>Install <code>XY-limit-switch-board</code> onto <code>x-motor-mount</code> and secure it with 2x <code>m3x12-self-tapping-flat-head-screw</code></p>
+<ul>
+<li>Tighten each screw in place with the electic torque driver</li>
+</ul>
+<p><img src="images/install-xy-limit-switch-board.webp" /></p>
+</li>
+</ul>
+<h3 id="install-belt-tensioner-arm-onto-x-idler-mount">Install <code>belt-tensioner-arm</code> onto <code>x-idler mount</code></h3>
+<ul>
+<li>
+<p>If you have not already done so, assemble 1x <code>belt-tensioner-arm</code></p>
+<div class="admonition note">
+<p class="admonition-title">For reference building this sub-assembly, visit the <a href="../y-gantry/#prepare-belt-tensioner-arm">Y Gantry OHAI page</a></p>
+</div>
+</li>
+<li>
+<p>Install 1x <code>M5-lock-nut</code> into <code>x-idler-mount</code></p>
+<p><img src="images/install-belt-tensioner-arm-nut.webp"/></p>
+</li>
+<li>
+<p>Install <code>belt-tensioner-arm</code> onto <code>x-idler-mount</code></p>
+<p><img src="images/place-belt-tensioner-arm.webp"/></p>
+</li>
+<li>
+<p>Bolt <code>belt-tensioner-arm</code> to <code>x-idler-mount</code> with 1x <code>M5x40-socket-head-bolt</code></p>
+<ul>
+<li>Avoid over tightening the bolt! <code>belt-tensioner-arm</code> should be able to pivot smoothly without much resistance.</li>
+<li>Ensure the belt-tensioner-arm is installed correctly on x-idler-mount (IE not backwards)<ul>
+<li>The acorn nut should be resting against the x-idler mount when installed correctly</li>
+</ul>
+</li>
+</ul>
+<p><img src="images/bolt-belt-tensioner-arm.webp"/></p>
+</li>
+</ul>
+<h3 id="install-alu-extrusion-onto-x-motor-mount">Install <code>alu-extrusion</code> onto <code>x-motor-mount</code></h3>
+<ul>
+<li>
+<p>Insert <code>alu-extrusion</code> into <code>x-idler-mount</code>, using light force as necessary</p>
+<p><img src="images/install-ext-into-x-motor-mount.webp"/></p>
+</li>
+<li>
+<p>Insert 2x <code>M5-t-nut</code> into <code>alu-extrusion</code></p>
+<p><img src="images/install-x-motor-mount-t-nut.webp"/></p>
+<p><img src="images/install-x-motor-mount-t-nut2.webp"/></p>
+</li>
+<li>
+<p>Secure <code>alu-extrusion</code> in place with 2x <code>M5x10-socket-head-bolt</code></p>
+<ul>
+<li>Tighten these bolts to 0.5N/M</li>
+</ul>
+<p><img src="images/install-x-motor-mount-bolt.webp"/></p>
+</li>
+</ul>
+<h3 id="install-m3-t-nut-bar">Install <code>M3-t-nut-bar</code></h3>
+<div class="admonition warning">
+<p class="admonition-title">Inspect the <code>M3-t-nut-bar</code> to ensure that each hole has M3 threads</p>
+</div>
+<ul>
+<li>
+<p>Slide <code>M3-t-nut-bar</code> into top-side track of <code>alu-extrusion</code></p>
+<p><img src="images/install-x-tee-nut-bar.webp"/></p>
+</li>
+</ul>
+<h3 id="install-x-idler-mount-onto-alu-extrusion">Install <code>x-idler-mount</code> onto <code>alu-extrusion</code></h3>
+<ul>
+<li>
+<p>Insert 2x <code>M5-t-nut</code> into <code>alu-extrusion</code></p>
+<p><img src="images/install-x-idler-t-nut.webp"/></p>
+</li>
+<li>
+<p>Slide <code>x-idler-mount</code> onto <code>alu-extrusion</code></p>
+<p><img src="images/install-x-idler-mount-1.webp"/></p>
+<p><img src="images/install-x-idler-mount-2.webp"/></p>
+</li>
+<li>
+<p>Use <code>x-gantry-spacer-jig</code> to slide <code>x-idler-mount</code> onto <code>alu-extrusion</code> the required amount</p>
+<ul>
+<li>The WIP <code>x-linear-axis</code> should be sitting on <code>x-gantry-spacer-jig</code> snug - not overly tight - when <code>x-idler-mount</code> is at the correct depth</li>
+</ul>
+<p><img src="images/install-x-idler-mount-3.webp"/></p>
+</li>
+<li>
+<p>Secure <code>x-idler-mount</code> in place with 2x <code>M5x10-socket-head-bolt</code></p>
+<ul>
+<li>Tighten these bolts to 0.5N/M</li>
+</ul>
+<p><img src="images/install-x-idler-mount-4.webp"/></p>
+</li>
+</ul>
+<h3 id="install-linear-rail-525mm">Install <code>linear-rail-525mm</code></h3>
+<ul>
+<li>
+<p>Roughly position <code>linear-rail-525mm</code> onto top-side of <code>alu-extrusion</code></p>
+<p><img src="images/install-x-linear-rail.webp"/></p>
+</li>
+<li>
+<p>Place a <code>linear-rail-2020-alignment-jig</code> on both ends of <code>linear-rail-525mm</code></p>
+<ul>
+<li>Do not cover any bolt holes with the jig</li>
+</ul>
+<p><img src="images/install-x-linear-rail-2.webp"/></p>
+</li>
+<li>
+<p>Visually center <code>linear-rail-525mm</code> between <code>x-motor-mount</code> and <code>x-idler-mount</code></p>
+</li>
+<li>Slide the <code>M3-t-nut-bar</code> to line up with the rail's bolt hole pattern</li>
+<li>
+<p>Starting from the <code>x-motor-mount</code> side, lightly snug a <code>M3x8-bolt</code> into every other bolt hole on <code>linear-rail-525mm</code></p>
+<ul>
+<li>Move the <code>linear-rail-carriage</code> out of the way as needed</li>
+</ul>
+<p><img src="images/install-x-linear-rail-3.webp"/></p>
+</li>
+<li>
+<p>Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end.</p>
+<ul>
+<li>A torque wrench set to 0.5N/M must be used when tightening these bolts</li>
+</ul>
+<p><img src="images/install-x-linear-rail-4.webp"/></p>
+</li>
+<li>
+<p>Remove the <code>linear-rail-2020-alignment-jig</code> from both ends of <code>linear-rail-525mm</code></p>
+</li>
+<li>Slide the <code>linear-rail-carriage</code> back and forth a few times, checking to see that it travels smoothly and consistently</li>
+</ul>
+<h3 id="install-gt2-belt-and-x-gantry-back">Install GT2-belt and x-gantry-back</h3>
+<ul>
+<li>
+<p>Route a 1.5m-long piece of <code>GT2-belt</code> through <code>x-gantry-back</code></p>
+<div class="admonition info">
+<p class="admonition-title">Belt routing step-by-step</p>
+<ul>
+<li>Start by running the belt through the left-side slot on <code>x-gantry-back</code> and leave 75mm of extra belt poking out</li>
+<li>Run it through the extrusion towards the <code>x-motor-mount</code></li>
+<li>Wrap it around the <code>timing-pulley</code></li>
+<li>Run it back through the extrusion towards the <code>x-idler-mount</code></li>
+<li>Wrap it around the <code>idler-pulley</code></li>
+<li>Run it back through the extrusion towards the <code>x-motor-mount</code> again</li>
+<li>Have the belt exit through the right-side slot on <code>x-gantry-back</code></li>
+</ul>
+</div>
+<p><img src="images/install-x-GT2-belt.webp"/></p>
+</li>
+<li>
+<p>Slide the <code>x-gantry-back</code> onto the <code>linear-rail-carriage</code> while pulling slack out of the <code>GT2-belt</code></p>
+<p><img src="images/install-x-GT2-belt-2.webp"/></p>
+</li>
+<li>
+<p>Bolt <code>x-gantry-back</code> to the <code>linear-rail-carriage</code> with 4x <code>M3x16-bolt</code></p>
+<ul>
+<li>Tighten each bolt to 0.5 N/M</li>
+<li>Push <code>x-gantry-back</code> inward towards the <code>linear-rail-carriage</code> while tightening the mounting bolts to align it</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Ensure that <code>x-gantry-back</code> sits flush against <code>linear-rail-carriage</code> without any visible gaps</p>
+</div>
+<p><img src="images/bolt-x-gantry-back-to-linear-rail.webp"/></p>
+</li>
+<li>
+<p>Use <code>belt-clamp</code> with 2x <code>M5x10-bolt</code> to clamp the left-side of the <code>GT2-belt</code> to the <code>x-gantry-back</code></p>
+<ul>
+<li>Tighten each <code>M5x10-bolt</code> to 0.5 N.M</li>
+</ul>
+<p><img src="images/bolt-belt-clamp1-to-x-gantry-back.webp"/>
+<img src="images/bolt-belt-clamp1-to-x-gantry-back-2.webp"/></p>
+</li>
+</ul>
+<h3 id="tension-belt">Tension belt</h3>
+<ul>
+<li>Pull the right-side <code>GT2-belt</code> tightly towards <code>x-motor-mount</code></li>
+<li>
+<p>Use <code>belt-clamp</code> with 2x <code>M5x10-bolt</code> to clamp the right-side <code>GT2-belt</code> to the <code>y-gantry</code></p>
+<ul>
+<li>Tighten each <code>M5x10-bolt</code> to 0.5 N.M</li>
+</ul>
+<p><img src="images/bolt-belt-clamp2-to-x-gantry-back.webp"/></p>
+</li>
+<li>
+<p>Rotate the <code>M3x16-bolt</code> clockwise on <code>belt-tensioner-arm</code> installed on <code>x-idler-mount</code> to tension the <code>GT2-belt</code></p>
+<ul>
+<li>This will cause the <code>belt-tensioner-arm</code> to pull the <code>idler-pulley</code> away from <code>x-idler-mount</code> adding desired tension to the <code>GT2-belt</code></li>
+</ul>
+<p><img src="images/tension-x-belt-1.webp"/>
+<img src="images/tension-x-belt-2.webp"/></p>
+</li>
+<li>
+<p>Trim the loose <code>GT2-belt</code> on either side of the <code>x-gantry-back</code></p>
+<ul>
+<li>For the <code>x-motor-mount</code> side of the <code>x-gantry-back</code> print, trim loose <code>GT2-belt</code> until flush against <code>belt-clamp</code></li>
+<li>For the <code>x-idler-mount</code> side of the <code>x-gantry-back</code> print, trim loose <code>GT2-belt</code> until approx. 15mm of <code>GT2-belt</code> remains past <code>belt-clamp</code></li>
+</ul>
+<p><img src="images/trim-x-belt.webp"/></p>
+</li>
+</ul>
+<h3 id="confirm-progress">Confirm progress</h3>
+<ul>
+<li>Check that finished <code>x-linear-axis</code> matches the image shown below before proceeding
+<img src="images/finished-x-linear-axis.webp"/></li>
+</ul>
+<h2 id="create-x-gantry-front-subassembly">Create <code>x-gantry-front</code> subassembly</h2>
+<h3 id="prepare-nema-17-stepper-motor-for-z-axis">Prepare <code>NEMA-17-stepper-motor</code> for z-axis</h3>
+<ul>
+<li>
+<p>Set <code>timing-pulley</code> height on <code>NEMA-17-stepper-motor</code> shaft with jig</p>
+<ul>
+<li>
+<p>The 1st set-screw tightened must contact the flat region of the motor’s shaft</p>
+<ul>
+<li>Tighten both set screws to 0.4 N/M</li>
+</ul>
+<p><img src="images/image58.webp"/></p>
+<p><img src="images/image57.webp"/></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="prepare-z-belt-subassembly">Prepare <code>z-belt-subassembly</code></h3>
+<ul>
+<li>
+<p>Prepare <code>z-gantry-backplate-right</code></p>
+<ul>
+<li>
+<p>Drill out the limit switch striker bolt hole on <code>z-gantry-backplate-right</code> with a 2.5mm drill bit</p>
+<p><img src="images/image9.webp"/></p>
+</li>
+<li>
+<p>Install 1x <code>M3x16-flathead-bolt</code> into <code>z-gantry-backplate-right</code> to a depth that roughly matches the image shown below</p>
+<ul>
+<li>This screw depth will be precisely adjusted in later steps</li>
+</ul>
+<p><img src="images/image51.webp"/></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Install both <code>z-gantry-backplate-left</code> and <code>z-gantry-backplate-right</code> onto <code>gt2-belt-loop</code></p>
+<ul>
+<li>Place a <code>gt2-belt-loop</code> onto the <code>z-belt-alignment-jig</code></li>
+<li>Place <code>z-gantry-backplate-left</code> and <code>z-gantry-backplate-right</code> onto the <code>z-belt-alignment-jig</code> to align them correctly on the <code>gt2-belt-loop</code></li>
+<li>Twist <code>z-gantry-backplate-left</code> upwards to pull the completed <code>z-belt-subassembly</code> off of the <code>z-belt-alignment-jig</code></li>
+<li>Use a dull knife or other tool to push the <code>gt2-belt-loop</code> all the way down into the cavity of each <code>z-gantry-backplate-####</code></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">TO DO: Add info about LOCTITE 435 Usage</p>
+</div>
+</li>
+</ul>
+<h3 id="install-m5-lock-nut-into-x-gantry-front">Install <code>M5-lock-nut</code> into <code>x-gantry-front</code></h3>
+<ul>
+<li>
+<p>Use an arbor press to install an <code>M5-lock-nut</code> into backside of <code>x-gantry-front</code></p>
+<p><img src="images/image38.webp"/></p>
+</li>
+</ul>
+<h3 id="install-2x-linear-rail-onto-x-gantry-front">Install 2x <code>linear rail</code> onto <code>x-gantry-front</code></h3>
+<ul>
+<li>
+<p>Install 2x <code>linear-rail</code> by aligning them against the bumps found on <code>x-gantry-front</code></p>
+<ul>
+<li>Uses 3x <code>M3x12-self-tapping-button-head</code> per <code>linear-rail</code></li>
+<li>Tighten each bolt in place with the electic torque driver</li>
+</ul>
+<p><img src="images/image44.webp"/></p>
+<p><img src="images/align-rail.webp"/></p>
+<p><img src="images/image67.webp"/></p>
+</li>
+</ul>
+<h3 id="install-z-axis-limit-switch">Install <code>z-axis-limit-switch</code></h3>
+<ul>
+<li>Secure with 2x <code>M3x12-self-tapping-button-head</code><ul>
+<li>Tighten each screw in place with the electic torque driver</li>
+</ul>
+</li>
+<li>
+<p>Make sure each limit switch clicks and feels normal when actuated</p>
+<p><img src="images/image22.webp"/></p>
+<p><img src="images/image63.webp"/></p>
+</li>
+</ul>
+<h3 id="install-z-axis-belt-drive-components">Install z-axis belt drive components</h3>
+<ul>
+<li>Secure <code>idler-pulley</code> onto <code>x-gantry-front</code>  with 1x <code>M5x25-bolt</code>, tightened enough that the pulley can rotate freely without resistance</li>
+<li>
+<p>Check that the pulley can only rotate - it should not be able to move up and down if the bolt is tightened correctly</p>
+<p><img src="images/image20.webp"/></p>
+</li>
+<li>
+<p>Begin by placing <code>z-belt-subassembly</code> onto  <code>x-gantry-front</code></p>
+<ul>
+<li>
+<p>The <code>z-gantry-backplate-right</code> should fit over the right <code>linear-rail-carriage</code>, and the same goes for the left-side</p>
+</li>
+<li>
+<p>The <code>gt2-belt-loop</code> should wrap around the <code>idler-pulley</code></p>
+</li>
+</ul>
+<p><img src="images/image66.webp"/></p>
+</li>
+<li>
+<p>Install the <code>NEMA-17-stepper-motor</code> by angling it into the <code>z-belt-subassembly</code></p>
+<ul>
+<li>The limit switch connector will be at a 45º from the motor’s connector when everything is in the proper position.</li>
+</ul>
+<p><img src="images/image7.webp"/></p>
+</li>
+<li>
+<p>Bolt <code>NEMA-17-stepper-motor</code> onto <code>x-gantry-front</code> with 4x <code>M3x8-bolt</code></p>
+<ul>
+<li>Leave the bolts loose for now</li>
+</ul>
+<p><img src="images/image1.webp"/></p>
+</li>
+<li>
+<p>Tension <code>gt2-belt-loop</code> by pulling the motor upwards before tightening the mounting bolts to 0.5 N/M</p>
+<ul>
+<li>The belts should feel much firmer now - to test manually move the z-axis back and forth while inspecting the belts for sag when changing directions</li>
+<li>
+<p>You should be able to pluck the belt like a bass string</p>
+<p><img src="images/image8.webp"/></p>
+<p><img src="images/image13.webp"/></p>
+</li>
+</ul>
+</li>
+<li>
+<p>The <code>x-gantry-front</code> should now match the image shown below:</p>
+<p><img src="images/checkpoint.webp"/></p>
+</li>
+</ul>
+<h3 id="install-2x-z-gantry">Install 2x <code>z-gantry</code></h3>
+<ul>
+<li>
+<p>Loosely attach a <code>z-gantry</code> onto the left-side <code>linear-rail-carriage</code> with 4x <code>M3x8-bolt</code> per side
+    <img src="images/bolt-left-head.webp"/></p>
+</li>
+<li>
+<p>Align <code>z-gantry</code> parallel to <code>linear-rail</code> by lightly pressing it outward, while tightening the mounting bolts</p>
+<ul>
+<li>Tighten bolts to 0.5 N/M, moving in a star pattern</li>
+</ul>
+<p><img src="images/image26.webp"/></p>
+</li>
+<li>
+<p>Repeat this process to attach the second <code>z-gantry</code> to the right-side <code>linear-rail-carriage</code></p>
+<p><img src="images/2x-z-gantry-installed.webp"/></p>
+</li>
+</ul>
+<h3 id="install-nema11-hollow-shaft-stepper">Install <code>NEMA11-hollow-shaft-stepper</code></h3>
+<ul>
+<li>
+<p>Bolt <code>NEMA11-hollow-shaft-stepper</code> onto left-side <code>z-ganty</code></p>
+<ul>
+<li>Attach with 4x M2.5x8 bolts</li>
+<li>Torque each bolt to <strong>0.3 N/M</strong></li>
+</ul>
+<p><img src="images/bolt-nema11-1.webp"/></p>
+<p><img src="images/bolt-nema11-2.webp"/></p>
+</li>
+</ul>
+<h3 id="install-toolhead-components">Install toolhead components</h3>
+<ul>
+<li>
+<p>Slide <code>nozzle-mask</code> onto <code>nozzle-holder</code> as shown in the image below</p>
+<p><img src="images/slide-nozzle-mask.webp"/></p>
+</li>
+<li>
+<p>Place <code>rotary-pneumatic-adapter</code> into <code>rotary-pneumatic-adapter-socket</code></p>
+<ul>
+<li>Attach the custom socket to a torque driver if you have not already done so</li>
+<li>Set the torque driver to <code>0.5 N/M</code> for the following steps</li>
+</ul>
+<p><img src="images/image10-render.webp"/>
+<img src="images/image10.webp"/></p>
+</li>
+<li>
+<p>Install <code>nozzle-holder</code> and <code>rotary-pneumatic-adapter</code> onto <code>NEMA11-hollow-shaft-stepper</code></p>
+<ul>
+<li>Begin by loosely threading <code>nozzle-holder w/attached nozzle-mask</code> onto the <code>NEMA11-hollow-shaft-stepper</code> (on the side closest to the <code>idler-pulley</code>)</li>
+<li>Install <code>rotary-pneumatic-adapter</code> onto <code>NEMA11-hollow-shaft-stepper</code> (on the side closest to the motor's cable connector)</li>
+<li>Place a 16mm wrench onto the flats found on <code>nozzle-mask</code></li>
+<li>Tighten the toolhead components onto the <code>NEMA11-hollow-shaft-stepper</code> by torquing the <code>rotary-pneumatic-adapter</code></li>
+</ul>
+<p><img src="images/tighten-toolhead.webp"/></p>
+</li>
+<li>
+<p>Repeat above process to attach a <code>rotary-pneumatic-toolhead-assembly</code> to the left-side <code>z-gantry</code></p>
+<p><img src="images/x-gantry-front-done1.webp"/></p>
+</li>
+</ul>
+<h2 id="install-x-gantry-front-onto-x-linear-axis">Install <code>x-gantry-front</code> onto <code>x-linear-axis</code></h2>
+<ul>
+<li>
+<p>Use 4x <code>M5x40-bolt</code> to attach <code>x-gantry-front</code> onto <code>x-linear-axis</code></p>
+<ul>
+<li>Move each toolhead out of the way as needed</li>
+<li>Torque each bolt to <strong><code>0.8 N/M</code></strong></li>
+</ul>
+<p><img alt="alt text" src="images/bolt-x-gantry-front-1.webp" />
+<img alt="alt text" src="images/bolt-x-gantry-front-2.webp" />
+<img alt="alt text" src="images/bolt-x-gantry-front-3.webp" /></p>
+</li>
+</ul>
+<h2 id="gundam-test-x-gantry">Gundam test <code>x-gantry</code></h2>
+<ul>
+<li>Ensure that the Gundam motherboard is unplugged from 24vDC power</li>
+<li>Check that <code>x-gantry</code> fits correctly on <code>x-gantry-spacer-jig</code></li>
+<li>Slide a <code>M5x25-bolt</code> into the <code>x-gantry</code> from either side of <code>x-gantry-spacer-jig</code> to prevent it from falling during testing</li>
+<li>Bolt down the test jig’s drag chain onto <code>x-gantry-back</code> with 1x <code>M5x16-bolt</code></li>
+<li>Connect the test jig’s <code>xy-limit</code>, <code>z-limit</code>, <code>x-motor</code>, and <code>z-motor</code> cables into x-gantry</li>
+<li>Connect the Gundam motherboard to 24vDC power and then press reset on Gundam motherboard</li>
+<li>Connect the motherboard to the Gundam test software</li>
+<li>
+<p>Begin testing the <code>x-gantry</code> by running various macros:</p>
+<ul>
+<li>
+<p>Check X-Home</p>
+<ul>
+<li>If the toolhead is moving very slow, the stepper drivers may not have initialized properly - try restarting the motherboard again</li>
+</ul>
+</li>
+<li>
+<p>Check X-Movement Speed</p>
+<ul>
+<li>Ensure that no weird sounds are heard, if so consult with team for debugging steps</li>
+<li>Adjust the tightness of the belts and each tensioner-bar as needed to pass this test</li>
+</ul>
+</li>
+<li>
+<p>Test Z-Home</p>
+<ul>
+<li>Check that the z-belt is adequately tensioned and adjust if necessary - you shouldn’t be able to twist the belt too much</li>
+<li>Adjust the M3x16 bolt either up or down as needed, until the z-gantry's are aligned vertically after homing<ul>
+<li>This can be checked by sliding a brass shim across the top of the motor while checking to see if it sits higher/lower than the top surface of the adjacent motor</li>
+<li>Repeat this test and continue adjusting the M3x16 bolt until the alignment appears to be perfect</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Test Z-Movement Speed</p>
+</li>
+</ul>
+</li>
+</ul>
+<div class="admonition failure">
+<p class="admonition-title">If issues arise, continue rerunning tests and reworking the x-gantry</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Once everything is passing, proceed with the following steps</p>
+</div>
+<ul>
+<li>Remove <code>x-gantry</code> from Gundam<ul>
+<li>Disconnect Gundam motherboard from 24vDC power</li>
+<li>Unplug the test jig’s <code>xy-limit</code>, <code>z-limit</code>, <code>x-motor</code>, and <code>z-motor</code> cables from <code>x-gantry</code></li>
+<li>Unscrew <code>drag-chain mounting hardware</code> from <code>x-gantry</code></li>
+<li>Remove the 2x <code>M5x25-bolt</code> used to keep <code>x-gantry</code> on <code>x-gantry-spacer-jig</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="qc-checklist">QC Checklist</h2>
+<p>Inspect the completed <code>x-gantry</code> for the following criteria:</p>
+<ul>
+<li><code>GT2-belt</code> has been trimmed to appropriate length (flush on 1 side, 15mm on the other)</li>
+<li><code>Top-light-mount</code> is attached with two screws</li>
+<li><code>top-ring-light</code> is present with the wire connector visible</li>
+<li>Camera lens cap is present</li>
+<li>The wire connectors on both <code>NEMA-11-stepper-motor</code> units face away from each other, sitting adjacent to their respective cable strain relief points</li>
+<li>Each <code>nozzle-holder</code> has been lubricated and fit-tested with a nozzle</li>
+<li><code>Z-belt-loop</code> feels appropriately tensioned when plucked</li>
+<li>Each <code>z-gantry</code> moves smoothly when actuated back-and-forth by hand</li>
+<li>1x <code>M5-hex-nut</code> is installed in <code>x-gantry-back</code> for use in <code>cable-splay</code> attachment</li>
+<li><code>NEMA-17-stepper-motor</code> wire connector faces towards <code>z-limit-switch</code></li>
+<li><code>Linear-rail</code> is centered atop <code>alu-extrusion</code></li>
+<li><code>x-idler-mount</code> and <code>x-motor-mount</code> are secured to <code>alu-extrusion</code> with 2x <code>M5x10-bolt</code> per side</li>
+<li><code>Tensioner-arm</code> is installed on <code>x-idler-mount</code> in the correct orientation (IE acorn-nut facing touches print)</li>
+<li><code>Timing-pulley</code> is tightened down and at proper height</li>
+<li><code>GT2-belt</code> lays flat and is roughly centered in the <code>alu-extrusion</code> channels</li>
+<li><code>GT2-belt</code> has been correctly tensioned</li>
+<li><code>X-gantry-toolhead</code> moves smoothly when actuated back and forth by hand</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">If all checks pass, place completed <code>x-gantry</code> on shelf for peer-review and pack-out.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      LumenPnP and its related works are proudly released under the CERN-OHL-W-2.0 license - Opulo Inc 2024
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "content.tabs.link", "content.action.edit", "toc.integrate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

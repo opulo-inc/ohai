@@ -1,0 +1,2616 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ohai.opulo.io/lumen/pack-out/">
+      
+      
+        <link rel="prev" href="../printing_lumenpnp_labels/">
+      
+      
+        <link rel="next" href="../jigs/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>Packaging - OHAI - Open Hardware Assembly Instructions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Figtree:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Figtree";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#packaging-lumenpnp-v4" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-header__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OHAI - Open Hardware Assembly Instructions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Packaging
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/opulo-inc/lumenpnp/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  LumenPnP
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../feeder8/" class="md-tabs__link">
+          
+  
+  
+  Feeder
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assembly-guides/" class="md-tabs__link">
+          
+  
+  
+  Other Products
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../operations/" class="md-tabs__link">
+          
+  
+  
+  Operations
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-nav__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.webp" alt="logo">
+
+    </a>
+    OHAI - Open Hardware Assembly Instructions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/opulo-inc/lumenpnp/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LumenPnP
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    LumenPnP
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../x-gantry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X Gantry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../y-gantry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Y Gantry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../feeder-rail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feeder Rail (Front and Rear)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drag-chain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drag Chain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../control-box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control Box
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../staging-plate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Staging Plate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumenpnp-accessories/ftp-kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started Kit (FTP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tool-kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tool Kit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../additional-parts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Additional Parts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printing_lumenpnp_labels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Printing LumenPnP Lables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Packaging
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Packaging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#reviewing-packaging-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reviewing packaging layout
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-lower-foam-tray" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Package lower-foam-tray
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Package lower-foam-tray">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tool-kit-bag-and-back-leg-extension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        tool-kit-bag and back-leg-extension
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getting-started-kit-and-feeder-blade-harness-set" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        getting-started-kit and feeder-blade-harness-set
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#x-gantry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        x-gantry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#x-cable-chain-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        x-cable-chain-support
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#y-gantry-right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        y-gantry-right
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#y-gantry-left" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        y-gantry-left
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-leg-extension-and-nozzle-rack-asm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        front-leg-extension and nozzle-rack-asm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confirm-the-contents-of-lower-foam-tray" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirm the contents of lower-foam-tray
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-upper-foam-tray" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Package upper-foam-tray
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Package upper-foam-tray">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#misc-parts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        misc. parts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primary-staging-plate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        primary-staging-plate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        control-box
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aux-staging-plate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        aux-staging-plate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontrear-feeder-rail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        front/rear-feeder-rail
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drag-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        drag-chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confirm-the-contents-of-upper-foam-tray" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirm the contents of upper-foam-tray
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-lumenpnp-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Package LumenPnP Box
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jigs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jigs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feeder
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Feeder
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/pcb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PCB Production
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/pcb-qc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PCB QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-motor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peel Motor Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/indexing-wheel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drive Wheel Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-gear-frame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peel Gear Box
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/feeder-frame-8mm-asm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frame Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/oqc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OQC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/packout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Packaging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other Products
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Other Products
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly-guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Operations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sourcing
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sourcing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/weekly-inventory-removal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weekly Inventory Removal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/purchase-forecasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weekly Purchase Forecasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/create-po/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create PO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/receive-inventory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receiving Inventory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_5" id="__nav_5_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aligni Misc
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aligni Misc
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/create-part/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Part
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/create-vendor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Vendor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/bom-import/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM Import
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/example-purchase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example Purchase
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/sourcing/misc-aligni/inventory-day/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory Day
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/production-fulfillment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Production / Fulfillment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../operations/print-farm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Print Farm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/opulo-inc/ohai/edit/main/docs/lumen/pack-out/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="packaging-lumenpnp-v4">Packaging LumenPnP v4</h1>
+<h2 id="reviewing-packaging-layout">Reviewing packaging layout</h2>
+<ol>
+<li>
+<p>The following components are packaged into the <code>lower-foam-tray</code>:</p>
+<ul>
+<li><code>y-gantry-left</code></li>
+<li><code>y-gantry-right</code></li>
+<li><code>x-gantry</code></li>
+<li><code>nozzle-rack-asm</code></li>
+<li><code>getting-started-kit</code></li>
+<li><code>tool-kit-bag</code></li>
+<li><code>feeder-blade-harness-set</code></li>
+<li><code>x-cable-chain-support</code></li>
+<li>2x <code>front-leg-extension</code></li>
+<li>2x <code>back-leg-extension</code></li>
+</ul>
+</li>
+<li>
+<p>The following components are packaged into the <code>upper-foam-tray</code>:</p>
+<ul>
+<li><code>primary-staging-plate</code></li>
+<li><code>aux-staging-plate</code></li>
+<li><code>static-camera-foot</code></li>
+<li><code>aux-staging-plate-foot</code></li>
+<li><code>bagged-10x-extrusion-cable-clips</code></li>
+<li><code>squaring-bracket</code></li>
+<li><code>y-limit-striker</code></li>
+<li><code>drag-chain-assembly</code></li>
+<li><code>front-feeder-rail</code></li>
+<li><code>rear-feeder-rail</code></li>
+<li><code>24v6A-power-supply</code></li>
+<li><code>power-cable</code></li>
+</ul>
+</li>
+</ol>
+<h2 id="package-lower-foam-tray">Package <code>lower-foam-tray</code></h2>
+<div class="admonition warning">
+<p class="admonition-title">The following steps must be conducted by someone other than the original assembler.</p>
+</div>
+<h3 id="tool-kit-bag-and-back-leg-extension"><code>tool-kit-bag</code> and <code>back-leg-extension</code></h3>
+<ol>
+<li>
+<p>Confirm <code>lumenpnp-v4-hardware-kit</code> is present in <code>tool-kit-bag</code></p>
+<div class="admonition success">
+<p class="admonition-title">If OK continue onward</p>
+</div>
+</li>
+<li>
+<p>Add <code>tool-kit-bag</code> into the middle region of <code>lower-foam-tray</code></p>
+<ul>
+<li>Orient the <code>tool-kit-bag</code> so its Opulo logo faces the <code>x-gantry-toolhead</code></li>
+</ul>
+<p><img alt="alt text" src="img/IMG_24.webp" /></p>
+</li>
+<li>
+<p>Insert 2x <code>back-leg-extension</code> - stacking them on the left of <code>tool-kit-bag</code></p>
+<ul>
+<li>Confirm both pieces have <code>rubber-feet</code> installed</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_25.webp" />
+<img alt="alt text" src="img/IMG_26.webp" /></p>
+</li>
+</ol>
+<h3 id="getting-started-kit-and-feeder-blade-harness-set"><code>getting-started-kit</code> and <code>feeder-blade-harness-set</code></h3>
+<ol>
+<li>
+<p>Insert <code>getting-started-kit</code> into the lower left region of tray</p>
+<ul>
+<li>QC must be performed if collecting <code>getting-started-kit</code> pieces from anything other than a <span style="color:green"> green QC-Pass bin</span></li>
+<li>QC this item by weighing and confirming a mass of either 168g or 150g (varies based on the version of tape used)</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_28.webp" />
+<img alt="alt text" src="img/IMG_29.webp" /></p>
+</li>
+<li>
+<p>QC the <code>feeder-blade-harness-set</code>. All four connectors <strong>must</strong> have the same wire color order as each other.</p>
+<p><img alt="" src="img/blade-harness-ok.webp" /></p>
+</li>
+<li>
+<p>Insert <code>feeder-blade-harness-set</code> to the right of <code>getting-started-kit</code></p>
+<p><img alt="alt text" src="img/IMG_30.webp" />
+<img alt="alt text" src="img/IMG_31.webp" /></p>
+</li>
+</ol>
+<h3 id="x-gantry"><code>x-gantry</code></h3>
+<ol>
+<li>
+<p>Perform <code>x-gantry</code> QC</p>
+<ul>
+<li><code>GT2-belt</code> has been trimmed to appropriate length:<ul>
+<li>Flush on <code>x-motor-mount</code> side</li>
+<li>Approx. 15mm on <code>x-idler-mount</code> side</li>
+</ul>
+</li>
+<li><code>lens-cap</code> is present on <code>top-camera</code></li>
+<li>The wire connectors on both <code>NEMA-11-stepper-motor</code> units face away from each other</li>
+<li>Confirm each <code>nozzle-holder</code> fulfills the following requirements:<ul>
+<li>Tip of the nozzle around the O-Rings has visible lubrication</li>
+<li>Moves smoothly and in a straight path when actuated manually</li>
+<li>Springs back to the extended position after being depressed by hand</li>
+</ul>
+</li>
+<li><code>z-belt-loop</code> feels appropriately tensioned when plucked</li>
+<li>Each <code>z-gantry</code> moves smoothly when actuated back-and-forth by hand</li>
+<li>1x <code>M5-hex-nut</code> is installed in <code>x-gantry-back</code> for mounting <code>cable-splay</code></li>
+<li>The wire connector on <code>NEMA-17-stepper-motor</code> that is attached to <code>x-gantry-front</code> faces <code>z-limit-switch</code></li>
+<li>The wire connector on <code>NEMA-17-stepper-motor</code> that is attached to <code>x-motor-mount</code> faces away from <code>xy-limit-switch</code></li>
+<li><code>linear-rail</code> is centered atop <code>alu-extrusion</code></li>
+<li><code>x-idler-mount</code> and <code>x-motor-mount</code> are secured to <code>alu-extrusion</code> with 2x <code>M5x10-bolt</code> per side</li>
+<li><code>belt-tensioner-arm</code> is installed on <code>x-idler-mount</code> in the correct orientation (IE acorn-nut facing touches print)</li>
+<li><code>timing-pulley</code> for both x &amp; z  are tightened down and at proper height</li>
+<li><code>GT2-belt</code> lays flat and is roughly centered in <code>alu-extrusion</code> channel</li>
+<li><code>GT2-belt</code> has been correctly tensioned (40 &lt; Newtons to dislodge Acorn Nut&lt; 60)</li>
+<li><code>x-gantry-toolhead</code> moves smoothly when actuated back and forth by hand</li>
+<li><code>top-ring-light</code> is present with the wire connector visible</li>
+<li><code>x-gantry-front</code> is fully tightened on and cannot rotate when torqued</li>
+<li>both <code>z-gantry</code> prints are fully tightened on and cannot rotate when torqued</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">If all checks pass, continue onward</p>
+</div>
+</li>
+<li>
+<p>Package <code>x-gantry</code> into <code>lower-foam-tray</code></p>
+<p><img alt="alt text" src="img/IMG_32.webp" /></p>
+</li>
+</ol>
+<h3 id="x-cable-chain-support"><code>x-cable-chain-support</code></h3>
+<ul>
+<li>
+<p>Place <code>x-cable-chain-support</code> on the bottom of the <code>y-gantry</code> pocket</p>
+<p><img alt="alt text" src="img/IMG_33.webp" /></p>
+</li>
+</ul>
+<h3 id="y-gantry-right"><code>y-gantry-right</code></h3>
+<p><img alt="" src="img/y-gantry-right.webp" /></p>
+<ol>
+<li>
+<p>Perform <code>y-gantry-right</code> QC</p>
+<ul>
+<li>Confirm M5 bolts are installed in every recessed region</li>
+<li><code>M5-hex/square-nut</code> installed where required:<ul>
+<li>2x <code>M5-hex-nut</code> pressed into bottom of <code>front-right-leg</code></li>
+<li>1x <code>M5-hex-nut</code> pressed into bottom of <code>back-leg</code></li>
+<li>2x <code>M5-hex-nut</code> pressed into <code>y-gantry</code> on textured face</li>
+<li>2x <code>M5-square-nut</code> pressed into <code>y-gantry</code> for attaching <code>x-cable-chain-support</code></li>
+</ul>
+</li>
+<li><code>GT2-belt</code> has been trimmed to appropriate length:<ul>
+<li>Flush on <code>front-right-leg</code> side</li>
+<li>Approx. 15mm on <code>back-leg</code> side</li>
+</ul>
+</li>
+<li><code>GT2-belt</code> has been correctly tensioned</li>
+<li><code>belt-tensioner-arm</code> is installed on <code>front-right-leg</code> in the correct orientation (IE acorn-nut facing touches leg)</li>
+<li><code>linear-rail</code> is centered atop <code>aluminum-extrusion</code></li>
+<li><code>y-gantry</code> sits flat on <code>linear-rail-carriage</code></li>
+<li><code>y-gantry</code> feels smooth and free of friction across the y-min to y-max travel range when actuated by hand</li>
+<li><code>GT2-belt</code> lays flat in the <code>alu-extrusion</code> channels</li>
+<li>3x <code>extrusion-cable-clip</code> have been installed onto the lower <code>alu-extrusion</code></li>
+<li><code>timing-pulley</code> is tightened down and at proper height</li>
+<li><code>Y2</code> cable is secured with a zip-tie and exits the port labeled <code>Y2</code></li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">If all checks pass, continue onward</p>
+</div>
+</li>
+<li>
+<p>Package <code>y-gantry-right</code> into <code>lower-foam-tray</code></p>
+<p><img alt="alt text" src="img/IMG_34.webp" /></p>
+</li>
+</ol>
+<h3 id="y-gantry-left"><code>y-gantry-left</code></h3>
+<p><img alt="" src="img/y-gantry-left.webp" /></p>
+<ol>
+<li>
+<p>Perform <code>y-gantry-left</code> QC</p>
+<ul>
+<li>Confirm M5 bolts are installed in every recessed region</li>
+<li><code>M5-hex/square-nut</code> installed where required:<ul>
+<li>2x <code>M5-hex-nut</code> pressed into bottom of <code>front-left-leg</code></li>
+<li>1x <code>M5-square-nut</code> pressed into side of <code>front-left-leg</code> for use with <code>y-limit-striker</code></li>
+<li>1x <code>M5-hex-nut</code> pressed into bottom of <code>back-leg</code></li>
+<li>2x <code>M5-hex-nut</code> pressed into <code>y-gantry</code> on textured face</li>
+<li>2x <code>M5-square-nut</code> pressed into <code>y-gantry</code> for <code>x-cable-chain-support</code> mounting</li>
+</ul>
+</li>
+<li><code>GT2-belt</code> has been trimmed to appropriate length:<ul>
+<li>Flush on <code>front-left-leg</code> side</li>
+<li>Approx. 15mm on <code>back-leg</code> side</li>
+</ul>
+</li>
+<li><code>GT2-belt</code> has been correctly tensioned</li>
+<li><code>belt-Tensioner-arm</code> is installed on <code>front-right-leg</code> in the correct orientation (IE acorn-nut facing touches leg)</li>
+<li><code>linear-rail</code> is centered atop <code>aluminum-extrusion</code></li>
+<li><code>y-gantry</code> sits flat on <code>linear-rail-carriage</code></li>
+<li><code>y-gantry</code> feels smooth and free of friction across the y-min to y-max travel range when actuated by hand</li>
+<li><code>GT2-belt</code> lays flat in the <code>alu-extrusion</code> channels</li>
+<li>3x <code>extrusion-cable-clip</code> have been installed onto the lower <code>alu-extrusion</code></li>
+<li><code>timing-pulley</code> is tightened down and at proper height</li>
+<li><code>Y1</code> cable is secured with a zip-tie and exits the port labeled <code>Y1</code></li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">If all checks pass, continue onward</p>
+</div>
+</li>
+<li>
+<p>Package <code>y-gantry-left</code> into <code>lower-foam-tray</code></p>
+<p><img alt="alt text" src="img/IMG_35.webp" /></p>
+</li>
+</ol>
+<h3 id="front-leg-extension-and-nozzle-rack-asm"><code>front-leg-extension</code> and <code>nozzle-rack-asm</code></h3>
+<ol>
+<li>
+<p>Insert <code>nozzle-rack-asm</code> into the bottom right pocket</p>
+<ul>
+<li>Confirm <code>nozzle-rack</code> has all its mounting hardware installed by peering through the bag</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_36.webp" />
+<img alt="alt text" src="img/IMG_37.webp" /></p>
+</li>
+<li>
+<p>Insert 2x <code>front-leg-extension</code>, stacking them in the same region</p>
+<ul>
+<li>Confirm both pieces have <code>rubber-feet</code> installed</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_38.webp" />
+<img alt="alt text" src="img/IMG_39.webp" /></p>
+</li>
+</ol>
+<h3 id="confirm-the-contents-of-lower-foam-tray">Confirm the contents of <code>lower-foam-tray</code></h3>
+<p>Confirm the <code>lower-foam-tray</code> matches the image shown below before continuing:</p>
+<p><img alt="alt text" src="img/IMG_40.webp" /></p>
+<h2 id="package-upper-foam-tray">Package <code>upper-foam-tray</code></h2>
+<div class="admonition warning">
+<p class="admonition-title">The following steps must be conducted by someone other than the original assembler.</p>
+</div>
+<h3 id="misc-parts">misc. parts</h3>
+<ol>
+<li>
+<p>Insert the following items into the <strong>right-side</strong> pocket of <code>upper-foam-tray</code></p>
+<div class="admonition note">
+<p class="admonition-title">Package each of the following items while inspecting them for their given QC inspection criteria</p>
+</div>
+<ul>
+<li><code>squaring-bracket</code> - confirm print is latest revision (gold PLA &amp; hex wrench feature)</li>
+<li><code>y-limit-striker</code> - confirm <code>M5-thumb-screw</code> is installed and appears to stick-out <code>1.5mm</code></li>
+<li><code>aux-staging-plate-foot</code> - confirm top-side M3 bolt and bottom-side <code>rubber-foot</code></li>
+<li><code>static-camera-foot</code> - confirm bottom-side <code>rubber-foot</code></li>
+<li><code>bagged-10x-extrusion-cable-clips</code><ul>
+<li>Only pull these items from a <span style="color:green"> green QC-Pass bin</span>.</li>
+</ul>
+</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_41.webp" />
+<img alt="alt text" src="img/IMG_43.webp" /></p>
+</li>
+<li>
+<p>Insert the following into the <strong>left-side</strong> pocket</p>
+<ul>
+<li><code>24v6A-power-supply</code> (unboxed)</li>
+<li><code>power-cable</code></li>
+</ul>
+<p><img alt="alt text" src="img/IMG_44.webp" />
+<img alt="alt text" src="img/IMG_45.webp" />
+<img alt="alt text" src="img/IMG_46.webp" /></p>
+</li>
+<li>
+<p>Confirm the left and right side pockets match the image below before continuing</p>
+<p><img alt="alt text" src="img/IMG_47.webp" /></p>
+</li>
+</ol>
+<h3 id="primary-staging-plate"><code>primary-staging-plate</code></h3>
+<ol>
+<li>
+<p>Inspect <code>primary-staging-plate</code> before packaging it into the foam tray</p>
+<ul>
+<li>Review the <code>primary-staging-plate</code> for the presence of all major components<ul>
+<li><code>datum-board</code></li>
+<li><code>bottom-camera-assembly</code> (with lens cap removed)</li>
+<li>3x <code>peek-cable-clamp</code></li>
+<li><code>bottom-light-harness</code> and <code>bottom-camera-harness</code> w/propper cable managment<ul>
+<li>Ensure that the <code>bottom-camera-harness</code> was used and NOT the longer <code>top-cable-harness</code></li>
+<li><code>peek-cable-clamp</code> usage and rubber-band for securing loose cables</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_49.webp" /></p>
+</li>
+<li>
+<p>Place the <code>primary-staging-plate</code> into <code>upper-foam-tray</code> in the region shown below</p>
+<div class="admonition note">
+<p class="admonition-title">The Opulo logo should face away from the <code>feeder-rail</code> pocket</p>
+</div>
+<p><img alt="alt text" src="img/IMG_50.webp" /></p>
+</li>
+<li>
+<p>Insert a foam block above each side of <code>primary-staging-plate</code></p>
+<p><img alt="alt text" src="img/IMG_51.webp" /></p>
+</li>
+</ol>
+<h3 id="control-box"><code>control-box</code></h3>
+<ol>
+<li>
+<p>Insert <code>control-box</code> on right-side of <code>bottom-camera-assembly</code></p>
+<p><img alt="alt text" src="img/IMG_53.webp" /></p>
+</li>
+<li>
+<p>Unclip the <code>box-sn-label</code> from <code>control-box</code> and loosely add it to right side accessory pocket</p>
+<p><img alt="alt text" src="img/IMG_54.webp" /></p>
+</li>
+</ol>
+<h3 id="aux-staging-plate"><code>aux-staging-plate</code></h3>
+<ol>
+<li>
+<p>Insert <code>aux-staging-plate</code> on top of <code>primary-staging-plate</code></p>
+<div class="admonition note">
+<p class="admonition-title">The Opulo logo should face away from the <code>feeder-rail</code> pocket</p>
+</div>
+<p><img alt="alt text" src="img/IMG_55.webp" />
+<img alt="alt text" src="img/IMG_56.webp" /></p>
+</li>
+</ol>
+<h3 id="frontrear-feeder-rail"><code>front/rear-feeder-rail</code></h3>
+<div class="admonition note">
+<p class="admonition-title">It is much easier to check the entire batch at once for a given inspection, rather than checking each one rail at a time against this entire checklist</p>
+</div>
+<ol>
+<li>
+<p>Perform QC inspection on the front of <code>front-feeder-rail</code> and <code>rear-feeder-rail</code> pieces</p>
+<p><img alt="alt text" src="img/IMG_61.webp" /></p>
+<ul>
+<li>Feeder blades are installed sequentially from left to right</li>
+<li>Wiggle the installed blades to ensure no screws are loose, retightening any if needed</li>
+<li>Ensure the print is free of defects and fits flush to <code>alu-extrusion</code></li>
+<li>The 2x (front)/4x (rear) installed <code>corner-bracket</code> pieces are flush to the <code>alu-extrusion</code></li>
+<li>Confirm a <code>blade-jumper-harness</code> is installed into each <code>feeder-rail</code></li>
+<li>
+<p>Use the <code>feeder-programmer</code> to check that Slots <code>#1</code>, <code>#12</code>, <code>#13</code>, '#23', <code>#25</code>, <code>#26</code>, <code>#37</code> <code>#38</code>, <code>#48</code>, and <code>#50</code> are programmed correctly</p>
+<div class="admonition success">
+<p class="admonition-title">If all checks pass continue onward</p>
+</div>
+</li>
+</ul>
+</li>
+<li>
+<p>Add <code>front-feeder-rail</code> and <code>rear-feeder-rail</code> into  <code>upper-foam-tray</code></p>
+<ul>
+<li>Orient the rails back-side up, with <code>rear-feeder-rail</code> in the lower pocket and <code>slot #50</code> on the right  </li>
+</ul>
+<p><img alt="alt text" src="img/IMG_62.webp" />
+<img alt="alt text" src="img/IMG_63.webp" />
+<img alt="alt text" src="img/IMG_64.webp" /></p>
+</li>
+</ol>
+<h3 id="drag-chain"><code>drag-chain</code></h3>
+<ol>
+<li>
+<p>Perform <code>drag-chain</code> QC</p>
+<ul>
+<li>Confirm the following vacuum tubes are present at both ends:<ul>
+<li><span style="background-color:red"><strong>Red</strong></span> <code>4mm-pneumatic-tubing</code></li>
+<li><span style="background-color:blue"><strong>Blue</strong></span> <code>4mm-pneumatic-tubing</code></li>
+</ul>
+</li>
+<li>Confirm 3x <code>zip-tie</code> used in <code>cable-splay</code> are trimmed flush and present</li>
+<li>Confirm presence of <code>top-camera-cable</code></li>
+<li>
+<p>Confirm presence of <code>x-harness</code> and double check that <code>x-harness</code> has the correct orientation</p>
+<p><img alt="alt text" src="img/x-harness-qc.webp" /></p>
+</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">If all checks pass, continue onward</p>
+</div>
+</li>
+<li>
+<p>Place <code>drag-chain</code> into <code>upper-foam-tray</code></p>
+<p><img alt="alt text" src="img/IMG_68.webp" />
+<img alt="alt text" src="img/IMG_70.webp" /></p>
+</li>
+</ol>
+<h3 id="confirm-the-contents-of-upper-foam-tray">Confirm the contents of <code>upper-foam-tray</code></h3>
+<ol>
+<li>
+<p>Confirm the <code>upper-foam-tray</code> matches the image shown below</p>
+<p><img alt="alt text" src="img/IMG_93.webp" /></p>
+</li>
+</ol>
+<h2 id="package-lumenpnp-box">Package LumenPnP Box</h2>
+<div class="admonition warning">
+<p class="admonition-title">Perform this process 1 machine at a time</p>
+<p>It's OK for this work to be performed by the original machine assembler</p>
+</div>
+<ol>
+<li>
+<p>Gather the following items:</p>
+<ul>
+<li>Empty LumenPnP box</li>
+<li>Packaged and QC'd upper-foam-tray</li>
+<li>Packaged and QC'd lower-foam-tray</li>
+<li>All relevant shipping paperwork, including packing slip, shipping label, and any international forms</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_77.webp" /></p>
+</li>
+<li>
+<p>Remove the <code>box-sn-label</code> from the <code>upper-foam-tray</code> and adhere it to the LumenPnP box in the region shown below</p>
+<div class="admonition warning">
+<p class="admonition-title">It is <strong>critical</strong> that this label matches the serial number listed on the backside of <code>control-box</code></p>
+</div>
+<p><img alt="alt text" src="img/IMG_78.webp" /></p>
+</li>
+<li>
+<p>Adhere shipping documents to box</p>
+<ul>
+<li>Adhere all relevant shipping documentation to the top left side of the LumenPnP box flap</li>
+<li>Set the packing slip aside <strong>if</strong> it lists product pricing information, otherwise it can be adhered below the shipping label</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_94.webp" /></p>
+</li>
+<li>
+<p>Examine the packing slip and take note of what (if any) additional items must be packaged  </p>
+<p><img alt="" src="img/packing_slip.webp" /></p>
+</li>
+<li>
+<p>Open the <a href="https://docs.google.com/forms/d/e/1FAIpQLSddZwlLa26bw81xRC3UofJ12yaRr4eiF1ZQTFnbHVbXxjBo6A/viewform?usp=sharing">OQC Checklist</a></p>
+<ul>
+<li>Fill out this checklist as you package the LumenPnP</li>
+</ul>
+<p><img alt="" src="img/oqc-form.webp" /></p>
+</li>
+<li>
+<p>Complete the first page of the <code>OQC Checklist</code> page</p>
+<p><img alt="" src="img/QC-Form/2-qc-form.webp" /></p>
+</li>
+<li>
+<p>Examine the contents of the <code>lower-foam-tray</code> and complete the corresponding <code>OQC Checklist</code> page</p>
+<p><img alt="" src="img/QC-Form/3-qc-form.webp" /></p>
+</li>
+<li>
+<p>Place the packaged <code>lower-foam-tray</code> into the LumenPnP packaging</p>
+<ul>
+<li>Orient the tray so that the packaged <code>x-gantry</code> is closer to the Opulo logo side of the box</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_79.webp" /></p>
+</li>
+<li>
+<p>Examine the contents of the <code>upper-foam-tray</code> and complete the corresponding <code>OQC Checklist</code> page</p>
+<p><img alt="" src="img/QC-Form/3.5-qc-form.webp" /></p>
+</li>
+<li>
+<p>Place the packaged <code>upper-foam-tray</code> into the LumenPnP packaging</p>
+<ul>
+<li>Orient the tray so that the staging plates are closer to the Opulo logo side of the box</li>
+</ul>
+<p><img alt="alt text" src="img/IMG_82.webp" /></p>
+</li>
+<li>
+<p>Complete the corresponding <code>OQC Checklist</code> page</p>
+<p><img alt="" src="img/QC-Form/4-qc-form.webp" /></p>
+</li>
+<li>
+<p>Reference the order's <code>packing list</code> to determine if the box must include <em>any additional items</em></p>
+<ul>
+<li>If the order <strong>includes</strong> additional items, select <code>Yes</code> to this page's last question before proceeding</li>
+<li>If the order <strong>does not include</strong> additional items, select <code>No</code> to this page's last question before proceeding</li>
+</ul>
+</li>
+<li>
+<p>If you answered <code>Yes</code> to the previous question you will be directed to the <code>Extra Items Checklist</code> page</p>
+<ul>
+<li>Package any additional items required into the open void regions of the LumenPnP's packaging</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">If the order includes <code>feeders</code> or items suitable for a <code>feeder-accessory-tray</code> package them above the <code>upper-foam-tray</code> like so:</p>
+<p><img alt="alt text" src="img/IMG_83.webp" />
+<img alt="alt text" src="img/IMG_86.webp" /></p>
+</div>
+<ul>
+<li>
+<p>After adding any additional items to the order, check-off any additional items this order contains before proceeding</p>
+<p><img alt="" src="img/QC-Form/5-qc-form.webp" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Fill out a <code>getting-started-card</code> with the machine's <code>version number</code></p>
+<p><img alt="" src="img/getting-started-card.webp" /></p>
+</li>
+<li>
+<p>Peel the wax paper off the back of <code>getting-started-card</code> and adhere it to <code>top-foam sheet</code></p>
+<ul>
+<li>Orient the card so that it's bottom edge faces toward the Opulo logo side of the box</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">If the order being packed included feeders skip this step</p>
+</div>
+<p><img alt="alt text" src="img/IMG_90.webp" />
+<img alt="alt text" src="img/IMG_91.webp" /></p>
+</li>
+<li>
+<p>Install a <code>top-foam-sheet</code> above the <code>upper-foam-tray</code></p>
+<div class="admonition warning">
+<p class="admonition-title">If the order being packed included feeders skip this step</p>
+</div>
+<p><img alt="alt text" src="img/IMG_92.webp" /></p>
+<div class="admonition note">
+<p class="admonition-title">Is this LumenPnP being shipped with feeders? Follow this note below instead of the above step!</p>
+<p>Use <code>feeder trays</code> and a <code>top-cardboard-pad</code> instead of a <code>top-foam-sheet</code> <strong>if</strong> the LumenPnP order includes either feeders and/or items that use a <code>feeder-accessory-tray</code>
+<img alt="alt text" src="img/IMG_87.webp" />
+<img alt="alt text" src="img/IMG_88.webp" />
+<img alt="alt text" src="img/IMG_89.webp" /></p>
+</div>
+</li>
+<li>
+<p>Proceed to the <code>Finalize Shipment</code> page of the <code>OQC Checklist</code> and work your way through alongside following these last steps</p>
+<p><img alt="" src="img/QC-Form/6-qc-form.webp" /></p>
+</li>
+<li>
+<p>Tape the LumenPnP box shut</p>
+<p><img alt="alt text" src="img/IMG_95.webp" /></p>
+</li>
+<li>
+<p>Adhere an <code>orange sticker</code> to the top-right corner of the box.</p>
+<p><img alt="alt text" src="img/IMG_96.webp" /></p>
+</li>
+<li>
+<p>Click <code>Submit</code> on the final page of <code>OQC Checklist</code> page</p>
+<p><img alt="" src="img/QC-Form/8-qc-form.webp" /></p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">The LumenPnP should now be ready for fulfillment!</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      LumenPnP and its related works are proudly released under the CERN-OHL-W-2.0 license - Opulo Inc 2024
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "content.tabs.link", "content.action.edit", "toc.integrate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

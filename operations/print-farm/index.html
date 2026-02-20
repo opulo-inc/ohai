@@ -1,0 +1,2411 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ohai.opulo.io/operations/print-farm/">
+      
+      
+        <link rel="prev" href="../production-fulfillment/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>Print Farm - OHAI - Open Hardware Assembly Instructions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Figtree:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Figtree";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#print-farm-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-header__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OHAI - Open Hardware Assembly Instructions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Print Farm
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/opulo-inc/lumenpnp/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lumen/" class="md-tabs__link">
+          
+  
+  
+  LumenPnP
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../feeder8/" class="md-tabs__link">
+          
+  
+  
+  Feeder
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assembly-guides/" class="md-tabs__link">
+          
+  
+  
+  Other Products
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Operations
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="OHAI - Open Hardware Assembly Instructions" class="md-nav__button md-logo" aria-label="OHAI - Open Hardware Assembly Instructions" data-md-component="logo">
+      
+  <img src="../../img/opulo.webp" alt="logo">
+
+    </a>
+    OHAI - Open Hardware Assembly Instructions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/opulo-inc/lumenpnp/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LumenPnP
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    LumenPnP
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/x-gantry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X Gantry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/y-gantry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Y Gantry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/feeder-rail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feeder Rail (Front and Rear)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/drag-chain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drag Chain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/control-box/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control Box
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/staging-plate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Staging Plate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumenpnp-accessories/ftp-kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started Kit (FTP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/tool-kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tool Kit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/additional-parts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Additional Parts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/printing_lumenpnp_labels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Printing LumenPnP Lables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/pack-out/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Packaging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lumen/jigs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jigs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feeder
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Feeder
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/pcb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PCB Production
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/pcb-qc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PCB QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-motor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peel Motor Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/indexing-wheel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drive Wheel Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/peel-gear-frame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Peel Gear Box
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/feeder-frame-8mm-asm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frame Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/assembly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final Assembly
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/oqc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OQC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feeder8/packout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Packaging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other Products
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Other Products
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly-guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Operations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sourcing
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sourcing
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sourcing/weekly-inventory-removal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weekly Inventory Removal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sourcing/purchase-forecasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weekly Purchase Forecasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sourcing/create-po/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create PO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sourcing/receive-inventory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Receiving Inventory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_5" id="__nav_5_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aligni Misc
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aligni Misc
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sourcing/misc-aligni/create-part/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Part
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sourcing/misc-aligni/create-vendor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Create Vendor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sourcing/misc-aligni/bom-import/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BOM Import
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sourcing/misc-aligni/example-purchase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example Purchase
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sourcing/misc-aligni/inventory-day/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventory Day
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../production-fulfillment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Production / Fulfillment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Print Farm
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Print Farm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#print-farm-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Print Farm Setup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Print Farm Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bambustudio-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BambuStudio Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Drive
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#updating-the-print-farm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updating the Print Farm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Updating the Print Farm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#making-a-new-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making a new folder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updating-3mfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updating 3MFs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slicing-and-saving" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slicing and Saving
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sending
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#making-small-tweaks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making Small Tweaks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#making-kanban-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making Kanban Cards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#officially-change-over" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Officially Change Over
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-the-print-farm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running the Print Farm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Running the Print Farm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-bambu-farm-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using Bambu Farm Manager
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uploading-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uploading Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Printing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performing-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performing Maintenance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performing Maintenance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#maintenance-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maintenance Guides
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging Maintenance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#provisioning-new-printers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Provisioning New Printers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Provisioning New Printers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-maintenance-tracking-spreadsheet-per-printer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setup Maintenance Tracking Spreadsheet per Printer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#labeling-printers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Labeling Printers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-sitesxml-for-filezilla-upload-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Update sites.XML for FileZilla Upload Support
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/opulo-inc/ohai/edit/main/docs/operations/print-farm/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="print-farm-management">Print Farm Management</h1>
+<h2 id="print-farm-setup">Print Farm Setup</h2>
+<p>There are a few things you need to do to prepare to slice and upload for our print farm.</p>
+<h3 id="bambustudio-setup">BambuStudio Setup</h3>
+<ol>
+<li>Download version the most recent version of <a href="https://github.com/bambulab/BambuStudio/releases/">BambuStudio</a>.</li>
+<li>Login to the OpuloInc Bambu account. Check the pinned message in the print-farm channel on Mattermost for the credentials.</li>
+<li>Make sure you're logged in by going to the Home icon and checking that the user in the top left is OpuloInc.
+    <img alt="" src="img/account.webp" /></li>
+</ol>
+<h3 id="google-drive">Google Drive</h3>
+<p>We use Google Drive to manage all our 3MF files.</p>
+<ol>
+<li>Install <a href="https://www.google.com/drive/download/">Google Drive Desktop</a> and login with your Opulo email account.</li>
+<li>Select the "Stream files" option.
+   <img alt="" src="img/stream.webp" /></li>
+<li>Navigate to <code>Shared Drives/OpuloEngineering/Manufacturing/In-House Production/3D Printing</code> in Finder, and click on the little clowd/arrow icon next to it. This will keep this folder downloaded to your computer.
+   <img alt="" src="img/folder.webp" /></li>
+</ol>
+<h2 id="updating-the-print-farm">Updating the Print Farm</h2>
+<p>When we make a new release of any of our products on Github, we'll need to update our print farm so we're making the latest and greatest. Performing this section constitutes a checked box for the <code>Update Print Farm</code> task in Mattermost Playbooks.</p>
+<div class="admonition note">
+<p class="admonition-title">Different Products</p>
+<p>Keep in mind that this process will happen the exact same for other products. We'll use the LumenPnP as an example, but it's the same process for other products.</p>
+</div>
+<h3 id="making-a-new-folder">Making a new folder</h3>
+<ol>
+<li>Go to the latest release (<a href="https://github.com/opulo-inc/lumenpnp/releases">LumenPnP</a>)(<a href="https://github.com/opulo-inc/feeder/releases">Feeders</a>) for the product you're updating.</li>
+<li>Under "Assets," download the zip file with "STLs" or "STEPs" in the name.</li>
+<li>Go to the "Print Farm Files" folder in Drive.</li>
+<li>You'll find a series of folders, one for each version of each product.
+   <img alt="" src="img/print-farm-files.webp" /></li>
+<li>Duplicate the latest folder for the product you're updating. In this example, we're duplicating <code>LumenPnP v3.2.0</code>
+   <img alt="" src="img/duplicate-folder.webp" /></li>
+<li>Rename the duplicate folder name to the version of the release. Also rename all files inside to the new version number. In this example, <code>LumenPnP v3.2.2</code>.
+   <img alt="" src="img/renaming-folder.webp" /></li>
+<li>Delete everything in the <code>source</code> folder, and in the <code>slice</code> folder.</li>
+<li>Unzip the source file you downloaded from the release.</li>
+<li>
+<p>Move all unzipped files into the now empty <code>source</code> folder.</p>
+<div class="admonition danger">
+<p class="admonition-title">If some files don't export correctly</p>
+<p>Some files don't kick out from the CI correctly. If you need to add edited source files, drop them into the <code>source</code> folder, and DELETE THE OLD VERSION. The <code>source</code> folder should only ever contain one version of the source, best used for printing.</p>
+</div>
+</li>
+</ol>
+<h3 id="updating-3mfs">Updating 3MFs</h3>
+<p>All the files have been moved and renamed successfully. Now, we need to update the 3MF files to contain all the new changes.</p>
+<ol>
+<li>In the release notes, check for a list of files that have been updated. These are the files that you need to pull from the source in the 3MF files.</li>
+<li>
+<p>For each file in this list:</p>
+<ol>
+<li>Find the 3MF file that contains it. The names aim to be as descriptive as possible.</li>
+<li>With the 3MF file open in BambuStudio, look for the plate with the part's name.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">If the file is not present</p>
+<p>If you cannot find a plate with the title of the part, it is likely a new part. Make a new plate and title it the name of the part.</p>
+<p>The new plate MUST have a plate type dedicated to it. Click on the nut icon, and select the plate type. This makes sure the frequently changing global plate type does not affect the job.</p>
+<p><img alt="" src="img/set-plate-type.webp" /></p>
+</div>
+<p><img alt="" src="img/named-plate.webp" /></p>
+<div class="admonition danger">
+<p class="admonition-title">If the file is titled in the format <code>vX.X.X_ORCA</code></p>
+<p>This is our 3MF with weird parts that need to be sliced in Orcaslicer! We use Orcaslicer for a few handy features, namely mouse-ear brims. If you need to open the 3MF with this name, do so in Orcaslicer.</p>
+</div>
+<ol>
+<li>Delete all the old parts from the plate.</li>
+<li>
+<p>Click the "Add new part" button.</p>
+<p><img alt="" src="img/empty-plate.webp" /></p>
+</li>
+<li>
+<p>Select the new version of the part from the "source" folder for the new version.
+    <img alt="" src="img/selecting-new-version.webp" /></p>
+</li>
+<li>Right click on the newly added part and select "Fill bed with copies"
+    <img alt="" src="img/fill-plate.webp" /></li>
+<li>It does a pretty good job of laying the parts out, but if it does something stupid, feel free to move them around a bit.</li>
+</ol>
+</li>
+</ol>
+<h3 id="slicing-and-saving">Slicing and Saving</h3>
+<p>With your 3MFs up to date, we'll slice them and send them to all the printers on the farm.</p>
+<ol>
+<li>Open each of the 3MF files in the version folder in turn. Inside each 3MF file, you'll find a plate for each part. For each plate in each 3MF file:<ol>
+<li>Click on a plate to select it. It should appear darker than the others.
+    <img alt="" src="img/select-plate.webp" /></li>
+<li>Make sure your slicing settings are correct.<ol>
+<li>Filament should be <code>MFG - STANDARD - PolyLite PLA</code> for all prints. (The small exception is the dynamic board mount which is <code>Generic PETG</code>, and peel-worm-gear gets <code>MFG - DETAIL - PolyLite PLA</code>).</li>
+<li>Process should be <code>MFG - STANDARD - 0.2mm P1P</code> for <em>almost</em> all prints. The few exceptions are that the feeder frame needs to use <code>MFG - FEEDER - 0.2mm P1P</code> and the worm-gear needs to use <code>MFG - DETAIL - 0.08mm P1P</code>.</li>
+<li>Be sure you're slicing with the correct Plate Type. Reference the <a href="https://docs.google.com/presentation/d/1iP0LQSKqcGVxUUVWdpAv4Ua863dX2MB9aPtw2I8KEZI/">Print Farm Kanban Cards</a> for the correct plate type for each print.</li>
+</ol>
+</li>
+<li>Click "Slice Plate."
+    <img alt="" src="img/slice-plate.webp" /></li>
+<li>Inspect the resulting toolpath. Any overhangs? Any potential issues?</li>
+<li>Click the "Export plate sliced file" button.
+    <img alt="" src="img/send-print.webp" /></li>
+<li>Save the .gcode file to the <code>slice</code> folder.
+    <img alt="" src="img/popup.webp" /></li>
+</ol>
+</li>
+</ol>
+<h3 id="sending">Sending</h3>
+<p>We use a utility to upload all sliced files to our print farm. Open <a href="https://github.com/opulo-inc/farm-upload/releases">FarmUpload</a> on your computer, select the <code>settings.json</code> file in the "Print Farm Files" Drive folder, and select the newly filled <code>slice</code> folder.</p>
+<h3 id="making-small-tweaks">Making Small Tweaks</h3>
+<p>Sometimes we need to make small updates to slicing files, or even little design tweaks between releases. If you need to do one of these, do the following:</p>
+<ol>
+<li>Drag the new source file into the <code>source</code> folder, making sure to delete the old one. We can always get the original back from the Github release, so don't worry about trying to preserve it. The <code>source</code> folder should not be ambiguous; one file / version in the folder at a time.</li>
+<li>Pop open the 3MF file that contains the file. Delete all the instances on the plate, and import your new stuff.</li>
+<li>Reslice and such, following all the same rules as above.</li>
+<li>When done, click <code>Export plate sliced file</code> and save it in TWO PLACES. We do this so it's easy to provision a new sd card, and <em>also</em> easy to just drop in the files that are updated beyond the initial provision (and handy for the FarmUpload tool!):</li>
+<li>Directly in the <code>slice</code> folder.</li>
+<li>Also in the <code>_piecemeal</code> folder in the <code>slice</code> folder.</li>
+<li>Save the 3MF.</li>
+</ol>
+<div class="admonition danger">
+<p class="admonition-title">If you need fucky settings</p>
+<p>In the super rare occasion where you need weird or custom settings for your part, you should make a new process preset, in the format of <code>MFG - NAME - layerHeight printerType</code>. So, for example, if I really needed slow printing for a few parts, I might save a process called <code>MFG - SLOW - 0.20mm P1P</code>.</p>
+</div>
+<h3 id="making-kanban-cards">Making Kanban Cards</h3>
+<p>Before switching over the farm, you need to update the Kanban cards.</p>
+<ol>
+<li>Go to the <a href="https://docs.google.com/presentation/d/1iP0LQSKqcGVxUUVWdpAv4Ua863dX2MB9aPtw2I8KEZI/edit">Opulo Kanban Card Document</a>. There is a card type called "Kanban" that you should use when making new cards. Do the following:</li>
+<li>Delete cards for any parts that are not part of the new build.</li>
+<li>Add new cards for any new parts.</li>
+<li>Edit any cards for parts that have changed (material, color, build plate).</li>
+<li>Print any changed or new cards on the Dymo label printer.</li>
+<li>Grab the "Kanban Supplies" box on the rack by the print farm to get the printed cards you can affix the labels to.</li>
+</ol>
+<h3 id="officially-change-over">Officially Change Over</h3>
+<ol>
+<li>Find the print bins for all parts that have changed, and parts that are no longer needed. Throw away all the parts in the bins, and the kanban cards for the parts that have new cards.</li>
+<li>Put all the new cards you made in the last section into new bins to support the new parts.</li>
+<li>Next to the print farm is a board with the current version of each product. Update to the verison you just sliced for.</li>
+<li>Post in #factory-floor about the version change, and that folks should be mindful of the new version when selecting the print to run from the printer.</li>
+</ol>
+<h2 id="running-the-print-farm">Running the Print Farm</h2>
+<p>We run the print farm in a <a href="https://www.youtube.com/watch?v=Levkx8f0qL4">kanban</a> style. When a part gets low, and we hit the "kanban level" of the part, we know it's time to print more.</p>
+<ol>
+<li>Check the kanban board by the print farm. The kanban cards on the board are parts we need to print.</li>
+<li>For each card:<ol>
+<li>Find a printer that already has the correct material loaded and build plate loaded. If none are available, swap filament and build plates.</li>
+<li>In the printer's files, find the part name. <strong>Make sure you're selecting the correct version.</strong> The curent version number is posted in the print farm area.</li>
+<li>Run the print.</li>
+</ol>
+</li>
+<li>When prints are complete, bring them to the processing area for QC and support clearing.</li>
+<li>Using an empty bin, move them into Ghidra and fill the bin for that part.</li>
+<li>If the parts are now full to the green line, return the kanban card to the parts bin in Ghidra or the Tequila Sunrise. If the parts have not reached the green line, keep the kanban by the print farm to indicate more need to be printed.</li>
+</ol>
+<p>While consuming parts in a build, when you notice the part level in a bin goes below the red line, take the kanban card and put it on the board by the print farm.</p>
+<h3 id="using-bambu-farm-manager">Using Bambu Farm Manager</h3>
+<p>To manage all of our printers at once, we use Bambu Farm Manager running on a standalone Windows PC near the print farm. This allows us to instantly send prints to multiple printers, manage files, and more.</p>
+<ul>
+<li>Open the Bambu Farm Manager Client and login.<ul>
+<li>This login is not the same as Bambu Studio — please ask Nick for the credentials. </li>
+</ul>
+</li>
+</ul>
+<p><img alt="" src="img/iconbfm.webp" /></p>
+<h3 id="uploading-files">Uploading Files</h3>
+<p>Files should be uploaded to Google Drive following the guidelines laid out by the <a href="#google-drive">Google Drive</a> section. Files will then be uploaded from Google Drive to the Bambu Farm Manager software manually. If there is an update to a file added to Google Drive, the file inside Bambu Farm Manager <strong>will not</strong> automatically update. The updated file must be re-uploaded into the Bambu Farm Manager. </p>
+<ol>
+<li>Navigate to "Files". Choose the folder that fits the file you are uploaded and click the "Upload" button. Create a new folder if necessary by clicking the + sign to the right of "Folders List".</li>
+</ol>
+<p><img alt="" src="img/uploadbutton.webp" />
+   <img alt="" src="img/uploadwindowbfm.webp" />
+2. Click anywhere in the outlined box to open the File Explorer. Find your files (likely in the shared OpuloEngineering Drive) and upload them. You can upload up to 20 files at a time.</p>
+<p><img alt="" src="img/uploadbfm.webp" /></p>
+<div class="admonition success">
+<p class="admonition-title">Files will now be available to print in the folder they were uploaded to.</p>
+</div>
+<h3 id="printing">Printing</h3>
+<ol>
+<li>
+<p>Navigate to the "Printers" page. Use this page to monitor the status of all printers connected to the Farm Manager.</p>
+<p><img alt="" src="img/mainbfm.webp" /></p>
+</li>
+<li>
+<p>Navigate to "Files" in the menu bar on the left.</p>
+<p><img alt="" src="img/filesbfm.webp" /></p>
+</li>
+<li>
+<p>This page is where the print files live. Select the file you'd like to print, click the "Create" button on the far right to create a print job. From the drop-down menu, select Direct-Print Task.</p>
+<p><img alt="" src="img/createbfm.webp" /></p>
+<div class="admonition danger">
+<p class="admonition-title">These files do not automatically update from Google Drive</p>
+<p>If there is a new version of the file you'd like to print, you need to upload the new version in "Files". Please follow along with the <a href="#uploading-files">Uploading Files</a> section for clear instructions on how to upload files to the Print Farm Manager software.</p>
+</div>
+</li>
+<li>
+<p>Select the printer you would like to use, make sure Timelapse is set to "Off" and Auto Bed Leveling is set to "On". Then click "Start Direct Print".</p>
+<p><img alt="" src="img/printbfm.webp" /></p>
+</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">The job will start and can be monitored in the "Printers" page of the program.</p>
+</div>
+<h2 id="performing-maintenance">Performing Maintenance</h2>
+<h3 id="maintenance-guides">Maintenance Guides</h3>
+<ul>
+<li><a href="https://wiki.bambulab.com/en/p1/maintenance/extruder-unit">Extruder Unit Replacement Guide</a></li>
+<li><a href="https://wiki.bambulab.com/en/p1/maintenance/complete-hot-end-assembly">Complete Hotend Assembly Replacement Guide</a></li>
+<li><a href="https://wiki.bambulab.com/en/x1/maintenance/replace-cutter-lever">Filament cutter lever Replacement Guide</a></li>
+</ul>
+<h3 id="logging-maintenance">Logging Maintenance</h3>
+<p>Any time a printer is being repaired, log the work completed to the appropriate <code>Printer Service Records Google Sheet</code> by scanning the QR code found on each printer.</p>
+<p><img alt="" src="img/service-barcode.webp" /></p>
+<p><img alt="" src="img/service-log.webp" /></p>
+<h2 id="provisioning-new-printers">Provisioning New Printers</h2>
+<p>Beging provisiong any new printer by running them through the following guides:</p>
+<ul>
+<li><a href="https://wiki.bambulab.com/en/p1/manual/unboxing-p1p">Unbox the P1P</a></li>
+<li><a href="https://wiki.bambulab.com/en/p1/manual/p1p-upgrades">Auxiliary Part Cooling Fan &amp; Fan Support Installation Tutorial</a></li>
+</ul>
+<h3 id="setup-maintenance-tracking-spreadsheet-per-printer">Setup Maintenance Tracking Spreadsheet per Printer</h3>
+<ul>
+<li>Naviagate to <a href="https://drive.google.com/open?id=1RABxDDUh3caS2bSfsNU1StXz_j9wh1zb&amp;usp=drive_fs">Google Shared drives/OpuloEngineering/Manufacturing/In-House Production/3D Printing/Print Farm Service Log Sheets</a> and make a copy of <code># - Printer Template - Bambu Lab P1P Service Log Sheet</code></li>
+<li>Edit the copied template's file name by replaceing <code>Copy of # - Printer Template -</code> with the next available printer number.<ul>
+<li>For example: <code>70 - Printer Seventy - Bambu Lab P1P Service Log Sheet</code></li>
+<li>Note that these numbers are <strong>one time use only</strong> - if a printer has been scrapped, do not reuse it's number!</li>
+</ul>
+</li>
+<li>
+<p>Open the newly created maintenance tracking sheet and fill out the following fields:</p>
+<ul>
+<li>Label:</li>
+<li>Serial Number:</li>
+<li>Date of Purchase:</li>
+<li>Date put into service:</li>
+</ul>
+</li>
+<li>
+<p>Copy the URL of the given tracking sheet before coninuing on to the next section</p>
+</li>
+</ul>
+<h3 id="labeling-printers">Labeling Printers</h3>
+<p>First, label each printer with a QR Code linking to it's associated maintenance tracking spreadsheet</p>
+<ul>
+<li>Open <a href="https://drive.google.com/open?id=1yPTCML_q0V_Ewo-q2gvNiYFkUks6qnqd&amp;usp=drive_fs">Scanable Printer Service Records Labels.label</a> with Dymo Label</li>
+<li>
+<p>Double-click the QR code to open the <code>Barcode Objects Properties</code> window before pasting the previously copied URL into the <code>Web Page</code> text field</p>
+<p><img alt="alt text" src="img/service-records-label-2.webp" /></p>
+</li>
+<li>
+<p>Click <code>OK</code> to close out of the <code>Barcode Objects Properties</code> window</p>
+</li>
+<li>Edit the text field right of the previously updated QR code to denote the correct Printer Number</li>
+<li>
+<p>Repeat these steps until the template is populated with data for up to three printers</p>
+<p><img alt="alt text" src="img/service-records-label-3.webp" /></p>
+</li>
+<li>
+<p>Print the page out on a 4"x6" shipping label and cut the page apart into however many QR code stickers you made</p>
+<p><img alt="alt text" src="img/IMG_3958.webp" />
+<img alt="alt text" src="img/IMG_3959.webp" /></p>
+</li>
+<li>
+<p>Adhere the label(s) to the printer(s) you are provisioning</p>
+<p><img alt="alt text" src="img/labeled-printers.webp" /></p>
+</li>
+</ul>
+<p>Next, label the printer's power cable with it's assigned number</p>
+<ul>
+<li>Open <a href="https://drive.google.com/open?id=1I1gxT5yOjyFsJmb-h-ek153nlGEJeUHK&amp;usp=drive_fs">Printer Power Cord Labels.label</a> with Dymo Label</li>
+<li>Edit the template to match the printer's assigned number</li>
+<li>
+<p>Print two copies on 1 1/4" x 2 1/4" labels</p>
+<p><img alt="dymo label view of cable label" src="img/PrinterPowerCordLabels01.webp" /></p>
+<p><img alt="alt text" src="img/IMG_3956.webp" /></p>
+</li>
+<li>
+<p>Adhere a label to each end of the printer's power cord</p>
+<p><img alt="alt text" src="img/IMG_3957.webp" /></p>
+</li>
+</ul>
+<h3 id="update-sitesxml-for-filezilla-upload-support">Update <code>sites.XML</code> for FileZilla Upload Support</h3>
+<ul>
+<li>Add the new printers to the FileZilla XML file</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      LumenPnP and its related works are proudly released under the CERN-OHL-W-2.0 license - Opulo Inc 2024
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "content.tabs.link", "content.action.edit", "toc.integrate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
