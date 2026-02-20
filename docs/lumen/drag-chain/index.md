@@ -40,89 +40,146 @@ Before assembling the drag chain, QC the individual cable harnesses from the man
 
 ## Assemble Drag Chain ##
 
-![alt text](img/IMG_0192.webp)
-![alt text](img/IMG_0193.webp)
-![alt text](img/IMG_0194.webp)
-![alt text](img/IMG_0195.webp)
-![alt text](img/IMG_0197.webp)
-![alt text](img/IMG_0199.webp)
-![alt text](img/IMG_0200.webp)
-![alt text](img/IMG_0201.webp)
-![alt text](img/IMG_0203.webp)
-![alt text](img/IMG_0204.webp)
-![alt text](img/IMG_0205.webp)
-![alt text](img/IMG_0206.webp)
-![alt text](img/IMG_0207.webp)
-![alt text](img/IMG_0208.webp)
-![alt text](img/IMG_0209.webp)
-![alt text](img/IMG_0210.webp)
-![alt text](img/IMG_0212.webp)
-![alt text](img/IMG_0211.webp)
-![alt text](img/IMG_0202.webp)
-![alt text](img/IMG_0213.webp)
-![alt text](img/IMG_0214.webp)
-![alt text](img/IMG_0215.webp)
-![alt text](img/IMG_0223.webp)
-![alt text](img/IMG_0224.webp)
-![alt text](img/IMG_0225.webp)
-![alt text](img/IMG_0226.webp)
-![alt text](img/IMG_0227.webp)
-![alt text](img/IMG_0228.webp)
-![alt text](img/IMG_0229.webp)
-![alt text](img/IMG_0230.webp)
-![alt text](img/IMG_0231.webp)
-![alt text](img/IMG_0233.webp)
-![alt text](img/IMG_0234.webp)
-![alt text](img/IMG_0235.webp)
-![alt text](img/IMG_0236.webp)
-![alt text](img/IMG_0237.webp)
-![alt text](img/IMG_0238.webp)
-![alt text](img/IMG_0239.webp)
-![alt text](img/IMG_0240.webp)
-![alt text](img/IMG_0241.webp)
-![alt text](img/IMG_0242.webp)
-![alt text](img/IMG_0243.webp)
-![alt text](img/IMG_0244.webp)
-![alt text](img/IMG_0245.webp)
-![alt text](img/IMG_0247.webp)
-![alt text](img/IMG_0248.webp)
-![alt text](img/IMG_0249.webp)
-![alt text](img/IMG_0250.webp)
-![alt text](img/IMG_0253.webp)
-![alt text](img/IMG_0255.webp)
-![alt text](img/IMG_0256.webp)
-![alt text](img/IMG_0257.webp)
-![alt text](img/IMG_0258.webp)
-![alt text](img/IMG_0259.webp)
-![alt text](img/IMG_0260.webp)
-![alt text](img/IMG_0261.webp)
-![alt text](img/IMG_0262.webp)
-![alt text](img/IMG_0263.webp)
-![alt text](img/IMG_0264.webp)
-![alt text](img/IMG_0265.webp)
-![alt text](img/IMG_0266.webp)
-![alt text](img/IMG_0267.webp)
+1. Insert `cable-splay` into `bij-jig` after 2x `M5-square-nut` are inserted
 
-## QC Crimps ##
-Inspect the cables for any loose crimps, reworking as needed, before continuing
+    ![](img/0.webp)
 
-![alt text](img/IMG_0285.webp)
-![alt text](img/IMG_0286.webp)
+2. Place `34-link-chain` and `30-link-chain` in `drag-chain-jig` with the flat side resting on the red area of the jig
 
-## Rubber Band Loose Cables ##
+    ![](img/1.webp)
 
-![alt text](img/IMG_0268.webp)
-![alt text](img/IMG_0269.webp)
-![alt text](img/IMG_0270.webp)
-![alt text](img/IMG_0271.webp)
+3. Screw the chains in place
 
-## Remove Drag Chain from Jig ##
+    ![](img/2.webp)
 
-![alt text](img/IMG_0273.webp)
-![alt text](img/IMG_0274.webp)
-![alt text](img/IMG_0275.webp)
-![alt text](img/IMG_0276.webp)
-![alt text](img/IMG_0278.webp)
+4. Pop open the drag chain tabs with a screwdriver
+
+    ![](img/4.webp)
+
+5. Open all the tabs to make assembly easier
+
+    ![](img/5.webp)
+
+6. Insert `x-harness-cable` into `drag-chain-jig`
+
+    ![](img/7.webp)
+
+	- Ensure that the end photographed below is on the left side of the jig
+
+	    ![](img/6.webp)
+
+7. Insert `top-camera-cable` and feed through `drag-chain-jig`
+
+    ![](img/9.webp)
+
+8. Feed `top-camera-cable` around this piece of `drag-chain-jig` as shown below and pull taut
+
+    ![](img/10.webp)
+
+9. Take `pneumatic-tubing` (one of each color) and insert into the adapters on `drag-chain-jig`
+
+    ![](img/8.webp)
+
+10. Feed through `drag-chain-jig` and pull taut. Ensure the two `pneumatic-tubing` tubes don't cross over each other when feeding around `drag-chain-jig`
+
+    ![](img/13.webp)
+
+11. Insert `pneumatic-tubing` in opposite order on the bottom end of `drag-chain-jig`
+
+    ![](img/15.webp)
+
+12. Prepare `head-harness` and ensure that mobo side of `head-harness` has proper spacing. Inspect the cables for any loose crimps, reworking as needed, before continuing
+
+    ![](img/17.webp)
+
+13. Pull `head-harness` taut
+
+    ![](img/18.webp)
+
+14. With the thinner cable facing you, feed `head-harness` through `drag-chain-jig` until the first ring of tape on the toolhead side of `head-harness` is at the beginning of `34-link-chain`
+
+    ![](img/19.webp)
+    ![](img/20.webp)
+
+15. Pull `head-harness` all the way through and ensure the cable is taut
+
+    ![](img/21.webp)
+
+16. Close all of the tabs on `34-link-chain` and `30-link-chain`
+
+    ![](img/22.webp)
+
+17. Use `presser-tool` to secure the tabs
+
+    ![](img/23.webp)
+
+18. Disconnect `pneumatic-tubing` and the usb side of `top-head-cam`. 
+
+    ![](img/25.webp)
+
+19. Unscrew `34-link-chain` and `30-link-chain` from `drag-chain-jig`
+
+    ![](img/26.webp)
+
+20. Remove `34-link-chain` from `drag-chain-jig` first. Bring it to the bottom side of `30-link-chain` while keeping it face up
+
+    ![](img/27.webp)
+
+21. Remove `30-link-chain` from `drag-chain-jig`. Flip both chains upside down in preperation for placement into the `bij-jig`
+
+    ![](img/28.webp)
+
+22. Insert both chains into `bij-jig`
+
+    ![](img/29.webp)
+
+23. Secure chains into `bij-jig` with `m5x16-flat-head`. Use high torque
+
+    ![](img/30.webp)
+
+24. Raise the rail attached to `bij-jig` and insert `pneumatic-tubing` into color-coded slots
+
+    ![](img/32.webp)
+
+25. Zip tie the tubing and cables into the grooves of `cable-splay`
+
+    ![](img/34.webp)
+
+26. Feed `head-harness` cables underneath the cables zip tied to `cable-splay`
+
+    ![](img/35.webp)
+
+27. Seperate `top-light-cable` from `z-limit-cables`
+
+    ![](img/36.webp)
+
+28. Pull `top-light-cable` through to line marked on the back side of `bij-jig`
+
+    ![](img/37.webp)
+	![](img/38.webp)
+
+
+29. Do the same for `top-camera-cable`
+
+    ![](img/39.webp)
+
+30. Zip tie `top-light-cable` and `top-camera-cable` in place
+
+    ![](img/40.webp)
+
+31. Pull `head-harness` cables taut. The cables should reach to or beyond the sticker on `bij-jig`
+
+    ![](img/41.webp)
+	![](img/42.webp)
+	![](img/43.webp)
+
+32. Bundle all cables and tubing together and place a rubber band to keep them together
+
+    ![](img/44.webp)
+
+33. Do the same for the cables at the top, making sure not to bend `pneumatic-tubing`
+
+    ![](img/45.webp)
 
 ## OQC Checks ##
 
@@ -142,4 +199,4 @@ Inspect the cables for any loose crimps, reworking as needed, before continuing
 
 	![alt text](img/x-harness-qc.webp)
 
-!!!success "If all checks pass, place the completed `drag-chain` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> found on the pack-out shelf while it awaits Buddy review"
+!!!success "If all checks pass, place the completed `drag-chain` into a yellow `NEEDS QC` bin found on the pack-out shelf while it awaits review"
