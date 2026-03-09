@@ -47,11 +47,24 @@
 	
 	![alt text](img/tool-kit-bag-v4-5.webp)
 
+## Create `punched-holes-kit`
+
+* Punch 10x holes from cardstock paper
+
+    ![](img/11.webp)
+	![](img/22.webp)
+	![](img/33.webp)
+
+* Insert punched holes into a 2x3 bag
+
+    ![](img/44.webp)
+	![](img/55.webp)
+
 ## Pack `tool-kit-bag`
 
 * Gather components shown:
 
-	![alt text](img/tool-kit-bag-v4-6.webp)
+	![alt text](img/tool-kit-bag-v4-7-copy.webp)
 
 * Place `zip-tie-bag` into `tool-kit-bag` pouch
 
@@ -80,6 +93,8 @@
 
 	![alt text](img/tool-kit-bag-v4-13.webp)
 	![alt text](img/tool-kit-bag-v4-12.webp)
+
+* Place `punched-holes-kit` into pouch 
 
 * Close the pouch's zipper
 

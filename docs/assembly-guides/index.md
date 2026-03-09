@@ -54,3 +54,4 @@ Welcome! This page provides quick access to all LumenPnP assembly guides, beside
 - [Feeder Part Kit](../diy-components/feeder-part-kit/index.md)
 - [Fastener Kit](../diy-components/fastener-kit/index.md)
 - [Feeder Connection Kit](../diy-components/feeder-connection-kit/index.md)
+- [Secondary Fiducial Upgrade Kit](../diy-components/secondary-fiducial-upgrade-kit/index.md)

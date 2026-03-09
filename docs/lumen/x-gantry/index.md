@@ -9,11 +9,11 @@ Preparing x-gantry
 ####  Install fasteners
 
 *	Remove any stringing from the print with a heat gun
-*	Insert 4x `m5-hex-nut` into the following region
+*	Insert 4x `m5-hex-lock-nut` into the following region
 
 	<img src="images/nut1-x-gantry-back.webp"/>
 
-*	Insert 5x `m5-hex-nut` into the following region
+*	Insert 5x `m5-hex-lock-nut` into the following region
 	* Add a drop of `blue-loctite` into each of these pockets to permanently secure each nut in place
 	<img src="images/nut2-x-gantry-back.webp"/>
 
@@ -216,6 +216,7 @@ Preparing x-gantry
 	<img src="images/install-x-GT2-belt-2.webp"/>
 
 * Bolt `x-gantry-back` to the `linear-rail-carriage` with 4x `M3x16-bolt`
+	*   Apply threadlocker to each bolt
 	*   Tighten each bolt to 0.5 N/M
 	*	Push `x-gantry-back` inward towards the `linear-rail-carriage` while tightening the mounting bolts to align it
 
@@ -410,7 +411,7 @@ Preparing x-gantry
 
 *	Use 4x `M5x40-bolt` to attach `x-gantry-front` onto `x-linear-axis`
 	*	Move each toolhead out of the way as needed
-	*	Torque each bolt to **`0.8 N/M`**
+	*	Secure each bolt as tightly as possible without breaking `x-gantry-front`
 
 	![alt text](images/bolt-x-gantry-front-1.webp)
 	![alt text](images/bolt-x-gantry-front-2.webp)

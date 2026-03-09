@@ -240,7 +240,8 @@ ________________________________________________________________________________
 	<img src="img/13circs.webp" width="60%" height=auto>
 
 - Bolt `y-gantry` to the `linear-rail-carriage` with 4x `M3x8-bolt`
-    - Tighten each bolt to 0.7 N/M
+    - Use threadlocker for each bolt
+	- Tighten each bolt to 0.7 N/M
 
 <img src="img/bolt-y-gantry-to-carriage.webp" width="60%" height=auto>
 
