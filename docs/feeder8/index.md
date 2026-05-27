@@ -1,24 +1,18 @@
 # 8mm Feeder Assembly Instructions
 
 ## Introduction
-This series of work instructions will guide the reader on how to properly assemble and test the `feeder-8mm`  accessory for the LumenPnP. When finished, the `feeder-8mm` shall match the image below:
+This series of work instructions will guide the reader on how to properly assemble and test the feeder-8mm accessory and feeder-12mm accessory for the LumenPnP. When finished, the feeders shall match the images below:
 
 ![](oqc/img/sticker-6.webp)
 
-## Tools (Excluding SMT)
-* 1.3mm Hex Driver
-* 2mm Hex Driver
-* 3mm Hex Driver
-* Torque Screwdriver 
-* X-Acto Knife
-* Heat Gun
+## Tools
 
-## Jigs
-* PCB Test Jig
-* AMP Jig
-* Indexing Wheel Shim
-* Shaft-alignment-jig
-* Feeder-cradle jig
-* Feeder-sticker-application-jig
-* Arbor-press-jig
-
+* Electric torque driver w/ 2mm bit
+* Handheld hex driver w/ 2mm bit
+* Handheld torque driver w/ 1.27mm bit
+* Needle-nose pliers
+* X-Acto knife
+* Loctite 435 super glue
+* Tape channel gauge + SMT tape
+* Peel worm gear gauge
+* Drive wheel install shims
