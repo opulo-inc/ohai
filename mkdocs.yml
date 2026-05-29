@@ -78,6 +78,7 @@ nav:
         - Final Assembly: feeder8/assembly/index.md
         - OQC: feeder8/oqc/index.md
         - Packaging: feeder8/packout/index.md
+        - 16mm and 24mm Feeder Assembly: feeder8/2u-feeder/index.md
 
   - Other Products:
         - Overview: assembly-guides/index.md
