@@ -76,7 +76,7 @@ Assemblies for `16mm-Feeder` and `24mm-Feeder` are the same, however, It is impo
 
     ![](img/6-wire-1.webp)
 
-12. Insert 3x `M3x12mm-self-tapping-hex-head` and secure `feeder-mobo-ott`.
+12. Insert 3x `M3x12mm-self-tapping-flat-hex-head` and secure `feeder-mobo-ott`.
 
     ![](img/6-mobo-screw.webp)
 
@@ -84,7 +84,7 @@ Assemblies for `16mm-Feeder` and `24mm-Feeder` are the same, however, It is impo
 
     ![](img/7-bottom-gear.webp)
 
-17. Secure `peel-gear-bottom-2u` with 1x `M3x30mm-hex-head`. Ensure that the screw is not tightened down so much that the gear no longer rotates.
+17. Secure `peel-gear-bottom-2u` with 1x `M3x30mm-flat-head`. Ensure that the screw is not tightened down so much that the gear no longer rotates.
 
     ![](img/7-screw-insertion.webp)
 
@@ -96,7 +96,7 @@ Assemblies for `16mm-Feeder` and `24mm-Feeder` are the same, however, It is impo
 
     ![](img/8-assembly.webp)
 
-20. While continuing to hold down the assembly to compress the spring, insert 1x `M3x30mm-hex-head` to secure the assembly. Avoid overtightening.
+20. While continuing to hold down the assembly to compress the spring, insert 1x `M3x30mm-flat-head` to secure the assembly. Avoid overtightening.
 
     ![](img/8-screw.webp)
 
@@ -117,7 +117,7 @@ Assemblies for `16mm-Feeder` and `24mm-Feeder` are the same, however, It is impo
 
     ![](img/12-wheel.webp)
 
-25. Place `drive-motor-cover` over `drive-wheel` and secure with 3x `M3x30mm-flat-head`.
+25. Place `drive-motor-cover` over `drive-wheel` and secure with 3x `M3x12mm-self-tapping-flat-hex-head`.
 
     ![](img/12-drive-motor-cover.webp)
 
