@@ -5,8 +5,11 @@ edit_uri: https://github.com/opulo-inc/ohai/edit/main/docs
 copyright: LumenPnP and its related works are proudly released under the CERN-OHL-W-2.0 license - Opulo Inc 2024
 extra_css: [stylesheets/extra.css]
 
-#plugins:
-#  - glightbox
+plugins:
+  - search
+  - zoduki:
+      enabled_by_default: true
+      step_heading_level: 3
 
 markdown_extensions:
   - admonition

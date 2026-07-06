@@ -1,27 +1,28 @@
 Preparing x-gantry
 ==================
 
-## Create `x-linear-axis` subassembly
----------------------------------
+## Prepare `x-gantry-back`
 
-### Prepare `x-gantry-back`
+###  Install backside fasteners
 
-####  Install fasteners
-
-*	Remove any stringing from the print with a heat gun
 *	Insert 4x `m5-hex-lock-nut` into the following region
 
 	<img src="images/nut1-x-gantry-back.webp"/>
 
+* Add a drop of `blue-loctite` into each of these pockets to permanently secure each nut in place
+	
+###  Install frontside fasteners
+
 *	Insert 5x `m5-hex-lock-nut` into the following region
-	* Add a drop of `blue-loctite` into each of these pockets to permanently secure each nut in place
+
 	<img src="images/nut2-x-gantry-back.webp"/>
 
-#### Check `top-camera` focus
+* Add a drop of `blue-loctite` into each of these pockets to permanently secure each nut in place
+	
 
-*   Use `top-camera-focus-jig` to check focus of `top-camera`
+### Prep for top camera focus
 
-*   Connect `top-camera-focus-jig` to a laptop and open a native camera viewing application
+*   Acquire `top-camera-focus-jig` and connect `top-camera-focus-jig` to a laptop and open a native camera viewing application
 
 	<img src="images/image36.webp"/>
 
@@ -31,35 +32,29 @@ Preparing x-gantry
 
 	<img src="images/image56.webp"/>
 
+### Inspect the image and adjust
+
 *   In Photo Booth, change the selected camera to `LumenPnP Top` to view the camera feed from  `top-camera`
 
 	<img src="images/image60.webp"/> 
 
-!!!success "If the datum-board is sharp and nicely focused continue onward"
+- Rotate camera lens until live view shows `datum-board` as focused as possible
 
 	<img src="images/image48.webp"/>
 
-!!!failure "If the datum-board is blurry and out of focus, follow instructions below"
-
 	<img src="images/image39.webp"/>
 
-	*   Loosen `set-screw` on side of lens body
-
-		<img src="images/image21.webp"/>
-
-	*   Rotate camera lens until live view shows `datum-board` as focused as possible
-
-		<img src="images/image48.webp"/>
-
-	*   Once the camera is refocused, tighten `set-screw` to preserve the adjustments
+### Remove Camera and Replace Cover
 
 *   Remove the `top-camera` from `top-camera-focus-jig` and immediately replace `lens-cap`
 
-#### Install `top-camera` and `top-ring-light` into `x-gantry-back`
+### Install Top Camera
 
-*   Install `top-camera` into x-gantry-back
+*   Install `top-camera` into `x-gantry-back`
 
 	<img src="images/x-gantry-back-install-camera.webp"/>
+
+### Install Top Light
 
 *   Install `top-ring-light` into `top-light-mount`
 
@@ -68,6 +63,8 @@ Preparing x-gantry
 *   Install `top-light-mount` onto back of `x-gantry-back`
 
 	<img src="images/install-top-light-mount1.webp"/>
+
+### Secure Top Light
 
 *   Secure `top-light-mount` in place with 2x `M3x12-self-tapping-flat-head`
 
@@ -78,48 +75,54 @@ Preparing x-gantry
 *   Set `timing-pulley` height on `NEMA-17-stepper-motor` shaft with `x-pulley-spacer-jig`
 
 *  Tighten the first `set-screw` into the flat region found on the `NEMA-17-stepper-motor` shaft, before tightening the second `set-screw`
-	*   Tighten each `set-screw` to 0.5 N/M
+
+*   Tighten each `set-screw` to 0.5 N/M
 
 	<img src="images/image34.webp"/>
 
 ### Install `NEMA-17-stepper-motor` onto `x-motor-mount`
 
-*	Orient `NEMA-17-stepper-motor` onto `x-motor-mount` so that the motor's connector is facing the backside of the print as shown in the image below
+*	Orient `NEMA-17-stepper-motor` onto `x-motor-mount` so that the motor's connector is facing the backside of the print as shown in the image
 
 	<img src="images/motor-connector-orientation.webp"/>
 
 *   Bolt `NEMA-17-stepper-motor` onto x-`motor-mount` with 4x `M3x8-bolt`
 
-	*   Tighten these bolts to 0.5 N/M
-
 	<img src="images/image4.webp"/>
+
+!!!note "Torque Spec"
+
+	Tighten these bolts to 0.5 N/M
 
 ### Install `XY-limit-switch-board` onto `x-motor-mount`
 
 *  Install `XY-limit-switch-board` onto `x-motor-mount` and secure it with 2x `m3x12-self-tapping-flat-head-screw`
-	* Tighten each screw in place with the electic torque driver
-
 
 	<img src="images/install-xy-limit-switch-board.webp" />
 
-### Install `belt-tensioner-arm` onto `x-idler mount`
+* Tighten each screw in place with the electic torque driver
 
-*  If you have not already done so, assemble 1x `belt-tensioner-arm`
-
-	!!!note "For reference building this sub-assembly, visit the [Y Gantry OHAI page](../y-gantry/#prepare-belt-tensioner-arm)"
+### Install nut into into `x-idler mount`
 
 * Install 1x `M5-lock-nut` into `x-idler-mount`
 
 	<img src="images/install-belt-tensioner-arm-nut.webp"/>
 
-*   Install `belt-tensioner-arm` onto `x-idler-mount`
+### Install Belt Tension Arm onto X Idler Mount
+
+*   Install `belt-tensioner-arm` onto `x-idler-mount` as shown
 
 	<img src="images/place-belt-tensioner-arm.webp"/>
 
+	!!! danger "Insert the correct direction"
+
+		The acorn nut should be resting against the x-idler mount when installed correctly
+
 *   Bolt `belt-tensioner-arm` to `x-idler-mount` with 1x `M5x40-socket-head-bolt`
-	*   Avoid over tightening the bolt! `belt-tensioner-arm` should be able to pivot smoothly without much resistance.
-	*   Ensure the belt-tensioner-arm is installed correctly on x-idler-mount (IE not backwards)
-		*   The acorn nut should be resting against the x-idler mount when installed correctly
+
+	!!! danger "Don't Overtighten"
+
+		`belt-tensioner-arm` should be able to pivot smoothly without much resistance.
 
 	<img src="images/bolt-belt-tensioner-arm.webp"/>
 
@@ -136,7 +139,10 @@ Preparing x-gantry
 	<img src="images/install-x-motor-mount-t-nut2.webp"/>
 
 *	Secure `alu-extrusion` in place with 2x `M5x10-socket-head-bolt`
-	* Tighten these bolts to 0.5N/M
+
+	!!!note "Torque Spec"
+
+		Tighten these bolts to 0.5 N/M
 
 	<img src="images/install-x-motor-mount-bolt.webp"/>
 
