@@ -371,8 +371,9 @@ class ZodukiPlugin(BasePlugin):
   flex: 0 0 auto;
   gap: .5rem;
   grid-template-columns: repeat(auto-fill, minmax(3.75rem, 1fr));
-  max-height: 4.25rem;
-  overflow: hidden;
+  margin-top: -.75rem;
+  overflow: visible;
+  padding: .75rem 1.75rem 1rem;
 }}
 .zoduki__thumb {{
   background: transparent;
@@ -479,9 +480,6 @@ class ZodukiPlugin(BasePlugin):
     grid-template-columns: 1fr;
     grid-template-rows: minmax(0, 1fr) auto;
     gap: .75rem;
-  }}
-  .zoduki__thumbs {{
-    max-height: 3.25rem;
   }}
 }}
 </style>
