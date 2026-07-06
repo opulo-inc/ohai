@@ -282,6 +282,13 @@ class ZodukiPlugin(BasePlugin):
 
         return f"""
 <style>
+.md-content__inner:has([data-zoduki]) > h1 {{
+  display: none;
+}}
+.md-content__inner:has([data-zoduki]) {{
+  margin-top: 0;
+  padding-top: 0;
+}}
 .zoduki {{
   --zoduki-border: var(--md-default-fg-color--lightest);
   --zoduki-bottom-bar-height: 4.5rem;
@@ -293,17 +300,19 @@ class ZodukiPlugin(BasePlugin):
   border-bottom: 1px solid var(--zoduki-border);
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem 1rem;
+  gap: .35rem .75rem;
   justify-content: space-between;
-  margin: 0 0 1.25rem;
-  padding: .75rem 0;
+  margin: 0 0 .5rem;
+  padding: .35rem 0;
   position: sticky;
   top: 0;
   z-index: 2;
 }}
 .zoduki__crumbs {{
   color: var(--md-default-fg-color--light);
-  font-size: .8rem;
+  font-size: .72rem;
+  letter-spacing: .02em;
+  text-transform: uppercase;
 }}
 .md-sidebar--primary .md-sidebar__scrollwrap {{
   max-height: var(--zoduki-sidebar-height, calc(100dvh - 9rem));
@@ -405,11 +414,16 @@ class ZodukiPlugin(BasePlugin):
   padding-right: .4rem;
 }}
 .zoduki__copy > p {{
-  margin: 0 0 .4rem;
+  color: var(--md-default-fg-color--light);
+  font-size: .72rem;
+  letter-spacing: .02em;
+  margin: 0 0 .25rem;
+  text-transform: uppercase;
 }}
 .zoduki__copy h2 {{
-  font-size: clamp(1.1rem, 2.4vw, 1.8rem);
-  margin-top: 0;
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  line-height: 1.2;
+  margin: 0 0 .5rem;
 }}
 .zoduki__action-list {{
   font-size: clamp(.85rem, 1.6vw, 1.1rem);
