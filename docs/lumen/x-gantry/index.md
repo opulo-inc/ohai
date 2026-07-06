@@ -1,3 +1,7 @@
+---
+zoduki: true
+---
+
 Preparing x-gantry
 ==================
 

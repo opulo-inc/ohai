@@ -8,7 +8,7 @@ extra_css: [stylesheets/extra.css]
 plugins:
   - search
   - zoduki:
-      enabled_by_default: true
+      enabled_by_default: false
       step_heading_level: 3
 
 markdown_extensions:
