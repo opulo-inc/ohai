@@ -94,9 +94,9 @@ Preparing x-gantry
 
 	<img src="images/image4.webp"/>
 
-!!!note "Torque Spec"
+	!!!note "Torque Spec"
 
-	Tighten these bolts to 0.5 N/M
+		Tighten these bolts to 0.5 N/M
 
 ### Install `XY-limit-switch-board` onto `x-motor-mount`
 
@@ -170,115 +170,147 @@ Preparing x-gantry
 
 	<img src="images/install-x-idler-mount-2.webp"/>
 
-*	Use `x-gantry-spacer-jig` to slide `x-idler-mount` onto `alu-extrusion` the required amount
-	*	The WIP `x-linear-axis` should be sitting on `x-gantry-spacer-jig` snug - not overly tight - when `x-idler-mount` is at the correct depth
+### Secure X Gantry Spacing
+
+*	Use `x-gantry-spacer-jig` to slide `x-idler-mount` onto `alu-extrusion`. The `x-linear-axis` should be sitting on `x-gantry-spacer-jig` snug - not overly tight - when `x-idler-mount` is at the correct depth
 
 	<img src="images/install-x-idler-mount-3.webp"/>
 
 *	Secure `x-idler-mount` in place with 2x `M5x10-socket-head-bolt`
-	* Tighten these bolts to 0.5N/M
 
 	<img src="images/install-x-idler-mount-4.webp"/>
+
+	!!! note
+		Tighten these bolts to 0.5N/M
 	
 
-### Install `linear-rail-525mm`
+### Align `linear-rail-525mm`
 
 *	Roughly position `linear-rail-525mm` onto top-side of `alu-extrusion`
 
 	<img src="images/install-x-linear-rail.webp"/>
 
-*	Place a `linear-rail-2020-alignment-jig` on both ends of `linear-rail-525mm`
-	*	Do not cover any bolt holes with the jig
+*	Place a `linear-rail-2020-alignment-jig` on both ends of `linear-rail-525mm`. Do not cover any bolt holes with the jig
 
 	<img src="images/install-x-linear-rail-2.webp"/>
 
 *	Visually center `linear-rail-525mm` between `x-motor-mount` and `x-idler-mount`
+
 *	Slide the `M3-t-nut-bar` to line up with the rail's bolt hole pattern
+
+### Load Screws for the 525mm linear rail
+
 *	Starting from the `x-motor-mount` side, lightly snug a `M3x8-bolt` into every other bolt hole on `linear-rail-525mm`
-	*	Move the `linear-rail-carriage` out of the way as needed
 
 	<img src="images/install-x-linear-rail-3.webp"/>
 
-*	Torque the rail mounting bolts to specification in sequence beginning with the bolts at the center of the rail and working towards each end.
-	*	A torque wrench set to 0.5N/M must be used when tightening these bolts
+*	Move the `linear-rail-carriage` out of the way as needed
 
+### Attach the 525mm linear rail
+
+*	Tighten the rail mounting bolts to in the sequence shown in the image, starting in the center.
+	
 	<img src="images/install-x-linear-rail-4.webp"/>
+
+	!!! note
+		A torque wrench set to 0.5N/M must be used when tightening these bolts
+
+### Remove the jigs and check movement
 
 *	Remove the `linear-rail-2020-alignment-jig` from both ends of `linear-rail-525mm`
 *	Slide the `linear-rail-carriage` back and forth a few times, checking to see that it travels smoothly and consistently
 
-### Install GT2-belt and x-gantry-back
-* Route a 1.5m-long piece of `GT2-belt` through `x-gantry-back`
+## Routing Belt
 
-	!!!info "Belt routing step-by-step"
-		* Start by running the belt through the left-side slot on `x-gantry-back` and leave 75mm of extra belt poking out
-		* Run it through the extrusion towards the `x-motor-mount`
-		* Wrap it around the `timing-pulley`
-		* Run it back through the extrusion towards the `x-idler-mount`
-		* Wrap it around the `idler-pulley`
-		* Run it back through the extrusion towards the `x-motor-mount` again
-		* Have the belt exit through the right-side slot on `x-gantry-back`
+### Install GT2-belt and x-gantry-back
+*  Using a 1.5m-long piece of `GT2-belt`:
+	* Start by running the belt through the left-side slot on `x-gantry-back` and leave 75mm of extra belt poking out
+	* Run it through the extrusion towards the `x-motor-mount`
+	* Wrap it around the `timing-pulley`
+	* Run it back through the extrusion towards the `x-idler-mount`
+	* Wrap it around the `idler-pulley`
+	* Run it back through the extrusion towards the `x-motor-mount` again
+	* Have the belt exit through the right-side slot on `x-gantry-back`
 
 	<img src="images/install-x-GT2-belt.webp"/>
+
+	<img src="images/install-x-GT2-belt-2.webp"/>
+
+
+### Attach X gantry back to rail carriage
 
 * Slide the `x-gantry-back` onto the `linear-rail-carriage` while pulling slack out of the `GT2-belt`
 
 	<img src="images/install-x-GT2-belt-2.webp"/>
 
-* Bolt `x-gantry-back` to the `linear-rail-carriage` with 4x `M3x16-bolt`
-	*   Apply threadlocker to each bolt
-	*   Tighten each bolt to 0.5 N/M
-	*	Push `x-gantry-back` inward towards the `linear-rail-carriage` while tightening the mounting bolts to align it
+*   Apply threadlocker to 4x `M3x16-bolt`
 
-	!!!warning "Ensure that `x-gantry-back` sits flush against `linear-rail-carriage` without any visible gaps"
-
+*   Tighten each bolt to 0.5 N/M. Push `x-gantry-back` into the `linear-rail-carriage` while tightening the mounting bolts to align it.
 	<img src="images/bolt-x-gantry-back-to-linear-rail.webp"/>
 
+	!!! warning
+		Ensure that `x-gantry-back` sits flush against `linear-rail-carriage` without any visible gaps
+
+### Affix Belt Clamps
+
 * Use `belt-clamp` with 2x `M5x10-bolt` to clamp the left-side of the `GT2-belt` to the `x-gantry-back`
-	* Tighten each `M5x10-bolt` to 0.5 N.M
 
 	<img src="images/bolt-belt-clamp1-to-x-gantry-back.webp"/>
+
+* Tighten each `M5x10-bolt` to 0.5 N.M
+
 	<img src="images/bolt-belt-clamp1-to-x-gantry-back-2.webp"/>
 
-### Tension belt
+### Attach other side of belt
 
-* Pull the right-side `GT2-belt` tightly towards `x-motor-mount`
-* Use `belt-clamp` with 2x `M5x10-bolt` to clamp the right-side `GT2-belt` to the `y-gantry`
-	* Tighten each `M5x10-bolt` to 0.5 N.M
+* Pull the right-side `GT2-belt` tightly towards `x-motor-mount` to tension it.
+
+* Use `belt-clamp` with 2x `M5x10-bolt` to clamp the right-side `GT2-belt` to the `y-gantry` {color=orange}
+
+* Tighten each `M5x10-bolt` to 0.5 N.M {color=orange}
 
 	<img src="images/bolt-belt-clamp2-to-x-gantry-back.webp"/>
 
+### Tension Belt
+
 * Rotate the `M3x16-bolt` clockwise on `belt-tensioner-arm` installed on `x-idler-mount` to tension the `GT2-belt`
-	* This will cause the `belt-tensioner-arm` to pull the `idler-pulley` away from `x-idler-mount` adding desired tension to the `GT2-belt`
 
 	<img src="images/tension-x-belt-1.webp"/>
+	
+* This will cause the `belt-tensioner-arm` to pull the `idler-pulley` away from `x-idler-mount` adding desired tension to the `GT2-belt`
+
 	<img src="images/tension-x-belt-2.webp"/>
 
+### Trim excess belt
 
-* Trim the loose `GT2-belt` on either side of the `x-gantry-back`
-	* For the `x-motor-mount` side of the `x-gantry-back` print, trim loose `GT2-belt` until flush against `belt-clamp`
-	* For the `x-idler-mount` side of the `x-gantry-back` print, trim loose `GT2-belt` until approx. 15mm of `GT2-belt` remains past `belt-clamp`
+* For the `x-motor-mount` side of the `x-gantry-back` print, trim loose `GT2-belt` until flush against `belt-clamp` {color=blue}
+
+
+* For the `x-idler-mount` side of the `x-gantry-back` print, trim loose `GT2-belt` until approx. 15mm of `GT2-belt` remains past `belt-clamp` {color=blue}
 
 	<img src="images/trim-x-belt.webp"/>
 
 ### Confirm progress
-*	Check that finished `x-linear-axis` matches the image shown below before proceeding
-<img src="images/finished-x-linear-axis.webp"/>
 
-
+*	Check that finished `x-linear-axis` matches the image before proceeding
+	
+	<img src="images/finished-x-linear-axis.webp"/>
 
 ## Create `x-gantry-front` subassembly
 
 ### Prepare `NEMA-17-stepper-motor` for z-axis
 
-*   Set `timing-pulley` height on `NEMA-17-stepper-motor` shaft with jig
+*   Set `timing-pulley` height on `NEMA-17-stepper-motor` shaft with jig {color=green}
 
-	*   The 1st set-screw tightened must contact the flat region of the motor’s shaft
-		*   Tighten both set screws to 0.4 N/M
+	<img src="images/image58.webp"/>
 
-		<img src="images/image58.webp"/>
+*   The 1st set-screw tightened must contact the flat region of the motor’s shaft {color=green}
 
-		<img src="images/image57.webp"/>
+	<img src="images/image57.webp"/>
+
+	!!! note
+
+		Tighten both set screws to 0.4 N/M
 
 ### Prepare `z-belt-subassembly`
 

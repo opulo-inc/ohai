@@ -1,12 +1,18 @@
 # zoduki
 
-MkDocs plugin that turns assembly guides into step-by-step pages. Works with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) with no theme overrides required.
+MkDocs plugin that turns assembly guides into Dozuki-style step-by-step pages. Works with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) with no theme overrides required.
 
 Each step shows one action at a time: images and thumbnails on the left, instructions on the right, with Previous/Next navigation pinned to the bottom of the viewport.
 
-## Setup
+## Install
 
-Add zoduki to `mkdocs.yml`:
+In your MkDocs project:
+
+```bash
+uv add mkdocs-zoduki mkdocs-material
+```
+
+Add to `mkdocs.yml`:
 
 ```yaml
 plugins:
@@ -16,10 +22,10 @@ plugins:
       step_heading_level: 3
 ```
 
-Install the package (editable install from this repo):
+Run the site:
 
 ```bash
-uv sync
+uv run mkdocs serve
 ```
 
 ## Writing a guide
@@ -98,3 +104,168 @@ zoduki: true
 ## Deep links
 
 Each step gets a stable URL hash from its heading, e.g. `#install-fasteners`. The left nav links directly to steps and stays in sync with Previous/Next navigation.
+
+---
+
+## Development
+
+Clone the repo and install everything with [uv](https://docs.astral.sh/uv/):
+
+```bash
+git clone https://github.com/sphawes/zoduki.git
+cd zoduki
+uv sync
+```
+
+Run tests against a local MkDocs project (or the included example):
+
+```bash
+uv run mkdocs build
+uv run mkdocs serve
+```
+
+## Publishing to PyPI
+
+This project uses **uv only** for building and publishing. No `pip`, `build`, `twine`, or `setuptools` needed.
+
+### One-time setup
+
+1. Install uv if you haven't: https://docs.astral.sh/uv/getting-started/installation/
+2. Create a PyPI API token at https://pypi.org/manage/account/token/
+3. Store it locally (optional, avoids re-pasting):
+
+```bash
+export UV_PUBLISH_TOKEN="pypi-..."
+```
+
+### Build
+
+```bash
+uv build
+```
+
+Artifacts land in `dist/` (wheel + sdist).
+
+### Test on TestPyPI first (recommended)
+
+Add a TestPyPI index to `pyproject.toml`:
+
+```toml
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
+explicit = true
+```
+
+Publish:
+
+```bash
+export UV_PUBLISH_TOKEN="pypi-..."   # TestPyPI token
+uv publish --index testpypi
+```
+
+Verify in another project:
+
+```bash
+uv add --index https://test.pypi.org/simple/ mkdocs-zoduki
+```
+
+### Publish to PyPI
+
+Bump `version` in `pyproject.toml`, then:
+
+```bash
+uv build
+uv publish
+```
+
+If `UV_PUBLISH_TOKEN` is set, no other credentials are needed.
+
+### GitHub Actions (optional)
+
+Create `.github/workflows/publish.yml`:
+
+```yaml
+name: Publish
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/mkdocs-zoduki
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv build
+      - run: uv publish
+```
+
+Set up [PyPI trusted publishing](https://docs.pypi.org/trusted-publishers/) for `sphawes/zoduki` so no API token secret is required in CI.
+
+Release workflow:
+
+```bash
+# bump version in pyproject.toml first
+git commit -am "Release 0.1.1"
+git tag v0.1.1
+git push && git push --tags
+```
+
+The workflow builds and publishes automatically.
+
+## Standalone `pyproject.toml`
+
+When splitting this out of another repo, the package root should look like:
+
+```
+zoduki/
+├── LICENSE
+├── README.md
+├── pyproject.toml
+└── src/
+    └── zoduki/
+        ├── __init__.py
+        └── plugin.py
+```
+
+Minimal `pyproject.toml`:
+
+```toml
+[project]
+name = "mkdocs-zoduki"
+version = "0.1.0"
+description = "MkDocs plugin for Dozuki-style step-by-step assembly guides"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "mkdocs>=1.6",
+    "beautifulsoup4>=4.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/sphawes/zoduki"
+Repository = "https://github.com/sphawes/zoduki"
+
+[project.entry-points."mkdocs.plugins"]
+zoduki = "zoduki:ZodukiPlugin"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/zoduki"]
+```
+
+Consumers install with `uv add mkdocs-zoduki`. The plugin name in `mkdocs.yml` remains `zoduki`.

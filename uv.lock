@@ -248,14 +248,28 @@ wheels = [
 ]
 
 [[package]]
+name = "mkdocs-zoduki"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "mkdocs" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/dd/22/2f3c46ce857e6ec3e4db880309e5ad8800a0b18cccc42b373d3590a435e6/mkdocs_zoduki-0.1.0.tar.gz", hash = "sha256:80ee41d2b55221bcd069ce6ab5a5ef5da158f7b4654ac345d600488b62697189", size = 37212, upload-time = "2026-07-06T18:18:47.102Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a1/38/e9898841c394da3d065bc9e3cb0f864fc55072f2a90374d434b908ccfc1e/mkdocs_zoduki-0.1.0-py3-none-any.whl", hash = "sha256:de75b4e254aa2ea5560e15965c8cb805d976604d42f7835a601d2fec61349817", size = 15837, upload-time = "2026-07-06T18:18:45.948Z" },
+]
+
+[[package]]
 name = "ohai"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "mkdocs" },
     { name = "mkdocs-glightbox" },
     { name = "mkdocs-material" },
+    { name = "mkdocs-zoduki" },
 ]
 
 [package.metadata]
@@ -264,6 +278,7 @@ requires-dist = [
     { name = "mkdocs", specifier = ">=1.6.1" },
     { name = "mkdocs-glightbox", specifier = ">=0.4.0" },
     { name = "mkdocs-material", specifier = ">=9.6.15" },
+    { name = "mkdocs-zoduki" },
 ]
 
 [[package]]
