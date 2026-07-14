@@ -292,10 +292,10 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 	!!!success "If all checks pass, continue onward"
 
- 2. Place `drag-chain` into `upper-foam-tray`
+ 2. Place `drag-chain` into `upper-foam-tray`. Ensure the pneumatic tubing and cables are not bent or pinched.
 
 	![alt text](img/IMG_68.webp)
-	![alt text](img/IMG_70.webp)
+	![alt text](img/drag-chain-packing.webp)
 
 ### Confirm the contents of `upper-foam-tray`
 
@@ -308,46 +308,38 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 	It's OK for this work to be performed by the original machine assembler
 
 1. Gather the following items:
-	- Empty LumenPnP box
 	- Packaged and QC'd upper-foam-tray
 	- Packaged and QC'd lower-foam-tray
+	- Empty LumenPnP box
 	- All relevant shipping paperwork, including packing slip, shipping label, and any international forms
 
 	![alt text](img/IMG_77.webp)
 
-2. Remove the `box-sn-label` from the `upper-foam-tray` and adhere it to the LumenPnP box in the region shown below
+2. Examine the packing slip and take note of what (if any) additional items must be packaged. Load the additional items into a bin.
 
-	!!!warning "It is **critical** that this label matches the serial number listed on the backside of `control-box`"
+	![alt text](img/prep-extras.webp)
 
-	![alt text](img/IMG_78.webp)
-
-2. Adhere shipping documents to box
-	- Adhere all relevant shipping documentation to the top left side of the LumenPnP box flap
-	- Set the packing slip aside **if** it lists product pricing information, otherwise it can be adhered below the shipping label
-
-	![alt text](img/IMG_94.webp)
-
-3. Examine the packing slip and take note of what (if any) additional items must be packaged  
-
-	![](img/packing_slip.webp)
-
-4. Open the [OQC Checklist](https://docs.google.com/forms/d/e/1FAIpQLSddZwlLa26bw81xRC3UofJ12yaRr4eiF1ZQTFnbHVbXxjBo6A/viewform?usp=sharing)
+3. Open the [OQC Checklist](https://docs.google.com/forms/d/e/1FAIpQLSddZwlLa26bw81xRC3UofJ12yaRr4eiF1ZQTFnbHVbXxjBo6A/viewform?usp=sharing)
 	- Fill out this checklist as you package the LumenPnP
 
-	![](img/oqc-form.webp)
+	![](img/oqc-sc.webp)
 
-5. Complete the first page of the `OQC Checklist` page
+4. Complete the first page of the `OQC Checklist` page
 
 	![](img/QC-Form/2-qc-form.webp)
 
-6. Examine the contents of the `lower-foam-tray` and complete the corresponding `OQC Checklist` page
+5. Examine the contents of the `lower-foam-tray` and complete the corresponding `OQC Checklist` page
 
 	![](img/QC-Form/3-qc-form.webp)
 
-7. Place the packaged `lower-foam-tray` into the LumenPnP packaging
+6. Place the packaged `lower-foam-tray` into the LumenPnP packaging
 	* Orient the tray so that the packaged `x-gantry` is closer to the Opulo logo side of the box
 
 	![alt text](img/IMG_79.webp)
+
+7. If the order includes additional items, package them into the open void regions of `lower-foam-tray`. You may also package items into `upper-foam-tray` after completing the corresponding `OQC Checklist` page in the later steps. The image below shows commonly used regions of `lower-foam-tray`:
+
+    ![](img/void-space-lower.webp)
 
 8. Examine the contents of the `upper-foam-tray` and complete the corresponding `OQC Checklist` page
 
@@ -358,62 +350,63 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 	![alt text](img/IMG_82.webp)
 
+10. If the order includes additional items, package them into the open void regions of `upper-foam-tray`. The image below shows commonly used regions of `upper-foam-tray`:
+
+    ![](img/void-space-upper.webp)
+
 11. Complete the corresponding `OQC Checklist` page
 
 	![](img/QC-Form/4-qc-form.webp)
 
-12. Reference the order's `packing list` to determine if the box must include *any additional items*
-	- If the order **includes** additional items, select `Yes` to this page's last question before proceeding
-	- If the order **does not include** additional items, select `No` to this page's last question before proceeding
+12. If you answered `Yes` to the question "Are any additional items going in the box?" you will be directed to the `Extra Items Checklist` page
 
-12.  If you answered `Yes` to the previous question you will be directed to the `Extra Items Checklist` page
-	- Package any additional items required into the open void regions of the LumenPnP's packaging
-	
+	- Check off any additional items this order contains before proceeding
+	    	![](img/QC-Form/5-qc-form.webp)
+
 	!!!info "If the order includes `feeders` or items suitable for a `feeder-accessory-tray` package them above the `upper-foam-tray` like so:"
-		![alt text](img/IMG_83.webp)
-		![alt text](img/IMG_86.webp)
+		![alt text](img/IMG_0672.webp)  
 
-	- After adding any additional items to the order, check-off any additional items this order contains before proceeding
+		Use the following guide to help you decide how to pack `feeders` with a `LumenPnP`:
 
-		![](img/QC-Form/5-qc-form.webp)
+		![](img/Asset-1.webp)
 
-15. Fill out a `getting-started-card` with the machine's `version number`
+13. Print out a `getting-started-card` with the machine's `version number`
 
-    ![](img/getting-started-card.webp)
+    ![](img/IMG_0869.webp)
 
-16. Peel the wax paper off the back of `getting-started-card` and adhere it to `top-foam sheet`
+14. Peel the wax paper off the back of `getting-started-card` and adhere it to `top-foam sheet`
     * Orient the card so that it's bottom edge faces toward the Opulo logo side of the box
 
-	!!!warning "If the order being packed included feeders skip this step"
+	![](img/IMG_92.webp)
 
-	![alt text](img/IMG_90.webp)
-	![alt text](img/IMG_91.webp)
+	!!!warning "If the order being packed included feeders, attach the feeder `getting-started-card` on top of the top sheet as well"
+	    ![](img/IMG_0673.webp)
 
-14. Install a `top-foam-sheet` above the `upper-foam-tray`
-
-	!!!warning "If the order being packed included feeders skip this step"
-
-	![alt text](img/IMG_92.webp)
-
-	!!!note "Is this LumenPnP being shipped with feeders? Follow this note below instead of the above step!"
-		Use `feeder trays` and a `top-cardboard-pad` instead of a `top-foam-sheet` **if** the LumenPnP order includes either feeders and/or items that use a `feeder-accessory-tray`
-		![alt text](img/IMG_87.webp)
-		![alt text](img/IMG_88.webp)
-		![alt text](img/IMG_89.webp)
-
-13. Proceed to the `Finalize Shipment` page of the `OQC Checklist` and work your way through alongside following these last steps
+15. Proceed to the `Finalize Shipment` page of the `OQC Checklist` and work your way through alongside following these last steps
 
 	![](img/QC-Form/6-qc-form.webp)
 
-17. Tape the LumenPnP box shut
+16. Tape the LumenPnP box shut
 
-	![alt text](img/IMG_95.webp)
+    ![](img/tape.webp)
 
-18. Adhere an `orange sticker` to the top-right corner of the box.
+18. Adhere `box-sn-label` to the LumenPnP box in the region showed below:
 
-	![alt text](img/IMG_96.webp)
+    ![](img/IMG_0676.webp)
 
-19. Click `Submit` on the final page of `OQC Checklist` page
+
+19. Ahere shipping documents to box 
+    - Adhere all relevant shipping documentation to the top left side of the LumenPnP box flap
+	- Set the packing slip aside if it lists product pricing information, otherwise it can be adhered below the shipping label
+
+    ![](img/sh-label.webp)
+	
+
+20. Adhere `fragile-sticker` to the bottom right corner of the box.
+
+	![alt text](img/fragi-le.webp)
+
+21. Click `Submit` on the final page of `OQC Checklist` page
 
 	![](img/QC-Form/8-qc-form.webp)
 
