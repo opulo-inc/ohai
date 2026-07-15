@@ -1,0 +1,103 @@
+# Feeder Loading Station 
+
+![](img/fls-demo.gif)
+
+## Required Parts
+
+- 3D Prints:
+
+    - `fls-base`
+    - `fls-cover`
+    - `fls-slot`
+    - `extrusion-cable-clip`
+
+- PCBs:
+    - `power-breakout`
+    - `feeder-slot`
+
+- Fasteners:
+    - `M3x8mm-self-tapping-flat-hex-head`
+    - `M5-tslot-nut`
+    - `M5x10mm-socket-head`
+
+- Other:
+    - `short-photon-harness` - cable harness 
+    - `vslot-extrusion-20mm-x-20mm-x-140mm` - extrusion
+    - `rubber-foot` - rubber feet for stability
+
+- Jigs:
+    - `feeder-blade-jig`
+    - `slot-centering-jig`
+
+## Assembly Instructions
+
+1. Use `m3x8mm-self-tapping-flat-hex-head` to secure `feeder-slot` PCB to `fls-slot` print. Use `feeder-blade-jig` to make alignment easier when securing multiple `feeder-slot` PCBs
+
+    ![](img/1.webp)
+
+2. Insert `m5x10mm-socket-head` into the large opening at the bottom of the `fls-slot` print
+
+    ![](img/2.webp)
+
+3. Thread on `m5-tslot-nut` onto `m5x10mm-socket-head`
+
+    ![](img/3.webp)
+
+4. Insert `vslot-extrusion-20mm-x-20mm-x-140mm` into `slot-centering-jig` and secure `fls-slot`
+
+    ![](img/4.webp)
+    ![](img/5.webp)
+
+5. Feed `short-photon-harness` through channel of `fls-base` so that it feeds into the cutout at the bottom of the base
+
+    ![](img/6.webp)
+    ![](img/7.webp)
+
+6. Plug `short-photon-harness` into `feeder-slot` PCB
+
+    ![](img/8.webp)
+
+7. Insert `vslot-extrusion-20mm-x-20mm-x-140mm` into `fls-base`
+
+    ![](img/9.webp)
+
+8. Install `extrusion-cable-clip`. Pull `short-photon-harness` taut and ensure the clip is installed as far right on the extrusion as possible
+
+    ![](img/9.webp)
+    ![](img/10.webp)
+    ![](img/11.webp)
+
+9. Secure `vslot-extrusion-20mm-x-20mm-x-140mm` to `fls-base` with 4x `m5x10mm-socket-head` and 4x `m5-tslot-nut`
+
+    ![](img/12.webp) 
+    ![](img/13.webp)
+
+10. Place `power-breakout` PCB into cutout of `fls-base`
+
+    ![](img/14.webp)
+    ![](img/15.webp)
+
+11. Secure `power-breakout` PCB with 4x `M3x8mm-self-tapping-flat-hex-head`
+
+    ![](img/16.webp)
+
+12. Plug `short-photon-harness` into `power-breakout` PCB
+
+    ![](img/17.webp)
+
+13. Ensure `short-photon-harness` cable is managed and add `fls-cover`
+
+    ![](img/18.webp)
+    ![](img/19.webp)
+
+14. Secure `fls-cover` with 4x `M3x8mm-self-tapping-flat-hex-head`
+
+    ![](img/20.webp)
+
+15. Install 4x `rubber-foot` in the designated cutouts on `fls-base`
+
+    ![](img/21.webp)
+    ![](img/22.webp)
+
+    !!! success
+        Feeder Loading Station is now fully assembled.
