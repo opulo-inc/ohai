@@ -12,18 +12,13 @@ Preparing x-gantry
 *	Insert 4x `m5-hex-lock-nut` into the following region
 
 	<img src="images/nut1-x-gantry-back.webp"/>
-
-* Add a drop of `blue-loctite` into each of these pockets to permanently secure each nut in place
 	
 ###  Install frontside fasteners
 
-*	Insert 5x `m5-hex-lock-nut` into the following region
+*	Insert 5x `m5-hex-nut` into the following region
 
 	<img src="images/nut2-x-gantry-back.webp"/>
-
-* Add a drop of `blue-loctite` into each of these pockets to permanently secure each nut in place
 	
-
 ### Prep for top camera focus
 
 *   Acquire `top-camera-focus-jig` and connect `top-camera-focus-jig` to a laptop and open a native camera viewing application
@@ -100,11 +95,13 @@ Preparing x-gantry
 
 ### Install `XY-limit-switch-board` onto `x-motor-mount`
 
-*  Install `XY-limit-switch-board` onto `x-motor-mount` and secure it with 2x `m3x12-self-tapping-flat-head-screw`
+*  Install `XY-limit-switch-board` onto `x-motor-mount` and secure it with 2x `M3x8mm-self-tapping-flat-head-screw`
 
 	<img src="images/install-xy-limit-switch-board.webp" />
 
 * Tighten each screw in place with the electic torque driver
+
+* If needed, clipping the ends off the pins of the right angle switch on `XY-limit-switch-board` helps the pcb sit flat against the print.
 
 ### Install nut into into `x-idler mount`
 

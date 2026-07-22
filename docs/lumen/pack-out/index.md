@@ -218,9 +218,9 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 		* `datum-board`
 		* `bottom-camera-assembly` (with lens cap removed)
 		* 3x `peek-cable-clamp`
-		* `bottom-light-harness` and `bottom-camera-harness` w/propper cable managment
+		* `bottom-light-harness` and `bottom-camera-harness` w/proper cable managment
 			* Ensure that the `bottom-camera-harness` was used and NOT the longer `top-cable-harness`
-			* `peek-cable-clamp` usage and rubber-band for securing loose cables
+			* `peek-cable-clamp` in A3, E3, and A37 — and rubber-band for securing loose cables
 
 	![alt text](img/IMG_49.webp)
 
