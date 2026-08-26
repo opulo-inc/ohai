@@ -301,7 +301,7 @@ Confirm the `lower-foam-tray` matches the image shown below before continuing:
 
 1. Confirm the `upper-foam-tray` matches the image shown below
 
-	![alt text](img/IMG_93.webp)
+	![alt text](img/final-tray.webp)
 
 ## Package LumenPnP Box
 !!!warning "Perform this process 1 machine at a time"

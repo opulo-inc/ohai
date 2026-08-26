@@ -316,7 +316,7 @@ Preparing x-gantry
 
 		<img src="images/image9.webp"/>
 
-	*   Install 1x `M3x16-flathead-bolt` into `z-gantry-backplate-right` to a depth that roughly matches the image shown below
+	*   Install 1x `M3x15-flathead-bolt` into `z-gantry-backplate-right` to a depth that roughly matches the image shown below
 		*   This screw depth will be precisely adjusted in later steps
 
 		<img src="images/image51.webp"/>
