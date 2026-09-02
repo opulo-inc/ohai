@@ -9,15 +9,23 @@ OHAI uses mkdocs with the mkdocs-material theme. This guide assumes you're runni
 
 2. Install `uv` using `brew install uv`.
 
-3. Open Terminal and `cd` into the ohai directory. 
+3. Install [Git LFS](https://git-lfs.com/) if you have not already, e.g. `brew install git-lfs`. This repo stores images and 3D files (`.jpg`, `.png`, `.webp`, `.step`, `.stl`) via LFS, so without it these files will only download as small text pointers and images won't show up.
+
+4. Open Terminal and `cd` into the ohai directory. 
 
     `cd ~/path/to/ohai`
 
-4. Create a virtual environment with uv.
+5. If you already had the repo cloned before installing Git LFS, or if images aren't showing up, pull the LFS files:
+
+    `git lfs install`
+
+    `git lfs pull`
+
+6. Create a virtual environment with uv.
 
     `uv venv`
 
-5. Install dependencies with uv:
+7. Install dependencies with uv:
 
     `uv sync`
 

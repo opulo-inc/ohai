@@ -36,6 +36,7 @@ Welcome! This page provides quick access to all LumenPnP assembly guides, beside
 - [Getting Started Kit](../lumenpnp-accessories/ftp-kit/index.md)
 - [Strip Feeder](../lumenpnp-accessories/strip-feeder/index.md)
 - [Paste Extruder Kit](../lumenpnp-accessories/paste-extruder/index.md)
+- [Paste Extruder V2 Kit](../lumenpnp-accessories/paste-extruder-v2/index.md)
 - [High-Precision Solder Paste Printer](../lumenpnp-accessories/stencil-printer/)
 - [Feeder Loading Station](../lumenpnp-accessories/feeder-loading-station/index.md)
 
