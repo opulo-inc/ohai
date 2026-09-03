@@ -1,6 +1,4 @@
 ---
-hide:
-  - navigation
 zoduki: true
 ---
 # LumenPnP v2/v3 Vacuum Pump and Valve Set
