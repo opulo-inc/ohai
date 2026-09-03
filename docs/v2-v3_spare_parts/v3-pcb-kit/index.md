@@ -1,20 +1,19 @@
 ---
 hide:
   - navigation
+zoduki: true
 ---
 # LumenPnP v2/v3 PCB Replacement Kit
 
-## Purpose
+## Instructions
 
+### Process the PCB kit box
 The purpose of this work instructions is to document the assembly process for the LumenPnP PCB Kit [`SKU-0003-03`]
 
 !!!note "If you are making a LumenPnP PCB Replacement Kit, follow the process mentioned below except do not include the additional parts."
 
-## Instructions
-
 !!!warning "Do not make this without confirming with Lucy or Stephen"
 
-### Process the PCB kit box
 1. Remove the pink foam from esd-safe-mailer [`PKG-0013-00 `] and 1 piece aside for later use
 	- The 2nd piece of pink foam can be recycled or put in the spare packaging material bin at the Docker workstation
 
@@ -51,24 +50,26 @@ The purpose of this work instructions is to document the assembly process for th
 
 		<img src="img/image6.webp" width="60%"/>
 
-### Package additional components
+### Layer the additional components
 	
-7. Place a sheet of pink foam into the esd-safe-mailer
+1. Place a sheet of pink foam into the esd-safe-mailer
 	- Leave half of the foam sitting against the motherboard
 	- The other half of the foam sheet will be folded atop the additional components packaged into the box in subsequent steps
-8. Place the Packaged Datum Board [`ASM-0024-00`] into the box
+2. Place the Packaged Datum Board [`ASM-0024-00`] into the box
 
 	<img src="img/image7.webp" width="60%"/>
 
-9. Place the limit-switch-board above the Packaged Datum Board
+3. Place the limit-switch-board above the Packaged Datum Board
 
 	<img src="img/image8.webp" width="60%"/>
 
-10.  Place the Packaged Ring Light Set above the limit switch board
+### Close up the component stack
+
+1.  Place the Packaged Ring Light Set above the limit switch board
 
 	<img src="img/image9.webp" width="60%"/>
 	
-11. Fold the rest of the pink foam over the Packaged Ring Light Set
+2. Fold the rest of the pink foam over the Packaged Ring Light Set
 	- This will result in something like a taco of additional components sitting beside the motherboard
 
 ### Finalize

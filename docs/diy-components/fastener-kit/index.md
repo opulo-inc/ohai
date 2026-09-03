@@ -1,54 +1,52 @@
 ---
 hide:
   - navigation
+zoduki: true
 ---
 
 # Fastener Kit
 
-## Purpose
+## Instructions
+
+### Overview
 
 This work instruction is for preparing the Fastener Kit - a bag full of all the hardware needed to assemble a v4 from scratch.
 
-![](img/fastener-kit.webp)
+- Collect the pre-made bag of *most* of the hardware. It needs **six** things added, and **one** thing changed.
 
-## Overview
+    ![](img/fastener-kit.webp)
+    ![](img/IMG_1478.webp)
 
-We get a pre-made bag of *most* of the hardware pre-made.
+### Replace the Incorrect Square Nuts
 
-![](img/IMG_1478.webp)
+- Hunt down the bag of 4x M3 "square nuts" — they're weird, and won't work for a LumenPnP build.
 
-It needs **six** things added, and **one** thing changed.
+    ![](img/IMG_1476.webp)
 
-## Replace incorrect components
+- Toss them, but keep the bag, and replace with 4x normal M3 square nuts. Add back to the main bag.
 
-Hunt down the bag of 4x M3 "square nuts".
+    ![](img/IMG_1479.webp)
+    ![](img/IMG_1480.webp)
 
-![](img/IMG_1476.webp)
+### Add Additional Components
 
-They're weird, and won't work for a LumenPnP build. Toss them, but keep the bag, and replace with 4x normal M3 square nuts. Add back to the main bag.
+- Prepare the following things, added to small bags with labels, as shown below:
+    - 2x M3x10 thumbscrew (for bottom cam mount)
+    - 10x M3x12 self-tapping flat head
+    - 10x rubber feed
+    - 4x rubber bands
+    - 4x nozzle holder o-rings
+    - 2x PTFE lube packets
+    - 3x M5x16mm Socket Head (not pictured)
 
-![](img/IMG_1479.webp)
+    ![](img/IMG_1481.webp)
 
-![](img/IMG_1480.webp)
+### Finish and Label the Kit
 
-## Add additional components
+- Add the additional components to the main bag.
 
-Prepare the following things, added to small bags with labels, as shown below
+    ![](img/IMG_1482.webp)
 
-- 2x M3x10 thumbscrew (for bottom cam mount)
-- 10x M3x12 self-tapping flat head
-- 10x rubber feed
-- 4x rubber bands
-- 4x nozzle holder o-rings
-- 2x PTFE lube packets
-- 3x M5x16mm Socket Head (not pictured)
+- Add the label to the bag.
 
-![](img/IMG_1481.webp)
-
-Add to the main bag.
-
-![](img/IMG_1482.webp)
-
-Add the label to the bag.
-
-![](img/IMG_1483.webp)
+    ![](img/IMG_1483.webp)

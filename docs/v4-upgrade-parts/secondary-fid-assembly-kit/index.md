@@ -1,6 +1,12 @@
+---
+zoduki: true
+---
+
 # Secondary Fiducial Assembly Kit
 
 ## Installation Instructions
+
+### Mount the Bracket
 
 1. Remove the `Secondary Fiducial Bracket` and the two `M3x10mm Hex Head Screws` from the kit.
 
@@ -19,11 +25,13 @@
 
     ![](img/orientation-indicator.webp)
 
-4. Remove the two `M3 Wing Nuts` from the kit.
+### Secure the Bracket
+
+1. Remove the two `M3 Wing Nuts` from the kit.
 
     ![](img/wing-nuts.webp)
 
-5. Secure the `Secondary Fiducial Bracket` in place by attaching the two `M3 Wing Nuts` from the kit.
+2. Secure the `Secondary Fiducial Bracket` in place by attaching the two `M3 Wing Nuts` from the kit.
 
     ![](img/wing-nut-install.webp)
 

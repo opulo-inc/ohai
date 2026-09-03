@@ -1,6 +1,10 @@
+---
+zoduki: true
+---
+
 # **Printing Labels for LumenPnP Machines**
 
-## Accessing Aligni Information
+### Accessing Aligni Information
 
 1. Navigate to [https://opulo.aligni.com/builds/](https://opulo.aligni.com/builds/)and select the LumenPnP build that's due next
 
@@ -14,59 +18,65 @@
 
 	![][image3]
 
-## Create LumenPnP V4 Outer Box Serial Labels
+### Open the Box Sticker Project
 
-4. Navigate to to tab [My Account - Projects | Avery Print](https://www.avery.com/myaccount/projects)
+1. Navigate to to tab [My Account - Projects | Avery Print](https://www.avery.com/myaccount/projects)
 
 	* For the login credentials go to the `Manufacturing Account Login Info` page linked here in [Mattermost](https://mattermost.opulo.io/boards/team/eyuuc1q4j3bpinkstyyshirtse/bw6ym6qa8c7d9trug4q6uxqacoy/vtgfbprkcntbebkm3e18fd36kdy)
 
-5. Select the "LumenPnP V4.X.X - Box Sticker" project
+2. Select the "LumenPnP V4.X.X - Box Sticker" project
 
 	![][image4]
 
-6. Click "Open Project"
+3. Click "Open Project"
 
 	![][image5]
 
-7. Click the currently listed Build Number (100847-01 in this example)
+4. Click the currently listed Build Number (100847-01 in this example)
 
 	![][image6]
 
-8. Click "**SequentialNumbers**"
+### Set the Build Number
+
+1. Click "**SequentialNumbers**"
 
 	![][image7]
 
-9. Click the "**Prefix:**" field
+2. Click the "**Prefix:**" field
 
 	![][image8]
 
-10. Select the six digit build number used in the previous build  
-11. Press [cmd] + [v] to paste in the new Build Number
+3. Select the six digit build number used in the previous build  
+4. Press [cmd] + [v] to paste in the new Build Number
 
 	![][image9]
 
-12. Double-click the "**End Value:**" field.
+### Set the Quantity
+
+1. Double-click the "**End Value:**" field.
 
 	![][image10]
 
-13. Type "**8**" (or however many units this build is for)  
-14. Click "**Edit Sequential Numbers**" to save your changes
+2. Type "**8**" (or however many units this build is for)  
+3. Click "**Edit Sequential Numbers**" to save your changes
 
 	![][image11]
 
-15. Click outside of the Sequential Numbers dialogue window
+4. Click outside of the Sequential Numbers dialogue window
 
 	![][image12]
 
-16. Click "**Preview & Print**"
+### Preview and Print the Labels
+
+1. Click "**Preview & Print**"
 
 	![][image13]
 
-17. Click "**Print**"
+2. Click "**Print**"
 
 	![][image14]
 
-18. Configure the print settings:
+3. Configure the print settings:
  * Destination: Dymo LabelWriter 4XL  
  * Pages: 1-8  
  * Paper size: 104 x 159mm (4" x 6")  
@@ -76,63 +86,71 @@
 
 	![][image15]
 
-19. The LumenPnP V4 Outer Box Serial Labels will now print out - set these aside for use on the production line!  
-20. Click "**Save Project**"
+### Save the Project
+
+1. The LumenPnP V4 Outer Box Serial Labels will now print out - set these aside for use on the production line!  
+2. Click "**Save Project**"
 
 	![][image16]
 
-21. Click "**Save to Your Account**"
+3. Click "**Save to Your Account**"
 
 	![][image17]
 
-22. Click "**Got It**"
+4. Click "**Got It**"
 
 	![][image18]
 
-## Create Serialized Machine ID Labels for Control Boxes
+### Open the Google Slides Template
 
-23. Navigate to the[Machine ID Serial Label - Google Slides](https://docs.google.com/presentation/d/15bMHYFUPsAUMRKTIfIfMkaVi0N7s6ppUkWt4rGYsCZA/edit?usp=sharing) webpage  
-24. Press [cmd] + [f] to open the "**Find in document**" pop-up window
+1. Navigate to the[Machine ID Serial Label - Google Slides](https://docs.google.com/presentation/d/15bMHYFUPsAUMRKTIfIfMkaVi0N7s6ppUkWt4rGYsCZA/edit?usp=sharing) webpage  
+2. Press [cmd] + [f] to open the "**Find in document**" pop-up window
 
 	![][image19]
 
-25. Click to expand the "**Find**" options before choosing "**Find and Replace...**"
+3. Click to expand the "**Find**" options before choosing "**Find and Replace...**"
 
 	![][image20]
 
-26. Type the previously used Build Number in the "**Find**" text-field
+### Replace the Build Number
+
+1. Type the previously used Build Number in the "**Find**" text-field
     (which would be "**100847**" in this example)  
-27. Click the "**Replace with**" text-field
+2. Click the "**Replace with**" text-field
 
 	![][image21]
 
-28. Press [cmd] + [v] to paste in the Build Number copied from Aligni
+3. Press [cmd] + [v] to paste in the Build Number copied from Aligni
 
 	![][image22]
 
-29. Click "**Replace all**"
+4. Click "**Replace all**"
 
 	![][image23]
 
-30. Copy the expected finalization date (MFD) from the in-progress LumenPnP build
+### Update the Finalization Date
+
+1. Copy the expected finalization date (MFD) from the in-progress LumenPnP build
 
 	![][image24]
 
 	* Note that if this date semems wrong please instead use the expected nearest Friday that the current LumenPnP build should be completed by
 
-32. Repeat the "**Find and Replace**" process to change the MFD from the previous Build completion date to the current Build completion date
+2. Repeat the "**Find and Replace**" process to change the MFD from the previous Build completion date to the current Build completion date
 
 	![][image25]
 
-33. Exit the "**Find and Replace**" pop-up window
+3. Exit the "**Find and Replace**" pop-up window
 
 	![][image26]
 
-34. Click "**Print**"
+### Print the Machine ID Labels
+
+1. Click "**Print**"
 
 	![][image27]
 
-35. Print the requisite Machine ID Labels
+2. Print the requisite Machine ID Labels
 
 	* Set the Destination to "Dymo LabelWriter 4XL"  
 		* Note - you may need to add this paper size to your computer as a custom size and this is a pain in the butt so ask for help here!

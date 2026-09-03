@@ -1,3 +1,7 @@
+---
+zoduki: true
+---
+
 ## QC
 
 ### Visual QC
@@ -15,6 +19,8 @@ Visually inspect each PCB before programming.
     * Keep light pressure on the board during programming
 * If not already open on the programming laptop, open a terminal, then type `flashphoton` and hit enter to program the board.
     * The up arrow can also be pressed to cycle through previous commands.
+### Confirm and Store the Board
+
 * The light on the board will turn red once programming is successful.
     * \*photo of PCB with red light on\*
 * If the terminal shows "MIS-MATCHED!" for any of the lines, programming was unsuccessful.

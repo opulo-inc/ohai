@@ -1,23 +1,34 @@
+---
+zoduki: true
+---
+
 # Feeder Connection Kit
 
+## Introduction
+
+### Overview
 This page will guide the reader on how to properly prepare a `feeder-connection-kit`, from initial assembly to final packaging.
 
-![](img/blade-packaging3.webp)
+* Reference the completed `feeder-connection-kit` shown below
+    ![](img/blade-packaging3.webp)
 
 ## feeder-blade-panel (PCBA)
+
+### SMT: Paste and Reflow
 This section will guide the reader on how to properly create a `feeder-blade-panel (PCBA)`
 
-#### SMT
 * Paste blade panels three at a time.
 * Load three pasted blade panels into the Blade Lumen
 * Run the job in OpenPnP
 * Remove the panels and reflow them in the oven *one at a time*
+
+### SMT: Inspect and Bin
 * Inspect for any shorts or shifted components and rework as needed
 * Add the 120R termination resistor to the 50th slot position if needed
 * Place the completed `feeder-blade-panel (PCBA)` units into the yellow bin found at the blade assembly work station
     ![](img/slots-in-bins3.webp)
 
-#### Programming
+### Programming: Set Up the Stylus
 * Grab the stylus from the blade programmer
   ![](img/pgrm-slot-set-pca-14.webp)
 * Ensure that the address is set to `1`
@@ -27,6 +38,7 @@ This section will guide the reader on how to properly create a `feeder-blade-pan
           ![](img/pgrm-slot-set-pca-15.webp)
           ![](img/program-blade-4.webp)
 
+### Programming: Program Each Slot
 * Press the switch on the stylus when all spring pins are compressed against the pads
     ![](img/program-blade-5.webp)
 * Look at the screen:
@@ -45,7 +57,7 @@ This section will guide the reader on how to properly create a `feeder-blade-pan
 
     !!!warning "Pay **extreme attention** to avoid programming any slot with the wrong value"
 
-#### QC
+### QC
 Ensure your completed PCBA meets the following requirements:
 
 - Switch the programmer to `QC Mode` and confirm that Slots #1, #13, #23, #26, #38, #48, and #50 each have a programmed value that matches the top-side silkscreen text
@@ -68,14 +80,14 @@ The next step is to proceed to `Feeder Blade Set Final Assembly`
 
 ## Feeder Blade Set Final Assembly
 
-This section will guide the reader on how to properly assemble and package a `feeder-blade-set`
-
 ### Materials Prep
+
+This section will guide the reader on how to properly assemble and package a `feeder-blade-set`
 
 * Check 2x `blade-12` and 2x `blade-13` using the granite block to ensure the print printed without warping
     ![](img/IMG_2604.webp)
 
-### Assembly Process
+### Assembly Process: Build feeder-blade13-asm
 * Begin by separating a `feeder-blade-panel (PCBA)` into four separate rows
     ![](img/break-slots2.webp)
     ![](img/break-slots25.webp)
@@ -93,6 +105,7 @@ This section will guide the reader on how to properly assemble and package a `fe
 
     ![](img/install-m3-screws.webp)
 
+### Assembly Process: Finish the Set
 * Remove the blades from the `feeder-blade-cradle-jig`
 * Loosely install 5x `M5-t-slot-nut` and 5x `M5x10-bolt` into each feeder blade for subsequent use in mounting onto a feeder rail
     ![](img/install-t-nut1.webp)
@@ -114,7 +127,7 @@ The next step is to proceed to either:
 
 This section will guide the reader on how to properly prepare the accessories that go into a `feeder-connection-kit`.
 
-#### bagged-extrusion-cable-clips
+### bagged-extrusion-cable-clips
 
 * Place 10x `extrusion-cable-clip` pieces into a `3x4-bag` before sealing it shut
 
@@ -133,7 +146,7 @@ This section will guide the reader on how to properly prepare the accessories th
 
     ![](img/IMG_6185.webp)
 
-#### Hex Key for Drive Wheel Adjustment
+### Hex Key for Drive Wheel Adjustment
 
 * Adhere a "hex key bag label" onto a `2x3-bag`
 
@@ -143,15 +156,13 @@ This section will guide the reader on how to properly prepare the accessories th
 
     ![](img/IMG_3669.webp)
 
-#### Collect feeder-blade-harness-set
+### Collect feeder-blade-harness-set
 
 * Collect a `feeder-blade-harness-set` [ASM-0079-02] from inventory
 
     ![](img/feeder-blade-harness-set-rev02.webp)
 
-#### Feeder-cable-adapter
-
-###### Assemble `feeder-cable-adapter`
+### Assemble `feeder-cable-adapter`
 
 - Create a `50mm-idc-ribbon-cable` that matches the image below
     ![alt text](img/connection-kit-ph3.webp)
@@ -168,7 +179,7 @@ This section will guide the reader on how to properly prepare the accessories th
     ![alt text](img/connection-kit-ph2.webp)
     ![alt text](img/connection-kit-ph8.webp)
 
-###### Packing `feeder-cable-adapter`
+### Packing `feeder-cable-adapter`
 * Add 1x `feeder-blade-idc-adapter` and 2x `blade-jumper-v4` into `2x3-bag`
     ![alt text](img/connection-kit-ph9.webp)
 * Seal bag shut

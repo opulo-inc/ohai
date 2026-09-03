@@ -1,11 +1,14 @@
 ---
 hide:
   - navigation
+zoduki: true
 ---
 
 # LumenPnP GT2 Belt and Pulley Kit
 
-## Prepare Bagged Subassemblies
+## Instructions
+
+### Prepare Bagged Subassemblies
 
 - Place 4x `gt2-idler-pulley` into a `2x3-bag` and seal it shut
     ![alt text](img/4pcs-idler-pulley.webp)
@@ -16,7 +19,7 @@ hide:
 - Create 1x `z-belt-assembly`
     ![alt text](img/z-belt-asm.webp)
 
-## Package Subassemblies
+### Package Subassemblies
 
 - Gather the subbassemblies completed in the previous steps
     ![alt text](img/gt2-belt-pulley-layout.webp)

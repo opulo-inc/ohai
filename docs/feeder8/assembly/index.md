@@ -1,6 +1,10 @@
+---
+zoduki: true
+---
+
 # Final Assembly
 
-## Motherboard Installation
+### Prep Peel Motor and Drive Motor
 
 * Pull on the `peel-worm-gear` and ensure it's properly glued onto the peel motor shaft. Twist the worm gear to make sure it spins the motor easily.
 
@@ -16,6 +20,8 @@
 * Do NOT twist `feeder-mobo` cables inside frame. 
 	
 	<img src="img/img2.webp" width="60%" height=auto>
+
+### Install Motherboard PCB
 
 * Place the peel motor assembly into its slot in the feeder.
     * Orient the red wire upwards to make sure the PCB can lay flat in the frame once the wires are tucked behind the PCB.
@@ -38,6 +44,8 @@
 	* Use the peel worm gear gauge to ensure that the worm gear does not stick too far out from the feeder.
 
 * Actuate the buttons to ensure they do not have a mushy feeling.
+
+### Secure Drive Motor Bracket
 
 * Install a `drive-motor-bracket`
    
@@ -72,7 +80,7 @@
 		![](img/cleanscrews2.webp)
 
 
-## Install the `release-lever`
+### Install the `release-lever`
 
 !!!warning "Wearing safety glasses is required while installing springs"
 
@@ -90,7 +98,7 @@
 
    	* Once installed, the release lever has no lateral movement and can swivel easily with a snappy motion.
 
-## Install the `peel-gear-box`
+### Install the `peel-gear-box`
 
 * Obtain `peel-gear-box`.
 	![](img/peel1.webp)
@@ -102,7 +110,7 @@
 * Install 2x M3x12mm flathead screws in the locations shown:
 	![](img/peel4.webp)
 
-## Install the `drive-wheel-asm`
+### Position the `drive-wheel-asm`
 
 * If necessary, rotate the drive motor so the flat surface of the shaft faces the front of the feeder.
 
@@ -124,11 +132,13 @@
 
     * Use a handheld torque driver with 1.27mm bit set to 30 cN.m.
 
+### Test the `drive-wheel-asm`
+
 * Remove the drive wheel shims.
 
 * Place the feeder on the jig and drive the wheel at least one full rotation, listening for friction. If friction is heard, replace the wheel. If there is obvious wobble in the wheel, replace the wheel or reattempt installation.
      
-## Install `drive-motor-cover`
+### Install `drive-motor-cover`
 
 * Place a drive motor cover over the drive wheel.
 

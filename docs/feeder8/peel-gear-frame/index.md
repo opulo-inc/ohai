@@ -1,21 +1,26 @@
+---
+zoduki: true
+---
+
 # Peel Gear Box
-This section will guide the reader through the process of installing 2x `peel-gear` prints into `peel-gear-frame` to create `peel-gear-box` in preparation for its use in final assembly.
+
+### Materials  
+
+This section will guide the reader through the process of installing 2x `peel-gear` prints into `peel-gear-frame` to create `peel-gear-box` in preparation for its use in final assembly. The completed `peel-gear-box` should match the image below.
 
 <img src="img/img1.webp" width="60%" height=auto>
-
-## Materials  
 
 * `peel-gear-frame`
 * 2x `peel-gear`
 * 2mm hex driver
 * 2x `M3x14mm-flat-head` per frame
 
-## Visual QC
+### Visual QC
 
 * Ensure both the peel gears and peel gear frame are free of print discrepancies.
     * Pay special attention to the teeth of the peel gears, as any extra filament will interfere with proper function of the peel gear box.
 
-## Assembly
+### Assembly
 
 * Install 2x `peel-gear` into `peel-gear-frame`
 	* Pop 2x `peel-gear` into the `peel-gear-frame`, aligning the bumps in the frame to the divots in the gears

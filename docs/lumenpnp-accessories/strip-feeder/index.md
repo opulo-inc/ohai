@@ -1,6 +1,12 @@
+---
+zoduki: true
+---
+
 # LumenPnP Strip Feeders
 
 ## Prepare `strip-feeder-hardware-set`
+
+### Bag the `strip-feeder-hardware-set` hardware
 - Prepare Bagging Station	
 	![](img/0-prep-bagging-station.webp)
 
@@ -14,6 +20,7 @@
 	![](img/1-pack-bolt-bag.webp)
 	![](img/2-pack-bolt-bag.webp)
 
+### QC and Store the `strip-feeder-hardware-set`
 - Fill up the yellow `needs QC` bin with the hardware bags you make
 	![](img/3-bulk-prep-bolt-bag.webp)
 	
@@ -46,7 +53,7 @@
 
 	![](img/39-check-flatness-24mm.webp)
 
-### Create ##mm-strip-feeder-kit
+### Bag the ##mm-strip-feeder-kit
 - Insert 1x ##mm-strip-feeder into `3x6-bag`
 - Insert 1x `hardware-bag` into `3x6-bag`
 - Seal bag closed
@@ -54,6 +61,8 @@
 	![](img/40-bag-24mm.webp)
 	![](img/41-bag-24mm.webp)
 	![](img/42-bag-24mm.webp)
+
+### QC and Label the ##mm-strip-feeder-kit
 
 - Place completed `##mm-strip-feeder-kit` into `Yellow Needs QC Bin` for peer review
 
@@ -82,7 +91,7 @@
 	![](img/22-sticker-adj.webp)
 	![](img/23-sticker-adj.webp)
 
-### Create adj-strip-feeder-kit
+### Bag the adj-strip-feeder-kit
 - Insert 1x `adj-strip-feeder-left` w/sticker into `3x6-bag`
 - Insert 1x `adj-strip-feeder-right` into `3x6-bag`
 - Insert **2x** `hardware-bag` into `3x6-bag`
@@ -91,6 +100,8 @@
 	![](img/30-bag-adj.webp)
 	![](img/31-bag-adj.webp)
 	![](img/32-bag-adj.webp)
+
+### QC and Label the adj-strip-feeder-kit
 
 - Place completed `adj-strip-feeder-kit` into `Yellow Needs QC Bin` for peer review
 

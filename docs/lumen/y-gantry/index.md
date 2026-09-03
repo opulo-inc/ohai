@@ -1,7 +1,12 @@
-## Intro
-The purpose of this work instruction is to explain the assembly process for the LumenPnP v4 Left-Side Y-Gantry (`y-gantry-left`). This document also serves as the work instruction for the `y-gantry-right` subassemby, as this is simply a mirror of the left-side.
+---
+zoduki: true
+---
 
 ## Create Y-Gantry Subassembly
+
+### Prepare `y-gantry` print
+The purpose of this work instruction is to explain the assembly process for the LumenPnP v4 Left-Side Y-Gantry (`y-gantry-left`). This document also serves as the work instruction for the `y-gantry-right` subassemby, as this is simply a mirror of the left-side.
+
 - Remove any stringing from the print with a heat gun
 - Insert 6x `m5-hex-nut` into the following region
 	![](img/y-gantry-hex-nut.webp)
@@ -43,6 +48,8 @@ The purpose of this work instruction is to explain the assembly process for the 
 	!!!info "This ensures the `belt-tensioner-arm` is installed with it's adjustment range fully available for when it's time to tension `GT2-belt`"
 
 	![](img/newagebelts.webp)
+
+### Install idler pulley onto `belt-tensioner-arm`
 
 - Insert a `M5-nylock-hex-nut` into `belt-tension-arm`'s hex-nut pocket
 	![](img/gt2-pivot-hex-nut-insert.webp)
@@ -142,6 +149,8 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	![](img/install-legs-onto-ext.webp)
 
+### Bolt legs to `alu-extrusion`
+
 - Bolt `back-leg` to `alu-extrusion`
 	- Insert 3x `m3-t-nut` into the `alu-extrusion` pieces before sliding each of them into alignment with the matching bolt holes on `back-leg`
 
@@ -187,6 +196,9 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 - Visually center the `linear-rail-550mm` between the `back-leg` and `front-left-leg`
 - Slide the `M3-t-nut-bar` to line up with the linear rail's bolt hole pattern
+
+### Bolt down and verify `linear-rail-550mm`
+
 - Starting from the `front-left-leg` side, lightly snug a `M3x8-bolt` into **every other** bolt hole on `linear-rail-550mm`
 	- Move the `linear-rail-carriage` out of the way as needed
 
@@ -238,6 +250,8 @@ ________________________________________________________________________________
 !!! note "While tightening in the next step, make sure that the belt does not twist in the `extrusion-rail` and stays flushed on the angles on the back of the gantry."
 	
 	<img src="img/13circs.webp" width="60%" height=auto>
+
+### Bolt `y-gantry` to rail and tension `GT2-belt`
 
 - Bolt `y-gantry` to the `linear-rail-carriage` with 4x `M3x8-bolt`
     - Use threadlocker for each bolt

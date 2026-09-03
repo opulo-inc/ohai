@@ -1,6 +1,10 @@
+---
+zoduki: true
+---
+
 # Outgoing Quality Control (OQC)
 
-## Test Feeder with Gundam
+### Launch Gundam and Load the Feeder
 
 1. Launch the Gundam Application by entering the commands shown in terminal.
 
@@ -30,20 +34,24 @@
 
   	![](img/gundam4.webp) -->
 
+### Run the Gundam Test
+
 * The Gundam application window should be open and have an option for a drop down menu. 	
 
-<img src="img/img9.webp" width="60%" height=auto>
+	<img src="img/img9.webp" width="60%" height=auto>
 	<!-- pic here -->
 
 * Choose the option that correlates with the kind of feeders you are working with. There is differences on how 8mm & 12mm runs through Gundam. 
 
-<img src="img/img8.webp" width="60%" height=auto>
-<!-- pic here -->
+	<img src="img/img8.webp" width="60%" height=auto>
+	<!-- pic here -->
 
 * The test will give a set of instructions and have you answer a few questions about how the feeder is responding. 
 
-<img src="img/img6.webp" width="60%" height=auto>
-<!-- pic of how Gundam asks "did the gears spin?" -->
+	<img src="img/img6.webp" width="60%" height=auto>
+	<!-- pic of how Gundam asks "did the gears spin?" -->
+
+### 8mm/12mm Second-Stage Test
 
 !!! Note "Depending on if you're working with the 8mm or 12mm will change the second part of the testing." 
 
@@ -74,7 +82,7 @@
 
 <!-- This needs to be a different pic. -->
 
-## Install 8mm-feeder-sticker/12mm-feeder-sticker
+### Install 8mm-feeder-sticker/12mm-feeder-sticker
 
 1. Install `feeder-sticker-application-jig` on the backside of the feeder
 	* It should sit snug on the feeder without being able to move around
@@ -88,7 +96,7 @@
 3. Remove the `feeder-sticker-application-jig` and rub the sticker to ensure it is fully adhered to the `feeder-frame`
 	  ![](img/sticker4.webp)
 
-## Cosmetic Inspection
+### Cosmetic Inspection: Lever and Buttons
 
 After completing all prior assembly and testing work, CHECK EVERY BULLET on EVERY FEEDER:
 
@@ -97,16 +105,25 @@ After completing all prior assembly and testing work, CHECK EVERY BULLET on EVER
 * Flexure buttons click easily **and are not mushy**
 	* If any feeders have mushy buttons they can be reworked quickly with a heat-gun. See Lucy for details!
 * Reset button clicks easily
+
+### Cosmetic Inspection: Boards
+
 * Fiducial board is inserted
 * Fiducial board does NOT have any excess glue
     * ![](img/fid-bad-glue-1.webp)
     * ![](img/fid-bad-glue-2.webp)
 * Diffusion board is inserted in the correct orientation
 * All screws are flush with the print/PCB they're mounted into
+
+### Cosmetic Inspection: Motor and Stickers
+
 * Drive motor is flush with the back face of the frame
 * Cosmetic sticker has been applied over the drive motor
 * Version number sticker has been applied to the PCB
 * Drive-wheel-shaft-collar is flush or sub-flush to the surface of the drive-motor-cover
+
+### Cosmetic Inspection: Drive Wheel
+
 * `peel-worm-gear` is glued on at the appropriate depth
     * ![](img/ok-worm.webp)
     * ![](img/ng-worm.webp)

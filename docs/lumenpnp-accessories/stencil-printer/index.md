@@ -1,9 +1,13 @@
+---
+zoduki: true
+---
+
 # High-Precision Solder Paste Printer
 
 ## **Quality Control**
-The following items are included in the `High-Precision Solder Paste Printer` package and should be checked for quality and correct quantities before shipping to the customer. 
 
-### **Parts List**
+### **Parts List — Ratchet & Parts Box**
+The following items are included in the `High-Precision Solder Paste Printer` package and should be checked for quality and correct quantities before shipping to the customer. 
 
 - 1x `Two-way Ratchet (size 10)`
 
@@ -15,6 +19,8 @@ The following items are included in the `High-Precision Solder Paste Printer` pa
 
 !!! note "Please Note"
     The following items will be inside of the `Parts Box`
+
+### **Parts List — Fasteners**
 
 - 2x `Allen Key (2mm, 4mm)`
 
@@ -32,6 +38,8 @@ The following items are included in the `High-Precision Solder Paste Printer` pa
 
     ![](img/knurled-thumb-screws.webp)
 
+### **Parts List — Fixation Hardware**
+
 - 4x `PCB Fixation Unit`
 
     ![](img/pcb-fixation-unit.webp)
@@ -48,6 +56,8 @@ The following items are included in the `High-Precision Solder Paste Printer` pa
 
     ![](img/pcb-postioning-block-1.webp)
 
+### **Parts List — Positioning Blocks**
+
 - 4x `PCB Postioning Block 1.5`
 
     ![](img/pcb-postioning-block-1-5.webp)
@@ -58,6 +68,8 @@ The following items are included in the `High-Precision Solder Paste Printer` pa
 
 !!! note "Please Note"
     This concludes the items that are inside of the `Parts Box`
+
+### **Parts List — Adjustment Handles**
 
 - 1x `X-axis Adjustment Handle`
 
@@ -75,6 +87,8 @@ The following items are included in the `High-Precision Solder Paste Printer` pa
 
     ![](img/swing-handle.webp)
 
+### **Parts List — Accessories**
+
 - 2x `40 Embossing Start Knob M8x14`
 
     ![](img/embossing-start-knob.webp)
@@ -90,6 +104,8 @@ The following items are included in the `High-Precision Solder Paste Printer` pa
 - 1x `Squeegee 7cm x 10cm`
 
     ![](img/squeegee.webp)
+
+### **Parts List — Printer & Manual**
 
 - 1x `Stencil Printer`
 

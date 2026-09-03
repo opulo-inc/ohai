@@ -1,16 +1,15 @@
 ---
 hide:
   - navigation
+zoduki: true
 ---
 # LumenPnP v2/v3 Vacuum Pump and Valve Set
 
-## Purpose
-
-The purpose of this work instruction is to document the assembly process for the LumenPnP v2/v3 Vacuum Pump and Valve Set [`SKU-0004-00`]
-
 ## Instructions
 
-### Create Wired Vacuum Pump Assembly
+### Prepare Vacuum Pump Leads
+
+The purpose of this work instruction is to document the assembly process for the LumenPnP v2/v3 Vacuum Pump and Valve Set [`SKU-0004-00`]
 
 1. Gather required items
 	
@@ -26,34 +25,38 @@ The purpose of this work instruction is to document the assembly process for the
 	<img src="img/image2.webp" width="60%"/>
 	
 	!!! note
-		The polarity does not matter when attaching these two wires to the motor leads
-	
-5. Use lead-free solder to attach `CHA-0011-00` to the leads of the vacuum-pump
+		The polarity does not matter when attaching these two wires to the motor leads
+
+### Solder and Insulate the Connection
+
+1. Use lead-free solder to attach `CHA-0011-00` to the leads of the vacuum-pump
 
 	<img src="img/image1.webp" width="60%"/>
 	
 	!!! info "QC Inspection"
 		Inspect the solder joints for proper bond, being sure to rework any loose wire strands or cold joints before continuing
 	
-7. Slide heat shrink over solder joints and motor leads
+2. Slide heat shrink over solder joints and motor leads
 	
 	<img src="img/image5.webp" width="60%"/>
 	
-8. Apply heat to heat-shrink with a hot air gun to insulate the solder joint
+3. Apply heat to heat-shrink with a hot air gun to insulate the solder joint
 	
 	<img src="img/image6.webp" width="60%"/>
 	
 	<img src="img/image4.webp" width="60%"/>
-	
-9. Use a permanent marker to black out the `P1` text on the `CHA-0011-00` label
 
-10. Perform cable management 
+### Label and Manage Cables
+
+1. Use a permanent marker to black out the `P1` text on the `CHA-0011-00` label
+
+2. Perform cable management 
 	- Wrap `CHA-0011-00` around the top-side of vacuum-pump, as shown below, before securing the cable in place with a rubber-band
 
 	<img src="img/image10.webp" width="60%"/>
 	
 	<img src="img/image11.webp" width="60%"/>
-	
+
 ### Create Packaged Rubber Band Set
 1. Place 2x rubber-band into a 1 1/2" x 1 1/2" Reclosable Bag
 2. Seal the bag when completed and set aside for later use
@@ -69,7 +72,7 @@ The purpose of this work instruction is to document the assembly process for the
 	!!! info "Check Inventory"
 		There's usually a pre-made surplus of these labels so check inventory before assuming you need to print more copies
 
-### Package Components
+### Pack and Label Components
 	
 1. Package the following components into a 6" x 9" Polybag
 	* Packaged Rubber Band Set
@@ -88,9 +91,11 @@ The purpose of this work instruction is to document the assembly process for the
 	<img src="img/image16.webp" width="60%"/>
 
 	<img src="img/image17.webp" width="60%"/>
-	
-4. Roll up the packaged components to eliminate wasted space in the bag
-5. Seal the roll together by using the exposed backside of the LumenPnP Vacuum Pump and Valve Set bag label as a tape
+
+### Roll and Finish
+
+1. Roll up the packaged components to eliminate wasted space in the bag
+2. Seal the roll together by using the exposed backside of the LumenPnP Vacuum Pump and Valve Set bag label as a tape
 
 	<img src="img/image18.webp" width="60%"/>
 

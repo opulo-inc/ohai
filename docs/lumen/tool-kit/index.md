@@ -1,6 +1,10 @@
+---
+zoduki: true
+---
+
 # LumenPnP Tool Kit
 
-## Prepare `spare-o-ring-set`
+### Prepare `spare-o-ring-set`
 
 1. Place 2x `nozzle-holder-o-ring` into a `1.5x1.5-bag`
 ![alt text](img/or1.webp)
@@ -13,7 +17,7 @@
 ![alt text](img/or4.webp)
 ![alt text](img/or5.webp)
 
-## Create `lumenpnp-v4-hardware-kit`
+### Create `lumenpnp-v4-hardware-kit`
 
 * Collect `lumenpnp-v4-fastener-kit` from inventory and weigh it - confirm the bag weights approx. `162.0 +/- 0.5g` before proceeding
 
@@ -47,7 +51,7 @@
 	
 	![alt text](img/tool-kit-bag-v4-5.webp)
 
-## Create `punched-holes-kit`
+### Create `punched-holes-kit`
 
 * Punch 10x holes from cardstock paper
 
@@ -60,7 +64,7 @@
     ![](img/44.webp)
 	![](img/55.webp)
 
-## Pack `tool-kit-bag`
+### Load the front pouch of `tool-kit-bag`
 
 * Gather components shown:
 
@@ -77,6 +81,8 @@
 * Place `USB-A to USB-B cable` above `ESD wrist strap`, towards the bottom of pouch
 
 	<img src="img/image6.webp"/>
+
+### Pack tools and hardware kit into pouch
 
 * Place `feeder-programmer` into pouch
 
@@ -96,6 +102,8 @@
 
 * Place `punched-holes-kit` into pouch 
 
+### Close the pouch and stow cutting tools
+
 * Close the pouch's zipper
 
 	<img src="img/image10.webp"/>
@@ -111,6 +119,8 @@
 	* Make sure the protective cap is on tightly and that the blade clamp is tight
 
 	<img src="img/image14.webp"/>
+
+### Finish packing `tool-kit-bag`
 
 * Unbag and then insert `ESD-safe-tweezer` into right-most pocket
 

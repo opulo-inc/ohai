@@ -2,13 +2,16 @@
 hide:
   - toc
   - navigation
+zoduki: true
 ---
 
 # LumenPnP v4 Frame Cable Harness Set
 
 ## Instructions
 
-- Collect the following items from inventory:
+### Collect the Cable Harnesses
+
+* Collect the following items from inventory:
     - `bottom-camera-cable`
         ![alt text](img/bottom-camera-cable.webp)
     - `bottom-light-harness`
@@ -20,12 +23,16 @@ hide:
     - `6x9-bag`
     - `product-label`
 
-- Adhere a `product-sticker` to the `6x9-bag`
+### Label the Bag
+
+* Adhere a `product-sticker` to the `6x9-bag`
 
     ![alt text](img/frame-cable-harness-kit5.webp)
     ![alt text](img/frame-cable-harness-kit4.webp)
 
-- Package the above cables into a `6x9-bag` before sealing it closed:
+### Package the Harnesses
+
+* Package the above cables into a `6x9-bag` before sealing it closed:
 
     ![alt text](img/frame-cable-harness-kit1.webp)
     ![alt text](img/frame-cable-harness-kit7.webp)

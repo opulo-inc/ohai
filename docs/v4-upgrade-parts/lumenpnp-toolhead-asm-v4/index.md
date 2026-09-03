@@ -2,28 +2,32 @@
 hide:
   - toc
   - navigation
+zoduki: true
 ---
 
 # LumenPnP v4 Toolhead Kit
 
-## Purpose
-
-The purpose of this work instructions is to document the assembly process for the LumenPnP v4 Toolhead Kit.
-
 ## Instructions
 
-- Collect a `nozzle-holder` from inventory and confirm it meets the following QC requirements
+### Prepare the Toolhead Components
+
+The purpose of this work instruction is to document the assembly process for the LumenPnP v4 Toolhead Kit.
+
+* Collect a `nozzle-holder` from inventory and confirm it meets the following QC requirements
     - Appears lubricated
     - Moves smoothly and in a straight path when actuated manually
     - Springs back to the extended position after being depressed by hand
-- Collect a `nozzle-camera-mask` from inventory and confirm it is able to slide onto a `nozzle-holder` without requiring excessive force
+
+* Collect a `nozzle-camera-mask` from inventory and confirm it is able to slide onto a `nozzle-holder` without requiring excessive force
 
     !!!warning "If installation requires the use of an arbor press..."
         You may proceed by pressing the `nozzle-holder` and `nozzle-camera-mask` together for the customer.
 
     ![alt text](img/IMG_0481.webp)
 
-- Package the following items into a `4x6-esd-bag` before sealing it shut
+### Package and Label the Kit
+
+* Package the following items into a `4x6-esd-bag` before sealing it shut
     - `spare-o-ring-set`
     - `NEMA11-hollow-shaft-stepper`
     - `silicone-grease-packet`
@@ -34,10 +38,10 @@ The purpose of this work instructions is to document the assembly process for th
     ![alt text](img/IMG_0480.webp)
     ![alt text](img/IMG_0510.webp)
 
-- Adhere a `product-sticker` to the `4x6-esd-bag`
+* Adhere a `product-sticker` to the `4x6-esd-bag`
 
     <img src="img/toolheadv4stick.webp" width="60%" height=auto>
 
     ![alt text](img/toolhead-v4-packout2.webp)
 
-- This toolkit can be placed on the shelf for packout! Hooray!
+* This toolkit can be placed on the shelf for packout! Hooray!

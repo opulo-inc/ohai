@@ -1,8 +1,12 @@
+---
+zoduki: true
+---
+
 # Peel Motor Assembly
 
-This section will guide the reader on how to properly glue the `worm-gear` onto the shaft of a `peel-motor` to create `peel-motor-asm`.
+### Materials 
 
-## Materials 
+This section will guide the reader on how to properly glue the `worm-gear` onto the shaft of a `peel-motor` to create `peel-motor-asm`.
 
 * `LOCTITE 435` 
 * `worm-gear`
@@ -10,7 +14,7 @@ This section will guide the reader on how to properly glue the `worm-gear` onto 
 
 <img src="img/img18.webp" width="60%" height=auto>
 
-## QC Worm Gears
+### Inspect the Worm Gear
 
 * `worm-gears` should have a consistent even spiral throughout. It is to make sure that the `peel-gear` teeth can move within the `worm-gear` grooves.
 
@@ -26,11 +30,15 @@ This section will guide the reader on how to properly glue the `worm-gear` onto 
 
 	<img src="img/img20.webp" width="60%" height=auto>
 	
+### Test Fit the Worm Gear
+
 * Without applying glue, slide a worm gear onto the shaft of a peel motor.
     * Worm gear should fully seat onto the shaft. If not, discard the worm gear.
 * With the worm gear still on the shaft, spin the peel motor in both directions.
     * Peel motor should spin smoothly with minimal effort. No clicking or grinding should be heard.
 
+
+### Glue the Worm Gear
 
 * Dispense a 1-2 drops of `LOCTITE 435` to the end of shaft on `peel-motor`. 
 		
@@ -46,6 +54,8 @@ This section will guide the reader on how to properly glue the `worm-gear` onto 
 	!!!failure "Press ALL the way on. The print has a depth stop!"
 	<img src="img/img15.webp" width="60%" height=auto>
 	<img src="img/img16.webp" width="60%" height=auto>
+
+### Cure and Store the Assembly
 
 * Place the peel motor assembly on its head in a slot of the foam from which the peel motor came to dry.
 

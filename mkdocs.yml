@@ -83,6 +83,12 @@ nav:
 
   - Other Products:
         - Overview: assembly-guides/index.md
+        - Staging Plate: lumenpnp-accessories/staging-plate-set/index.md
+        - Strip Feeder: lumenpnp-accessories/strip-feeder/index.md
+        - Paste Extruder Kit: lumenpnp-accessories/paste-extruder/index.md
+        - Paste Extruder V2 Kit: lumenpnp-accessories/paste-extruder-v2/index.md
+        - High-Precision Solder Paste Printer: lumenpnp-accessories/stencil-printer/index.md
+        - Feeder Loading Station: lumenpnp-accessories/feeder-loading-station/index.md
 
   - Operations:
         - Overview: operations/index.md

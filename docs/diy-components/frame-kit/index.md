@@ -2,15 +2,16 @@
 hide:
   - toc
   - navigation
+zoduki: true
 ---
 
 # LumenPnP Frame Kit
 
-## Purpose
-
-The purpose of this work instructions is to document the assembly process for the `LumenPnP Frame Kit`.
-
 ## Instructions
+
+### Gather Components and Bag the Hardware
+
+This work instruction documents the assembly process for the `LumenPnP Frame Kit`.
 
 - Collect required components:
     - 8x `rubber-feet`
@@ -43,6 +44,8 @@ The purpose of this work instructions is to document the assembly process for th
 
         ![alt text](img/IMG_0774.webp)
 
+### Prepare the Shipping Box
+
 - Fold up a `26x4x2-box` and gather the required bubble wrap
 
     ![alt text](img/IMG_0775.webp)
@@ -50,6 +53,8 @@ The purpose of this work instructions is to document the assembly process for th
 - Place 2 sheets of bubble wrap into the box matching the image below
 
     ![alt text](img/IMG_0776.webp)
+
+### Pack the Extrusions and Bubble Wrap
 
 - Place 7x `alu-extusion` into the box
 
@@ -69,6 +74,8 @@ The purpose of this work instructions is to document the assembly process for th
     ![alt text](img/IMG_0782.webp)
     ![alt text](img/IMG_0783.webp)
 
+### Finish Packing and Seal the Box
+
 - Place an additonal sheet of bubble wrap atop the packaged `alu-extrusion` before addding the `frame-kit-bagged-component-set` atop the rolled up section of bubble wrap
 
     ![alt text](img/IMG_0784.webp)
@@ -79,6 +86,8 @@ The purpose of this work instructions is to document the assembly process for th
 
     ![alt text](img/IMG_0785.webp)
     ![alt text](img/IMG_0786.webp)
+
+### Label the Kit
 
 - Adhere a `product-sticker` to `LumenPnP Frame Kit`
 

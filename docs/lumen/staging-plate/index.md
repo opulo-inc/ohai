@@ -1,3 +1,7 @@
+---
+zoduki: true
+---
+
 # Staging Plate
 
 ### Install hardware into 3D printed components
@@ -34,6 +38,8 @@
 
 * Remove the lens cap from `bottom-camera`
 
+### Pre-focus and dial in `bottom-camera`
+
 * Use `bottom-camera-focus-jig` to pre-focus `bottom-camera`
 
   * Turn on the light for the jig and attach `bottom-camera`
@@ -68,9 +74,9 @@
     <img src="img/image39.webp" width="60%"/>
     <img src="img/image25.webp" width="60%"/>
 
-### Final Assembly
+## Final Assembly
 
-#### Installing bottom-camera-assembly
+### Attach `bottom-camera-assembly`
 
 It is recommended to wear gloves when handling the `staging-plate`.
 
@@ -86,12 +92,14 @@ It is recommended to wear gloves when handling the `staging-plate`.
 
     <img src="img/vertical-3.webp" width="60%"/>
 
+### Connect and secure camera cabling
+
 * Plug `bottom-light-harness` into `bottom-ring-light`
 * Plug `bottom-camera-harness` into `bottom-camera` before securing cable to `bottom-camera-mount` with a `zip-tie`
 
     ![alt text](img/IMG_2018.webp)
 
-#### Install datum-board and datum-board-mount
+### Install datum-board and datum-board-mount
 
 * Use four `M3x16mm-bolt` and 4x `M3-hex-nut` to secure the `datum-board` and `datum-board-mount` to `staging-plate` on the rear of the `bottom-camera`, through holes: B18, A19, A21, B22.
 
@@ -103,7 +111,7 @@ It is recommended to wear gloves when handling the `staging-plate`.
 
     ![alt text](img/IMG_2021.webp)
 
-#### Install secondary fiducial
+### Install secondary fiducial
 
 * Use two `M3x10-hex-head` to attach `secondary-fiducial-bracket` to `staging-plate`. Make sure the closed portion of the. bracket is facing the `ring-light`.
 
@@ -113,7 +121,7 @@ It is recommended to wear gloves when handling the `staging-plate`.
 
     <img src="img/secondary-fid-2.webp" width="60%"/>
 
-#### Performing cable management
+### Performing cable management
 
 * Clamp cables in the locations shown below with 3x `peek-cable-clamp`, 3x `m3-hex-nut`, and 3x `m3x14` bolts
 
