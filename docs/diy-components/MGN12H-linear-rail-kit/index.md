@@ -1,21 +1,20 @@
 ---
 hide:
   - toc
-  - navigation
+zoduki: true
 ---
 
 # LumenPnP MGN12H Linear Rail Kit
 
-## Purpose
-
-The purpose of this work instructions is to document the assembly process for the `LumenPnP MGN12H Linear Rail Kit`.
-
-![alt text](img/MGN12H-linear-rail-kit.webp)
-
 ## Instructions
+
+### Gather and Bundle the Rail Hardware
+
+This work instruction documents the assembly process for the `LumenPnP MGN12H Linear Rail Kit`.
 
 - Collect the following items from inventory:
 
+    ![alt text](img/MGN12H-linear-rail-kit.webp)
     ![alt text](img/linear-rail-kit1.webp)
 
 - Plastic wrap the 3x `m3-tee-nut-bar` to create `m3-tee-nut-bar-bundle`
@@ -23,6 +22,8 @@ The purpose of this work instructions is to document the assembly process for th
     ![alt text](img/linear-rail-kit2.webp)
     ![alt text](img/linear-rail-kit3.webp)
     ![alt text](img/linear-rail-kit4.webp)
+
+### Wrap, Tape, and Label
 
 - Plastic wrap the previously created `m3-tee-nut-bar-bundle` alongside 2x blah and 1x blah
 

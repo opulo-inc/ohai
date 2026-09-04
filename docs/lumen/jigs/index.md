@@ -1,23 +1,14 @@
+---
+zoduki: true
+---
+
 # Community Downloadable Jigs & Fixtures for LumenPnP v4
-
-Welcome to the LumenPnP jigs and fixtures community resource page! Here you’ll find 3D-printable jigs and fixtures meant to help assemble a LumenPnP v4.
-
----
-
-## Table of Contents
-
-1. [Available Jigs & Fixtures](#available-jigs--fixtures)
-2. [Print & Usage Guidelines](#print--usage-guidelines)
-3. [Support & Feedback](#support--feedback)
-4. [License](#Opulo--LumenPnP--License--and--Copyright--Notices)
-
----
 
 ## Available Jigs & Fixtures
 
-Below are individual sections for each jig or fixture:
-
 ### Bottom Camera Focus Jig (v4)
+
+Welcome to the LumenPnP jigs and fixtures community resource page! Here you’ll find 3D-printable jigs and fixtures meant to help assemble a LumenPnP v4. Below are individual sections for each jig or fixture.
 
 * **Description**: A 3D printed fixture for holding a v4 bottom camera the correct distance away from a Datum Board for focusing the lens.
 * **File Formats**: STEP
@@ -25,6 +16,8 @@ Below are individual sections for each jig or fixture:
 * **Image**:
 
     ![bottom Camera Focus Jig](img/bottom-camera-focus-jig-v4.webp)
+
+### Bottom Camera Focus Jig (v4): What You'll Need
 
 * **Additional things you'll need:**
 
@@ -40,6 +33,8 @@ Below are individual sections for each jig or fixture:
 * **Image**:
 
     ![top Camera Focus Jig](img/top-camera-focus-jig-v4.webp)
+
+### Top Camera Focus Jig (v4): What You'll Need
 
 * **Additional things you'll need:**
 
@@ -65,6 +60,8 @@ Below are individual sections for each jig or fixture:
 
     ![drive-wheel-shims](img/drive-wheel-shims.webp)
 
+### Drive Wheel Shims: What You'll Need
+
 * **Additional things you'll need:**
   * 0.3mm brass shim stock (delivered as a flat sheet, you don't want it come rolled!)
 
@@ -77,7 +74,7 @@ Below are individual sections for each jig or fixture:
 
     ![linear-rail-2020-alignment-fixture](img/linear-rail-2020-alignment-fixture.webp)
 
-#### License Note
+### Linear rail 2020 Alignment Fixture: License Note
 
 * [Simple 2020 MGN12 Alignment Jig](https://www.thingiverse.com/thing:3452533)
 by [AlanWarrick](https://www.thingiverse.com/AlanWarrick) is licensed under the [Creative Commons - Attribution](https://creativecommons.org/licenses/by/4.0/) license.
@@ -95,6 +92,8 @@ by [AlanWarrick](https://www.thingiverse.com/AlanWarrick) is licensed under the 
 ---
 
 ## Print & Usage Guidelines
+
+### Print & Usage Guidelines
 
 1. **Material**
 
@@ -117,12 +116,16 @@ by [AlanWarrick](https://www.thingiverse.com/AlanWarrick) is licensed under the 
 
 ## Support & Feedback
 
+### Support & Feedback
+
 * **Discussion:** Join the LumenPnP Discord and talk shop in the [#lumenPnP-Builds](https://discord.gg/fWxdedF2Vn) channel
 * **Direct Contact:** Email support at `support@opulo.io`
 
 ---
 
 ## Opulo LumenPnP License and Copyright Notices
+
+### License and Copyright Notices
 
 * LumenPnP is (c) by Opulo
 * The jig and fixture designs downloadable from this page are available under the CERN-OHL-W v2 license unless otherwise specified.

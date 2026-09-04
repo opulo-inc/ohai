@@ -1,16 +1,19 @@
+---
+zoduki: true
+---
+
 # Paste Extruder
 
-## Motor Wiring (Perform in Mendel)
+### Motor Wiring — Gather Parts (Perform in Mendel)
 
-Collect:
+- Collect the following before starting:
+    - NEMA11 Stepper
+    - `stepper-adapter` PCB
+    - `adapter-mount` and `adapter-cover` print
+    - Loctite
+    - Molex Micro-Latch 53254-0670 1x06 Connector
 
-- NEMA11 Stepper
-- `stepper-adapter` PCB
-- `adapter-mount` and `adapter-cover` print
-- Loctite
-- Molex Micro-Latch 53254-0670 1x06 Connector
-
-Process:
+### Solder and Mount the Adapter Board
 
 - Solder Molex connector into `stepper-adapter` PCB
 
@@ -26,6 +29,8 @@ Process:
     ![](img/glue-board-1.webp)
     ![](img/glue-board-2.webp)
     ![](img/glue-board-3.webp)
+
+### Wire the Adapter Board to the Motor
 
 - Apply glue to the backside of the `adapter-mount` and press onto the side of the stepper with the cable port, as shown.
 
@@ -46,6 +51,8 @@ Process:
 
     ![](img/tin2.webp)
     ![](img/tin3.webp)
+
+### Finish Wiring and Install Cover
 
 - Strip all four wires and apply solder to the exposed wire
 
@@ -69,7 +76,7 @@ Process:
     ![](img/done.webp)
 
 
-## Base Prep
+### Base Prep
 
 Arbor press an M3 square nut into the void in the `extruder-base`.
 
@@ -81,7 +88,7 @@ Attach the `cartridge-clamp` using an M3 x 20mm bolt.
 ![](img/IMG_1125%20(1).webp)
 ![](img/IMG_1135.webp)
 
-## Motor Prep
+### Motor Prep
 
 Lightly screw four M2.5 x 5mm screws into the mounting holes on the motor.
 
@@ -111,7 +118,7 @@ Remove from the jig and package in bubble wrap.
 ![](img/IMG_1349.webp)
 ![](img/IMG_1359.webp)
 
-## Cartridge Prep
+### Cartridge Prep
 
 !!!info "Follow the section below twice in order to prepare 2x bagged cartridge assemblies"
 
@@ -154,7 +161,7 @@ Bag the cartridge assembly into a 3in x 4in bag.
 
 ![](img/IMG_1274.webp)
 
-## Luer Lock Syringe Coupler
+### Luer Lock Syringe Coupler
 
 1. Collect the following from inventory:
 
@@ -174,7 +181,7 @@ Bag the cartridge assembly into a 3in x 4in bag.
 
 4. Set aside for packout
 
-## Kit Packing
+### Kit Packing
 
 Apply the product label to a 6in x 9in bag.
 

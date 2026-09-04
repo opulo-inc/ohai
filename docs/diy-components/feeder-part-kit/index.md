@@ -1,18 +1,19 @@
 ---
-hide:
-  - navigation
+zoduki: true
 ---
 
 ## Introduction
-This work instruction is for assembling `feeder-part-kit` - this is a pack of parts that helps customers build their own feeders. The following items are included in the kit:
 
-* `drive-motor` [`MTR-0004-01`]
-* `peel-motor` [`MTR-00003-00`]
-* `drive-wheel-asm` [`ASM-0060-01`]
+### Kit Contents
+This work instruction is for assembling `feeder-part-kit` - this is a pack of parts that helps customers build their own feeders.
 
-![](img/feeder-parts.webp)
+* Collect the following items: `drive-motor` [`MTR-0004-01`], `peel-motor` [`MTR-00003-00`], and `drive-wheel-asm` [`ASM-0060-01`]
+
+	![](img/feeder-parts.webp)
 
 ## Quality Checks
+
+### Quality Checks
 Collect the required quantity of feeder parts from inventory and perform the following quality checks before continuing:
 
 * `drive-motor` [`MTR-0004-01`]
@@ -32,7 +33,7 @@ Collect the required quantity of feeder parts from inventory and perform the fol
 
 ## Packaging
 
-### Packaging <5 sets
+### Packaging <5 sets: Prepare the Tray
 
 * Collect a scrap foam tray used in `drive-motor` shipments
 
@@ -53,6 +54,8 @@ Collect the required quantity of feeder parts from inventory and perform the fol
 
 	<img style="height:500px;" src="img/feeder-part-kit-4.webp">
 
+### Packaging <5 sets: Bag and Seal
+
 * Package each `feeder-part-kit` into a `esd-safe-bag` before taping it closed
 
 	<img style="height:500px;" src="img/feeder-part-kit-5.webp">
@@ -66,7 +69,7 @@ Collect the required quantity of feeder parts from inventory and perform the fol
 * For orders of 5+ `feeder-part-kit` sets, it's OK to simply stack filled trays atop one another
 	* Just aim for a professional looking pack-out with trays sized appropriately for the box you use
 
-### Packaging 50 Sets
+### Packaging 50 Sets: Prep and Fill Trays
 When packaging 50 sets of `feeder-part-kit` use the following section for guidance. The images below show how to best package a 50pcs `feeder-part-kit` order.
 
 * Cut up a `drive-motor`'s foam tray to fit in a `OPF-folder-box`
@@ -86,6 +89,8 @@ When packaging 50 sets of `feeder-part-kit` use the following section for guidan
 * Fill the `peel-motor` foam tray with motors
 
 	<img style="height:500px;" src="img/feeder-part-kit-13.webp">
+
+### Packaging 50 Sets: Stack and Close
 
 * Place the packaged `peel-motor` foam tray on top of the packaged `drive-motor` foam tray
 

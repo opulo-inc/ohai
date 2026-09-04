@@ -1,16 +1,16 @@
 ---
 hide:
   - toc
-  - navigation
+zoduki: true
 ---
 
 # LumenPnP Datum Board Kit
 
-## Purpose
+## Instructions
+
+### Gather Materials
 
 The purpose of this work instructions is to document the assembly process for the `LumenPnP Datum Board Kit`.
-
-## Instructions
 
 - Collect the following items from inventory:
 
@@ -20,6 +20,8 @@ The purpose of this work instructions is to document the assembly process for th
     - 1x `product-label`
 
     <img src="img/loot.webp" width="60%" height=auto>
+
+### Bag and Label the Kit
 
 - Place a `datum-board` and `opulo-sticker` into the `3x4 bag` before sealing it closed.
 

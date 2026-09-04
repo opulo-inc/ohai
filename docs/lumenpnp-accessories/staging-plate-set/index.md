@@ -1,11 +1,14 @@
-# Staging Plate
+---
+zoduki: true
+---
 
-## Purpose
-The purpose of this work instructions is to document the assembly process of creating a customer salable `staging-plate kit`
+# Staging Plate
 
 ## Instructions
 
 ### Prepare staging-plate
+The purpose of this work instructions is to document the assembly process of creating a customer salable `staging-plate kit`
+
 * Collect a `staging-plate` from inventory. 
 * If necessary, clean both sides of each `staging-plate` with an IPA-soaked shop rag to remove dust, scratches, or fingerprint smudges from handling.  
 * Inspect for defects/damage on the top and bottom surfaces of the PCB
@@ -20,11 +23,14 @@ The purpose of this work instructions is to document the assembly process of cre
 	 <img src="img/mig2.webp" width="60%" height=auto>
 
 
-### Plastic wrap the staging plate(s) and hardware bags
+### Wrap the Hardware into the Plastic
 
 * Wrap the `staging-plate` 1 time with the plastic wrap. 
 * Place `staging-plate-attachment-hardware-set` on top of the plate that's been wrapped once. 
 * Wrap `staging-plate` again with the `staging-plate-attachment-hardware` so the hardware stays secured under the plastic. 
+
+### Finish and Trim the Bundle
+
 * Wrap once more and cut `staging-plate` bundle away from plastic wrap spool. 
 * Fold the excess plastic wrap on the sides of bundle down and smooth out creases in plastic wrap. 
 
@@ -63,10 +69,12 @@ The purpose of this work instructions is to document the assembly process of cre
 <img src="img/bandthatfoot.webp" width="60%" height=auto>
 
 
-### Prepare Packaging
+### Box and Line with Foam
 * Fold staging plate box
 * Cut 4x foam sheets into 6"x4" sections
 * Place 2x 6"x4" pieces of foam on both sides of the open box
+
+### Pack and Seal
 * Place wrapped up `staging-plate` and `aux-staging-plate-foot` above the foam sheet
 	* Be sure to include as many pieces of `aux-staging-plate-foot` as there are `staging-plate` in the order
 * Add 2x additional pieces of 6"x4" foam on both sides of the open box

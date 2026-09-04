@@ -1,22 +1,15 @@
+---
+zoduki: true
+---
+
 # Additional Parts
-
-## Overview
-
-This section of the work instructions covers the additional parts that must be packaged in a LumenPnP shipment prior to fulfillment.
-
-These parts and their respective quantities are as follows:
-
-- 1x `bagged-extrusion-cable-clips`
-- 2x `back-leg-extension`
-- 2x `front-leg-extension`
-- 1x `y-limit-striker`
-- 1x `static-camera-foot`
-- 1x `aux-staging-plate-foot`
-- 1x `nozzle-rack-asm`
 
 ## Work Instructions
 
 ### bagged-extrusion-cable-clips
+
+This section of the work instructions covers the additional parts that must be packaged in a LumenPnP shipment prior to fulfillment. These parts and their respective quantities are: 1x `bagged-extrusion-cable-clips`, 2x `back-leg-extension`, 2x `front-leg-extension`, 1x `y-limit-striker`, 1x `static-camera-foot`, 1x `aux-staging-plate-foot`, and 1x `nozzle-rack-asm`.
+
 - Place 10x `extrusion-cable-clip` pieces into a `3x4-bag` before sealing it closed
 	![](img/IMG_3667.webp)
 	![](img/IMG_3666.webp)
@@ -52,6 +45,7 @@ These parts and their respective quantities are as follows:
 - Thread a `M5-thumb-screw` into the `M5-lock-nut` previously installed into `y-limit-striker`
 	![alt text](img/y-limit-striker-bolt-thumb-screw.webp)
 
+### Finish and QC y-limit-striker
 - Use a feeler gauage and tighten `M5-thumb-screw` until there is a `##mm` gap between back of screw and print
 	![alt text](img/y-limit-striker-shim.webp)
 
@@ -79,6 +73,8 @@ These parts and their respective quantities are as follows:
 - Thread an `M3x14-bolt` into the top-side of `aux-staging-plate-foot`, leaving a few mm of bolt threading exposed
 	![](img/build-foot-separated.webp)
 	![](img/build-foot.webp)
+
+### Finish aux-staging-plate-foot
 - Adhere 1x `rubber-foot` to the bottom of `aux-staging-plate-foot`, centering it in the circular cutout
 	![](img/build-foot-rubber.webp)
 - Place each `aux-staging-plate-foot` into a <span style="background-color:yellow"> yellow NEEDS QC bin</span> while it awaits inspection
@@ -101,6 +97,8 @@ These parts and their respective quantities are as follows:
 - Place a `rubber-band` around `nozzle-rack` to secure each nozzle in place
 
 	<img src="img/image18.webp" width="60%"/>
+
+### Package nozzle-rack-asm
 
 - Place the completed `nozzle-rack` into a `3x4-bag` before sealing it shut to create `nozzle-rack-asm`
 

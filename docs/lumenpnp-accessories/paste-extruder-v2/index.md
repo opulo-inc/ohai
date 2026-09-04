@@ -84,7 +84,7 @@ zoduki: true
 
     <img src="img/Solonoid Step 4_result.webp"/>
 
-### Installing Air Pump
+### Mount Rubber Bands on Vacuum Motor
 
 *   Strech a silicone rubber band over one of the vacuum motor posts.
 
@@ -93,6 +93,8 @@ zoduki: true
 *   Twist the rubber band and stretch it over to the other side 
 
     <img src="img/Motor Mount Step 2_result.webp"/>
+
+### Installing Air Pump
 
 *   Install a 16mm piece of tubing onto the center barb fitting of the vacuum motor.
 

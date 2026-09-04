@@ -1,6 +1,12 @@
+---
+zoduki: true
+---
+
 # Packaging LumenPnP v4
 
 ## Reviewing packaging layout
+
+### Reviewing packaging layout
 
 1. The following components are packaged into the `lower-foam-tray`:
 	* `y-gantry-left`

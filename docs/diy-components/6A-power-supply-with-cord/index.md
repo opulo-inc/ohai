@@ -1,16 +1,16 @@
 ---
 hide:
   - toc
-  - navigation
+zoduki: true
 ---
 
 # LumenPnP 24vDC 6A Power Supply
 
-## Purpose
-
-The purpose of this work instructions is to document the assembly process for the `LumenPnP 24vDC 6A Power Supply`.
-
 ## Instructions
+
+### Gather Parts and Label the Bag
+
+This work instruction documents the assembly process for the `LumenPnP 24vDC 6A Power Supply`.
 
 - Collect the following items from inventory:
 
@@ -28,6 +28,8 @@ The purpose of this work instructions is to document the assembly process for th
 
     ![alt text](img/IMG_0799.webp)
     ![alt text](img/IMG_0800.webp)
+
+### Unbox and Pack the Power Supply
 
 - Unbox the `24vDC 6A Power Supply`
 

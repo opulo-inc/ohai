@@ -1,8 +1,12 @@
+---
+zoduki: true
+---
+
 # Drive Wheel Assembly
+
+### Prepare shaft-collar-asm
+
 This section will guide the reader on how to prepare and glue the `shaft-collar-asm` onto `drive-wheel` to create `drive-wheel-asm`.
-
-
-## Prepare shaft-collar-asm
 
 * Install the `set-screw` into the `shaft-collar` with a `1.3mm hex driver`
 
@@ -14,7 +18,7 @@ This section will guide the reader on how to prepare and glue the `shaft-collar-
 
 	<img src="img/img3.webp" width="60%" height=auto>
 
-## Install shaft-collar-asm and drive-wheel onto shaft-alignment-jig
+### Install shaft-collar-asm and drive-wheel onto shaft-alignment-jig
 
 <img src="img/img4.webp" width="60%" height=auto> 
 
@@ -52,7 +56,7 @@ This section will guide the reader on how to prepare and glue the `shaft-collar-
 	<img src="img/img10.webp" width="60%" height=auto>
 
 		
-## Glue shaft-collar-asm and drive-wheel together
+### Glue shaft-collar-asm and drive-wheel together
 
 <img src="img/img12.webp" width="60%" height=auto>
 
@@ -79,6 +83,8 @@ This section will guide the reader on how to prepare and glue the `shaft-collar-
 	<img src="img/eject.webp" width="60%" height=auto>
 
 	<img src="img/img16.webp" width="60%" height=auto>
+
+### Cure and Verify the Glue Bond
 
 * Allow the completed `drive-wheel-asm` to dry for 1 hour before using it in further processes
 	* The `drive-wheel-asm` should sit flat on a table while it finishes drying 

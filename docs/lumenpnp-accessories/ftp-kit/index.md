@@ -1,57 +1,65 @@
+---
+zoduki: true
+---
+
 # Getting Started Kit Assembly
 
-## Intro
+### Intro
 
 The purpose of this work instruction is to explain the assembly process for the LumenPnP Getting Started Kit
 
-## Preparing Universal PCB Fixture System
+### Preparing Universal PCB Fixture System
 
 1. Obtain materials shown here
 
 	![](img/IMG_2589.webp)
 
-1. Remove supports from 4x `board-mount-dynamic`
+2. Remove supports from 4x `board-mount-dynamic`
 
 	![](img/IMG_2236.webp)
 
-1. Clean up remaining support materials with flush cutters if necessary
+3. Clean up remaining support materials with flush cutters if necessary
 
 	![](img/IMG_2239.webp)
 
-1. Insert `M3x10-hex-head` through the channel in `board-mount-dynamic`, then affix `M3-wing-nut` onto the screw. The screw should be able to move through the entire channel without resistance
+4. Insert `M3x10-hex-head` through the channel in `board-mount-dynamic`, then affix `M3-wing-nut` onto the screw. The screw should be able to move through the entire channel without resistance
 
 	![](img/IMG_2240.webp)
 	![](img/IMG_2241.webp)
+
+### Finish `board-mount-dynamic` and Prep `board-mount-static`
 
 1. Repeat for 4x `board-mount-dynamic`
 
 	![](img/IMG_2590.webp)
 
-1. Insert `M3x10-hex-head` through the channel in `board-mount-static`, then affix `M3-wing-nut` onto the screw. The screw should be able to move through the entire channel without resistance
+2. Insert `M3x10-hex-head` through the channel in `board-mount-static`, then affix `M3-wing-nut` onto the screw. The screw should be able to move through the entire channel without resistance
 
 	![](img/IMG_2243.webp)
 
-1. Repeat for 4x `board-mount-static`
+3. Repeat for 4x `board-mount-static`
 
 	![](img/IMG_2591.webp)
+
+### Bag the Fixture System
 
 1. Insert 4x assembled `board-mount-static` into `4x6-anti-static-bag` 
 
 	![](img/IMG_2252.webp)
 
-1. Insert 4x assembled `board-mount-dynamic` into `4x6-anti-static-bag`
+2. Insert 4x assembled `board-mount-dynamic` into `4x6-anti-static-bag`
 
 	![](img/IMG_2253.webp)
 
-1. Insert 8x `board-support` into `4x6-anti-static-bag`
+3. Insert 8x `board-support` into `4x6-anti-static-bag`
 
 	![](img/IMG_2254.webp)
 
-1. Seal `4x6-anti-static-bag`
+4. Seal `4x6-anti-static-bag`
 
 	![](img/IMG_2256.webp)
 
-## Preparing Component Bag
+### Preparing Component Bag
 
 1. Obtain the resistors and a `3x4 bag`
 
@@ -69,7 +77,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	![](img/IMG_2259.webp)
 
-## Assembling `Bagged-FTP-PCB`
+### Assembling `Bagged-FTP-PCB`
 
 1. Gather materials shown
 
@@ -79,7 +87,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	![](img/IMG_2594.webp)
 
-## Obtain `8mm-strip-feeder-kit`
+### Obtain `8mm-strip-feeder-kit`
 
 1. If any are available, obtain  `8mm-strip-feeder-kit`
 
@@ -88,7 +96,7 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 ![](img/IMG_2595.webp)
 
-## Assembling `Getting Started Kit`
+### Assembling `Getting Started Kit`
 
 1. Gather the components shown
 
@@ -97,29 +105,31 @@ The purpose of this work instruction is to explain the assembly process for the 
 
 	![](img/IMG_2596.webp)
 
-1. Insert `Bagged FTP PCB` into `6" x 9" Polybag` as shown
+2. Insert `Bagged FTP PCB` into `6" x 9" Polybag` as shown
 
 	![](img/IMG_2263.webp)
 
-1. Insert `Scotch Double Sided Tape` into `6" x 9" Polybag` as shown
+3. Insert `Scotch Double Sided Tape` into `6" x 9" Polybag` as shown
 
 	![](img/IMG_2264.webp)
 
-1. Insert `Universal PCB Fixture System` into `6" x 9" Polybag` as shown
+4. Insert `Universal PCB Fixture System` into `6" x 9" Polybag` as shown
 
 	![](img/IMG_2265.webp)
+
+### Finish Bagging and Seal the Kit
 
 1. Insert `8mm-strip-feeder-kit` into `6" x 9" Polybag` as shown
 
 	![](img/IMG_2597.webp)
 
-1. Insert the bagged components into `6" x 9" Polybag` as shown
+2. Insert the bagged components into `6" x 9" Polybag` as shown
 
 	![](img/IMG_2598.webp)
 
-1. Seal the `Getting Started Kit` shut
+3. Seal the `Getting Started Kit` shut
 
-1. Adhere a `getting-started-kit-sticker` to the front of the `6" x 9" Polybag` as shown
+4. Adhere a `getting-started-kit-sticker` to the front of the `6" x 9" Polybag` as shown
 
 	![IMG_0291.webp](img/IMG_0291.webp)
 

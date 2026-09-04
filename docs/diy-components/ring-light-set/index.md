@@ -1,12 +1,14 @@
 ---
 hide:
   - toc
-  - navigation
+zoduki: true
 ---
 
 # LumenPnP Ring Light Set
 
 ## Instructions
+
+### Gather and Label the Bag
 
 - Collect the following items from inventory
     - 1x `product-sticker`
@@ -19,6 +21,8 @@ hide:
 - Adhere the `product-sticker` to the `3x4-bag`
 
     ![alt text](img/IMG_0792.webp)
+
+### Arrange and Bag the Ring Lights
 
 - Pick up `bottom-ring-light` and `top-ring-light` before arranging them back-to-back as shown below
 

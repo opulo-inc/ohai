@@ -358,7 +358,7 @@ Preparing x-gantry
 
 	<img src="images/image63.webp"/>
 
-### Install z-axis belt drive components
+### Mount `idler-pulley` and `z-belt-subassembly`
 
 *   Secure `idler-pulley` onto `x-gantry-front`  with 1x `M5x25-bolt`, tightened enough that the pulley can rotate freely without resistance
 *   Check that the pulley can only rotate - it should not be able to move up and down if the bolt is tightened correctly
@@ -372,6 +372,8 @@ Preparing x-gantry
 	*	The `gt2-belt-loop` should wrap around the `idler-pulley`
 
 	<img src="images/image66.webp"/>
+
+### Install and tension the z-axis stepper motor
 
 *   Install the `NEMA-17-stepper-motor` by angling it into the `z-belt-subassembly`
 

@@ -1,16 +1,16 @@
 ---
 hide:
   - toc
-  - navigation
+zoduki: true
 ---
 
 # LumenPnP NEMA 17 Stepper Motor 4-Pack
 
-## Purpose
-
-The purpose of this work instructions is to document the assembly process for the `LumenPnP NEMA 17 Stepper Motor 4-Pack`.
-
 ## Instructions
+
+### Separate the Motor 4-Pack
+
+This work instruction documents the assembly process for the `LumenPnP NEMA 17 Stepper Motor 4-Pack`.
 
 - Collect a tray of NEMA 17 Stepper Motors from inventory
 
@@ -19,6 +19,8 @@ The purpose of this work instructions is to document the assembly process for th
 - Use a long razor blade to seperate a 4-pack of motors from the rest of the foam tray
 
     ![alt text](img/IMG_0752.webp)
+
+### Cushion, Tape, and Label
 
 - Collect a thin piece of foam sheeting from the reclaimed packaging materials bin and cut it to match the size of the 4-pack
 

@@ -1,16 +1,24 @@
-# 8mm/12mm Feeder Frame Assembly
-This section will guide the reader through the process of installing various hardware components into `feeder-frame-8mm` or `feeder-frame-12mm` in preparation for its use in final assembly.
+---
+zoduki: true
+---
 
-## Materials Needed
+# 8mm/12mm Feeder Frame Assembly
+
+### Materials Needed
+
+This section will guide the reader through the process of installing various hardware components into `feeder-frame-8mm` or `feeder-frame-12mm` in preparation for its use in final assembly.
 
 * Frame print 
 * X-Acto knife
 * Needle-nose pliers
+
+### Additional Materials Needed
+
 * Loctite 435 super glue
 * Light diffuser PCB
 * 8mm fiducial board or 12mm fiducial board
 
-## Prepare Print
+### Prepare Print
 
 * Inspect the print for defects.
 	* All surfaces should be free of excess filament and be relatively flat
@@ -27,7 +35,7 @@ This section will guide the reader through the process of installing various har
 
 	<img src="img/img12.webp" width="60%" height=auto>
 
-## Install Light Diffuser
+### Install Light Diffuser
 
 * Use needle-nose pliers to install the light diffuser PCB.
 
@@ -41,7 +49,7 @@ This section will guide the reader through the process of installing various har
 		<img src="img/img8.webp" width="60%" height=auto>
 
 
-## Install Fiducial Board
+### Install Fiducial Board
 
 !!! Note "Hold it Partner" 
 	

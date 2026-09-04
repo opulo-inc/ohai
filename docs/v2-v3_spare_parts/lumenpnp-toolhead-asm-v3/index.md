@@ -1,15 +1,12 @@
 ---
-hide:
-  - navigation
+zoduki: true
 ---
-
-## Purpose
-
-The purpose of this work instructions is to document the assembly process for the LumenPnP v3 Toolhead Assembly [`SKU-0005-03`]
 
 ## Instructions
 
 ### Prepare Toolhead Assembly
+The purpose of this work instructions is to document the assembly process for the LumenPnP v3 Toolhead Assembly [`SKU-0005-03`]
+
 1. Install a `nozzle-holder` and `rotary-pneumatic-adapter` onto `NEMA11-hollow-shaft-stepper`
 	*  Use a torque driver w/custom `rotary-pneumatic-adapter-socket` and 8mm wrench to tighten these components onto the motor shaft
 		*  Set the torque driver to `0.5 N/M` for this step
