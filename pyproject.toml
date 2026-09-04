@@ -9,7 +9,7 @@ dependencies = [
     "mkdocs>=1.6.1",
     "mkdocs-glightbox>=0.4.0",
     "mkdocs-material>=9.6.15",
-    "mkdocs-zoduki",
+    "mkdocs-zoduki>=0.4.0",
 ]
 
 # Local zoduki dev: uncomment the block below, then `uv sync`.
