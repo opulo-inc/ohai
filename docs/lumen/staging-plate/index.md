@@ -86,11 +86,6 @@ It is recommended to wear gloves when handling the `staging-plate`.
 
     <img src="img/vertical-3.webp" width="60%"/>
 
-* Plug `bottom-light-harness` into `bottom-ring-light`
-* Plug `bottom-camera-harness` into `bottom-camera` before securing cable to `bottom-camera-mount` with a `zip-tie`
-
-    ![alt text](img/IMG_2018.webp)
-
 #### Install datum-board and datum-board-mount
 
 * Use four `M3x16mm-bolt` and 4x `M3-hex-nut` to secure the `datum-board` and `datum-board-mount` to `staging-plate` on the rear of the `bottom-camera`, through holes: B18, A19, A21, B22.
@@ -102,6 +97,11 @@ It is recommended to wear gloves when handling the `staging-plate`.
   * The fisheye calibration pattern should be facing down, and the gold grid lines and fiducial in the center of the Opulo logo facing upwards
 
     ![alt text](img/IMG_2021.webp)
+
+* Plug `bottom-light-harness` into `bottom-ring-light`
+* Plug `bottom-camera-harness` into `bottom-camera` before securing cable to `bottom-camera-mount` with a `zip-tie`
+
+    ![alt text](img/IMG_2018.webp)
 
 #### Install secondary fiducial
 
@@ -120,6 +120,6 @@ It is recommended to wear gloves when handling the `staging-plate`.
     ![alt text](img/IMG_2020.webp)
     ![alt text](img/IMG_2019.webp)
 
-* After securing the cables, tie them up with a `rubber-band`
+* After securing the cables, tie them up with the twist tie from `bottom-camera-cable`
 
     ![alt text](img/IMG_2017.webp)

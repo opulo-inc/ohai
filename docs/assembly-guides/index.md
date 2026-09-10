@@ -39,6 +39,7 @@ Welcome! This page provides quick access to all LumenPnP assembly guides, beside
 - [Paste Extruder V2 Kit](../lumenpnp-accessories/paste-extruder-v2/index.md)
 - [High-Precision Solder Paste Printer](../lumenpnp-accessories/stencil-printer/)
 - [Feeder Loading Station](../lumenpnp-accessories/feeder-loading-station/index.md)
+- [Reel Holder](../lumenpnp-accessories/reel-holder/index.md)
 
 ---
 
@@ -54,6 +55,6 @@ Welcome! This page provides quick access to all LumenPnP assembly guides, beside
 - [LumenPnP Ring Light Set](../diy-components/ring-light-set/index.md)
 - [LumenPnP Datum Board](../diy-components/datum-board-kit/index.md)
 - [Feeder Part Kit](../diy-components/feeder-part-kit/index.md)
-- [Fastener Kit](../diy-components/fastener-kit/index.md)
+- [DIY Fastener Kit](../diy-components/fastener-kit/index.md)
 - [Feeder Connection Kit](../diy-components/feeder-connection-kit/index.md)
 - [Secondary Fiducial Upgrade Kit](../diy-components/secondary-fiducial-upgrade-kit/index.md)

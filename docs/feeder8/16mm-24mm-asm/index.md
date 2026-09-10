@@ -30,6 +30,9 @@ Assemblies for `16mm-Feeder` and `24mm-Feeder` are the same, however, It is impo
     ![](img/2-asm-1.webp)
 
 ## `16mm-Feeder` Assembly
+
+1. Break support for buttons. Remove and clean support area for `release-lever`.
+
 1. Insert `n30-motor` into `16mm-frame`.
     
     ![](img/1-n30-insert-1.webp)

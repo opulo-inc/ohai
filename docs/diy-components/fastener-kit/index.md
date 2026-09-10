@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# Fastener Kit
+# DIY Fastener Kit
 
 ## Purpose
 
