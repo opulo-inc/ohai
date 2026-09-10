@@ -59,7 +59,7 @@ zoduki: true
 
 
 ### Preping Solonoid
-*   Slip a short section of tubing 20mm on the barb fitting that is ajacent to the metal one. Then, connect the right angle reducer fitting with the larger connector side to the other end of the tubing.
+*   Slip a short section of tubing 26mm on the barb fitting that is ajacent to the metal one. Then, connect the right angle reducer fitting with the larger connector side to the other end of the tubing.
     
     <img src="img/Solonid Step 1_result.webp"/>
 
