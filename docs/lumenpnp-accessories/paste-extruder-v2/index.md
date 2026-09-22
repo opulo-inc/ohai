@@ -152,3 +152,59 @@ zoduki: true
     <img src="img/Assembled%20Control%20Box%20Lid_result.webp"/>
 
     <img src="img/Assembled%20Control%20Box%20Lid%202_result.webp"/>
+
+### Bagging Nozzles
+*   Place six 23Ga bent and tapered nozzles in a small 2x3" clear zip locking bag.
+
+    <img src="img/Paste-Extruder-Accessories 2_result.webp"/>
+
+*   Place twelve 22Ga bent and tapered nozzles in a small 2x3" clear zip locking bag.
+
+    <img src="img/Paste-Extruder-Accessories 3_result.webp"/>
+
+*   Place six 20Ga bent and tapered nozzle in a small 2x3" clear zip locking bag.
+
+    <img src="img/Paste-Extruder-Accessories 4_result.webp"/>
+
+### Putting All the Accessories Together
+
+*   You should now have a 10cc and 30cc air assist cap alongside all of the nozzles. 
+
+    <img src="img/Paste-Extruder-Accessories 5_result.webp"/>
+
+    <img src="img/Paste-Extruder-Accessories 1_result.webp"/>
+
+*   Go ahead and place a Paste Extruder Accessories label found [here](https://docs.google.com/presentation/d/1Deb_Vb0m-QZQ67yIp5-ke5VHeRHXcdEI0CImnj2TQ8M/edit?usp=drive_link) on a 4x6" zip locking bag.
+
+    <img src="img/Paste-Extruder-Accessories 6_result.webp"/>
+
+*   Put all of the accessories into the labeled bag.
+
+    <img src="img/Paste-Extruder-Accessories 7_result.webp"/>
+
+### Toolhead Bagging
+
+*   Put toolhead hardware into a 1-1/2x1-1/2" zip locking bag with a label found [here](https://docs.google.com/presentation/d/1IutIVEC3sNGmfo1lonzkI6DDCUYxLpagP8S68IBpQgk/edit?usp=drive_link).
+    Hardware: 
+    - 3X M3x10mm Button Head Screw
+    - 5X M3x8mm Button Head Screw 
+    - 5X M2.5x6mm Socket Head Screw
+    - 2X M3 Square Nut
+    - 2X 6x5x.42mm Stepper Motor Shim
+
+    <img src="img/Paste-Extruder-Hardware 1_result.webp"/>
+
+*   Collect the other hardware:
+    - 1X Paste Extruder Motor
+    - 1X Auger Assembly
+    - 1X Toolhead Mount
+    - 1X Hardware baggie (we just assembled)
+
+    <img src="img/Paste-Extruder-Hardware 0_result.webp"/>
+
+*   Put everything into a labeled 4x6" zip locking bag, label found [here](https://docs.google.com/presentation/d/1Deb_Vb0m-QZQ67yIp5-ke5VHeRHXcdEI0CImnj2TQ8M/edit?usp=drive_link).
+
+    <img src="img/Paste-Extruder-Hardware 2_result.webp"/>
+
+
+
