@@ -26,11 +26,11 @@ zoduki: true
     <img src="img/Just the Control Box Lid.webp"/>
 
 *   **Hardware** {color=blue}
-    - 3X 5x8x.4mm Aluminum Shim
-    - 4X M2.5x6mm Socket Head Screw
+    - 4X 5x6x.42mm Aluminum Shim
+    - 5X M2.5x6mm Socket Head Screw
     - 14X M3x12mm Self Tapping Button Head
-    - 2X M3x10 Button Head Screw
-    - 3X M3 Square Nut
+    - 3X M3x10 Button Head Screw
+    - 4X M3 Square Nut
     - 1X M3x18mm Button Head
 
     <img src="img/Just the Auger_result.webp"/>
