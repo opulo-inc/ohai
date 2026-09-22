@@ -167,7 +167,6 @@ zoduki: true
     <img src="img/Paste-Extruder-Accessories 4_result.webp"/>
 
 ### Putting All the Accessories Together
-
 *   You should now have a 10cc and 30cc air assist cap alongside all of the nozzles. 
 
     <img src="img/Paste-Extruder-Accessories 5_result.webp"/>
@@ -183,7 +182,6 @@ zoduki: true
     <img src="img/Paste-Extruder-Accessories 7_result.webp"/>
 
 ### Toolhead Bagging
-
 *   Put toolhead hardware into a 1-1/2x1-1/2" zip locking bag with a label found [here](https://docs.google.com/presentation/d/1IutIVEC3sNGmfo1lonzkI6DDCUYxLpagP8S68IBpQgk/edit?usp=drive_link).
     Hardware: 
     - 3X M3x10mm Button Head Screw
@@ -205,6 +203,33 @@ zoduki: true
 *   Put everything into a labeled 4x6" zip locking bag, label found [here](https://docs.google.com/presentation/d/1Deb_Vb0m-QZQ67yIp5-ke5VHeRHXcdEI0CImnj2TQ8M/edit?usp=drive_link).
 
     <img src="img/Paste-Extruder-Hardware 2_result.webp"/>
+
+### Main Packaging 
+*   Acquire a 9x6x6" cardboard box
+
+    <img src="img/Packaging-Paste-Extruder 1_result.webp"/>
+
+    <img src="img/Packaging-Paste-Extruder 2_result.webp"/>
+
+*   Using a layer of foam place the air assist lid inside of the box and add supplemental foam as well.
+
+    <img src="img/Packaging-Paste-Extruder 3_result.webp"/>
+
+    <img src="img/Packaging-Paste-Extruder 4_result.webp"/>
+
+*   Fold the foam over and add another layer of foam.
+
+    <img src="img/Packaging-Paste-Extruder 5_result.webp"/>
+
+    <img src="img/Packaging-Paste-Extruder 7_result.webp"/>
+
+*   Place the two zip locking bags we assembled earlier on top of the foam. Add more foam and finish packaging the box.
+
+    <img src="img/Packaging-Paste-Extruder 8_result.webp"/>
+
+    <img src="img/Packaging-Paste-Extruder 9_result.webp"/>
+
+    <img src="img/Packaging-Paste-Extruder 10_result.webp"/>
 
 
 
