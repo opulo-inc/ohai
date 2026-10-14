@@ -1,5 +1,86 @@
 # Staging Plate
 
+
+### 4.2.0 Update
+
+!!! note 
+    This section highlights the changes in 4.2.0 — the remaining sections remain unchanged until further maintenance to OHAI. If information in later sections contradict what is in this section, please consider this section as accurate.
+
+#### Fid Board Sub-assembly
+1. Use press to install 2x `cal-fid`
+    ![](img/press-cal-fid.webp)
+
+2. Stack 2x `cal-fid-token` into the slot with copper side up
+    ![](img/token-stack.webp)
+
+3. Apply `polymer-tape` to ensure tokens do not fall out of the slot
+    ![](img/tape-tokens.webp)
+
+#### 4.2.0 Staging Plate Assembly Instructions
+
+1. Secure `cal-fid-mount` to `staging-plate-offcenter` with 2x `m4x10mm-socket-head`
+    ![](img/secure-fid.webp)
+
+2. Secure `discard-bin-mount` with 2x `m4x10mm-socket-head`
+    ![](img/secure-discard-bin.webp)
+
+3. Add `discard-bin` into `discard-bin-mount`
+    ![](img/insert-bin-1.webp)
+    ![](img/insert-bin-2.webp)
+
+4. Use `polymer-tape` to secure `discard-bin` to `staging-plate-offcenter`
+    ![](img/tape-bin.webp)
+
+5. Insert `bottom-camera` into `bottom-camera-mount`. Ensure the position matches the image below
+    ![](img/insert-camera.webp)
+
+6. Secure `bottom-camera` to `bottom-camera-mount` with 4x `m2.5x8mm-socket-head`
+    ![](img/secure-camera.webp)
+
+7. Insert `bottom-camera-cable` and loop through open cavity in `bottom-camera-mount`
+    ![](img/cable-loop.webp)
+
+8. Insert `zip-tie` through channel in `bottom-camera-mount`
+    ![](img/thread-zip-tie.webp)
+
+9. Tighten and ensure the head of `zip-tie` is centered in the cavity. Snip the excess
+    ![](img/centered-zip-tie.webp)
+    ![](img/snip-zip-tie.webp)
+
+10. Add `ring-light` to `bottom-light-mount`
+    ![](img/add-ring-light.webp)
+
+11. Attach other end of `bottom-camera-cable` that is labeled `bottom-light-sp` to `ring-light`
+    ![](img/plug-in-ring-light.webp)
+
+12. Position `bottom-camera` assembly and `ring-light` assembly as shown in the image and bring the two assemblies together
+    ![](img/sandwich-1.webp)
+    ![](img/sandwich-2.webp)
+
+13. Ensure `bottom-camera-cable` goes through the channel in `bottom-light-mount`
+    ![](img/cable-channel.webp)
+
+14. Place `bottom-vision-cover` over top of the assembly. Ensure the cables go into the cutouts
+    ![](img/bottom-vision-cover-1.webp)
+    ![](img/bottom-vision-cover-2.webp)
+
+15. Flip `staging-plate` and secure `bottom-vision-cover` assembly with 4x `m4x18mm-socket-head`. Ensure the location matches the image below
+    ![](img/secure-to-plate.webp)
+
+16. Install `bottom-vision-cable-clamp` and ensure cables go into the channel properly 
+    ![](img/cable-clamp-1.webp)
+    ![](img/cable-clamp-2.webp)
+
+17. Secure `bottom-vision-cable-clamp` with 2x `m4x10-socket-head`
+    ![](img/cable-clamp-3.webp)
+
+18. Install 2x `peek-cable-clamp`. Install one in the hole beside `bottom-vision-cover` skip 6 holes and install the second cable clamp in the 7th hole as shown in the image
+    ![](img/peek-cable-clamp.webp)
+
+!!! success "All done!"
+    You have successfully assembled a 4.2 staging plate. The guide below has yet to be updated for 4.2 — if any information contridicts this section, consider the 4.2 section accurate.
+
+
 ### Install hardware into 3D printed components
 
 * Use an arbor press to insert the given quantities of `M3-hex-nut` into the following parts:
