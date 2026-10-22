@@ -10,26 +10,35 @@
 1. Use press to install 2x `cal-fid`
     ![](img/press-cal-fid.webp)
 
-2. Stack 2x `cal-fid-token` into the slot with copper side up
-    ![](img/token-stack.webp)
+2. Apply `polymer-tape` to the underside of `cal-fid-mount`. This tape will ensure 2x `cal-fid-token` are secure during shipment. Ensure the tape is long enough to cover the slot.
+    ![](img/tape-fid-mount.webp)
 
-3. Apply `polymer-tape` to ensure tokens do not fall out of the slot
-    ![](img/tape-tokens.webp)
+3. Insert 2x `cal-fid-token` into the slot with copper side up
+    ![](img/insert-token.webp)
+
 
 #### 4.2.0 Staging Plate Assembly Instructions
 
 1. Secure `cal-fid-mount` to `staging-plate-offcenter` with 2x `m4x10mm-socket-head`
-    ![](img/secure-fid.webp)
+    ![](img/secure-fid-mount.webp)
+
+2. Pull `polymer-tape` over `cal-fid-token` slot and secure to the bottom of `staging-plate-offcenter`
+    ![](img/pull-tape-1.webp)
+    ![](img/pull-tape-2.webp)
+
+3. Add `polymer-tape` to underside of `discard-bin-mount`
+    ![](img/tape-bin-mount.webp)
 
 2. Secure `discard-bin-mount` with 2x `m4x10mm-socket-head`
-    ![](img/secure-discard-bin.webp)
+    ![](img/secure-bin-mount.webp)
 
 3. Add `discard-bin` into `discard-bin-mount`
-    ![](img/insert-bin-1.webp)
-    ![](img/insert-bin-2.webp)
+    ![](img/add-discard-bin-1.webp)
+    ![](img/add-discard-bin-2.webp)
 
 4. Use `polymer-tape` to secure `discard-bin` to `staging-plate-offcenter`
-    ![](img/tape-bin.webp)
+    ![](img/secure-discard-bin-1.webp)
+    ![](img/secure-discard-bin-2.webp)
 
 5. Insert `bottom-camera` into `bottom-camera-mount`. Ensure the position matches the image below
     ![](img/insert-camera.webp)
